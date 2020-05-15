@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.2.1.slim.min.js"></script>   
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script language="javascript" src="js/jquery-3.2.1.slim.min.js"></script>
+
+
+
+<style type="text/css">
+       .dropdown:hover .dropdown-menu {
+        display: block;
+         margin-top: 0;
+      }
+	  a{ 
+	  font-family:sans-serif; font-size:14px;
+	  }
+	  h5 {
+	  font-family:sans-serif; font-size:16px;
+	  }
+	  h6 {
+	  font-family:sans-serif; font-size:14px;
+	  }
+	   p {
+	  font-family:sans-serif; font-size:14px;
+	  }
+	  
+	  
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+	  
+ </style>
+ 
+
+ 
+ <script type="text/javascript">
+var  SearchRange;
+$(function(){
+    $("#iFind").click(function(){    
+        if($("#keyword").val()!=""){      
+            if(SearchRange == null) {
+                SearchRange = document.body.createTextRange();
+            }       
+            if(SearchRange.findText($("#keyword").val()) != false ) {
+              SearchRange.select();
+              SearchRange.scrollIntoView();
+              SearchRange.moveStart("word");
+            }else{
+              SearchRange = null;
+            }
+        }
+    });
+});
+</script>
+
+
+<title>หลักสูตรวิทยาการคอมพิวเตอร์</title>
+</head>
+<body>
+
+
+<div class="container-fluid">
+<div id="head" class="container-fluid">
+   
+   <!-- start header -->    
+<div class="container" style="display:block; width:100%;height:auto; overflow:hidden">
+  <div style="display:block; width:100%;height:auto; float:left;">
+    <img class="img-responsive" src="images/logo5.png">
+  </div>
+  
+</div>
+ <!-- end header -->
+ 
+ 
+ <!-- start menu --> 
+ <div class="container-fluid" style="background-image:url(images/body-bg7.png)"> 
+ <div class="container"> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-success">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><font color="#ffffff">HOME</font></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="#ffffff">
+          เกี่ยวกับหลักสูตร</font>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="history.html">ประวัติหลักสูตร</a>
+		  <a class="dropdown-item" href="structure.html">โครงสร้างหลักสูตร</a>
+          <a class="dropdown-item" href="Description.html">รายละเอียดหลักสูตร</a>
+          <a class="dropdown-item" href="Management.html">โครงสร้างบริหารหลักสูตร</a>
+          <a class="dropdown-item" href="policy.html">นโยบายด้านคุณภาพ</a>
+          <a class="dropdown-item" href="philosophy.html">ปรัชญา วิสัยทัศน์ พันธกิจ</a>
+        </div>
+      </li>       
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="#ffffff">
+          อาจารย์และบุคลากร</font>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="teacher.html">อาจารย์ประจำหลักสูตร</a>
+		  <a class="dropdown-item" href="support.html">บุคลากรประจำหลักสูตร</a>
+          <a class="dropdown-item" href="Training.html">แจ้งการอบรมพัฒนาความรู้</a>
+          <a class="dropdown-item" href="staff.html">ระเบียบแบบฟอร์มสำหรับอาจารย์และเจ้าหน้าที่</a>
+        </div>
+      </li>    
+    <li class="nav-item">
+        <a class="nav-link" href="activities.html"><font color="#ffffff">กิจกรรมหลักสูตร</font></a>
+      </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="#ffffff">
+          สิ่งสนับสนุนการเรียนรู้</font>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="LAB.html">ห้องปฏิบัติการคอมพิวเตอร์</a>
+		  <a class="dropdown-item" href="roomtable.html">ตารางการใช้ห้องปฏิบัติการคอมพิวเตอร์</a>
+          <a class="dropdown-item" href="equipment.html">อุปกรณ์</a>
+        </div>
+      </li> 
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="#ffffff">
+          นักศึกษา</font>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Student Guide.html">คู่มือนักศึกษา</a>
+		  <a class="dropdown-item" href="Project Guide.html">คู่มือโครงงานนักศึกษา</a>
+          <a class="dropdown-item" href="Internship location.html">สถานที่ฝึกสหกิจ</a>
+          <a class="dropdown-item" href="Internship documents.html">เอกสารฝึกงาน</a>
+          <a class="dropdown-item" href="recommended.html">แจ้งข้อเสนอแนะ/ร้องเรียน</a>
+        </div>
+      </li> 
+	          <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="#ffffff">
+          ประกันคุณภาพหลักสูตร</font>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="http://www.cheqa.mua.go.th/">CHE QA 3D ONLINE SYSTEM</a>
+          <a class="dropdown-item" href="report.html">รายงานการประกันคุณภาพการศึกษา</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contect.html"><font color="#ffffff">ติดต่อ</font></a>
+      </li>
+
+    </ul>
+   </div>
+</nav> 
+</div> 
+</div> 
+</div>
+<!-- end menu -->
+
+<!-- start content -->
+<div class="container">
+   <br />
+   <h2>&starf;&nbsp;ปรัชญา/วิสัยทัศน์/พันธกิจ</h2>
+   <hr>
+       <h4>ปรัชญาของหลักสูตร</h4>
+       <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ปรัชญา : มุ่งผลิตบัณฑิตที่มีความรู้ ทักษะทางวิทยาการคอมพิวเตอร์ มีคุณธรรม จริยธรรม และทำงานร่วมกับผู้อื่น เพื่อตอบสนองหน่วยงานภาครัฐและเอกชน</p>
+	   <hr>
+	   <h4>วิสัยทัศน์</h4>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;วิสัยทัศน์ : มุ่งผลิตบัณฑิตหลักสูตรวิทยาการคอมพิวเตอร์ ที่มีคุณภาพสนองความต้องการของท้องถิ่นและสังคม</p>
+	   <hr>
+	   <h4>พันธกิจ</h4>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;พันธกิจ : มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ มีภาระหน้าที่ในการปฏิบัติภารกิจต่างๆดังที่ปรากฏในพระราชบัญญัติมหาวิทยาลัยราชภัฏ พ.ศ. 2547 ซึ่งพระบาท  สมเด็จพระเจ้าอยู่หัวทรงพระกรุณาโปรดเกล้าฯ ทรงลงพระปรมาภิไธยและได้ประกาศในพระราชกิจจานุเบกษา เมื่อวันที่ 14 มิถุนายน 2547</p>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;มาตรา7 ให้มหาวิทยาลัยเป็นสถาบันอุดมศึกษาเพื่อการพัฒนาท้องถิ่นที่เสริมสร้างพลังปัญญาของแผ่นดิน ฟื้นฟูพลังการเรียนรู้ เชิดชูภูมิปัญญาท้องถิ่น สร้างสรรค์ศิลปวิทยา เพื่อความเจริญ  ก้าวหน้าอย่างมั่งคงและยั่งยืนของปวงชน มีส่วนร่วมในการจัดการ การบำรุงรักษา การใช้ประโยชน์จากทรัพยากรธรรมชาติและสิ่งแวดล้อมอย่างสมดุลและยั่งยืน โดยมีวัตถุประสงค์ให้การ  ศึกษา ส่งเสริมวิชาการและวิชาชีพชั้นสูง ทำการสอน วิจัย ให้บริการทางวิชาการแก่สังคม ปรับปรุง ถ่ายทอด และพัฒนาเทคโนโลยี ทะนุบำรุงศิลปวัฒนธรรม ผลิตครู และส่งเสริมวิทยฐานะครู</p>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;มาตรา8 ในการดำเนินงานเพื่อให้บรรลุวัตถุประสงค์ตามมาตรา 7 ให้กำหนดภาระหน้าที่ของมหาวิทยาลัยดังนี้</p>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(1)แสวงหาความจริงเพื่อสู่ความเป็นเลิศทางวิชาการบนพื้นฐานของภูมิปัญญาท้องถิ่น ภูมิปัญญาไทย และภูมิปัญญาสากล</p>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(2)ผลิตบัณฑิตที่มีความรู้คู่คุณธรรม สำนึกในความเป็นไทย มีความรักและผูกพันต่อท้องถิ่นอีกทั้งส่งเสริมการเรียนรู้ตลอดชีวิต เพื่อช่วยให้คนในท้องถิ่นรู้เท่าทันการเปลี่ยนแปลง และ  ผลิตบัณฑิตดังกล่าวจะต้องให้มีจำนวนและคุณภาพสอดคล้องกับแผนการผลิตบัณฑิตของประเทศ</p>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (3) เสริมสร้างความรู้ความเข้าใจในคุณค่า ความสำนึก และความภูมิใจในวัฒนธรรมของท้องถิ่นของชาติ</p>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(4)เรียนรู้และเสริมสร้างความเข้มแข็งของผู้นำชุมชน ผู้นำศาสนา และนักการเมืองท้องถิ่นให้มีจิตสำนึกประชาธิปไตย คุณธรรม จริยธรรม และความสามารถในบริหารงานพัฒนาชุมชน  และท้องถิ่นเพื่อประโยชน์ของส่วนรวม</p>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(5)เสริมสร้างความเข้มแข็งของวิชาชีพครู ผลิตและพัฒนาครูและบุคลากรทางการศึกษาให้มีคุณภาพและมาตรฐานที่เหมาะสมกับการเป็นวิชาชีพชั้นสูง</p>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(6)ประสานความร่วมมือและช่วยเหลือเกื้อกูลกันระหว่างมหาวิทยาลัย ชุมชน องค์กรปกครองส่วนท้องถิ่นและองค์กรอื่นทั้งในและต่างประเทศ เพื่อการพัฒนาท้องถิ่น</p>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(7)ศึกษาและแสวงหาแนวทางพัฒนาเทคโนโลยีพื้นบ้านและเทคโนโลยีสมัยใหม่เหมาะสมกับการดำรงชีวิต และการประกอบอาชีพของคนในท้องถิ่น รวมถึงการแสวงหาแนวทางเพื่อส่ง  เสริมให้เกิดการจัดการ การบำรุงรักษา และการใช้ประโยชน์จากทรัพยากรธรรมชาติและสิ่งแวดล้อมอย่างสมดุลและยั่งยืน</p>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(8) ศึกษา วิจัย ส่งเสริมและสืบสานโครงการอันเนื่องมาจากแนวพระราชดำริในการปฏิบัติภารกิจของมหาวิทยาลัย เพื่อการพัฒนาท้องถิ่น</p>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ในการดำเนินงานเพื่อให้บรรลุผลตามวิสัยทัศน์และพันธกิจนั้น สาขาวิชาวิทยาการคอมพิวเตอร์ ได้ยึดสาระตามแผนการบริหารราชการแผ่นดิน</p>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;พ.ศ. 2553-2556 และในพระราชกฤษฎีกาว่าด้วยหลักเกณฑ์และวิธีการบริหารกิจการบ้านเมืองที่ดี พ.ศ. 2546 เป็นสำคัญพร้อมทั้งกำหนดเป้าประสงค์และประเด็นยุทธศาสตร์ในการ  ปฏิบัติราชการสอดคล้องตามที่คณะกำหนดไว้เป็นสำคัญ</p>
+	   <hr>
+	   <h4>วัตถุประสงค์</h4>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1) เพื่อผลิตบัณฑิตที่มีความรู้ ความสามารถ มีทักษะด้านวิทยาการคอมพิวเตอร์และทักษะภาษาต่างประเทศ ทั้งด้านวิชาการและวิชาชีพ ในภาครัฐและเอกชน และเป็นผู้</p>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2) เพื่อผลิตบัณฑิตที่มีเจตคติที่ดี มีคุณธรรม จริยธรรม มีระเบียบวินัย ขยันหมั่นเพียร มีความสำนึกในจรรยาบรรณวิชาชีพ และมีความรับผิดชอบต่อหน้าที่และสังคม</p>
+	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3) เพื่อผลิตบัณฑิตที่มีพื้นฐานความรู้ที่สามารถศึกษาต่อระดับที่สูงขึ้น และสามารถศึกษาเพิ่มเติมได้ด้วยตนเอง ตลอดจนสามารถถ่ายทอดความรู้สู่ชุมชนได้</p>
+	   
+	   
+</div>
+
+<!-- end content -->
+
+<br/>
+<!-- start footer -->    
+  <div style="display:block;width:auto;height:100%;overflow:hidden; background:#b53292">
+  <div class="img-responsive" style="display:block;width:850px;height:100%; float:left;">
+    <blockquote>
+      <p></p>      
+      <a>&nbsp; &nbsp; &nbsp; &nbsp;<font color="#ffffff">Copyright © 2018 หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี </font><br> 
+        &nbsp; &nbsp; &nbsp; &nbsp;<font color="#ffffff">มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ เลขที่ 1 หมู่ 20 ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 13180</font></a>
+        
+    <h6 align="right" style="margin-top:1px;"><a style="display:scroll;position:fixed;bottom:5px;right:5px;" class="backtotop" href="#" rel="nofollow" title="กลับขึ้นไปด้านบนของหน้าเว็บ"><img src="images/button_gotop.png" width="80" height="80" style="border:0;"/></a></h6></blockquote>
+  </div>
+  
+  <div style="display:block;width:350px;height:100%; float:right;">
+  <p></p>
+ 
+  </div>
+  </div>
+    <!-- end footer -->
+	
+   
+</div>   
+</body>
+</html>
