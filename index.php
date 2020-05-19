@@ -1,9 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <?php include("layouts/header.php") ?>
+</head>
 <style>
         h1, h2, h3, h4, h5, h6, nav, .nav, .menu, button, .button, .btn, .price, ._heading, .wp-block-pullquote blockquote, blockquote, label, legend, a, .card-header, th {
             font-family: "Prompt", "Open Sans script=all rev=1" !important;
             font-weight: 700 !important; 
+            padding:0;
+            margin:10;
         }
-    </style>
+</style>
 <div class="container-fluid">
   <div id="head" class="container-fluid">
       
@@ -22,7 +29,7 @@
           </div>
         </div>
       </div>  
-      <div class="site-blocks-cover overlay overlay-2" style="background-image: url(images/logo5.png);" data-aos="fade" id="home-section">
+      <div class="site-blocks-cover overlay overlay-2" style="background-image : url(images/logo5.png);" data-aos="fade" id="home-section">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-6 mt-lg-5 text-center">
@@ -35,32 +42,30 @@
       </div>  
     </div>   
 </div> 
+
 <!-- start slide -->
-<br/>
 <div class="container" style="display:block;width:auto;height:100%;overflow:hidden">
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="img-responsive" style="display:block;width:850px;height:100%; float:left;">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+  <div class="img-responsive" style="display:block;width:850px;height:100%; float:left;">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
           <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <img class="d-block w-100" src="images/slide/1.jpg">
-              </div>
-              <div class="carousel-item">
-                  <img class="d-block w-100" src="images/slide/2.jpg">
-              </div>
-              <div class="carousel-item">
-                  <img class="d-block w-100" src="images/slide/3.jpg">
-              </div>
-              <div class="carousel-item">
-                  <img class="d-block w-100" src="images/slide/4.jpg">
-              </div>
-              <div class="carousel-item">
-                  <img class="d-block w-100" src="images/slide/5.jpg">
-              </div>
-              <div class="carousel-item">
-                  <img class="d-block w-100" src="images/slide/8.jpg">
-              </div>
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/slide/1.jpg">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/slide/2.jpg">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/slide/3.jpg">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/slide/4.jpg">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/slide/5.jpg">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/slide/8.jpg">
+            </div>
           </div>
               <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -70,17 +75,17 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
-        </div>
-      </div>
     </div>
-      <div class="img-responsive" style="display:block;width:250px;height:100%; float:right;">
-          <a><img src="images/identity_acn1.jpg" style="margin-top:3px;"></a>
-          <a><img src="images/identity_acn2.jpg" style="margin-top:3px;"></a>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdcDaa-Y7jOzt_gpBs3vgmJqMeRXcBQDh02E3Xlec_u9j0PWA/viewform"><img src="images/hotline.jpg" style="margin-top:3px;"></a>
-      </div>
   </div>
-</div>
 
+<div class="img-responsive" style="display:block;width:250px;height:100%; float:right;">
+  <a><img src="images/identity_acn1.jpg" style="margin-top:3px;"></a>
+  <a><img src="images/identity_acn2.jpg" style="margin-top:3px;"></a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdcDaa-Y7jOzt_gpBs3vgmJqMeRXcBQDh02E3Xlec_u9j0PWA/viewform">
+  <img src="images/hotline.jpg" style="margin-top:3px;"></a>
+</div>
+</div>
+</div>
 <div class="container" style="display:block;width:auto;height:100%;overflow:hidden">
 <div style="border:3px;">
 	<div class="img-responsive"style="display:block;width:auto;height:100%; float:left;">
@@ -211,20 +216,35 @@
 
 
 <div style="display:block;width:250px;height:100%; float:right;">
-<a href="https://www.facebook.com/profile.php?id=100008113098809&fref=ts"><img src="images/facebook.jpg" style="margin-top:3px;"></a>
-<a href="Recruit.html"><img src="images/Admissions.jpg" style="margin-top:3px;"></a>
-<a href="http://cms.vru.ac.th/login.aspx"><img src="images/CMS.jpg" style="margin-top:3px;"></a>
-<a href="http://reg1.vru.ac.th/"><img src="images/Grade.jpg" style="margin-top:3px;"></a>
-<a href="http://reg3.vru.ac.th/acad_mka/"><img src="images/TQF.jpg" style="margin-top:3px;"></a>
-<a href="http://acad.vru.ac.th/acad_guardian/"><img src="images/Parents.jpg" style="margin-top:3px;"></a>
-<a href="http://qa.vru.ac.th/"><img src="images/HEADQA.jpg" style="margin-top:3px;"></a>
-<a href="https://goo.gl/forms/59Nz2gnBpnc9QSEX2"><img src="images/fromfix.jpg" style="margin-top:3px;"></a>
+      <a href="https://www.facebook.com/profile.php?id=100008113098809&fref=ts">
+        <img src="images/facebook.jpg" style="margin-top:3px;">
+      </a>
+      <a href="Recruit.html">
+        <img src="images/Admissions.jpg" style="margin-top:3px;">
+      </a>
+      <a href="http://cms.vru.ac.th/login.aspx">
+        <img src="images/CMS.jpg" style="margin-top:3px;">
+      </a>
+      <a href="http://reg1.vru.ac.th/">
+        <img src="images/Grade.jpg" style="margin-top:3px;">
+      </a>
+      <a href="http://reg3.vru.ac.th/acad_mka/">
+        <img src="images/TQF.jpg" style="margin-top:3px;">
+      </a>
+      <a href="http://acad.vru.ac.th/acad_guardian/">
+        <img src="images/Parents.jpg" style="margin-top:3px;">
+      </a>
+      <a href="http://qa.vru.ac.th/">
+        <img src="images/HEADQA.jpg" style="margin-top:3px;">
+      </a>
+      <a href="https://goo.gl/forms/59Nz2gnBpnc9QSEX2">
+        <img src="images/fromfix.jpg" style="margin-top:3px;">
+      </a>
 </div>
 </div>
 </div>
-<br/>
-<?php include("layouts/footer.php") ?>
 
+<?php include("layouts/footer.php") ?>
   <div style="display:block;width:auto;height:100%;overflow:hidden; background:#b53292">
   <div class="img-responsive" style="display:block;width:850px;height:100%; float:left;">
       <p></p>      
