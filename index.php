@@ -57,43 +57,47 @@
 </div> 
 <!-- start slide -->
 <br /> 
-  <div class="container" style="display:block;width:auto;height:100%;overflow:hidden">
+<div class="container" style="display:block;width:auto;height:100%;overflow:hidden">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="img-responsive" style="display:block;width:850px;height:100%; float:left;">
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel ">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="images/slide/1.jpg">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img class="d-block w-100" src="images/slide/1.jpg">
+              </div>
+              <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slide/2.jpg">
+              </div>
+              <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slide/3.jpg">
+              </div>
+              <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slide/4.jpg">
+              </div>
+              <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slide/5.jpg">
+              </div>
+              <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slide/8.jpg">
+              </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/slide/2.jpg">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/slide/3.jpg">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/slide/4.jpg">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/slide/5.jpg">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/slide/8.jpg">
-          </div>
+              <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+        </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
-  </div>
-  <div class="img-responsive" style="display:block;width:250px;height:100%; float:right;">
-    <a><img src="images/identity_acn1.jpg" style="margin-top:3px;"></a>
-    <a><img src="images/identity_acn2.jpg" style="margin-top:3px;"></a>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdcDaa-Y7jOzt_gpBs3vgmJqMeRXcBQDh02E3Xlec_u9j0PWA/viewform"><img src="images/hotline.jpg" style="margin-top:3px;"></a>
+      <div class="img-responsive" style="display:block;width:250px;height:100%; float:right;">
+          <a><img src="images/identity_acn1.jpg" style="margin-top:3px;"></a>
+          <a><img src="images/identity_acn2.jpg" style="margin-top:3px;"></a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdcDaa-Y7jOzt_gpBs3vgmJqMeRXcBQDh02E3Xlec_u9j0PWA/viewform"><img src="images/hotline.jpg" style="margin-top:3px;"></a>
+      </div>
   </div>
 </div>
 
