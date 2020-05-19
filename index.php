@@ -1,23 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-      <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900|Oswald:300,400,700" rel="stylesheet">
-        <link rel="stylesheet" href="fonts/icomoon/style.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/jquery-ui.css">
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-        <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-        <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-        <link rel="stylesheet" href="css/aos.css">
-        <link rel="stylesheet" href="css/style.css">
-        <title>หลักสูตรวิทยาการคอมพิวเตอร์</title>
-    </head>
-<body>
 <style>
         h1, h2, h3, h4, h5, h6, nav, .nav, .menu, button, .button, .btn, .price, ._heading, .wp-block-pullquote blockquote, blockquote, label, legend, a, .card-header, th {
             font-family: "Prompt", "Open Sans script=all rev=1" !important;
@@ -26,7 +6,7 @@
     </style>
 <div class="container-fluid">
   <div id="head" class="container-fluid">
-      <?php include("layouts/header.php") ?>
+      
   </div>
 </div>
 <div class="site-block-wrap">
@@ -56,7 +36,7 @@
     </div>   
 </div> 
 <!-- start slide -->
-<br /> 
+<br/>
 <div class="container" style="display:block;width:auto;height:100%;overflow:hidden">
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="img-responsive" style="display:block;width:850px;height:100%; float:left;">
