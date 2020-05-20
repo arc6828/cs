@@ -17,6 +17,19 @@
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        h1, h2, h3, h4, h5, h6, nav, .nav, .menu, button, .button, .btn, .price, ._heading, .wp-block-pullquote blockquote, blockquote, label, legend, a, .card-header, th ,p{
+            font-family: "Prompt", "Open Sans script=all rev=1" !important;
+            font-weight: 500 !important;
+        }
+        .site-footer {
+        padding: 4em !important;
+        background: #333333 !important;
+        height:300px !important;
+        }
+        
+
+    </style>
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 <div class="container-fluid">
@@ -25,7 +38,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo m-0 p-0"><a href="index.html" class="mb-0">CS</a></h1>
+            <h1 class="mb-0 site-logo m-0 p-0"><a href="index.html" class="mb-0"><img class="d-block w-100 no-repeat" src="images/cs.jpg"></img></a></h1>
           </div>
             <div class="col-12 col-md-10 d-none d-xl-block">
               <nav class="site-navigation position-relative text-right" role="navigation">
