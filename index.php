@@ -1,4 +1,6 @@
 <?php include("layouts/header.php") ?>
+
+<?php include("layouts/slider.php") ?>
 <style>
       .carousel {
         position:relative;
@@ -23,7 +25,7 @@
 
 </style>
 <!-- start slide -->
-<div class="container">
+<div class="container mt-4">
   <div class="row">
     <div class="col-md-9">
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
