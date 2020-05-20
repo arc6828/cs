@@ -27,8 +27,12 @@
         background: #333333 !important;
         height:300px !important;
         }
-        
-
+        .site-navbar{
+        margin-bottom: 0px;
+        z-index: 1999;
+        position: absolute;
+        width: 100%;
+        }
     </style>
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
