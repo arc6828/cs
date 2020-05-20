@@ -3,45 +3,6 @@
 <head>
     <?php include("layouts/header.php") ?>
 </head>
-<style>
-        h1, h2, h3, h4, h5, h6, nav, .nav, .menu, button, .button, .btn, .price, ._heading, .wp-block-pullquote blockquote, blockquote, label, legend, a, .card-header, th {
-            font-family: "Prompt", "Open Sans script=all rev=1" !important;
-            font-weight: 700 !important; 
-            padding:0;
-            margin:10;
-        }
-</style>
-<div class="container-fluid">
-  <div id="head" class="container-fluid">
-      
-  </div>
-</div>
-<div class="site-block-wrap">
-    <div class="owl-carousel with-dots">
-      <div class="site-blocks-cover overlay overlay-2" style="background-image: url(images/slide/1.jpg);" data-aos="fade" id="home-section">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-md-6 mt-lg-5 text-center">
-              <h1 class="text-shadow">Buy &amp; Sell Property Here</h1>
-              <p class="mb-5 text-shadow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident vitae, aut inventore repellendus. Iusto, assumenda! </p>
-              <p><a href="#" target="_blank" class="btn btn-primary px-5 py-3">Get Started</a></p>
-            </div>
-          </div>
-        </div>
-      </div>  
-      <div class="site-blocks-cover overlay overlay-2" style="background-image : url(images/logo5.png);" data-aos="fade" id="home-section">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-md-6 mt-lg-5 text-center">
-              <h1 class="text-shadow">Find Your Perfect Property For Your Home</h1>
-              <p class="mb-5 text-shadow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quam doloribus reprehenderit dolore adipisci rerum?</p>
-              <p><a href="#" target="_blank" class="btn btn-primary px-5 py-3">Get Started</a></p>
-            </div>
-          </div>
-        </div>        
-      </div>  
-    </div>   
-</div> 
 
 <!-- start slide -->
 <div class="container" style="display:block;width:auto;height:100%;overflow:hidden">
@@ -245,13 +206,7 @@
 </div>
 
 <?php include("layouts/footer.php") ?>
-  <div style="display:block;width:auto;height:100%;overflow:hidden; background:#b53292">
-  <div class="img-responsive" style="display:block;width:850px;height:100%; float:left;">
-      <p></p>      
-      <a>&nbsp; &nbsp; &nbsp; &nbsp;<font color="#ffffff">Copyright © 2018 หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี </font><br> 
-        &nbsp; &nbsp; &nbsp; &nbsp;<font color="#ffffff">มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ เลขที่ 1 หมู่ 20 ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 13180</font></a>  
-  </div>
- </div>
+  
 </div>   
 </body>
 </html>

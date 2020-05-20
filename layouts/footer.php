@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-5">
                         <h2 class="footer-heading mb-4">About Us</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                        <p align = 'left'>Copyright © 2018 หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยีมหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ เลขที่ 1 หมู่ 20 ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 13180</p>
                     </div>
                 <div class="col-md-3 mx-auto">
                     <h2 class="footer-heading mb-4">Quick Links</h2>
