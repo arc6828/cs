@@ -16,17 +16,10 @@
         top:100px;
         left:-90px;
       }
-      .col-md-3{
+      .col-md-3, h5, li{
         text-align:center;
       }
-      .col-md-4{
-        text-align:center;
-      }
-      .tab-content{
-        top:100px;
-        left:750px;
-        right:5000px;
-      }
+      .img-responsive{}
 
 </style>
 <!-- start slide -->
@@ -69,7 +62,7 @@
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdcDaa-Y7jOzt_gpBs3vgmJqMeRXcBQDh02E3Xlec_u9j0PWA/viewform">
     <img src="images/hotline.jpg" style="margin-top:3px;"></a>
   </div>
-  <div class="col-md-8">
+  <div class="col-md-9">
       <div class="img-responsive"style="display:block;width:auto;height:100%; float:left;">
           <h5>COMSCI VRU NEWS</h5>
             <ul class="nav nav-tabs" id="maincontent" role="tablist">
@@ -193,7 +186,7 @@
             </div>
       </div>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-3">
     <div style="display:block;width:250px;height:100%; float:right;">
         <a href="https://www.facebook.com/profile.php?id=100008113098809&fref=ts">
           <img src="images/facebook.jpg" style="margin-top:3px;">
