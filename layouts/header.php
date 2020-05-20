@@ -4,8 +4,10 @@
     <title>หลักสูตรวิทยาการคอมพิวเตอร์</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900|Oswald:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
@@ -21,6 +23,7 @@
         h1, h2, h3, h4, h5, h6, nav, .nav, .menu, button, .button, .btn, .price, ._heading, .wp-block-pullquote blockquote, blockquote, label, legend, a, .card-header, th ,p{
             font-family: "Prompt", "Open Sans script=all rev=1" !important;
             font-weight: 500 !important;
+            
         }
         .site-footer {
         padding: 4em !important;
@@ -34,6 +37,16 @@
         width: 100%;
         padding:4px !important;
         text-align: center !important;
+        }
+        .d-block {
+          display: block!important;
+          width: 50% !important;
+        }
+        .site-navbar .site-navigation .site-menu > li > a {
+          padding: 0 !important;
+          color: rgba(255, 255, 255, 0.5);
+          display: inline-block;
+          text-decoration: none !important;
         }
     </style>
 </head>
@@ -50,17 +63,14 @@
     </div>
   </div>
     <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-
       <div class="container">
-        <div class="row align-items-center">
-          
+        <div class="row align-items-center">    
           <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo m-0 p-0"><a href="index.html" class="mb-0">Warehouse</a></h1>
+            <h1 class="mb-0 site-logo m-0 p-0"><a href="index.html" class="mb-0"> <img class="d-block w-100" src="images/css.png" ></a></h1>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
-
                 <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                   <li class="nav-link">
                       <a class="nav-link" href="index.html">HOME</a>
