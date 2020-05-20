@@ -27,7 +27,7 @@
         .site-footer {
             padding: 4em !important;
             background: #333333 !important;
-            height:300px !important;
+            /*height:300px !important;*/
         }
         .site-navbar{
             margin-bottom: 0px;
@@ -59,17 +59,21 @@
             box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
         }
         .site-navbar .site-navigation .site-menu > li > a {
-        color: black;
+            color: black;
 
         }
         .site-navbar .site-navigation .site-menu > li > a:hover{
-        color: purple;
+            color: purple;
         }
         .sticky-wrapper .site-navbar ul li a {
-        color: black;
+            color: black;
         }
         .sticky-wrapper .site-navbar ul li a:hover {
-        color: purple;
+            color: purple;
+        }
+        .content{
+            padding-top : 100px;
+            padding-bottom : 100px;
         }
     </style>
 </head>
@@ -173,6 +177,7 @@
             </div>        
         </div>
     </header>
+    <div class="content">
   
     
     

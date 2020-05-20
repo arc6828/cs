@@ -2,7 +2,7 @@
 
 <?php include("layouts/slider.php") ?>
 
-<br/> <br/> <br/> <br/>
+
 
 <style>
     .carousel {
@@ -28,7 +28,6 @@
     .site-blocks-cover , .site-block-wrap {
         min-height: 500px;
         height: calc(100vh - 100px);
-        padding : 100px 0;
     }
 
     /*
@@ -46,11 +45,11 @@
 
 </style>
 <!-- start slide -->
-<div class="container my-4">
+<div class="container mt-4">
     <div class="row">
         <div class="col-lg-9">
             <div class="img-responsive"style="display:block;width:auto;height:100%; float:left;">
-                <h5>COMSCI VRU NEWS</h5>
+                <h4>COMSCI VRU NEWS</h4>
                 <ul class="nav nav-tabs" id="maincontent" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><font color="black">ประชาสัมพันธ์</font></a>
