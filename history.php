@@ -25,3 +25,6 @@
 <!-- start footer -->   
 
 <?php include("layouts/footer.php"); ?>
+</div>
+</body>
+</html>
