@@ -42,20 +42,24 @@
                 </div>
         </div>
     </footer>
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!--script src="js/jquery-3.3.1.min.js"></script-->
     <script src="js/jquery-ui.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!--script src="js/popper.min.js"></script-->
+    <!--script src="js/bootstrap.min.js"></script-->
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/bootstrap-datepicker.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
+    <!--script src="js/jquery.easing.1.3.js"></script-->
     <script src="js/aos.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/main.js"></script>
 
     <!-- Load Facebook SDK for JavaScript -->
+    <?php if(false) { ?>
     <div id="fb-root"></div>
     <script>
         window.fbAsyncInit = function() {
@@ -81,6 +85,21 @@
         logged_in_greeting="สวัสดี ... เราสามารถช่วยเหลืออะไรคุณได้บ้าง บอกเราได้นะ?"
         logged_out_greeting="สวัสดี ... เราสามารถช่วยเหลืออะไรคุณได้บ้าง บอกเราได้นะ?">
     </div>
+    <?php } ?>
+
+    <script>
+    $(document).ready(function(){
+        //$('a.sub-menu').dropdown();
+        /*
+        $('a.sub-menu').on("click", function(e){
+            
+            //$(this).next('ul').toggle();
+            //e.stopPropagation();
+            //e.preventDefault();
+            
+        });*/
+    });
+    </script>
 
     
   </body>
