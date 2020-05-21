@@ -66,7 +66,7 @@
                         <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><font color="black">รับสมัครงาน/ฝึกงาน</font></a>
                     </li>
                 </ul>
-                <div class="img-responsive" style="border: 2px solid #F5F5F5; overflow: auto; width: 750px; height: 450px;">
+                <div class="" style="border: 2px solid #F5F5F5; overflow: auto; width: 100%; height: 300px;">
                     <div class="tab-content">	
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab" style="margin-left:10px;margin-right:10px"> 
                             <br />
