@@ -95,7 +95,7 @@
                 <div class="site-logo">
                 <a href="index.php" class=""> 
                     <div class="text-left">
-                    <img class="d-inline-block mb-2" src="images/css.png" height="70">
+                    <img class="d-inline-block mb-2 " src="images/css.png" height="80">
                     <div class="d-lg-inline-block d-md-none d-sm-none d-none" style="line-height:1;">
                         <div class="d-lg-inline-block pt-2">
                         <div class="text-dark" style="font-size: 0.8em;">วิทยาการคอมพิวเตอร์</div>
@@ -173,12 +173,7 @@
                     </ul>
                 </nav>
             </div>
-            <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white float-right"><span class="icon-menu h3"></span></a></div>
-            </div>        
+            <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white float-right"><span class="icon-menu h3"></span></a></div>       
         </div>
     </header>
-    <div class="content">
-  
-    
-    
   
