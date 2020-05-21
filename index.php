@@ -1,9 +1,6 @@
 <?php include("layouts/header.php") ?>
 
 <?php include("layouts/slider.php") ?>
-
-
-
 <style>
     .carousel {
         position:relative;
@@ -28,6 +25,14 @@
     .site-blocks-cover , .site-block-wrap {
         min-height: 500px;
         height: calc(100vh - 90px);
+    }
+    iframe[Attributes Style] {
+        width: 200px;
+        height: 500px;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
     }
 
     /*
@@ -199,7 +204,10 @@
             <a href="https://goo.gl/forms/59Nz2gnBpnc9QSEX2">
             <img src="images/fromfix.jpg" style="margin-top:3px;">
             </a>
+            
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcs.vru.ac.th%2F&amp;tabs=timeline&amp;width=250&amp;height=500&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=1267020360104932" width="250" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
     </div>
+    
 </div>
 <?php include("layouts/footer.php") ?>  
