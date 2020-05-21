@@ -27,7 +27,7 @@
 
     .site-blocks-cover , .site-block-wrap {
         min-height: 500px;
-        height: calc(100vh - 100px);
+        height: calc(100vh - 90px);
     }
 
     /*

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900|Oswald:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -43,12 +44,12 @@
         }
         .site-navbar .site-navigation .site-menu > li > a {
             padding: 0 !important;
-            color: rgba(255, 255, 255, 0.5);
+            /*color: rgba(255, 255, 255, 0.5);*/
             display: inline-block;
             text-decoration: none !important;
         }
         
-        .nav-link {
+        .site-menu > .nav-link {
             padding: 1.5rem 0.5rem;
         }
         
@@ -72,58 +73,58 @@
             color: purple;
         }
         .content{
-            padding-top : 100px;
-            padding-bottom : 100px;
+            padding-top : 90px;
+            padding-bottom : 90px;
         }
     </style>
+    <link rel="icon" href="images/css.png" >
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <div class="site-wrap">
         <div class="site-mobile-menu site-navbar-target">
             <div class="site-mobile-menu-header">
-            <div class="site-mobile-menu-close mt-3">
-                <span class="icon-close2 js-menu-toggle"></span>
-            </div>
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+                <img class="m-4" src="images/css.png" height="70">  
             </div>
             <div class="site-mobile-menu-body"></div>
         </div>
     </div>
-    <header class="site-navbar  py-4  mb-4 js-sticky-header site-navbar-target justify-content-center" role="banner">
-        <div class="container">
+    <header class="site-navbar js-sticky-header site-navbar-target justify-content-center" role="banner">
+        <div class="container ">
             <div class="row">    
-            <div class="col-6 col-md-4">
+            <div class="col-8 col-md-8 col-lg-4">
                 <div class="site-logo">
-                <a href="index.php" class=""> 
-                    <div class="text-left">
-                    <img class="d-inline-block mb-2" src="images/css.png" height="70">
-                    <div class="d-lg-inline-block d-md-none d-sm-none d-none" style="line-height:1;">
-                        <div class="d-lg-inline-block pt-2">
-                        <div class="text-dark" style="font-size: 0.8em;">วิทยาการคอมพิวเตอร์</div>
-                        <small class="text-dark" style="font-size: 0.6em;">มหาวิทยาลัยราชภัฏวไลยอลงกรณ์</small>
+                    <a href="index.php" class="text-left"> 
+                        <div class="" style="display: flex; flex-direction:row;" >
+                            <img class="d-lg-block d-md-none d-sm-none d-none my-1" src="images/css.png" height="70">  
+                            <div class="d-lg-block" style="line-height: 0.3;   padding-top: 18px;     padding-left: 10px;">                        
+                                <h1 style="margin-bottom:0px; font-size: 0.7em;" class="text-dark" >วิทยาการคอมพิวเตอร์</h1>
+                                <small class="" style="font-size: 0.5em; color:#777;">มหาวิทยาลัยราชภัฏวไลยอลงกรณ์</small>
+                            </div>                          
                         </div>
-                    </div>
-                    </div>
-                </a>
+                    </a>
                 </div>
             </div>
-            <div class="col-12-md-8 d-xl-block">
+            <div class="d-none d-md-none col-lg-8 d-xl-block">
                 <nav class="site-navigation position-relative text-right" role="navigation">
                     <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                     <li class="nav-link">
-                        <a class="nav-link" href="index.php">HOME</a>
+                        <a class="nav-link" href="index.php">หน้าหลัก</a>
                     </li>
                     <li class="nav-link dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         เกี่ยวกับหลักสูตร
                         </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="history.php">ประวัติหลักสูตร</a>
-                                <a class="dropdown-item" href="structure.php">โครงสร้างหลักสูตร</a>
-                                <a class="dropdown-item" href="Description.php">รายละเอียดหลักสูตร</a>
-                                <a class="dropdown-item" href="Management.php">โครงสร้างบริหารหลักสูตร</a>
-                                <a class="dropdown-item" href="policy.php">นโยบายด้านคุณภาพ</a>
-                                <a class="dropdown-item" href="philosophy.php">ปรัชญา วิสัยทัศน์ พันธกิจ</a>
-                            </div>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="history.php">ประวัติหลักสูตร</a>
+                            <a class="dropdown-item" href="structure.php">โครงสร้างหลักสูตร</a>
+                            <a class="dropdown-item" href="Description.php">รายละเอียดหลักสูตร</a>
+                            <a class="dropdown-item" href="Management.php">โครงสร้างบริหารหลักสูตร</a>
+                            <a class="dropdown-item" href="policy.php">นโยบายด้านคุณภาพ</a>
+                            <a class="dropdown-item" href="philosophy.php">ปรัชญา วิสัยทัศน์ พันธกิจ</a>
+                        </div>
                     </li>       
                     <li class="nav-link dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -152,28 +153,29 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             อื่นๆ
                         </a>
+                        <div class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
+                            <a class="nav-link" href="activities.php">กิจกรรมหลักสูตร</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">สิ่งสนับสนุนการเรียนรู้</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="nav-link" href="activities.php">กิจกรรมหลักสูตร</a>
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">สิ่งสนับสนุนการเรียนรู้</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="LAB.php">ห้องปฏิบัติการคอมพิวเตอร์</a>
-                                        <a class="dropdown-item" href="roomtable.php">ตารางการใช้ห้องปฏิบัติการคอมพิวเตอร์</a>
-                                        <a class="dropdown-item" href="equipment.php">อุปกรณ์</a>
-                                </div>
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ประกันคุณภาพหลักสูตร</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="http://www.cheqa.mua.go.th/">CHE QA 3D ONLINE SYSTEM</a>
-                                    <a class="dropdown-item" href="report.php">รายงานการประกันคุณภาพการศึกษา</a>
-                                </div>
+                                    <a class="dropdown-item" href="LAB.php">ห้องปฏิบัติการคอมพิวเตอร์</a>
+                                    <a class="dropdown-item" href="roomtable.php">ตารางการใช้ห้องปฏิบัติการคอมพิวเตอร์</a>
+                                    <a class="dropdown-item" href="equipment.php">อุปกรณ์</a>
                             </div>
-                    </li> 
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ประกันคุณภาพหลักสูตร</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="http://www.cheqa.mua.go.th/">CHE QA 3D ONLINE SYSTEM</a>
+                                <a class="dropdown-item" href="report.php">รายงานการประกันคุณภาพการศึกษา</a>
+                            </div>
+                        </div>
+                </li> 
                     <li class="nav-link dropdown">
-                        <a class="nav-link" href="contect.php">ติดต่อเรา</a>
+                        <a class="nav-link" href="contact.php">ติดต่อเรา</a>
                     </li>
                     </ul>
                 </nav>
             </div>
-            <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white float-right"><span class="icon-menu h3"></span></a></div>
+            <div class="col-4 col-md-4 d-inline-block d-xl-none ml-md-0 py-3">
+                <a href="#" class="site-menu-toggle js-menu-toggle text-dark float-right"><span class="icon-menu h3"></span></a></div>
             </div>        
         </div>
     </header>
