@@ -187,30 +187,35 @@
             <a href="https://www.facebook.com/profile.php?id=100008113098809&fref=ts">
         </div>
         <div class="col-lg-9">
-            <a href="https://www.facebook.com/profile.php?id=100008113098809&fref=ts">
-                <img src="images/facebook.jpg" width="250" height="70" style="margin-top:5px;">
-            </a>
-            <a href="Recruit.html">
-                <img src="images/Admissions.jpg" width="250" height="70" style="margin-top:5px">
-            </a>
-            <a href="http://cms.vru.ac.th/login.aspx">
-                <img src="images/CMS.jpg" width="250" height="70" style="margin-top:3px;">
-            </a>
-            <a href="http://reg1.vru.ac.th/">
-                <img src="images/Grade.jpg" width="250" height="70" style="margin-top:20px;">
-            </a>
-            <a href="http://reg3.vru.ac.th/acad_mka/">
-                <img src="images/TQF.jpg" width="250" height="70" style="margin-top:3px;">
-            </a>
-            <a href="http://acad.vru.ac.th/acad_guardian/">
-                <img src="images/Parents.jpg" width="250" height="70" style="margin-top:3px;">
-            </a>
-            <a href="http://qa.vru.ac.th/">
-                <img src="images/HEADQA.jpg" width="250" height="70" style="margin-top:3px;">
-            </a>
-            <a href="https://goo.gl/forms/59Nz2gnBpnc9QSEX2">
-                <img src="images/fromfix.jpg" width="250" height="70" style="margin-top:3px;">
-            </a>
+            <h4>Quick Links</h4>
+            <div class="text-center">
+                <a href="https://www.facebook.com/profile.php?id=100008113098809&fref=ts">
+                    <img src="images/facebook.jpg" width="250" height="70" style="margin-top:5px;">
+                </a>
+                <a href="Recruit.html">
+                    <img src="images/Admissions.jpg" width="250" height="70" style="margin-top:5px">
+                </a>
+                <a href="http://cms.vru.ac.th/login.aspx">
+                    <img src="images/CMS.jpg" width="250" height="70" style="margin-top:3px;">
+                </a>
+                <a href="http://reg1.vru.ac.th/">
+                    <img src="images/Grade.jpg" width="250" height="70" style="margin-top:20px;">
+                </a>
+                <a href="http://reg3.vru.ac.th/acad_mka/">
+                    <img src="images/TQF.jpg" width="250" height="70" style="margin-top:3px;">
+                </a>
+                <a href="http://acad.vru.ac.th/acad_guardian/">
+                    <img src="images/Parents.jpg" width="250" height="70" style="margin-top:3px;">
+                </a>
+                <a href="http://qa.vru.ac.th/">
+                    <img src="images/HEADQA.jpg" width="250" height="70" style="margin-top:3px;">
+                </a>
+                <a href="https://goo.gl/forms/59Nz2gnBpnc9QSEX2">
+                    <img src="images/fromfix.jpg" width="250" height="70" style="margin-top:3px;">
+                </a>
+
+            </div>
+            
         </div>
         <div class="col-lg-3">
             <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcs.vru.ac.th%2F&amp;tabs=timeline&amp;width=250&amp;height=500&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=1267020360104932" width="250" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
