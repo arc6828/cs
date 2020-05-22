@@ -36,6 +36,8 @@
             width: 100%;
             padding:4px !important;
             text-align: center !important;
+            
+          
         }
         .d-block {
             display: block!important;
@@ -75,6 +77,13 @@
             padding-top : 90px;
             padding-bottom : 90px;
         }
+        body {
+            line-height: 1.7;
+            color: gray;
+            font-weight: 400;
+            font-size: 1rem;
+          
+            }
     </style>
     <link rel="icon" href="images/css.png" >
 </head>

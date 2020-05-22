@@ -1,4 +1,15 @@
     </div>
+  <style>
+    .site-footer ,.footer-heading ,.p {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center !important;
+    background:#5900b3 !important;
+    }
+    .site-footer p {
+    color: #ffffff;
+    }
+  </style>
     <footer class="site-footer">
       <div class="container">
         <div class="row">
@@ -6,10 +17,9 @@
             <div class="row">
               <div class="col-md-5">
                 <h2 class="footer-heading mb-4">ติดต่อเรา</h2>
-                    <p>   Copyright © 2018 หลักสูตรวิทยาการคอมพิวเตอร์  คณะวิทยาศาสตร์และเทคโนโลยี 
-                          มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ เลขที่ 1 หมู่ 20 ต.คลองหนึ่ง
-                          อ.คลองหลวง จ.ปทุมธานี 13180
-                    </p>
+                    <p> &nbsp;&nbsp;&nbsp;&nbsp;อาคาร 75 ปี วไลยอลงกรณ์ <br>
+                    โทรศัพท์ 0-2529-0674-7 ต่อ 365 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;โทรสาร 02-909-3029</p>
+                    
               </div>
               <div class="col-md-3 mx-auto">
                 <h2 class="footer-heading mb-4">Quick Links</h2>
@@ -23,22 +33,9 @@
               
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="mb-4">
-              <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
-            <form action="#" method="post" class="footer-subscribe">
-              <div class="input-group mb-3">
-                <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
-                <div class="input-group-append">
-                  <button class="btn btn-primary text-black" type="button" id="button-addon2">Send</button>
-                </div>
-              </div>
-            </form>  
-            </div>
-            
-            <div class="">
+            <div class="col-md-4 mx-auto">
               <h2 class="footer-heading mb-4">Follow Us</h2>
-                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="https://www.facebook.com/cs.vru.ac.th/" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
                 <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
                 <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
                 <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
@@ -51,10 +48,10 @@
           <div class="col-md-12">
             <div class="border-top pt-5">
             <p class="copyright">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> หลักสูตรวิทยาการคอมพิวเตอร์  คณะวิทยาศาสตร์และเทคโนโลยี 
+            <br>
+              มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ เลขที่ 1 หมู่ 20 ต.คลองหนึ่ง
+                          อ.คลองหลวง จ.ปทุมธานี 13180 </p>
             </div>
           </div>
           
