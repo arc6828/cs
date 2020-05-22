@@ -213,7 +213,6 @@
                 <a href="https://goo.gl/forms/59Nz2gnBpnc9QSEX2">
                     <img src="images/fromfix.jpg" width="250" height="70" style="margin-top:3px;">
                 </a>
-
             </div>
             
         </div>
