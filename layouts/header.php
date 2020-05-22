@@ -16,7 +16,7 @@
     <!--link rel="stylesheet" href="css/bootstrap-datepicker.css"-->
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="css/aos.css">
+    <!--link rel="stylesheet" href="css/aos.css"-->
     <link rel="stylesheet" href="css/style.css">
     <style>
         h1, h2, h3, h4, h5, h6, nav, .nav, .menu, button, .button, .btn, .price, ._heading, .wp-block-pullquote blockquote, blockquote, label, legend, a, .card-header, th ,p{
