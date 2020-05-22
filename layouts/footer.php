@@ -59,7 +59,7 @@
     <script src="js/main.js"></script>
 
     <!-- Load Facebook SDK for JavaScript -->
-    <?php if(false) { ?>
+    <?php if(true) { ?>
     <div id="fb-root"></div>
     <script>
         window.fbAsyncInit = function() {
