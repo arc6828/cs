@@ -3,7 +3,7 @@
     .site-footer ,.footer-heading ,.p {
         font-size: 16px;
         text-align: center !important;
-        background:#B565A7 !important;
+        background:#8e24aa !important;
         color: #000000!important;
     }
     .site-footer p,a {
