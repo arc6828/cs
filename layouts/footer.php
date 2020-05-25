@@ -19,7 +19,7 @@
         <div class="row">
           <div class="col-md-4 mx-auto">
             <h2 class="footer-heading mb-4 d-none">ติดต่อเรา</h2>
-            <img class="img-thumbnail rounded-circle" src="images/css.png" style="width:70px; height:70px;" />
+            <img class="img-thumbnail rounded-circle mb-4" src="images/css.png" style="width:70px; height:70px;" />
             <p>
             หลักสูตรวิทยาการคอมพิวเตอร์ <br>
             คณะวิทยาศาสตร์และเทคโนโลยี <br>
