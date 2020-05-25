@@ -16,49 +16,64 @@
     <footer class="site-footer">
       <div class="container">
        
-            <div class="row">
-              <div class="col-md-8">
-                <div class="row">
-                  <div class="col-md-5">
-                    <h2 class="footer-heading mb-4">ติดต่อเรา</h2>
-                        <p> &nbsp;&nbsp;&nbsp;&nbsp;อาคาร 75 ปี วไลยอลงกรณ์ <br>
-                        โทรศัพท์ 0-2529-0674-7 ต่อ 365 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;โทรสาร 02-909-3029</p>  
-                  </div>
-                  <div class="col-md-3 mx-auto">
-                    <h2 class="footer-heading mb-4">Quick Links</h2>
-                    <ul class="list-unstyled">
-                      <li><a href="#">About Us</a></li>
-                      <li><a href="#">Services</a></li>
-                      <li><a href="#">Testimonials</a></li>
-                      <li><a href="#">Contact Us</a></li>
-                    </ul>
-                  </div>
-                  
-                </div>
-              </div>
-                <div class="col-md-4 mx-auto">
-                  <h2 class="footer-heading mb-4">Follow Us</h2>
-                    <a href="https://www.facebook.com/cs.vru.ac.th/" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                    <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                    <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                    <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-                </div>
+        <div class="row">
+          <div class="col-md-4 mx-auto">
+            <h2 class="footer-heading mb-4 d-none">ติดต่อเรา</h2>
+            <img class="img-thumbnail rounded-circle" src="images/css.png" style="width:70px; height:70px;" />
+            <p>
+            หลักสูตรวิทยาการคอมพิวเตอร์ <br>
+            คณะวิทยาศาสตร์และเทคโนโลยี <br>
+            อาคาร 75 ปี วไลยอลงกรณ์ <br>
+            โทรศัพท์ 0-2529-0674-7 ต่อ 365 <br>
+            โทรสาร 02-909-3029
+            </p>  
+          </div>     
+          
+          <div class="col-md-4 mx-auto">
+            <h2 class="footer-heading mb-4">Quick Links</h2>
+            <ul class="list-unstyled">
+              <li><a href="teacher.php">อาจารย์</a></li>
+              <li><a href="support.php">บุคคลากร</a></li>
+              <li><a href="#">งานวิจัยและพัฒนา</a></li>
+              <li><a href="tcas.php">รับสมัครนักศึกษา</a></li>
+              <li><a href="contact.php">ติดต่อเรา</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 mx-auto">
+            <h2 class="footer-heading mb-4">Follow Us</h2>
+            <a href="#" class="pl-0 pr-3 d-none""><span class="icon-facebook"></span></a>              
+            <a href="#" class="pl-3 pr-3 d-none""><span class="icon-line"></span></a>
+            <a href="#" class="pl-3 pr-3 d-none"><span class="icon-instagram"></span></a>
+            <a href="#" class="pl-3 pr-3 d-none"><span class="icon-linkedin"></span></a>
+
+            <div class="fb-page" 
+              data-href="https://www.facebook.com/cs.vru.ac.th"
+              data-width="300" 
+              data-hide-cover="false"
+              data-show-facepile="false">
+            </div>
+
+            <div class="mt-4">
+              <a class="mt-4" href="https://lin.ee/eYhAn4Y"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน" height="36" border="0"></a>        
+            </div>
+          </div> 
 
 
-              </div>
+        </div>
+        
+        <div class="row pt-4 mt-4 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p class="copyright">
+                Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script> 
+                หลักสูตรวิทยาการคอมพิวเตอร์  คณะวิทยาศาสตร์และเทคโนโลยี  <br>
+                มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ เลขที่ 1 หมู่ 20 ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 13180 
+              </p>
             </div>
-            <div class="row pt-5 mt-5 text-center">
-              <div class="col-md-12">
-                <div class="border-top pt-5">
-                  <p class="copyright">
-                    Copyright &copy;
-                    <script>document.write(new Date().getFullYear());</script> 
-                    หลักสูตรวิทยาการคอมพิวเตอร์  คณะวิทยาศาสตร์และเทคโนโลยี  <br>
-                    มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ เลขที่ 1 หมู่ 20 ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 13180 
-                  </p>
-                </div>
-              </div>
-            </div>
+          </div>
+        </div>
         
       </div>
     </footer>
@@ -85,6 +100,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <!--script src="js/jquery.sticky.js"></script-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/brands.min.js"></script>
+
+    <!--script src="https://kit.fontawesome.com/d59a8a2721.js"></script-->
     <script src="js/main.js"></script>
 
     <!-- Load Facebook SDK for JavaScript -->
