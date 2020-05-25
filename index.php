@@ -37,7 +37,16 @@
     .img{
         width: 180px;
         height: 500px;
+        border-style: solid !important;
     }
+    .text-center {
+        text-align: center!important;
+        
+    }
+    img {
+    vertical-align: middle;
+    border-style: none;
+}
 
     /*
     .row2 {

@@ -10,6 +10,3 @@
    
 </div>
 <?php include("layouts/footer.php") ?>  
-</div>
-</body>
-</html>

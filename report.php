@@ -7,6 +7,3 @@
    <a href="uploads/07-18/SARCS-2558.docx">&nbsp; &nbsp; &nbsp; &nbsp;<font color="black">&#187;รายงานการประกันคุณภาพการศึกษาประจำปีการศึกษา 2558</font></a> <br />
 </div>
 <?php include("layouts/footer.php"); ?>
-</div>
-</body>
-</html>

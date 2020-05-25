@@ -27,6 +27,3 @@
 	   <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4) จัดให้มีการสำรวจการมีงานทำของบัณฑิต</p>   
 </div>
 <?php include("layouts/footer.php"); ?>
-</div>
-</body>
-</html>

@@ -53,6 +53,3 @@ margin: 3px;
 <p>&nbsp; &nbsp; &nbsp; &nbsp;<a href="https://www.nectec.or.th/research/research-unit/">ดูรายละเอียดหน่วยวิจัย</a></p>    	   
 </div>
 <?php include("layouts/footer.php"); ?>
-</div>
-</body>
-</html>

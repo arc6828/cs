@@ -29,6 +29,3 @@
 <a href="uploads/dl-staff/Form-24.PDF"><font color="black">&#187;แบบฟอร์มหนังสือมอบอำนาจ</a> <br />	   
 </div>
 <?php include("layouts/footer.php"); ?>
-</div>
-</body>
-</html>

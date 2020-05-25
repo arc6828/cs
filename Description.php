@@ -33,6 +33,3 @@
        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a>- ผู้ประกอบอาชีพอิสระ (Self-employed)</a><br />
 </div>
 <?php include("layouts/footer.php") ?>  
-</div>
-</body>
-</html>

@@ -42,6 +42,3 @@ var marker = new google.maps.Marker({
 &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://www.facebook.com/profile.php?id=100008113098809&fref=ts"><img src="images/facebook-icon-preview-1.png" width="50" height="50"> FACEBOOK หลักสูตรวิทยาการคอมพิวเตอร์</a>	   
 </div>
 <?php include("layouts/footer.php") ?>  
-</div>
-</body>
-</html>

@@ -61,6 +61,3 @@
      <td><a><img src="images/img-activities62/90257436_2607891939491217_3956418208289783808_o.jpg" width="350"></a></td>	    
 </div>
 <?php include("layouts/footer.php") ?>  
-</div>
-</body>
-</html>

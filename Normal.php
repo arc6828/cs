@@ -18,6 +18,3 @@
    <td><a><img src="images/schedule/normal/803.jpg" width="500px"></a></td>
 </div>
 <?php include("layouts/footer.php"); ?>
-</div>
-</body>
-</html>

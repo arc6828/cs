@@ -28,6 +28,3 @@
 &nbsp; &nbsp; &nbsp; &nbsp;<strong>โทรศัพท์ :</strong> 02-529-3850<strong>โทรสาร :</strong> 02-909-3029<strong>E-Mail :</strong> sciencetech@vru.ac.th
 </div>
 <?php include("layouts/footer.php"); ?>
-</div>
-</body>
-</html>

@@ -6,6 +6,3 @@
 	   <a><img class="img-responsive" src="images/Structure-Course-CS.jpg"></a>	   
 </div>
 <?php include("layouts/footer.php"); ?>
-</div>
-</body>
-</html>
