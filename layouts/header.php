@@ -4,6 +4,11 @@
     <title>หลักสูตรวิทยาการคอมพิวเตอร์</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+    <meta property="og:url"                content="<?=$og_url ?>" />
+    <meta property="og:type"               content="<?=$og_type ?>" />
+    <meta property="og:title"              content="<?=$og_title ?>" />
+    <meta property="og:description"        content="<?=$og_description ?>" />
+    <meta property="og:image"              content="<?=$og_image ?>" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900|Oswald:300,400,700" rel="stylesheet">
     <!--link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet"-->
     <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
@@ -26,7 +31,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
-        h1, h2, h3, h4, h5, h6, nav, .nav, .menu, button, .button, .btn, .price, ._heading, .wp-block-pullquote blockquote, blockquote, label, legend, a, .card-header, th ,p{
+        h1, h2, h3, h4, h5, h6, nav, .nav, .menu, button, .button, .btn, .price, ._heading, .wp-block-pullquote blockquote, blockquote, label, legend, a, .card-header, th ,p, li{
             font-family: "Prompt", "Open Sans script=all rev=1" !important;
             font-weight: 500 !important;
             
@@ -86,7 +91,7 @@
         }
         body {
             line-height: 1.7;
-            color: gray;
+            color: #333;
             font-weight: 400;
             font-size: 1rem;
           
@@ -162,6 +167,7 @@
                                 นักศึกษา
                                 </a>
                                     <div class="dropdown-menu" aria-labelledby="studentDropdown">
+                                        <a class="dropdown-item" href="tcas.php">รับสมัครนักศึกษาใหม่</a>
                                         <a class="dropdown-item" href="Student Guide.php">คู่มือนักศึกษา</a>
                                         <a class="dropdown-item" href="Project Guide.php">คู่มือโครงงานนักศึกษา</a>
                                         <a class="dropdown-item" href="Internship location.php">สถานที่ฝึกสหกิจ</a>

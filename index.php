@@ -63,11 +63,36 @@
 
 </style>
 <!-- start slide -->
+<div class="container-fluid p-5 bg-light">
+    <div class="container">        
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="media">
+                    <img class="img-thumbnail" src="images/tcas/pr-2020-05-14.jpg" style="max-width:700px; width:100%;" > 
+                    <div class="media-body p-4">
+                        <h5 class="mt-0 mb-2">รับสมัครนักศึกษา (ปริญญาตรีภาคจันทร์-ศุกร์ และภาคเสาร์-อาทิตย์)</h5>
+                        <p class="py-2">
+                        หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ 
+                        รับสมัครนักศึกษา TCAS 63 (ปริญญาตรี จันทร์-ศุกร์ และภาคเสาร์-อาทิตย์) ตั้งแต่วันนี้เป็นต้นไป  
+                        ดูรายละเอียดและกรอกใบสมัครได้ที่นี่ 
+                        </p>
+                        <div class="text-center">
+                            <a class="btn btn-primary" href="tcas.php">สมัครเรียน</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
 <div class="container mt-4">
     <div class="row">
         <div class="col-lg-9">
+            <h4>COMSCI VRU NEWS</h4>
             <div class="img-responsive"style="display:block;width:auto;height:100%; float:left;">
-                <h4>COMSCI VRU NEWS</h4>
+                
                 <ul class="nav nav-tabs" id="maincontent" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><font color="black">ประชาสัมพันธ์</font></a>
@@ -195,6 +220,8 @@
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdcDaa-Y7jOzt_gpBs3vgmJqMeRXcBQDh02E3Xlec_u9j0PWA/viewform"> <img src="images/hotline.jpg" style="margin-top:3px;"></a>
             <a href="https://www.facebook.com/profile.php?id=100008113098809&fref=ts">
         </div>
+    </div>
+    <div class="row">
         <div class="col-lg-9">
             <h4>Quick Links</h4>
             <div class="text-center">
