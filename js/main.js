@@ -130,10 +130,11 @@ jQuery(document).ready(function($) {
 		    center: false,
 		    items: 1,
 		    loop: true,
+			lazyLoad:true,
 				stagePadding: 0,
 		    margin: 30,
 		    autoplay: true,
-		    nav: false,
+			nav: false,
 		    responsive:{
 	        600:{
 	        	margin: 30,
@@ -160,6 +161,7 @@ jQuery(document).ready(function($) {
 	    center: false,
 	    items: 1,
 	    loop: true,
+		lazyLoad:true,
 			stagePadding: 0,
 	    margin: 0,
 			autoplay: true,
@@ -174,6 +176,7 @@ jQuery(document).ready(function($) {
 	    center: false,
 	    items: 1,
 	    loop: true,
+		lazyLoad:true,
 			stagePadding: 0,
 			smartSpeed: 700,
 	    margin: 0,
