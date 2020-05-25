@@ -1,16 +1,16 @@
     </div>
   <style>
-    .site-footer ,.footer-heading ,.p {
+    .site-footer ,.footer-heading ,.site-footer .p {
         font-size: 16px;
         text-align: center !important;
         background:#8e24aa !important;
-        color: #000000!important;
+        /*color: #fff!important;*/
     }
-    .site-footer p,a {
-        color: #000000!important;
+    .site-footer p, .site-footer a {
+        color: #bbb !important;
     }
     .site-footer .border-top {
-        border-top: 1px solid #000000 !important;
+        border-top: 1px solid #bbb !important;
     }
   </style>
     <footer class="site-footer">
@@ -50,31 +50,41 @@
             <div class="row pt-5 mt-5 text-center">
               <div class="col-md-12">
                 <div class="border-top pt-5">
-                <p class="copyright">
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script> หลักสูตรวิทยาการคอมพิวเตอร์  คณะวิทยาศาสตร์และเทคโนโลยี 
-                <br>
-                  มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ เลขที่ 1 หมู่ 20 ต.คลองหนึ่ง
-                              อ.คลองหลวง จ.ปทุมธานี 13180 </p>
+                  <p class="copyright">
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> 
+                    หลักสูตรวิทยาการคอมพิวเตอร์  คณะวิทยาศาสตร์และเทคโนโลยี  <br>
+                    มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ เลขที่ 1 หมู่ 20 ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 13180 
+                  </p>
                 </div>
               </div>
             </div>
         
       </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!--script src="js/jquery-3.3.1.min.js"></script-->
-    <script src="js/jquery-ui.js"></script>
-    <!--script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script-->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
+    <!--script src="js/jquery-ui.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <!--script src="js/popper.min.js"></script-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>    
+    <!--script src="js/bootstrap.min.js"></script-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <!--script src="js/owl.carousel.min.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!--script src="js/jquery.countdown.min.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
+    <!--script src="js/bootstrap-datepicker.min.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
     <!--script src="js/jquery.easing.1.3.js"></script-->
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!--script src="js/aos.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!--script src="js/jquery.fancybox.min.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <!--script src="js/jquery.sticky.js"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js"></script>
     <script src="js/main.js"></script>
 
     <!-- Load Facebook SDK for JavaScript -->
