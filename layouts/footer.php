@@ -103,7 +103,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/brands.min.js"></script>
 
     <!--script src="https://kit.fontawesome.com/d59a8a2721.js"></script-->
-    <script src="js/main.js"></script>
+    <!--script src="js/main.js"></script-->
+    <?php include("layouts/main-js.php"); ?>
 
     <!-- Load Facebook SDK for JavaScript -->
     <?php if(true) { ?>
