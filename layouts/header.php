@@ -127,7 +127,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="d-none d-md-none d-lg-none col-xl-8">
+                <div class="d-none d-md-none col-lg-8 d-xl-block">
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                             <li class="nav-link">
@@ -197,7 +197,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-2 col-md-2 col-lg-2 d-inline-block d-xl-none ml-md-0 py-3">
+                <div class="col-2 col-md-2 d-l-block d-inline-block d-xl-none ml-md-0 py-3">
                     <a href="#" class="site-menu-toggle js-menu-toggle text-dark float-right"><span class="icon-menu h3"></span></a>
                 </div>
             </div>  
