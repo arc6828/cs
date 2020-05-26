@@ -114,7 +114,7 @@
     <header class="site-navbar js-sticky-header site-navbar-target justify-content-center" role="banner">
         <div class="container ">
             <div class="row">    
-                <div class="col-10 col-md-10 col-lg-4">
+                <div class="col-10 col-md-10 col-lg-10 col-xl-4">
                     <div class="site-logo">
                         <a href="index.php" class="text-left"> 
                             <div class="" style="display: flex; flex-direction:row;" >
@@ -127,7 +127,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="d-none d-md-none col-lg-8 d-xl-block">
+                <div class="d-none d-md-none d-lg-none col-xl-8">
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                             <li class="nav-link">
@@ -197,7 +197,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-2 col-md-2 d-inline-block d-xl-none ml-md-0 py-3">
+                <div class="col-2 col-md-2 col-lg-2 d-inline-block d-xl-none ml-md-0 py-3">
                     <a href="#" class="site-menu-toggle js-menu-toggle text-dark float-right"><span class="icon-menu h3"></span></a>
                 </div>
             </div>  

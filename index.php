@@ -22,10 +22,53 @@
         text-align:center;
     }
 
+    /*
+    //Extra small devices (portrait phones, less than 576px)
+    // No media query for `xs` since this is the default in Bootstrap
+    */
     .site-blocks-cover , .site-block-wrap {
-        min-height: 500px;
-        height: calc(100vh - 90px);
+        min-height: 0px;
+        height: calc(23vh);
     }
+    /*
+    // Small devices (landscape phones, 576px and up)
+    */
+    @media (min-width: 576px) {
+        .site-blocks-cover , .site-block-wrap {
+            min-height: 0px;
+            height: calc(26vh);
+        }
+    }
+    /*
+    // Medium devices (tablets, 768px and up)
+    */
+    @media (min-width: 768px) {
+        .site-blocks-cover , .site-block-wrap {
+            min-height: 0px;
+            height: calc(30vh);
+        }
+    }
+    /*
+    // Large devices (desktops, 992px and up)
+    */
+    @media (min-width: 992px) { 
+        .site-blocks-cover , .site-block-wrap {
+            min-height: 0px;
+            height: calc(60vh);
+        }
+    }
+
+    /*
+    // Extra large devices (large desktops, 1200px and up)
+    */
+    @media (min-width: 1200px) {
+        .site-blocks-cover , .site-block-wrap {
+            min-height: 0px;
+            height: calc(80vh);
+        }
+        
+    }
+
     iframe[Attributes Style] {
         width: 200px;
         height: 500px;
@@ -68,9 +111,11 @@
         
         <div class="row">
             <div class="col-lg-12">
-                <div class="media">
-                    <img class="img-thumbnail" src="images/tcas/pr-2020-05-14.jpg" style="max-width:700px; width:100%;" > 
-                    <div class="media-body p-4">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <img class="img-thumbnail" src="images/tcas/pr-2020-05-14.jpg" style="width:100%;" > 
+                    </div>
+                    <div class="col-lg-4 p-4">
                         <h5 class="mt-0 mb-2">รับสมัครนักศึกษา (ปริญญาตรีภาคจันทร์-ศุกร์ และภาคเสาร์-อาทิตย์)</h5>
                         <p class="py-2">
                         หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ 
