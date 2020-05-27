@@ -89,7 +89,7 @@
     img {
     vertical-align: middle;
     border-style: none;
-}
+    }
 
     /*
     .row2 {
@@ -102,11 +102,20 @@
         margin-left:0;      
 
     }
+    
     */
+    .with-dots .owl-dots {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        /*text-align: center;
+        position: absolute;*/
+        bottom: 40px;
+        /*width: 100%;*/
+    }
 
 </style>
 <!-- start slide -->
-<div class="container-fluid p-5 bg-light">
+<div class="container-fluid py-5 bg-light">
     <div class="container">        
         
         <div class="row">
@@ -115,7 +124,7 @@
                     <div class="col-lg-8">
                         <img class="img-thumbnail" src="images/tcas/pr-2020-05-14.jpg" style="width:100%;" > 
                     </div>
-                    <div class="col-lg-4 p-4">
+                    <div class="col-lg-4 py-4">
                         <h5 class="mt-0 mb-2">รับสมัครนักศึกษา (ปริญญาตรีภาคจันทร์-ศุกร์ และภาคเสาร์-อาทิตย์)</h5>
                         <p class="py-2">
                         หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ 
@@ -263,7 +272,7 @@
             <a><img src="images/identity_acn1.jpg" style="margin-top:10px;"></a>
             <a><img src="images/identity_acn2.jpg" style="margin-top:3px;"></a>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdcDaa-Y7jOzt_gpBs3vgmJqMeRXcBQDh02E3Xlec_u9j0PWA/viewform"> <img src="images/hotline.jpg" style="margin-top:3px;"></a>
-            <a href="https://www.facebook.com/profile.php?id=100008113098809&fref=ts">
+            
         </div>
     </div>
     <div class="row">

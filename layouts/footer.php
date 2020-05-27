@@ -12,6 +12,12 @@
     .site-footer .border-top {
         border-top: 1px solid #bbb !important;
     }
+    .site-footer{
+      padding:0 !important;
+      padding-top:4em !important;
+      padding-bottom:4em !important;
+
+    }
   </style>
     <footer class="site-footer">
       <div class="container">
@@ -49,7 +55,7 @@
 
             <div class="fb-page" 
               data-href="https://www.facebook.com/cs.vru.ac.th"
-              data-width="300" 
+              data-width="290" 
               data-hide-cover="false"
               data-show-facepile="false">
             </div>
