@@ -9,7 +9,7 @@
         $og_type = isset($og_type) ? $og_type : "article";
         $og_title = isset($og_title) ? $og_title : "หลักสูตรวิทยาการคอมพิวเตอร์ มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ ";
         $og_description = isset($og_description) ? $og_description : "หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ ";
-        $og_image = isset($og_image) ? $og_image : "http://localhost/cs/images/logo5.png";
+        $og_image = isset($og_image) ? $og_image : "http://cs.vru.ac.th/images/logo5.png";
     ?>
     <meta property="og:url"                content="<?php echo $og_url; ?>" />
     <meta property="og:type"               content="<?php echo $og_type; ?>" />
