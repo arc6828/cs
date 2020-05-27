@@ -28,7 +28,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
         <p style="font-size : 1.2rem;">ผ่านเว็บไซต์กลางของมหาวิทยาลัย : <a href="http://ent.vru.ac.th/">http://ent.vru.ac.th/</a></p>
         <ul style="list-style-type:none;">
         <li>ปริญญาตรีเรียนจันทร์ - ศุกร์ สมัครเรียนได้ตั้งแต่วันนี้ - 14 มิถุนายน 2563 </li>
-        <li>ปริญญาตรีเรียนเสาร์ - อาทิตย์ สมัครเรียนได้ตั้งแต่วันนี้ - 24 พฤษภาคม 2563  </li>
+        <li>ปริญญาตรีเรียนเสาร์ - อาทิตย์ สมัครเรียนได้ตั้งแต่วันนี้ - 12 มิถุนายน 2563  </li>
         </ul>
         <div class="text-center">
             <a class="btn btn-primary" href="http://ent.vru.ac.th">กรอกใบสมัครเรียน</a> 
