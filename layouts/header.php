@@ -4,11 +4,18 @@
     <title>หลักสูตรวิทยาการคอมพิวเตอร์</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
-    <meta property="og:url"                content="<?=$og_url ?>" />
-    <meta property="og:type"               content="<?=$og_type ?>" />
-    <meta property="og:title"              content="<?=$og_title ?>" />
-    <meta property="og:description"        content="<?=$og_description ?>" />
-    <meta property="og:image"              content="<?=$og_image ?>" />
+    <?php 
+        $og_url = isset($og_url) ? $og_url : "http://cs.vru.ac.th";
+        $og_type = isset($og_type) ? $og_type : "article";
+        $og_title = isset($og_title) ? $og_title : "หลักสูตรวิทยาการคอมพิวเตอร์ มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ ";
+        $og_description = isset($og_description) ? $og_description : "หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ ";
+        $og_image = isset($og_image) ? $og_image : "http://localhost/cs/images/logo5.png";
+    ?>
+    <meta property="og:url"                content="<?php echo $og_url; ?>" />
+    <meta property="og:type"               content="<?php echo $og_type; ?>" />
+    <meta property="og:title"              content="<?php echo $og_title; ?>" />
+    <meta property="og:description"        content="<?php echo $og_description; ?>" />
+    <meta property="og:image"              content="<?php echo $og_image; ?>" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900|Oswald:300,400,700" rel="stylesheet">
     <!--link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet"-->
     <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
