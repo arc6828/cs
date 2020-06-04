@@ -310,6 +310,10 @@
             <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcs.vru.ac.th%2F&amp;tabs=timeline&amp;width=250&amp;height=500&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=1267020360104932" width="250" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
     </div>
+
+
     
 </div>
+
+
 <?php include("layouts/footer.php") ?>  

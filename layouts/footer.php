@@ -1,24 +1,41 @@
     </div>
-  <style>
-    .site-footer ,.footer-heading ,.site-footer .p {
-        font-size: 16px;
-        text-align: center !important;
-        background:#8e24aa !important;
-        /*color: #fff!important;*/
-    }
-    .site-footer p, .site-footer a {
-        color: #bbb !important;
-    }
-    .site-footer .border-top {
-        border-top: 1px solid #bbb !important;
-    }
-    .site-footer{
-      padding:0 !important;
-      padding-top:4em !important;
-      padding-bottom:4em !important;
+    <!-- end of content, see start in header -->
+    <style>
+        .site-footer ,.footer-heading ,.site-footer .p {
+            font-size: 16px;
+            text-align: center !important;
+            background:#8e24aa !important;
+            /*color: #fff!important;*/
+        }
+        .site-footer p, .site-footer a {
+            color: #bbb !important;
+        }
+        .site-footer .border-top {
+            border-top: 1px solid #bbb !important;
+        }
+        .site-footer{
+        padding:0 !important;
+        padding-top:4em !important;
+        padding-bottom:4em !important;
 
-    }
-  </style>
+        }
+    </style>
+    <div class="container-fluid bg-light mt-5 p-5" >
+        <div class="container" >
+            <div class="row">
+                <div class="col-6 pl-5">
+                    <h3>สมัครเรียนกับเรา</h3> 
+                    <h5 id="schedule">สอบถามข้อมูลการรับสมัครเพิ่มเติม</h5>            
+                    <p>โทร. 083-138-0981</p>
+                </div>
+                <div class="col-6 text-right">
+                    <div class="py-4">
+                        <a class="btn btn-primary" href="tcas.php">รายะละเอียดสมัครเรียน</a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
     <footer class="site-footer">
       <div class="container">
        

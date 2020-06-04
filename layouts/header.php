@@ -211,5 +211,6 @@
                   
         </div>
     </header>
+    <!-- start of content , see end in footer -->
     <div class="content">
   
