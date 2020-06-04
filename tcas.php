@@ -31,8 +31,14 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
         <li>ปริญญาตรีเรียนเสาร์ - อาทิตย์ สมัครเรียนได้ตั้งแต่วันนี้ - 12 มิถุนายน 2563  </li>
         </ul>
         <div class="text-center">
-            <a class="btn btn-primary" href="http://ent.vru.ac.th">กรอกใบสมัครเรียน</a> 
+            <div class="py-2">
+                <a class="btn btn-primary" href="http://ent.vru.ac.th">กรอกใบสมัครเรียน</a>
+            </div>
+            <div class="py-2">
+                <a class="" href="https://forms.gle/4WYGkwpKAhX387Du6">ลิงค์สำรองกรอกใบสมัครเรียน</a>
+            </div>
         </div>
+        
     </div>
 </div>
 
@@ -69,8 +75,13 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
                 <h5 id="schedule">สอบถามข้อมูลการรับสมัครเพิ่มเติม</h5>            
                 <p>โทร. 083-138-0981</p>
             </div>
-            <div class="col-6 text-right py-5">
-                <a class="btn btn-primary" href="http://ent.vru.ac.th">กรอกใบสมัครเรียน</a>
+            <div class="col-6 text-right">
+                <div class="py-2">
+                    <a class="btn btn-primary" href="http://ent.vru.ac.th">กรอกใบสมัครเรียน</a>
+                </div>
+                <div class="py-2">
+                    <a class="" href="https://forms.gle/4WYGkwpKAhX387Du6">ลิงค์สำรองกรอกใบสมัครเรียน</a>
+                </div>
             </div>
         </div>    
     </div>
