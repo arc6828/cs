@@ -27,15 +27,20 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
         <h3>ช่องทางการสมัคร และระยะเวลาการสมัคร</h3>
         <p style="font-size : 1.2rem;">ผ่านเว็บไซต์กลางของมหาวิทยาลัย : <a href="http://ent.vru.ac.th/">http://ent.vru.ac.th/</a></p>
         <ul style="list-style-type:none;">
-        <li>ปริญญาตรีเรียนจันทร์ - ศุกร์ สมัครเรียนได้ตั้งแต่วันนี้ - 14 มิถุนายน 2563 <span class="text-danger">(ขยายเวลารับสมัคร)</span></li>
-        <li>ปริญญาตรีเรียนเสาร์ - อาทิตย์ สมัครเรียนได้ตั้งแต่วันนี้ - 12 มิถุนายน 2563  <span class="text-danger">(ขยายเวลารับสมัคร)</span></li>
+        <li>ปริญญาตรีเรียนจันทร์ - ศุกร์ สมัครเรียนได้ตั้งแต่วันนี้ - 14 มิถุนายน 2563 <span class="text-danger">(ปิดรับสมัคร)</span></li>
+        <li>ปริญญาตรีเรียนเสาร์ - อาทิตย์ สมัครเรียนได้ตั้งแต่วันนี้ - 12 มิถุนายน 2563  <span class="text-danger">(ปิดรับสมัคร)</span></li>
+        
+        <li>ปริญญาตรีเรียนเสาร์ - อาทิตย์ สมัครเรียนได้ตั้งแต่วันนี้เป็นต้นไป  <span class="text-success">(เปิดเทอม พฤศจิกายน 2563)</span></li>
         </ul>
         <div class="text-center">
             <div class="py-2">
                 <a class="btn btn-primary" href="http://ent.vru.ac.th">กรอกใบสมัครเรียน</a>
             </div>
             <div class="py-2">
-                <a class="" href="https://forms.gle/4WYGkwpKAhX387Du6">ลิงค์สำรองกรอกใบสมัครเรียน</a>
+                <a class="" href="https://forms.gle/BxYpmgHTJ98gytQR9">ลิงค์สำรองกรอกใบสมัครเรียน (ของหลักสูตร)</a>
+            </div>
+            <div class="py-2 d-none">
+                <a class="" href="https://forms.gle/4WYGkwpKAhX387Du6">ลิงค์สำรองกรอกใบสมัครเรียน (ของคณะวิทย์)</a>
             </div>
         </div>
         
@@ -52,11 +57,15 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
         </div>
     </div>
     <div class="mt-4">
-        <h3 id="schedule">ตารางการรับสมัครนักศึกษาปริญญาตรี เสาร์-อาทิตย์ 63 </h3>
+        <h3 id="schedule">ตารางการรับสมัครนักศึกษาปริญญาตรี เสาร์-อาทิตย์ 63 เทอม 2 </h3>
         
-        <div class="text-center">
+        <div class="text-center d-none">
             <img class="img-thumbnail"  src="images/tcas/tcas63-schedule2.png" width="100%" >
             <p>อ้างอิง <a href="http://ent.vru.ac.th/Bachelor_special_Register/PDFfile/new63/new_bch_27052563.pdf">http://acad.vru.ac.th/about_acad/staff/news/2/news425.pdf</a></p>
+    
+        </div>
+        <div class="text-center h4 text-danger p-4">
+            รอประกาศอย่างเป็นทางการจากฝ่ายทะเบียน
     
         </div>
         
@@ -71,7 +80,10 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
                 <a class="btn btn-primary" href="http://ent.vru.ac.th">กรอกใบสมัครเรียน</a>
             </div>
             <div class="py-2">
-                <a class="" href="https://forms.gle/4WYGkwpKAhX387Du6">ลิงค์สำรองกรอกใบสมัครเรียน</a>
+                <a class="" href="https://forms.gle/BxYpmgHTJ98gytQR9">ลิงค์สำรองกรอกใบสมัครเรียน (ของหลักสูตร)</a>
+            </div>
+            <div class="py-2 d-none">
+                <a class="" href="https://forms.gle/4WYGkwpKAhX387Du6">ลิงค์สำรองกรอกใบสมัครเรียน (ของคณะวิทย์)</a>
             </div>
         </div>
         
