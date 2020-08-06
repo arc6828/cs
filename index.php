@@ -162,6 +162,16 @@
                     <div class="tab-content">	
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab" style="margin-left:10px;margin-right:10px"> 
                             <br />
+	  	  	                <a href="uploads/07-20/30-07-2563.pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัย ฉบับที่ 9 กำหนดอัตราค่าธรรมเนียมเรียกเก็บสำหรับการจัดการศึกษาระดับปริญญาตรี พ.ศ.2563(30 ก.ค. 63)</font></a>
+	                        <hr>
+	  	  	                <a href="uploads/07-20/30-07-2563(1).pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226;กองพัฒนานักศึกษา ขอประชาสัมพันธํ์และส่งหลักเกณฑ์การประกวดคลิปวิดิโอ หัวข้อ "VRU Safe Driving"(30 ก.ค. 63)</font></a>
+	                        <hr>
+							<a href="uploads/07-20/2-07-2563(2).pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226;แนวทางการดำเนินกิจกรรม งดการจัดกิจกรรมต้อนรับน้องใหม่และประชุมเชียร์(2 ก.ค. 63)</font></a>
+							<hr>
+							<a href="uploads/07-20/2-07-2563(1).pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัย งดการจัดกิจกรรมต้อนรับน้องใหม่ และประชุมเชียร์(2 ก.ค. 63)</font></a>
+							<hr>
+							<a href="uploads/07-20/2-07-2563.pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัย มาตรการเฝ้าระวังการระบาดเชื้อไวรัสโคโรนา(2 ก.ค. 63)</font></a>
+							<hr>
                             <a href="uploads/04-20/27-04-2563.pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประชาสัมพันธ์ ประกาศมหาวิทยาลัย วิธีการจ่ายเงินช่วยเหลือนักศึกษาได้รับผลกระทบโควิด-19(27 เม.ย. 63)</font></a>
                             <hr>
                             <a href="uploads/04-20/27-04-2563(1).pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประชาสัมพันธ์รายละเอียดระบบเรียนออนไลน์ทักษะด้านดิจิทัล(27 เม.ย. 63)</font></a>
@@ -245,6 +255,8 @@
                         </div>
                         <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab" style="margin-left:10px;margin-right:10px">
                             <br />
+							<a href="uploads/07-20/2-07-2563(3).pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226; สนง.คุ้มครองผู้บริโภค  ขอความประชาสัมพันธ์การรับนักศึกษาฝึกงาน  (2 ก.ค. 63)</font></a>
+							<hr>
                             <a href="uploads/05-20/14-05-20.pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศรับสมัครสอบแข่งขันเพื่อบรรจุและแต่งตั้งบุคคลเข้าเป็นพนักงานมหาวิทยาลัย สายสนับสนุน ตำแหน่งนักวิชาการคอมพิวเตอร์ จำนวน 1 ตำแหน่ง 2 อัตรา สังกัดศูนย์คอมพิวเตอร์ สำนักงานอธิการบดี มรภ.วไลยอลงกรณ์ ในพระบรมราชูปถัมภ์(14 พ.ค. 63)</font></a>
                             <hr>
                             <a href="uploads/10-19/29-10-19.pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226; รับสมัครเจ้าหน้าที่ประจำตามสัญญาจ้าง ตำแหน่ง นักวิชาการคอมพิวเตอร์ จำนวน 1 อัตรา สังกัดคณะวิทยาศาสตร์และเทคโนโลยี   (29 ต.ค. 62)</font></a>
@@ -303,6 +315,12 @@
                 <a href="https://goo.gl/forms/59Nz2gnBpnc9QSEX2">
                     <img src="images/fromfix.jpg" width="250" height="70" style="margin-top:3px;">
                 </a>
+				<a href="https://forms.gle/5tiPTzzFoivjKCNV6">
+					<img src="images/123.jpg" style="margin-top:3px;">
+				</a>
+                <a href="https://forms.gle/7StYDzL6H2esgBi1A">
+					<img src="images/Network.jpg" style="margin-top:3px;">
+				</a>
             </div>
             
         </div>
