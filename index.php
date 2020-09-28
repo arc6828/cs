@@ -112,6 +112,12 @@
         bottom: 40px;
         /*width: 100%;*/
     }
+.site-blocks-cover.overlay:before {
+    background: rgba(0, 0, 0, 0) !important;
+}
+.site-blocks-cover.overlay-2:after {
+    background: rgba(0, 0, 0, 0) !important;
+}
 
 </style>
 <!-- start slide -->
