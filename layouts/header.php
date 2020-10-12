@@ -102,7 +102,11 @@
             font-weight: 400;
             font-size: 1rem;
           
-            }
+        }
+        .anchor{
+            padding-top: 150px; 
+            margin-top: -150px;
+        }
     </style>
     <link rel="icon" href="images/css.png" >
 </head>
