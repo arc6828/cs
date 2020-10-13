@@ -168,6 +168,8 @@
                     <div class="tab-content">	
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab" style="margin-left:10px;margin-right:10px"> 
                             <br />
+							<a href="uploads/09-20/29-09-2563.pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226;ศูนย์ภาษา ประชาสัมพันธ์ตารางสอบวัดความสามารถภาษาอังกฤษ VRU-TEP(29 ก.ย. 63)</font></a>
+	                        <hr>
 						    <a href="uploads/08-20/25-08-2563(1).pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัย เรื่องการรับสมัครนักศึกษาปริญญาตรี เสาร์-อาทิตย์ ภาคเรียนที่2 ปีการศึกษา 2564(25 ส.ค. 63)</font></a>
 	                        <hr>
 							<a href="uploads/08-20/25-08-2563.pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัย เรื่องการรับสมัครนักศึกษาปริญญาตรี จันทร์-ศุกร์ ปีการศึกษา 2564(25 ส.ค. 63)</font></a>
