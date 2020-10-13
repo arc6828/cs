@@ -28,7 +28,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
         <p style="font-size : 1.2rem;">ผ่านเว็บไซต์กลางของมหาวิทยาลัย : <a href="http://ent.vru.ac.th/">http://ent.vru.ac.th/</a></p>
         <ul style="list-style-type:none;">
             <li>ปริญญาตรีเรียนจันทร์ - ศุกร์ สมัครเรียนได้ตั้งแต่ <strong>วันนี้ - มิถุนายน 2564 </strong> <span class="text-danger"></span></li>
-            <li>ปริญญาตรีเรียนเสาร์ - อาทิตย์ สมัครเรียนได้ตั้งแต่ <strong>วันนี้ - 15 ตุลาคม 2563</strong>  <span class="text-success">(เปิดเทอม พฤศจิกายน 2563)</span></li>
+            <li>ปริญญาตรีเรียนเสาร์ - อาทิตย์ สมัครเรียนได้ตั้งแต่ <strong>วันนี้ - 15 ตุลาคม 2563</strong>  <span class="text-success">(เปิดเทอม 21 พฤศจิกายน 2563)</span></li>
         </ul>
         <div class="text-center">
             <div class="py-2">
@@ -52,7 +52,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
         <?php include('tcas-detail.php') ?>
         <div class="text-center">
             <img class="img-thumbnail"  src="images/tcas/tcas64-schedule-normal.png" width="100%">
-            <p>อ้างอิง <a href="http://ent.vru.ac.th/UPDATE/PDFfile/new_tcas63.pdf">http://ent.vru.ac.th/UPDATE/PDFfile/new_tcas63.pdf</a></p>
+            <p>อ้างอิง <a href="http://acad.vru.ac.th/about_acad/staff/news/2/news437.pdf">PDF ประกาศจันทร์ - ศุกร์ </a></p>
         </div>
     </div>
     <!-- START NORMAL -->
@@ -72,17 +72,60 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
         </ul>        
         <div class="text-center">
             <img class="img-thumbnail"  src="images/tcas/tcas64-schedule-special.png" width="100%" style="max-width:800px;" >
-            <p>อ้างอิง <a href="http://acad.vru.ac.th/about_acad/staff/news/2/news436.pdf">http://acad.vru.ac.th/about_acad/staff/news/2/news436.pdf</a></p>
+            <p>อ้างอิง <a href="http://acad.vru.ac.th/about_acad/staff/news/2/news436.pdf">PDF ประกาศ เสาร์ - อาทิตย์</a></p>
     
         </div>
     </div>
     <!-- START SPECIAL -->
 
 </div>
-<div class="container-fluid bg-light p-5 mt-4" >
-    <div class="container text-center" >
-        <h3 >สมัครเรียนที่นี่ ปริญญาตรี ภาคจันทร์-ศุกร์ และภาคเสาร์-อาทิตย์</h3>
+<div class="container-fluid bg-light p-5"   >
+    <div class="container text-center"  >
+        <h3 class="container text-center anchor" id="fee" >อัตราค่าธรรมเนียมการศึกษาวิทยาการคอมพิวเตอร์</h3>
         <div class="text-center">
+            <div class="py-2">
+                <div class="table-responsive">
+                    <table class="table table-striped ">
+                        <thead>                    
+                            <tr>
+                                <th>ภาคการเรียน</th>
+                                <th>ช่วงเวลา</th>
+                                <th>จันทร์ - ศุกร์</th>
+                                <th>เสาร์ - อาทิตย์</th>
+                            </tr>
+                        </thead>
+                        <tbody>                      
+                            <tr>
+                                <td>ภาคเรียนที่ 1</td>
+                                <td>กรกฏาคม - ตุลาคม</td>
+                                <td>12,000 บาท</td>
+                                <td>12,000 บาท</td>
+                            </tr> 
+                            <tr>
+                                <td>ภาคเรียนที่ 2</td>
+                                <td>พฤศจิกายน - กุมภาพันธ์</td>
+                                <td>12,000 บาท</td>
+                                <td>12,000 บาท</td>
+                            </tr>                         
+                            <tr>
+                                <td>ภาคเรียนที่ 3</td>
+                                <td>มีนาคม - พฤษภาคม</td>
+                                <td>-</td>
+                                <td>ไม่เกิน 6,000 บาท*</td>
+                            </tr>   
+                        </tbody>
+                        <tfoot>                     
+                            <tr>
+                                <th>รวม</th>
+                                <th>ตลอดปี</th>
+                                <th>24,000 บาท</th>
+                                <th>ไม่เกิน 30,000 บาท</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <div><strong>หมายเหตุ* อัตราค่าธรรมเนียมภาคเรียนที่ 3 (ฤดูร้อน) ขึ้นอยู่กับหน่วยกิตที่ลง</strong></div>
+            </div>
             <div class="py-2">
                 <a class="btn btn-primary" href="http://ent.vru.ac.th">กรอกใบสมัครเรียน</a>
             </div>
