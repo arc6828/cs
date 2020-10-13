@@ -81,7 +81,9 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 </div>
 <div class="container-fluid bg-light p-5"   >
     <div class="container text-center"  >
-        <h3 class="container text-center anchor" id="fee" >อัตราค่าธรรมเนียมการศึกษาวิทยาการคอมพิวเตอร์</h3>
+        <h3 class="container text-center anchor" id="fee" >
+            อัตราค่าธรรมเนียมการศึกษาวิทยาการคอมพิวเตอร์ <a href="#fee"><i class="fa fa-home"></i> #</a>
+        </h3>
         <div class="text-center">
             <div class="py-2">
                 <div class="table-responsive">
