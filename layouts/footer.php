@@ -23,12 +23,12 @@
     <div class="container-fluid bg-light mt-5 p-5" >
         <div class="container" >
             <div class="row">
-                <div class="col-6 pl-5">
+                <div class="col-md-6 pl-4">
                     <h3>สมัครเรียนกับเรา</h3> 
                     <h5 id="schedule">สอบถามข้อมูลการรับสมัครเพิ่มเติม</h5>            
                     <p>โทร. 083-138-0981</p>
                 </div>
-                <div class="col-6 text-right">
+                <div class="col-md-6 text-right">
                     <div class="py-4">
                         <a class="btn btn-primary" href="tcas.php">รายะละเอียดสมัครเรียน</a>
                     </div>
