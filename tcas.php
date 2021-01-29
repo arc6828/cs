@@ -14,7 +14,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 </style>
 <!-- Introduction -->
 <div class="container mt-4" >
-    <h1 >&starf;&nbsp;รับสมัครนักศึกษาปริญญาตรี (จันทร์-ศุกร์ และ เสาร์-อาทิตย์)</h1>
+    <h1 ><i class="fa fa-star"></i> รับสมัครนักศึกษาปริญญาตรี (จันทร์-ศุกร์ และ เสาร์-อาทิตย์)</h1>
     <hr>
     
     <img class="img-thumbnail" src="images/tcas/pr-2020-05-14.jpg" width="100%" > 
@@ -35,15 +35,15 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
         </ul>
         <div class="text-center">
             <div class="py-2">
-                <a class="btn btn-primary" href="http://ent.vru.ac.th"  target="_blank">
+                <a class="btn btn-primary  mb-4" href="http://ent.vru.ac.th"  target="_blank">
                     สมัครเรียน<br>ผ่านส่วนกลาง<br>ทุกประเภท<br>(ค่าสมัคร 300 บาท)
                 </a> 
              
-                <a class="btn btn-outline-primary" href="https://forms.gle/4WYGkwpKAhX387Du6"  target="_blank">
+                <a class="btn btn-outline-primary  mb-4" href="https://forms.gle/4WYGkwpKAhX387Du6"  target="_blank">
                     สมัครเรียน<br>ผ่านคณะ<br> ประเภทจันทร์ - ศุกร์ <br>(ฟรีค่าสมัคร)
                 </a>
              
-                <a class="btn btn-outline-secondary" href="https://forms.gle/BxYpmgHTJ98gytQR9"  target="_blank">
+                <a class="btn btn-outline-secondary  mb-4" href="https://forms.gle/BxYpmgHTJ98gytQR9"  target="_blank">
                     ลิงค์สำรองกรอก<br>ผ่าน Google Form <br> ทุกประเภท <br>(ค่าสมัคร 300 บาท)
                 </a>
             </div>
@@ -60,7 +60,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 <div class="container" >
     <!-- START NORMAL -->
     <div class="mt-4">
-        <h3 class="text-primary">ตารางการรับสมัครนักศึกษา TCAS 64 (ปริญญาตรี จันทร์-ศุกร์)</h3>
+        <h3 class="text-primary"><i class="fa fa-calendar"></i>  ตารางการรับสมัครนักศึกษา TCAS 64 (ปริญญาตรี จันทร์-ศุกร์)</h3>
         <?php include('tcas-detail.php') ?>
         <div class="text-center">
             <img class="img-thumbnail"  src="images/tcas/tcas64-schedule-normal.png" width="100%">
@@ -71,7 +71,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 
     <!-- START SPECIAL -->
     <div class="mt-4">
-        <h3 class="text-primary">ตารางการรับสมัครนักศึกษาปริญญาตรี เสาร์-อาทิตย์ 64 </h3>
+        <h3 class="text-primary"><i class="fa fa-calendar"></i>  ตารางการรับสมัครนักศึกษาปริญญาตรี เสาร์-อาทิตย์ 64 </h3>
         <div><a href="http://acad.vru.ac.th/about_acad/staff/news/2/news454.pdf" target="_blank">PDF ประกาศรับสมัครภาคเสาร์ - อาทิตย์</a>  </div>
         <ul>            
             
@@ -94,10 +94,10 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 </div>
 
 <!-- อัตราค่าธรรมเนียมการศึกษาวิทยาการคอมพิวเตอร์ -->
-<div class="container-fluid bg-light p-5"   >
-    <div class="container text-center"  >
-        <h3 class="container text-center anchor" id="fee" >
-            อัตราค่าธรรมเนียมการศึกษาวิทยาการคอมพิวเตอร์ <a href="#fee"><i class="fa fa-home"></i> #</a>
+<div class="container-fluid bg-light py-5"   >
+    <div class="container "  >
+        <h3 class="container  anchor" id="fee" >
+            <i class="fa fa-percent"></i>  อัตราค่าธรรมเนียมการศึกษาวิทยาการคอมพิวเตอร์ <a href="#fee">#</a>
         </h3>
         <div class="text-center">
             <div class="py-2">
@@ -145,15 +145,15 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
             </div>
             <div class="text-center">
                 <div class="py-2">
-                    <a class="btn btn-primary" href="http://ent.vru.ac.th"  target="_blank">
+                    <a class="btn btn-primary mb-4" href="http://ent.vru.ac.th"  target="_blank">
                         สมัครเรียน<br>ผ่านส่วนกลาง<br>ทุกประเภท<br>(ค่าสมัคร 300 บาท)
                     </a> 
                 
-                    <a class="btn btn-outline-primary" href="https://forms.gle/4WYGkwpKAhX387Du6"  target="_blank">
+                    <a class="btn btn-outline-primary mb-4" href="https://forms.gle/4WYGkwpKAhX387Du6"  target="_blank">
                         สมัครเรียน<br>ผ่านคณะ<br> ประเภทจันทร์ - ศุกร์ <br>(ฟรีค่าสมัคร)
                     </a>
                 
-                    <a class="btn btn-outline-secondary" href="https://forms.gle/BxYpmgHTJ98gytQR9"  target="_blank">
+                    <a class="btn btn-outline-secondary mb-4" href="https://forms.gle/BxYpmgHTJ98gytQR9"  target="_blank">
                         ลิงค์สำรองกรอก<br>ผ่าน Google Form <br> ทุกประเภท <br>(ค่าสมัคร 300 บาท)
                     </a>
                 </div>
@@ -166,7 +166,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 <!-- Technology Stack 2021 -->
 <div class="container pt-5" >
     <img class="img-thumbnail d-none"  src="images/tcas/pr-2020-04-27.jpg" style="max-width:500px; width:100%;">
-    <h2>Technology Stack 2021</h2>
+    <h2><i class="fa fa-rocket"></i>  Technology Stack 2021</h2>
     <div class="mt-4 text-center ">
         <img class="img-thumbnail"  src="images/technology-stack.jpg" style="width:100%;">
     </div>
@@ -186,16 +186,16 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 
 <!-- ติดตามข่าวสารได้ที่นี่ -->
 <div class="container pt-5" >
-    <h2>ติดตามข่าวสารได้ที่นี่</h2>
+    <h2><i class="fa fa-bullhorn"></i> ติดตามข่าวสารการสมัครได้ที่นี่</h2>
     <div class="">
         <p>หลักจากที่คุณได้สมัครเข้ามาแล้ว คุณสามารถติดตามข่าวสารการสมัครของคุณ รวมถึงการประกาศต่างๆ จากทางมหาวิทยาลัยอย่างใกล้ชิดให้ที่ Line กลุ่มของหลักสูตร โดยจะแบ่งเป็น 2 กลุ่ม ได้แก่่ </p>
         <div class="row text-center">
-            <div class="col-lg-6">
+            <div class="col-lg-6 mb-4">
                 <img class="img-thumbnail"  src="images/tcas/Line-Mon-Fri.jpg" style="max-width:300px; width:100%;">
                 <div><strong>CS VUR #64 (จันทร์ - ศุกร์)</strong></div>
                 <div><a href="http://line.me/ti/g/MbQa_Tw6Bo">http://line.me/ti/g/MbQa_Tw6Bo</a></div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 mb-4">
                 <img class="img-thumbnail"  src="images/tcas/Line-Sat-Sun.jpg" style="max-width:300px; width:100%;">
                 <div><strong>CS VUR #64 (เสาร์ - อาทิตย์)</strong></div>
                 <div><a href="http://line.me/ti/g/NypQRk0nzk">http://line.me/ti/g/NypQRk0nzk</a></div>
