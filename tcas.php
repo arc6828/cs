@@ -29,8 +29,8 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
         <h3>ช่องทางการสมัคร และระยะเวลาการสมัคร</h3>
         <p style="font-size : 1.2rem;">ผ่านเว็บไซต์กลางของมหาวิทยาลัย : <a href="http://ent.vru.ac.th/">http://ent.vru.ac.th/</a></p>
         <ul style="list-style-type:none;">
-            <li>ปริญญาตรีเรียนจันทร์ - ศุกร์ สมัครเรียนได้ตั้งแต่ <strong>วันนี้ - มิถุนายน 2564 </strong> <span class="text-danger"></span></li>
-            <li>ปริญญาตรีเรียนเสาร์ - อาทิตย์ สมัครเรียนได้ตั้งแต่ <strong>วันนี้ - มิถุนายน 2564</strong> </li>
+            <li>ปริญญาตรีเรียนจันทร์ - ศุกร์ สมัครเรียนได้ตั้งแต่ <strong>วันนี้ - พฤษภาคม 2564 </strong> <span class="text-danger"></span></li>
+            <li>ปริญญาตรีเรียนเสาร์ - อาทิตย์ สมัครเรียนได้ตั้งแต่ <strong>วันนี้ - พฤษภาคม 2564</strong> </li>
             <li> <span class="text-success">(เปิดเทอม มิถุนายน 2564)</span></li>
         </ul>
         <div class="text-center">
