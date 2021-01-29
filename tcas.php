@@ -12,9 +12,9 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 <style>        
         
 </style>
-
+<!-- Introduction -->
 <div class="container mt-4" >
-    <h2>&starf;&nbsp;รับสมัครนักศึกษา (ปริญญาตรีภาคจันทร์-ศุกร์ และภาคเสาร์-อาทิตย์)</h2>
+    <h1 >&starf;&nbsp;รับสมัครนักศึกษาปริญญาตรี (จันทร์-ศุกร์ และ เสาร์-อาทิตย์)</h1>
     <hr>
     
     <img class="img-thumbnail" src="images/tcas/pr-2020-05-14.jpg" width="100%" > 
@@ -22,6 +22,8 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
         หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ รับสมัคร <strong>นักศึกษาปริญญาตรีปีการศึกษา 64 สำหรับเรียนจันทร์-ศุกร์ และเรียนเสาร์-อาทิตย์</strong> ตั้งแต่วันนี้เป็นต้นไป  สนใจดูรายละเอียดและกรอกใบสมัครได้ที่นี่ สอบถามข้อมูลการรับสมัครเพิ่มเติม โทรด่วน. 083-138-0981 
     </p>
 </div>
+
+<!-- ช่องทางการสมัคร -->
 <div class="container-fluid bg-light p-5 mt-4" >
     <div class="container text-center" >
         <h3>ช่องทางการสมัคร และระยะเวลาการสมัคร</h3>
@@ -54,6 +56,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
     </div>
 </div>
 
+<!-- กำหนดการ -->
 <div class="container" >
     <!-- START NORMAL -->
     <div class="mt-4">
@@ -64,7 +67,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
             <p>อ้างอิง <a href="http://acad.vru.ac.th/about_acad/staff/news/2/news437.pdf">PDF ประกาศจันทร์ - ศุกร์ </a></p>
         </div>
     </div>
-    <!-- START NORMAL -->
+    <!-- END NORMAL -->
 
     <!-- START SPECIAL -->
     <div class="mt-4">
@@ -86,9 +89,11 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
     
         </div>
     </div>
-    <!-- START SPECIAL -->
+    <!-- END SPECIAL -->
 
 </div>
+
+<!-- อัตราค่าธรรมเนียมการศึกษาวิทยาการคอมพิวเตอร์ -->
 <div class="container-fluid bg-light p-5"   >
     <div class="container text-center"  >
         <h3 class="container text-center anchor" id="fee" >
@@ -158,6 +163,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
     </div>
 </div>
 
+<!-- Technology Stack 2021 -->
 <div class="container pt-5" >
     <img class="img-thumbnail d-none"  src="images/tcas/pr-2020-04-27.jpg" style="max-width:500px; width:100%;">
     <h2>Technology Stack 2021</h2>
@@ -178,6 +184,28 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
     
 </div>
 
+<!-- ติดตามข่าวสารได้ที่นี่ -->
+<div class="container pt-5" >
+    <h2>ติดตามข่าวสารได้ที่นี่</h2>
+    <div class="">
+        <p>หลักจากที่คุณได้สมัครเข้ามาแล้ว คุณสามารถติดตามข่าวสารการสมัครของคุณ รวมถึงการประกาศต่างๆ จากทางมหาวิทยาลัยอย่างใกล้ชิดให้ที่ Line กลุ่มของหลักสูตร โดยจะแบ่งเป็น 2 กลุ่ม ได้แก่่ </p>
+        <div class="row text-center">
+            <div class="col-lg-6">
+                <img class="img-thumbnail"  src="images/tcas/Line-Mon-Fri.jpg" style="max-width:300px; width:100%;">
+                <div><strong>CS VUR #64 (จันทร์ - ศุกร์)</strong></div>
+                <div><a href="http://line.me/ti/g/MbQa_Tw6Bo">http://line.me/ti/g/MbQa_Tw6Bo</a></div>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-thumbnail"  src="images/tcas/Line-Sat-Sun.jpg" style="max-width:300px; width:100%;">
+                <div><strong>CS VUR #64 (เสาร์ - อาทิตย์)</strong></div>
+                <div><a href="http://line.me/ti/g/NypQRk0nzk">http://line.me/ti/g/NypQRk0nzk</a></div>
+            </div>
+        </ul>
+    </div>
+    
+    
 
+    
+</div>
 <!-- end content --> 
 <?php include("layouts/footer.php") ?>  
