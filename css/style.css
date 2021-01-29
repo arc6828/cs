@@ -75,15 +75,27 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
-    box-shadow: none !important; }
+    box-shadow: none !important; 
+  }
   .btn.btn-primary {
     background: #37cfa2;
     border-color: #37cfa2;
-    color: #fff; }
-    .btn.btn-primary:hover {
-      background: #343a40;
-      color: #fff;
-      border-color: #343a40; }
+    color: #fff; 
+  }
+  .btn.btn-primary:hover {
+    background: #343a40;
+    color: #fff;
+    border-color: #343a40; 
+  }
+  .btn.btn-outline-primary {
+    color: #37cfa2;
+    border-color: #37cfa2;  
+  }
+  .btn.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #37cfa2;
+    border-color: #37cfa2; 
+  }
     .btn.btn-primary.btn-black--hover:hover {
       background: #666666;
       color: #fff; }

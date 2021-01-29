@@ -33,16 +33,24 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
         </ul>
         <div class="text-center">
             <div class="py-2">
-                <a class="btn btn-primary" href="http://ent.vru.ac.th"  target="_blank">กรอกใบสมัครเรียน <br>(ค่าสมัคร 300 บาท)</a> 
-            </div>
-            <div class="py-2">
-                <a class="" href="https://forms.gle/4WYGkwpKAhX387Du6"  target="_blank">ลิงค์สำรองกรอกใบสมัครเรียนจันทร์ - ศุกร์ (ของคณะวิทย์, ฟรีค่าสมัคร)</a>
-            </div>
-            <div class="py-2">
-                <a class="" href="https://forms.gle/BxYpmgHTJ98gytQR9"  target="_blank">ลิงค์สำรองกรอกใบสมัครเรียน (ของหลักสูตร, ค่าสมัคร 300 บาท)</a>
+                <a class="btn btn-primary" href="http://ent.vru.ac.th"  target="_blank">
+                    สมัครเรียน<br>ผ่านส่วนกลาง<br>ทุกประเภท<br>(ค่าสมัคร 300 บาท)
+                </a> 
+             
+                <a class="btn btn-outline-primary" href="https://forms.gle/4WYGkwpKAhX387Du6"  target="_blank">
+                    สมัครเรียน<br>ผ่านคณะ<br> ประเภทจันทร์ - ศุกร์ <br>(ฟรีค่าสมัคร)
+                </a>
+             
+                <a class="btn btn-outline-secondary" href="https://forms.gle/BxYpmgHTJ98gytQR9"  target="_blank">
+                    ลิงค์สำรองกรอก<br>ผ่าน Google Form <br> ทุกประเภท <br>(ค่าสมัคร 300 บาท)
+                </a>
             </div>
         </div>
-        
+        <div class="text-center">
+            หลักจากนักศึกษามีชื่ออยู่ในระบบลงทะเบียนของมหาวิทยาลัยแล้ว นักศึกษาสามารถเข้าไปพิมพ์ใบชำระเงินได้ที่ <a href="http://ent.vru.ac.th/">http://ent.vru.ac.th/</a>
+            โดยเลือกเข้าสู่ระบบก่อน ด้วยใช้รหัสบัตรประจำตัวประชาชน 13 หลัก ให้กรอกในช่อง Username และ Password ทั้งคู่ จากนั้นกดปุ่มพิมพ์ใบชำระเงิน
+            <div class="text-danger"> ชำระเงินค่าสมัครได้ที่เคาน์เตอร์เซอร์วิส 7-11 ทุกสาขาใกล้บ้าน</div>
+        </div>
     </div>
 </div>
 
@@ -61,15 +69,15 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
     <!-- START SPECIAL -->
     <div class="mt-4">
         <h3 class="text-primary">ตารางการรับสมัครนักศึกษาปริญญาตรี เสาร์-อาทิตย์ 64 </h3>
+        <div><a href="http://acad.vru.ac.th/about_acad/staff/news/2/news454.pdf" target="_blank">PDF ประกาศรับสมัครภาคเสาร์ - อาทิตย์</a>  </div>
         <ul>            
             
-            <li><strong>เปิดรับสมัครและชำระเงินค่าสมัครตั้งแต่วันนี้  ถึง มิถุนายน 2564</strong></li>
-            <!-- <li>ผู้สมัครแนบวุฒิการศึกษาในระบบรับสมัครตั้งแต่ 1 กันยายน  ถึง 15 ตุลาคม 2563</li>
-            <li>ประกาศรายชื่อผู้มีสิทธิ์เข้าศึกษาและสาขาวิชาที่เปิดเรียนได้วันที่ 17 ตุลาคม 2563</li>
-            <li>ผู้สมัครเลือกสาขาวิชาใหม่ในสาขาวิชาที่ไม่สามารถเปิดเรียนได้ ในระบบรับสมัคร วันที่ 19 - 22 ตุลาคม 2563</li>
-            <li>ประกาศรายชื่อผู้มีสิทธิ์เข้าศึกษา (เพิ่มเติม)วันที่ 24 ตุลาคม 2563</li>
-            <li> ชำระเงินลงทะเบียนที่เคาน์เตอร์เซอร์วิส 7-11/มหาวิทยาลัยวันที่ 25 - 31 ตุลาคม 2563</li> -->
-            <li>ปฐมนิเทศ มิถุนายน  2564</li>
+            <li><strong>เปิดรับสมัครออนไลน์  แนบวุฒิการศึกษา และชำระเงินค่าสมัครตั้งแต่วันนี้  ถึง 16 พฤษภาคม 2564</strong></li>
+            <li>ประกาศรายชื่อผู้มีสิทธิ์เข้าศึกษาและสาขาวิชาที่เปิดเรียนได้วันที่ 20 พฤษภาคม 2564</li>
+            <li>ผู้สมัครเลือกสาขาวิชาใหม่ในสาขาวิชาที่ไม่สามารถเปิดเรียนได้ ในระบบรับสมัคร วันที่ 21 - 26 พฤษภาคม 2564</li>
+            <li>ประกาศรายชื่อผู้มีสิทธิ์เข้าศึกษา (เพิ่มเติม)วันที่ 30 พฤษภาคม 2564</li>
+            <li>ชำระเงินลงทะเบียนที่เคาน์เตอร์เซอร์วิส 7-11/มหาวิทยาลัยวันที่ 1 - 15 มิถุนายน 2564</li>            
+            <li>ปฐมนิเทศภายในมิถุนายน 2564 (รอประกาศอย่างเป็นทางการ)</li>
             <li>เปิดภาคการศึกษาที่ 1/2564 วันที่ 26 มิถุนายน 2564</li>          
         </ul>        
         <div class="text-center">
@@ -130,14 +138,20 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
                 </div>
                 <div><strong>หมายเหตุ* อัตราค่าธรรมเนียมภาคเรียนที่ 3 (ฤดูร้อน) ขึ้นอยู่กับหน่วยกิตที่ลง</strong></div>
             </div>
-            <div class="py-2">
-                <a class="btn btn-primary" href="http://ent.vru.ac.th"  target="_blank">กรอกใบสมัครเรียน <br>(ค่าสมัคร 300 บาท)</a> 
-            </div>
-            <div class="py-2">
-                <a class="" href="https://forms.gle/4WYGkwpKAhX387Du6"  target="_blank">ลิงค์สำรองกรอกใบสมัครเรียนจันทร์ - ศุกร์ (ของคณะวิทย์, ฟรีค่าสมัคร)</a>
-            </div>
-            <div class="py-2">
-                <a class="" href="https://forms.gle/BxYpmgHTJ98gytQR9"  target="_blank">ลิงค์สำรองกรอกใบสมัครเรียน (ของหลักสูตร, ค่าสมัคร 300 บาท)</a>
+            <div class="text-center">
+                <div class="py-2">
+                    <a class="btn btn-primary" href="http://ent.vru.ac.th"  target="_blank">
+                        สมัครเรียน<br>ผ่านส่วนกลาง<br>ทุกประเภท<br>(ค่าสมัคร 300 บาท)
+                    </a> 
+                
+                    <a class="btn btn-outline-primary" href="https://forms.gle/4WYGkwpKAhX387Du6"  target="_blank">
+                        สมัครเรียน<br>ผ่านคณะ<br> ประเภทจันทร์ - ศุกร์ <br>(ฟรีค่าสมัคร)
+                    </a>
+                
+                    <a class="btn btn-outline-secondary" href="https://forms.gle/BxYpmgHTJ98gytQR9"  target="_blank">
+                        ลิงค์สำรองกรอก<br>ผ่าน Google Form <br> ทุกประเภท <br>(ค่าสมัคร 300 บาท)
+                    </a>
+                </div>
             </div>
         </div>
         
