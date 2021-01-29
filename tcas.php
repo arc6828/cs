@@ -24,7 +24,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 </div>
 
 <!-- ช่องทางการสมัคร -->
-<div class="container-fluid bg-light p-5 mt-4" >
+<div class="container-fluid bg-light py-5 mt-4" >
     <div class="container text-center" >
         <h3>ช่องทางการสมัคร และระยะเวลาการสมัคร</h3>
         <p style="font-size : 1.2rem;">ผ่านเว็บไซต์กลางของมหาวิทยาลัย : <a href="http://ent.vru.ac.th/">http://ent.vru.ac.th/</a></p>
