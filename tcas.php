@@ -200,7 +200,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
                 <div><strong>CS VUR #64 (เสาร์ - อาทิตย์)</strong></div>
                 <div><a href="http://line.me/ti/g/NypQRk0nzk">http://line.me/ti/g/NypQRk0nzk</a></div>
             </div>
-        </ul>
+        </div>
     </div>
     
     
