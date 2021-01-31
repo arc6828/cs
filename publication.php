@@ -280,6 +280,100 @@ $og_image = "http://cs.vru.ac.th/images/online-exmaination-system.png";
 </div>
 
 
+<!-- Modal Edit -->
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editModalLabel">แก้ไข</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="{{ url('/') }}/publication" method="POST" id="form_edit" onsubmit="return submitEdit()">
+          <input type="hidden" name="id" id="id" value="">
+          <?php include('publication-form.php'); ?>
+          <div class="form-group row">
+            <div class="col-sm-12 text-center">
+              <button type="button" class="btn btn-outline-danger float-left" onclick="delete2()" title="ลบ item นี้"><i class="fa fa-trash"></i></button>
+              <button type="button" class="btn btn-outline-primary" data-dismiss="modal" >Close</button>
+              <button class="btn btn-primary" type="submit">Save</button>
+            </div>
+          </div>
+        </form>
+        <script>
+          function submitEdit(){
+            console.log("CLICK");
+            let inputs = document.forms["form_edit"].querySelectorAll("#form_edit input, #form_edit select");
+            let chosen = document.querySelector("#id");
+            console.log(inputs);
+            let obj = {};
+            for(let item of inputs){
+              let key = item.getAttribute("name");
+              obj[key] = item.value;
+            }
+            console.log("CLICK",obj);
+            fetch('https://www.ckartisan.com/api/publication/'+chosen.value, {
+              method: 'PUT', // *GET, POST, PUT, DELETE, etc.
+              //mode: 'cors', // no-cors, *cors, same-origin
+              // cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+              // credentials: 'same-origin', // include, *same-origin, omit
+              headers: {
+                'Content-Type': 'application/json',  // 'Content-Type': 'application/x-www-form-urlencoded',
+              },
+              // redirect: 'follow', // manual, *follow, error
+              //referrerPolicy: 'origin-when-cross-origin', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+              body: JSON.stringify(obj) // body data type must match "Content-Type" header
+            })
+              .then(response => response.json())
+              .then(data => {
+                console.log(data)
+                if(data){
+                  location.reload(true);
+                }
+              });
+              
+            return false;
+          }
+          function delete2(){
+            let confirmed = confirm('Do you really want to delete this item?');
+            if(confirmed){
+              let chosen = document.querySelector("#id");
+              fetch('https://www.ckartisan.com/api/publication/'+chosen.value, {
+                method: 'DELETE', // *GET, POST, PUT, DELETE, etc.
+                // mode: 'cors', // no-cors, *cors, same-origin
+                // cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+                // credentials: 'same-origin', // include, *same-origin, omit
+                headers: {
+                  'Content-Type': 'application/json',  // 'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                // redirect: 'follow', // manual, *follow, error
+                // referrerPolicy: 'origin-when-cross-origin', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+                //body: JSON.stringify(obj) // body data type must match "Content-Type" header
+              })
+                .then(response => response.json())
+                .then(data => {
+                  console.log(data)
+                  if(data){
+                    location.reload(true);
+                  }
+                });
+
+            }
+            
+
+          }
+        </script>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
 
 
 <!-- end content --> 
