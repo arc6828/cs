@@ -60,7 +60,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 <div class="container" >
     <!-- START NORMAL -->
     <div class="mt-4">
-        <h3 class="text-primary"><i class="fa fa-calendar"></i>  ตารางการรับสมัครนักศึกษา TCAS 64 (ปริญญาตรี จันทร์-ศุกร์)</h3>
+        <h3 class=""><i class="fa fa-calendar"></i>  ตารางการรับสมัครนักศึกษา TCAS 64 (ปริญญาตรี จันทร์-ศุกร์)</h3>
         <?php include('tcas-detail.php') ?>
         <div class="text-center">
             <img class="img-thumbnail"  src="images/tcas/tcas64-schedule-normal.png" width="100%">
@@ -71,7 +71,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 
     <!-- START SPECIAL -->
     <div class="mt-4">
-        <h3 class="text-primary"><i class="fa fa-calendar"></i>  ตารางการรับสมัครนักศึกษาปริญญาตรี เสาร์-อาทิตย์ 64 </h3>
+        <h3 class=""><i class="fa fa-calendar"></i>  ตารางการรับสมัครนักศึกษาปริญญาตรี เสาร์-อาทิตย์ 64 </h3>
         <div><a href="http://acad.vru.ac.th/about_acad/staff/news/2/news454.pdf" target="_blank">PDF ประกาศรับสมัครภาคเสาร์ - อาทิตย์</a>  </div>
         <ul>            
             

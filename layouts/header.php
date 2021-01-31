@@ -111,6 +111,7 @@
         }
     </style>
     <link rel="icon" href="images/css.png" >
+    <!-- <script src="{{ asset('js/app.js') }}" defer></script> -->
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <div class="site-wrap">
@@ -166,6 +167,7 @@
                                     <div class="dropdown-menu dropright" aria-labelledby="teamDropdown">
                                         <a class="dropdown-item" href="teacher.php">อาจารย์ประจำหลักสูตร</a>
                                         <a class="dropdown-item" href="support.php">บุคลากรประจำหลักสูตร</a>
+                                        <a class="dropdown-item" href="publication.php">ผลงานตีพิมพ์ของหลักสูตร</a>
                                         <a class="dropdown-item" href="Training.php">แจ้งการอบรมพัฒนาความรู้</a>
                                         <a class="dropdown-item" href="staff.php">ระเบียบแบบฟอร์มสำหรับอาจารย์และเจ้าหน้าที่</a>
                                         <a class="dropdown-item dropdown-toggle" href="#"    id="qaDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >ประกันคุณภาพหลักสูตร</a>
