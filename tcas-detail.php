@@ -8,7 +8,7 @@
       </div>
     </div>
 
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+    <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
         <div class="card-body">
             <ul>
                 <li><strong>รับสมัคร 1 ก.ย. 63 – 30 ม.ค. 64  </strong></li>
@@ -34,10 +34,10 @@
         </button>
       </div>
     </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
         <div class="card-body">
             <ul>
-                <li><strong>รับสมัคร 8 ก.พ. – 30 มี.ค. 64http://ent.vru.ac.th</strong></li>
+                <li><strong>รับสมัคร 8 ก.พ. – 30 มี.ค. 64 http://ent.vru.ac.th</strong></li>
                 <li>ชำระเงินค่าสมัคร 8 ก.พ. – 31 มี.ค. 64 เคาน์เตอร์เซอร์วิส/มหาวิทยาลัย</li>
                 <li>ประกาศรายขื่อผู้มีสิทธิ์สอบสัมภาษณ์ 3 เม.ย. 63 http://ent.vru.ac.th</li>
                 <li>สอบสัมภาษณ์ 3 พ.ค. 64 มหาวิทยาลัย
