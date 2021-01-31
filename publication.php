@@ -1,7 +1,7 @@
 <?php 
 $og_url = "http://cs.vru.ac.th/publication.php";
 $og_type = "article";
-$og_title = "Publication หลักสูตรวิทยาการคอมพิวเตอร์รับสมัครนักศึกษาปริญญาตรี";
+$og_title = "CS Publication ผลงานตีพิมพ์หลักสูตรวิทยาการคอมพิวเตอร์";
 $og_description = "รวมผลงานที่ได้รับการตีพิมพ์เผยแพร่ต่อสาธารณะของหลักสูตรวิทยาการคอมพิวเตอร์
 มหาวิทยาลัมหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์";
 $og_image = "http://cs.vru.ac.th/images/online-exmaination-system.png";
