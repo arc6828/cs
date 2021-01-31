@@ -33,28 +33,7 @@ $og_image = "http://cs.vru.ac.th/images/online-exmaination-system.png";
       สร้าง Publication ใหม่
     </button>
   </div>
-  <div class="card" style="margin-bottom:20px;">
-      <div class="card-header d-none">
-        <div class="row ">
-          <div class="col-6">
-            
-            <!-- <a href="https://www.ckartisan.com/publication/create" class="btn btn-success">New Publication</a> -->
-          </div>
-          <div class="col-6">
-            <form class="text-right" action="{{ url('/') }}/publication#title">
-              <input name="authors" id="authors" placeholder="ค้นหาด้วยชื่อ" >
-              <select name="year" id="year" placeholder="ปีที่ตีพิมพ์" style="height:30px;" onchange="document.querySelector('#form-submit').click(); ">
-                <option value="">ทุกปี</option>
-                <?php foreach([2021,2020,2019,2018,2017,2016,2015] as $y) { ?>
-                <option value="<?=$y?>"><?=$y?></option>
-                <?php } ?>
-              </select>
-
-              <button class="btn btn-success btn-sm" type="submit" id="form-submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </div>
+  <div class="card" style="margin-bottom:20px;">      
 
       <div class="card-body">
         <ul class="nav nav-tabs nav-pills nav-justified" id="myTab" role="tablist">
@@ -73,11 +52,7 @@ $og_image = "http://cs.vru.ac.th/images/online-exmaination-system.png";
             </div>
           </div>
           <div class="tab-pane fade" id="bullet" role="tabpanel" aria-labelledby="profile-tab">
-            <?php
-              $list_m = array("มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม");
-              $list_mL = array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
-              $list_mS = array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec');
-            ?>
+            
 
             <ul style="margin-top:20px;" id="list">
               
