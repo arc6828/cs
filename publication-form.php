@@ -33,7 +33,7 @@
   <div class="form-group row">
     <label for="inputPassword" class="col-sm-2 col-form-label text-center">Date<span class="text-danger">*</span></label>
     <div class="col-sm-2">
-      <input type="number" class="form-control" name="date" id="date" value="<?=date('j')?>"  required>
+      <input type="number" class="form-control" name="date" id="date" value="<?php echo date('j'); ?>"  required>
     </div>
     <div class="col-sm-5">
       <select name="month" id="month" class="form-control" required>
@@ -42,13 +42,13 @@
           $i = 1;
         ?>
         <?php foreach($list_m as $m) { ?>
-        <option value="<?=$i++?>" <?php if($i==date('n')){echo " selected";} ?>><?=$m?></option>
+        <option value="<?php echo $i; $i++; ?>" <?php if($i==date('n')){echo " selected";} ?>><?php echo $m; ?></option>
         <?php } ?>
       </select>
 
     </div>
     <div class="col-sm-3">
-      <input type="number" class="form-control" name="year" id="year" value="<?=date('Y')+543?>"  required>
+      <input type="number" class="form-control" name="year" id="year" value="<?php echo (date('Y')+543); ?>"  required>
     </div>
     <div class="offset-sm-2 col-sm-10 text-primary">
       ยกตัวอย่าง เช่น กรอกเป็น 2019 หรือ 2562 ก็ได้
