@@ -42,8 +42,8 @@
           $i = 1;
         ?>
         <?php foreach($list_m as $m) { ?>
-        <option value="<?php echo $i; $i++; ?>" <?php if($i==date('n')){echo " selected";} ?>><?php echo $m; ?></option>
-        <?php } ?>
+        <option value="<?php echo $i; ?>" <?php if($i==date('n')){echo " selected";} ?>><?php echo $m; ?></option>
+        <?php $i++; } ?>
       </select>
 
     </div>
