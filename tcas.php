@@ -202,10 +202,6 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
             </div>
         </div>
     </div>
-    
-    
-
-    
 </div>
 <!-- end content --> 
 <?php include("layouts/footer.php") ?>  

@@ -20,7 +20,7 @@
 
         }
     </style>
-    <div class="container-fluid bg-light mt-5 p-5" >
+    <div class="container-fluid bg-light  p-5" >
         <div class="container" >
             <div class="row">
                 <div class="col-md-6 pl-4">
