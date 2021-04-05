@@ -175,6 +175,7 @@
     </li>
    
   </ul>
+  <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSftbw1pnoyU3ELCP6n08jwSICI-G9tsBW0hYxkdLB6gehz5gA/viewform?usp=sf_link" role="button">สมัครเรียนที่นี่<-</a>
   </div>
       <?php include("layouts/footer.php") ?>  
       
