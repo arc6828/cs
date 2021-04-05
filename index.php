@@ -168,6 +168,10 @@
                     <div class="tab-content">	
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab" style="margin-left:10px;margin-right:10px"> 
                             <br />
+							<a href="uploads/03-21/8-3-64.pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัยเรื่อง แจ้งกำหนดการจองรายวิชาผ่านระบบออนไลน์นักศึกษาเต็มเวลา (จันทร์-ศุกร์) ภาคการศึกษาที่ 1/2564(8 มี.ค. 64)</font></a>
+	                        <hr>
+							<a href="uploads/02-21/Binder1.pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226;ศูนย์ภาษา แจ้งรายชื่อหลักสูตรเสริมทักษะภาษาอังกฤษระยะสั้น (ออนไลน์) รอบที่ ๒(9 ก.พ. 64)</font></a>
+	                        <hr>
 							<a href="uploads/01-21/16-01-64_1.pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226;ศูนย์ภาษา ประชาสัมพันธ์รับสมัครหลักสูตรเสริมทักษะภาษาอังกฤษระยะสั้นออนไลน์ รอบที่ 2(16 ม.ค. 64)</font></a>
 	                        <hr>
 							<a href="uploads/01-21/16-01-64.pdf"><font color="black">&nbsp;&nbsp;&nbsp;&#8226;ศูนย์ภาษา ประชาสัมพันธ์รับสมัครหลักสูตรเสริมทักษะภาษาอังกฤษระยะสั้นออนไลน์ รอบที่ 1(16 ม.ค. 64)</font></a>
