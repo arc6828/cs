@@ -166,6 +166,16 @@
     <li class="text-danger">****เป็นการสอนสดที่มหาวิทาลัย รวมทั้งมีช่องทาง Online ผ่าน Google Meet****
     </li>
   </ul>
+  <div class="alert alert-primary" role="alert">
+    <h3><u>สอนโดย</u></h3>
+  </div>
+  <ul class="list-unstyled"></ul>
+  <ul>
+    <li>อ.ชวลิต โควีระวงศ์
+    </li>
+   
+  </ul>
+  </div>
       <?php include("layouts/footer.php") ?>  
       
       <!-- <div  class="card rounded mx-auto d-block"  style="width: 18rem;">
