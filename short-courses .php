@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -19,8 +19,8 @@
     <title>คอร์ส Mobile Application</title>
 </head>
 
-<body>
-
+<body> -->
+<?php include("layouts/header.php") ?>
     <div class="container">
         <!-- <div class="text-center"><img src="CaptureCS.PNG" width="300" height="100"></div> -->
 
@@ -68,6 +68,7 @@
 
 
     </div>
-</body>
+    <?php include("layouts/footer.php") ?>  
+<!-- </body>
 
-</html>
+</html> -->
