@@ -177,6 +177,7 @@
   </ul>
   <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSftbw1pnoyU3ELCP6n08jwSICI-G9tsBW0hYxkdLB6gehz5gA/viewform?usp=sf_link" role="button">สมัครเรียนที่นี่<-</a>
   </div>
+  <button type="button" class="btn btn-danger"><a href="#">สมัครอบรมเรียน</a></button>
       <?php include("layouts/footer.php") ?>  
       
       <!-- <div  class="card rounded mx-auto d-block"  style="width: 18rem;">
