@@ -19,25 +19,25 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 
     <img class="img-thumbnail" src="images/tcas/pr-2020-05-14.jpg" width="100%">
     <p class="mt-4" style="font-size : 1.3rem;">
-        หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ รับสมัคร <strong>นักศึกษาปริญญาตรีปีการศึกษา 64 สำหรับเรียนจันทร์-ศุกร์ และเรียนเสาร์-อาทิตย์</strong> ตั้งแต่วันนี้เป็นต้นไป สนใจดูรายละเอียดและกรอกใบสมัครได้ที่นี่ สอบถามข้อมูลการรับสมัครเพิ่มเติม โทรด่วน. 083-138-0981
+        หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ รับสมัคร <strong>นักศึกษาปริญญาตรีปีการศึกษา 65 สำหรับเรียนจันทร์-ศุกร์ และเรียนเสาร์-อาทิตย์</strong> ตั้งแต่วันนี้เป็นต้นไป สนใจดูรายละเอียดและกรอกใบสมัครได้ที่นี่ สอบถามข้อมูลการรับสมัครเพิ่มเติม โทรด่วน. 083-138-0981
     </p>
 </div>
 
 <!-- ช่องทางการสมัคร -->
 <div class="container-fluid bg-light py-5 mt-4">
     <div class="container text-center">
-        <img class="img-thumbnail" src="images/รับสมัครปี64.png" width="100%">
+        <!-- <img class="img-thumbnail" src="images/รับสมัครปี64.png" width="100%"> -->
         <h3 class="mt-4">ช่องทางการสมัคร และระยะเวลาการสมัคร</h3>
         <p style="font-size : 1.2rem;">ผ่านเว็บไซต์กลางของมหาวิทยาลัย : <a href="http://ent.vru.ac.th/">http://ent.vru.ac.th/</a></p>
         <ul style="list-style-type:none;">
-            <li>ปริญญาตรีเรียนจันทร์ - ศุกร์ สมัครเรียนได้ตั้งแต่ <strong>วันนี้ - พฤษภาคม 2564 </strong> <span class="text-danger"></span></li>
-            <li>ปริญญาตรีเรียนเสาร์ - อาทิตย์ สมัครเรียนได้ตั้งแต่ <strong>วันนี้ - พฤษภาคม 2564</strong> </li>
-            <li> <span class="text-success">(เปิดเทอม มิถุนายน 2564)</span></li>
+            <li>ปริญญาตรีเรียนจันทร์ - ศุกร์ สมัครเรียนได้ตั้งแต่ <strong>วันนี้ - พฤษภาคม 2565 </strong> <span class="text-danger"></span></li>
+            <li>ปริญญาตรีเรียนเสาร์ - อาทิตย์ สมัครเรียนได้ตั้งแต่ <strong>วันนี้ - พฤษภาคม 2565</strong> </li>
+            <li> <span class="text-success">(เปิดเทอม มิถุนายน 2565)</span></li>
         </ul>
         <div class="text-center">
             <div class="py-2">
                 <a class="btn btn-primary  mb-4" href="http://ent.vru.ac.th" target="_blank">
-                    สมัครเรียน<br>ผ่านส่วนกลาง<br>ทุกประเภท<br>(ค่าสมัคร 300 บาท)
+                    สมัครเรียน<br>ผ่านส่วนกลาง<br>ทุกประเภท<br>(ค่าสมัคร 100 บาท)
                 </a>
 
                 <a class="btn btn-outline-primary  mb-4" href="https://forms.gle/4WYGkwpKAhX387Du6" target="_blank">
@@ -45,7 +45,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
                 </a>
 
                 <a class="btn btn-outline-secondary  mb-4" href="https://forms.gle/BxYpmgHTJ98gytQR9" target="_blank">
-                    ลิงค์สำรองกรอก<br>ผ่าน Google Form <br> ทุกประเภท <br>(ค่าสมัคร 300 บาท)
+                    ลิงค์สำรองกรอก<br>ผ่าน Google Form <br> ทุกประเภท <br>(ค่าสมัคร 100 บาท)
                 </a>
             </div>
         </div>
@@ -61,20 +61,20 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 <div class="container">
     <!-- START NORMAL -->
     <div class="mt-4">
-        <h3 class=""><i class="fa fa-calendar"></i> ตารางการรับสมัครนักศึกษา TCAS 64 (ปริญญาตรี จันทร์-ศุกร์)</h3>
+        <h3 class=""><i class="fa fa-calendar"></i> ตารางการรับสมัครนักศึกษา TCAS 65 (ปริญญาตรี จันทร์-ศุกร์)</h3>
         <?php include('tcas-detail.php') ?>
         <div class="text-center">
-            <img class="img-thumbnail" src="images/tcas/tcas64-schedule-normal.png" width="100%">
-            <p>อ้างอิง <a href="http://acad.vru.ac.th/about_acad/staff/fileup_regulations/122.pdf">PDF ประกาศจันทร์ - ศุกร์ </a></p>
+            <img class="img-thumbnail" src="http://ent.vru.ac.th/Webregister/PDFfile/nm_property_2565_stap.png" width="100%">
+            <p>อ้างอิง <a href="http://acad.vru.ac.th/about_acad/staff/news/1/news481.pdf">PDF ประกาศจันทร์ - ศุกร์ </a></p>
         </div>
     </div>
     <!-- END NORMAL -->
 
     <!-- START SPECIAL -->
     <div class="mt-4">
-        <h3 class=""><i class="fa fa-calendar"></i> ตารางการรับสมัครนักศึกษาปริญญาตรี เสาร์-อาทิตย์ ปีการศึกษา 2/2564 </h3>
-        <div><a href="http://acad.vru.ac.th/about_acad/staff/news/2/news454.pdf" target="_blank">PDF ประกาศรับสมัครภาคเสาร์ - อาทิตย์</a> </div>
-        <ul>
+        <h3 class=""><i class="fa fa-calendar"></i> ตารางการรับสมัครนักศึกษาปริญญาตรี เสาร์-อาทิตย์ ปีการศึกษา 1/2565 (รอประกาศอย่างเป็นทางการ) </h3>
+        <!-- <div><a href="http://acad.vru.ac.th/about_acad/staff/news/2/news454.pdf" target="_blank">PDF ประกาศรับสมัครภาคเสาร์ - อาทิตย์</a> </div> -->
+        <!-- <ul>
 
             <li><strong>เปิดรับสมัครและชำระเงินค่าสมัคร วันที่ 1 กันยายน 2564 – วันที่ 15 ตุลาคม 2564</strong></li>
             <li>ผู้สมัครแนบวุฒิการศึกษาในระบบรับสมัคร วันที่ 1 กันยายน 2564 – วันที่ 15 ตุลาคม 2564</li>
@@ -84,12 +84,21 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
             <li>ชำระเงินลงทะเบียนที่เคาน์เตอร์เซอร์วิส 7-11/มหาวิทยาลัย วันที่ 1 – 12 พฤศจิกายน 2564</li>
             <li>ปฐมนิเทศ วันที่ 14 พฤศจิกายน 2564</li>
             <li>เปิดภาคการศึกษาที่ 2/2564 วันที่ 20 พฤศจิกายน 2564</li>
+        </ul> -->
+        <ul>
+            <li><strong>เปิดรับสมัครออนไลน์ แนบวุฒิการศึกษา และชำระเงินค่าสมัครตั้งแต่ 15 มกราคม 2565 ถึง 16 พฤษภาคม 2565</strong></li>
+            <li>ประกาศรายชื่อผู้มีสิทธิ์เข้าศึกษาและสาขาวิชาที่เปิดเรียนได้ พฤษภาคม 2565</li>
+            <li>ผู้สมัครเลือกสาขาวิชาใหม่ในสาขาวิชาที่ไม่สามารถเปิดเรียนได้ ในระบบรับสมัคร วันที่ พฤษภาคม 2565</li>
+            <li>ประกาศรายชื่อผู้มีสิทธิ์เข้าศึกษา (เพิ่มเติม)วันที่ พฤษภาคม 2565</li>
+            <li>ชำระเงินลงทะเบียนที่เคาน์เตอร์เซอร์วิส 7-11/มหาวิทยาลัยวันที่ 1 - 15 มิถุนายน 2565</li>
+            <li>ปฐมนิเทศภายในมิถุนายน 2565 (รอประกาศอย่างเป็นทางการ)</li>
+            <li>เปิดภาคการศึกษาที่ 1/2565 วันที่ 25 มิถุนายน 2564</li>
         </ul>
-        <div class="text-center">
+        <!-- <div class="text-center">
             <img class="img-thumbnail" src="images/table2_64.JPG" width="100%" style="max-width:800px;">
             <p>อ้างอิง <a href="http://acad.vru.ac.th/about_acad/staff/fileup_Schedule/2564_20201117-1.pdf" target="_blank">PDF ประกาศ เสาร์ - อาทิตย์</a></p>
 
-        </div>
+        </div> -->
     </div>
     <!-- END SPECIAL -->
 
@@ -187,23 +196,24 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 </div>
 
 <!-- ติดตามข่าวสารได้ที่นี่ -->
-<div class="container pt-5">
+<div class="container pt-5" >
     <h2><i class="fa fa-bullhorn"></i> ติดตามข่าวสารการสมัครได้ที่นี่</h2>
     <div class="">
         <p>หลักจากที่คุณได้สมัครเข้ามาแล้ว คุณสามารถติดตามข่าวสารการสมัครของคุณ รวมถึงการประกาศต่างๆ จากทางมหาวิทยาลัยอย่างใกล้ชิดให้ที่ Line กลุ่มของหลักสูตร โดยจะแบ่งเป็น 2 กลุ่ม ได้แก่่ </p>
         <div class="row text-center">
             <div class="col-lg-6 mb-4">
-                <img class="img-thumbnail" src="images/tcas/Line-Mon-Fri.jpg" style="max-width:300px; width:100%;">
-                <div><strong>CS VUR #64 (จันทร์ - ศุกร์)</strong></div>
-                <div><a href="http://line.me/ti/g/MbQa_Tw6Bo">http://line.me/ti/g/MbQa_Tw6Bo</a></div>
+                <img class="img-thumbnail"  src="images/tcas/Line65-Mon-Fri.jpg" style="max-width:300px; width:100%;">
+                <div><strong>CS-VRU#65 (จันทร์ - ศุกร์)</strong></div>
+                <div><a href="http://line.me/ti/g/J3vGzafkoB">http://line.me/ti/g/J3vGzafkoB</a></div>
             </div>
             <div class="col-lg-6 mb-4">
-                <img class="img-thumbnail" src="images/tcas/Line-Sat-Sun.jpg" style="max-width:300px; width:100%;">
-                <div><strong>CS VUR #64 (เสาร์ - อาทิตย์)</strong></div>
-                <div><a href="http://line.me/ti/g/NypQRk0nzk">http://line.me/ti/g/NypQRk0nzk</a></div>
+                <img class="img-thumbnail"  src="images/tcas/Line65-Sat-Sun.jpg" style="max-width:300px; width:100%;">
+                <div><strong>CS VRU #65 (เสาร์ - อาทิตย์)</strong></div>
+                <div><a href="http://line.me/ti/g/iqAre4tnDQ">http://line.me/ti/g/iqAre4tnDQ</a></div>
             </div>
         </div>
     </div>
 </div>
+
 <!-- end content -->
 <?php include("layouts/footer.php") ?>
