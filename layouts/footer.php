@@ -100,6 +100,10 @@
         
       </div>
     </footer>
+    <!-- Cookie Consent by https://www.cookiewow.com -->
+    <script type="text/javascript" src="https://cookiecdn.com/cwc.js"></script>
+    <script id="cookieWow" type="text/javascript" src="https://cookiecdn.com/configs/K3VSC9aVmgw2NmDbj3aosHyc" data-cwcid="K3VSC9aVmgw2NmDbj3aosHyc"></script>
+    
     <!--script src="js/jquery-3.3.1.min.js"></script-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
     <!--script src="js/jquery-ui.js"></script-->
