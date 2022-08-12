@@ -85,7 +85,7 @@ $og_image = "http://cs.vru.ac.th/images/online-exmaination-system.png";
     // document.querySelector("#year").value = "{{ $year }}" ;
     //console.log("Hello",document.querySelector("#year").value);
     // fetch('publication-api.php')
-    fetch('https://www.ckartisan.com/api/publication')
+    fetch('https://api.ckartisan.com/api/publication')
       .then(response => response.json())
       .then(jsonData => {
         console.log(jsonData);
@@ -100,7 +100,7 @@ $og_image = "http://cs.vru.ac.th/images/online-exmaination-system.png";
       let chosen = document.querySelector("#id");
       console.log("Edit : ", chosen.value );
 
-      fetch('https://www.ckartisan.com/api/publication/'+chosen.value)
+      fetch('https://api.ckartisan.com/api/publication/'+chosen.value)
         .then(response => response.json())
         .then(jsonData => {
           console.log(jsonData);
@@ -247,7 +247,7 @@ $og_image = "http://cs.vru.ac.th/images/online-exmaination-system.png";
               obj[key] = item.value;
             }
             console.log("CLICK",obj);
-            fetch('https://www.ckartisan.com/api/publication', {
+            fetch('https://api.ckartisan.com/api/publication', {
               method: 'POST', // *GET, POST, PUT, DELETE, etc.
               //mode: 'cors', // no-cors, *cors, same-origin
               // cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
@@ -314,7 +314,7 @@ $og_image = "http://cs.vru.ac.th/images/online-exmaination-system.png";
               obj[key] = item.value;
             }
             console.log("CLICK",obj);
-            fetch('https://www.ckartisan.com/api/publication/'+chosen.value, {
+            fetch('https://api.ckartisan.com/api/publication/'+chosen.value, {
               method: 'PUT', // *GET, POST, PUT, DELETE, etc.
               //mode: 'cors', // no-cors, *cors, same-origin
               // cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
@@ -340,7 +340,7 @@ $og_image = "http://cs.vru.ac.th/images/online-exmaination-system.png";
             let confirmed = confirm('Do you really want to delete this item?');
             if(confirmed){
               let chosen = document.querySelector("#id");
-              fetch('https://www.ckartisan.com/api/publication/'+chosen.value, {
+              fetch('https://api.ckartisan.com/api/publication/'+chosen.value, {
                 method: 'DELETE', // *GET, POST, PUT, DELETE, etc.
                 // mode: 'cors', // no-cors, *cors, same-origin
                 // cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
