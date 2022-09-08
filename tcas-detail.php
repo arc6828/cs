@@ -1,4 +1,4 @@
-<div class="accordion" id="accordionExample">
+<div class="accordion d-none" id="accordionExample">
   <div class="card">
     <div class="card-header py-1" id="headingOne">
       <div class="mb-0">
