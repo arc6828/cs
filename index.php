@@ -134,7 +134,7 @@
                         <h5 class="mt-0 mb-2">รับสมัครนักศึกษา (ปริญญาตรีภาคจันทร์-ศุกร์ และภาคเสาร์-อาทิตย์)</h5>
                         <p class="py-2">
                         หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ 
-                        รับสมัครนักศึกษา TCAS 65 (ปริญญาตรี จันทร์-ศุกร์ และภาคเสาร์-อาทิตย์) ตั้งแต่วันนี้เป็นต้นไป  
+                        รับสมัครนักศึกษา TCAS 66 (ปริญญาตรี จันทร์-ศุกร์ และภาคเสาร์-อาทิตย์) ตั้งแต่วันนี้เป็นต้นไป  
                         ดูรายละเอียดและกรอกใบสมัครได้ที่นี่ 
                         </p>
                         <div class="text-center">
@@ -344,24 +344,7 @@
 </div>
 
 <!-- ติดตามข่าวสารได้ที่นี่ -->
-<div class="container pt-5" >
-    <h2><i class="fa fa-bullhorn"></i> ติดตามข่าวสารการสมัครได้ที่นี่</h2>
-    <div class="">
-        <p>หลักจากที่คุณได้สมัครเข้ามาแล้ว คุณสามารถติดตามข่าวสารการสมัครของคุณ รวมถึงการประกาศต่างๆ จากทางมหาวิทยาลัยอย่างใกล้ชิดให้ที่ Line กลุ่มของหลักสูตร โดยจะแบ่งเป็น 2 กลุ่ม ได้แก่่ </p>
-        <div class="row text-center">
-            <div class="col-lg-6 mb-4">
-                <img class="img-thumbnail"  src="images/tcas/Line65-Mon-Fri.jpg" style="max-width:300px; width:100%;">
-                <div><strong>CS-VRU#65 (จันทร์ - ศุกร์)</strong></div>
-                <div><a href="http://line.me/ti/g/J3vGzafkoB">http://line.me/ti/g/J3vGzafkoB</a></div>
-            </div>
-            <div class="col-lg-6 mb-4">
-                <img class="img-thumbnail"  src="images/tcas/Line65-Sat-Sun.jpg" style="max-width:300px; width:100%;">
-                <div><strong>CS VRU #65 (เสาร์ - อาทิตย์)</strong></div>
-                <div><a href="http://line.me/ti/g/iqAre4tnDQ">http://line.me/ti/g/iqAre4tnDQ</a></div>
-            </div>
-        </div>
-    </div>
-</div>
+<?php include("layouts/group-line-qr.php") ?>
 
 <!-- end content -->
 
