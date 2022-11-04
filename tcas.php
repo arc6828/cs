@@ -60,33 +60,55 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
     </div>
 </div>
 
-<!-- ขั้นตอนการสมัคร -->
+<!-- ขั้นตอนการสมัคร และคุณสมบัติ -->
 <div class="container-fluid py-5">
     <div class="container ">
-        <h3 class="container anchor" id="process">
-            <i class="fa fa-arrow-down"></i> ขั้นตอนการสมัคร <a href="#process">#</a>
-        </h3>
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="container anchor" id="student">
+                    <i class="fa fa-user"></i> คุณสมบัติผู้สมัคร <a href="#student">#</a>
+                </h3>
 
-        <div class="py-2">
-            <ol>
-                <li>กรอกฟอร์มสมัคร ผ่านเว็บไซต์กลางของมหาวิทยาลัย <a href="http://ent.vru.ac.th/">http://ent.vru.ac.th/</a></li>
-                <li>ชำระค่าสมัคร เคาน์เตอร์เซอร์วิส/มหาวิทยาลัย </li>
-                <li>สัมภาษณ์ (เฉพาะนักศึกษาจันทร์ - ศุกร์)</li>
-                <li>ประกาศรายชื่อผู้ผ่านสัมภาษณ์</li>
-                <li>สแกน QR code เข้ากลุ่มไลน์เพื่อรับทราบข่าวประชาสัมพันธ์ <a href="#qr-code">ดู QR Code ด้านล้าง</a></li>
-                <li>ประกาศรายชื่อผู้ผ่านสัมภาษณ์</li>
-                <li>ชำระค่าธรรมเนียมแรกเข้า</li>
-                <li>ชำระค่าลงทะเบียน</li>
-            </ol>
+                <div class="py-2">
+                    <ul>
+                        <li><strong>ใช้วุฒิ ม.6 หรือ ปวช. หรือ เทียบเท่า</strong></li>
+                        <li>หรือ <strong>ใช้วุฒิปวส.</strong> จะสามารถเทียบโอนได้ทันที 15 หน่วยกิตจากวิชาศึกษาทั่วไป (VGE) และวิชาอื่นๆ ที่สอดคล้องจากใบผลการศึกษาจากสถานศึกษาเดิม ทำให้วิธีนี้จะเหลือวิชาที่ต้องเก็บเพิ่มอีกไม่เกิน 108 หน่วยกิต คิดเป็นระยะเวลาคร่าวๆ 3 ปีครึ่ง ซึ่งหากเทียบโอนวิชาอื่นๆที่สอดคล้องได้มากเวลาก็จะลดลง</li>
+                        <li>หรือ <strong>ใช้วุฒิปริญญาตรี</strong> (จากมหาวิทยาลัยก่อนหน้า) เนื่องจากการศึกษาสมัยใหม่นั้นเริ่มมีผู้สนใจเรียนปริญญาตรีใบที่ 2 ขึ้นไป หากใช้วุฒิป.ตรีจะสถานศึกษาเก่าจะสามาเทียบโอนได้ทั้น 30 หน่วยกิตจากวิชาศึกษาทั่วไป (VGE) และวิชาอื่นๆ ที่สอดคล้องจากใบผลการศึกษาจากสถานศึกษาเดิม ทำให้วิธีนี้จะเหลือวิชาที่ต้องเก็บเพิ่มอีกไม่เกิน 94 หน่วยกิต คิดเป็นระยะเวลาคร่าวๆ 3 ปี ซึ่งหากเทียบโอนวิชาอื่นๆ ที่สอดคล้องได้มากเวลาก็จะลดลง</li>
+                        <li>หรือ <strong>เทียบโอนมาจากมหาวิทยาลัยก่อนหน้า แต่ยังไม่สำหรับปริญญาตรี</strong> จะสามารถเทียบโอนได้จากวิชาอื่นๆ ที่สอดคล้องในใบผลการศึกษาจากสถานศึกษาเดิม</li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-lg-12 mt-4">
+                <h3 class="container anchor" id="process">
+                    <i class="fa fa-arrow-down"></i> ขั้นตอนการสมัคร <a href="#process">#</a>
+                </h3>
+
+                <div class="">
+                    <ol>
+                        <li>กรอกฟอร์มสมัคร ผ่านเว็บไซต์กลางของมหาวิทยาลัย <a href="http://ent.vru.ac.th/">http://ent.vru.ac.th/</a></li>
+                        <li>ชำระค่าสมัคร เคาน์เตอร์เซอร์วิส/มหาวิทยาลัย </li>
+                        <li>สัมภาษณ์ (เฉพาะนักศึกษาจันทร์ - ศุกร์)</li>
+                        <li>ประกาศรายชื่อผู้ผ่านสัมภาษณ์</li>
+                        <li>สแกน QR code เข้ากลุ่มไลน์เพื่อรับทราบข่าวประชาสัมพันธ์ <a href="#qr-code">ดู QR Code ด้านล้าง</a></li>
+                        <li>ประกาศรายชื่อผู้ผ่านสัมภาษณ์</li>
+                        <li>ชำระค่าธรรมเนียมแรกเข้า</li>
+                        <li>ชำระค่าลงทะเบียน</li>
+                    </ol>
+                </div>
+            </div>
+
         </div>
+
     </div>
 </div>
 
 <!-- กำหนดการ -->
-<div class="container-fluid py-5">
+<div class="container-fluid py-5 bg-light">
     <div class="container">
         <!-- START NORMAL -->
-        <div class="mt-4">
+        <div class="">
             <h3 class=""><i class="fa fa-calendar"></i> ตารางการรับสมัครนักศึกษา TCAS 66 (ปริญญาตรี จันทร์-ศุกร์)</h3>
             <?php include('tcas-detail.php') ?>
             <div class="text-center mt-4">
@@ -131,7 +153,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
     </div>
 </div>
 <!-- อัตราค่าธรรมเนียมการศึกษาวิทยาการคอมพิวเตอร์ -->
-<div class="container-fluid py-5 bg-light">
+<div class="container-fluid py-5">
     <div class="container ">
         <h3 class="container  anchor" id="fee">
             <i class="fa fa-percent"></i> อัตราค่าธรรมเนียมการศึกษาวิทยาการคอมพิวเตอร์ <a href="#fee">#</a>
@@ -202,8 +224,8 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 </div>
 
 <!-- Technology Stack 2021 -->
-<div class="container-fluid">
-    <div class="container pt-5">
+<div class="container-fluid py-5 bg-light">
+    <div class="container">
         <img class="img-thumbnail d-none" src="images/tcas/pr-2020-04-27.jpg" style="max-width:500px; width:100%;">
         <h2><i class="fa fa-rocket"></i>รายละเอียดหลักสูตร และ Technology Stack</h2>
         <div class="mt-4 text-center ">
