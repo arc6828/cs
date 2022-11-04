@@ -69,7 +69,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
                     <i class="fa fa-user"></i> คุณสมบัติผู้สมัคร <a href="#student">#</a>
                 </h3>
 
-                <div class="py-2">
+                <div class="py-5">
                     <ul>
                         <li><strong>ใช้วุฒิ ม.6 หรือ ปวช. หรือ เทียบเท่า</strong></li>
                         <li>หรือ <strong>ใช้วุฒิปวส.</strong> จะสามารถเทียบโอนได้ทันที 15 หน่วยกิตจากวิชาศึกษาทั่วไป (VGE) และวิชาอื่นๆ ที่สอดคล้องจากใบผลการศึกษาจากสถานศึกษาเดิม ทำให้วิธีนี้จะเหลือวิชาที่ต้องเก็บเพิ่มอีกไม่เกิน 108 หน่วยกิต คิดเป็นระยะเวลาคร่าวๆ 3 ปีครึ่ง ซึ่งหากเทียบโอนวิชาอื่นๆที่สอดคล้องได้มากเวลาก็จะลดลง</li>
@@ -77,11 +77,13 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
                         <li>หรือ <strong>เทียบโอนมาจากมหาวิทยาลัยก่อนหน้า แต่ยังไม่สำหรับปริญญาตรี</strong> จะสามารถเทียบโอนได้จากวิชาอื่นๆ ที่สอดคล้องในใบผลการศึกษาจากสถานศึกษาเดิม</li>
 
                     </ul>
+                    <a href="https://medium.com/cs-vru/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B9%82%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-a21ecff2edb3">
+                        อ่านรายละเอียดการเทียบโอนนักศึกษาใหม่
+                    </a>
                 </div>
-
             </div>
-            <div class="col-lg-12 mt-4">
-                <h3 class="container anchor" id="process">
+            <div class="col-lg-12 pt-5">
+                <h3 class="container" id="process" style="padding-top: 100px; margin-top: -100px;">
                     <i class="fa fa-arrow-down"></i> ขั้นตอนการสมัคร <a href="#process">#</a>
                 </h3>
 
