@@ -13,18 +13,20 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 
 </style>
 <!-- Introduction -->
-<div class="container mt-4">
-    <h1><i class="fa fa-star"></i> รับสมัครนักศึกษาปริญญาตรี (จันทร์-ศุกร์ และ เสาร์-อาทิตย์)</h1>
-    <hr>
+<div class="container-fluid">
+    <div class="container mt-4">
+        <h1><i class="fa fa-star"></i> รับสมัครนักศึกษาปริญญาตรี (จันทร์-ศุกร์ และ เสาร์-อาทิตย์)</h1>
+        <hr>
 
-    <img class="img-thumbnail" src="images/tcas/pr-2020-05-14.jpg" width="100%">
-    <p class="mt-4" style="font-size : 1.3rem;">
-        หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ รับสมัคร <strong>นักศึกษาปริญญาตรีปีการศึกษา 66 สำหรับเรียนจันทร์-ศุกร์ และเรียนเสาร์-อาทิตย์</strong> ตั้งแต่วันนี้เป็นต้นไป สนใจดูรายละเอียดและกรอกใบสมัครได้ที่นี่ สอบถามข้อมูลการรับสมัครเพิ่มเติม โทรด่วน. 02-909-1432 ต่อ 322 หรือ 323
-    </p>
+        <img class="img-thumbnail" src="images/tcas/pr-2020-05-14.jpg" width="100%">
+        <p class="mt-4" style="font-size : 1.3rem;">
+            หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ รับสมัคร <strong>นักศึกษาปริญญาตรีปีการศึกษา 66 สำหรับเรียนจันทร์-ศุกร์ และเรียนเสาร์-อาทิตย์</strong> ตั้งแต่วันนี้เป็นต้นไป สนใจดูรายละเอียดและกรอกใบสมัครได้ที่นี่ สอบถามข้อมูลการรับสมัครเพิ่มเติม โทรด่วน. 02-909-1432 ต่อ 322 หรือ 323
+        </p>
+    </div>
 </div>
 
 <!-- ช่องทางการสมัคร -->
-<div class="container-fluid bg-light py-5 mt-4">
+<div class="container-fluid py-5 bg-light">
     <div class="container text-center">
         <!-- <img class="img-thumbnail" src="images/รับสมัครปี64.png" width="100%"> -->
         <h3 class="mt-4">ช่องทางการสมัคร และระยะเวลาการสมัคร</h3>
@@ -32,6 +34,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
         <ul style="list-style-type:none;">
             <li>ปริญญาตรีเรียนจันทร์ - ศุกร์ สมัครเรียนได้ตั้งแต่ <strong>วันนี้ - พฤษภาคม 2566 </strong> <span class="text-danger"></span></li>
             <li>ปริญญาตรีเรียนเสาร์ - อาทิตย์ สมัครเรียนได้ตั้งแต่ <strong>วันนี้ - พฤษภาคม 2566</strong> </li>
+            <li>หลักสูตรสัมฤทธิบัตร สมัครเรียนได้ตลอดทั้งปี <a href="https://medium.com/cs-vru/%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%A4%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%95%E0%B8%A3%E0%B8%B5-%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C-2caf93254c5d">อ่านรายละเอียด</a> </li>
             <li> <span class="text-success">(เปิดเทอม มิถุนายน 2566)</span></li>
         </ul>
         <div class="text-center">
@@ -57,24 +60,47 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
     </div>
 </div>
 
-<!-- กำหนดการ -->
-<div class="container">
-    <!-- START NORMAL -->
-    <div class="mt-4">
-        <h3 class=""><i class="fa fa-calendar"></i> ตารางการรับสมัครนักศึกษา TCAS 66 (ปริญญาตรี จันทร์-ศุกร์)</h3>
-        <?php include('tcas-detail.php') ?>
-        <div class="text-center">
-            <img class="img-thumbnail" src="http://ent.vru.ac.th/Webregister/PDFfile/nm_property_2565_stap.png" width="100%">
-            <p>อ้างอิง <a href="http://acad.vru.ac.th/about_acad/staff/news/1/news481.pdf">PDF ประกาศจันทร์ - ศุกร์ </a></p>
+<!-- ขั้นตอนการสมัคร -->
+<div class="container-fluid py-5">
+    <div class="container ">
+        <h3 class="container anchor" id="process">
+            <i class="fa fa-arrow-down"></i> ขั้นตอนการสมัคร <a href="#process">#</a>
+        </h3>
+
+        <div class="py-2">
+            <ol>
+                <li>กรอกฟอร์มสมัคร ผ่านเว็บไซต์กลางของมหาวิทยาลัย <a href="http://ent.vru.ac.th/">http://ent.vru.ac.th/</a></li>
+                <li>ชำระค่าสมัคร เคาน์เตอร์เซอร์วิส/มหาวิทยาลัย </li>
+                <li>สัมภาษณ์ (เฉพาะนักศึกษาจันทร์ - ศุกร์)</li>
+                <li>ประกาศรายชื่อผู้ผ่านสัมภาษณ์</li>
+                <li>สแกน QR code เข้ากลุ่มไลน์เพื่อรับทราบข่าวประชาสัมพันธ์ <a href="#qr-code">ดู QR Code ด้านล้าง</a></li>
+                <li>ประกาศรายชื่อผู้ผ่านสัมภาษณ์</li>
+                <li>ชำระค่าธรรมเนียมแรกเข้า</li>
+                <li>ชำระค่าลงทะเบียน</li>
+            </ol>
         </div>
     </div>
-    <!-- END NORMAL -->
+</div>
 
-    <!-- START SPECIAL -->
-    <div class="mt-4">
-        <h3 class=""><i class="fa fa-calendar"></i> ตารางการรับสมัครนักศึกษาปริญญาตรี เสาร์-อาทิตย์ ปีการศึกษา 1/2566 (รอประกาศอย่างเป็นทางการ) </h3>
-        <!-- <div><a href="http://acad.vru.ac.th/about_acad/staff/news/2/news454.pdf" target="_blank">PDF ประกาศรับสมัครภาคเสาร์ - อาทิตย์</a> </div> -->
-        <!-- <ul>
+<!-- กำหนดการ -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <!-- START NORMAL -->
+        <div class="mt-4">
+            <h3 class=""><i class="fa fa-calendar"></i> ตารางการรับสมัครนักศึกษา TCAS 66 (ปริญญาตรี จันทร์-ศุกร์)</h3>
+            <?php include('tcas-detail.php') ?>
+            <div class="text-center mt-4">
+                <img class="img-thumbnail" src="http://ent.vru.ac.th/Webregister/PDFfile/nm_property_stap.jpg" width="100%">
+                <p>อ้างอิง <a href="http://acad.vru.ac.th/about_acad/staff/news/1/news496.pdf">PDF ประกาศจันทร์ - ศุกร์ </a></p>
+            </div>
+        </div>
+        <!-- END NORMAL -->
+
+        <!-- START SPECIAL -->
+        <div class="mt-4">
+            <h3 class=""><i class="fa fa-calendar"></i> ตารางการรับสมัครนักศึกษาปริญญาตรี เสาร์-อาทิตย์ ปีการศึกษา 1/2566 (รอประกาศอย่างเป็นทางการ) </h3>
+            <!-- <div><a href="http://acad.vru.ac.th/about_acad/staff/news/2/news454.pdf" target="_blank">PDF ประกาศรับสมัครภาคเสาร์ - อาทิตย์</a> </div> -->
+            <!-- <ul>
 
             <li><strong>เปิดรับสมัครและชำระเงินค่าสมัคร วันที่ 1 กันยายน 2564 – วันที่ 15 ตุลาคม 2564</strong></li>
             <li>ผู้สมัครแนบวุฒิการศึกษาในระบบรับสมัคร วันที่ 1 กันยายน 2564 – วันที่ 15 ตุลาคม 2564</li>
@@ -85,27 +111,27 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
             <li>ปฐมนิเทศ วันที่ 14 พฤศจิกายน 2564</li>
             <li>เปิดภาคการศึกษาที่ 2/2564 วันที่ 20 พฤศจิกายน 2564</li>
         </ul> -->
-        <ul>
-            <li><strong>เปิดรับสมัครออนไลน์ แนบวุฒิการศึกษา และชำระเงินค่าสมัครตั้งแต่ 15 มกราคม 2566 ถึง 16 พฤษภาคม 2566</strong></li>
-            <li>ประกาศรายชื่อผู้มีสิทธิ์เข้าศึกษาและสาขาวิชาที่เปิดเรียนได้ พฤษภาคม 2566</li>
-            <li>ผู้สมัครเลือกสาขาวิชาใหม่ในสาขาวิชาที่ไม่สามารถเปิดเรียนได้ ในระบบรับสมัคร วันที่ พฤษภาคม 2566</li>
-            <li>ประกาศรายชื่อผู้มีสิทธิ์เข้าศึกษา (เพิ่มเติม)วันที่ พฤษภาคม 2566</li>
-            <li>ชำระเงินลงทะเบียนที่เคาน์เตอร์เซอร์วิส 7-11/มหาวิทยาลัยวันที่ 1 - 15 มิถุนายน 2566</li>
-            <li>ปฐมนิเทศภายในมิถุนายน 2566 (รอประกาศอย่างเป็นทางการ)</li>
-            <li>เปิดภาคการศึกษาที่ 1/2566 วันที่ 25 มิถุนายน 2564</li>
-        </ul>
-        <!-- <div class="text-center">
+            <ul>
+                <li><strong>เปิดรับสมัครออนไลน์ แนบวุฒิการศึกษา และชำระเงินค่าสมัครตั้งแต่ 15 มกราคม 2566 ถึง 16 พฤษภาคม 2566</strong></li>
+                <li>ประกาศรายชื่อผู้มีสิทธิ์เข้าศึกษาและสาขาวิชาที่เปิดเรียนได้ พฤษภาคม 2566</li>
+                <li>ผู้สมัครเลือกสาขาวิชาใหม่ในสาขาวิชาที่ไม่สามารถเปิดเรียนได้ ในระบบรับสมัคร วันที่ พฤษภาคม 2566</li>
+                <li>ประกาศรายชื่อผู้มีสิทธิ์เข้าศึกษา (เพิ่มเติม)วันที่ พฤษภาคม 2566</li>
+                <li>ชำระเงินลงทะเบียนที่เคาน์เตอร์เซอร์วิส 7-11/มหาวิทยาลัยวันที่ 1 - 15 มิถุนายน 2566</li>
+                <li>ปฐมนิเทศภายในมิถุนายน 2566 (รอประกาศอย่างเป็นทางการ)</li>
+                <li>เปิดภาคการศึกษาที่ 1/2566 วันที่ 25 มิถุนายน 2566</li>
+            </ul>
+            <!-- <div class="text-center">
             <img class="img-thumbnail" src="images/table2_64.JPG" width="100%" style="max-width:800px;">
             <p>อ้างอิง <a href="http://acad.vru.ac.th/about_acad/staff/fileup_Schedule/2564_20201117-1.pdf" target="_blank">PDF ประกาศ เสาร์ - อาทิตย์</a></p>
 
         </div> -->
+        </div>
+        <!-- END SPECIAL -->
+
     </div>
-    <!-- END SPECIAL -->
-
 </div>
-
 <!-- อัตราค่าธรรมเนียมการศึกษาวิทยาการคอมพิวเตอร์ -->
-<div class="container-fluid bg-light py-5">
+<div class="container-fluid py-5 bg-light">
     <div class="container ">
         <h3 class="container  anchor" id="fee">
             <i class="fa fa-percent"></i> อัตราค่าธรรมเนียมการศึกษาวิทยาการคอมพิวเตอร์ <a href="#fee">#</a>
@@ -153,6 +179,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
                     </table>
                 </div>
                 <div><strong>หมายเหตุ* อัตราค่าธรรมเนียมภาคเรียนที่ 3 (ฤดูร้อน) ขึ้นอยู่กับหน่วยกิตที่ลง</strong></div>
+                <div><strong>หมายเหตุ** บัตรนักศึกษาออกให้โดยธนาคารกรุงไทยมีค่าธรรมเนียมอยู่ที่ 500 บาท</strong></div>
             </div>
             <div class="text-center">
                 <div class="py-2">
@@ -175,21 +202,28 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
 </div>
 
 <!-- Technology Stack 2021 -->
-<div class="container pt-5">
-    <img class="img-thumbnail d-none" src="images/tcas/pr-2020-04-27.jpg" style="max-width:500px; width:100%;">
-    <h2><i class="fa fa-rocket"></i> Technology Stack 2021</h2>
-    <div class="mt-4 text-center ">
-        <img class="img-thumbnail" src="images/technology-stack.jpg" style="width:100%;">
-    </div>
-    <div class="mt-4">
-        <h5>แต่ละชั้นปีเรียนอะไร ...</h5>
-        <ul>
-            <li>ปี 1 ฺคุณจะได้เรียนรู้การเขียนโปรแกรมพื้นฐาน เช่น C Python รวมไปถึงการพัฒนา Web Frontend เช่น HTML CSS JS รวมถึงหัดใช้งาน git service</li>
-            <li>ปี 2 คุณจะเริ่มได้เริ่มเรียนรู้อะไรเกี่ยวกับ Backend ต่างๆ ภาษา Object Oriented เช่น ตระกูล java รวมไปถึงฐานข้อมูลต่างๆ ที่อยู่ในความนิยม</li>
-            <li>ปี 3 คุณจะได้ลองทำระบบที่มีการนำ Backend และ Frondend มารวมกัน ทั้งในรูปแบบ Web Application , Mobile Application, Internet Of Thing หรือแม้กระทั่ง Application Standalone</li>
-            <li>ปี 4 คุณจะได้ทำความรู้จักกับระบบ Infrastucture on cloud ต่างๆ ซึ่งมีอยู่ด้วยกันหลายค่าย รวมไปถึงความรู้พื้นฐานเกี่ยวกับ data science และปัญญาประดิษฐ์ </li>
-            <li>สุดท้าย รับประกันได้ว่าเมื่อคุณได้เก็บเกี่ยวทุกอย่างที่อยู่ในหลักสูตรเราแล้ว คุณพร้อมแล้วสำหรับการเริ่มต้นเป็นโปรแกรมเมอร์ได้เลย</li>
-        </ul>
+<div class="container-fluid">
+    <div class="container pt-5">
+        <img class="img-thumbnail d-none" src="images/tcas/pr-2020-04-27.jpg" style="max-width:500px; width:100%;">
+        <h2><i class="fa fa-rocket"></i>รายละเอียดหลักสูตร และ Technology Stack</h2>
+        <div class="mt-4 text-center ">
+            <img class="img-thumbnail" src="images/technology-stack.jpg" style="width:100%;">
+        </div>
+        <div class="mt-4">
+            <h5>แต่ละชั้นปีเรียนอะไร ...</h5>
+            <ul>
+                <li>ปี 1 ฺคุณจะได้เรียนรู้การเขียนโปรแกรมพื้นฐาน เช่น C Python รวมไปถึงการพัฒนา Web Frontend เช่น HTML CSS JS รวมถึงหัดใช้งาน git service</li>
+                <li>ปี 2 คุณจะเริ่มได้เริ่มเรียนรู้อะไรเกี่ยวกับ Backend ต่างๆ ภาษา Object Oriented เช่น ตระกูล java รวมไปถึงฐานข้อมูลต่างๆ ที่อยู่ในความนิยม</li>
+                <li>ปี 3 คุณจะได้ลองทำระบบที่มีการนำ Backend และ Frondend มารวมกัน ทั้งในรูปแบบ Web Application , Mobile Application, Internet Of Thing หรือแม้กระทั่ง Application Standalone</li>
+                <li>ปี 4 คุณจะได้ทำความรู้จักกับระบบ Infrastucture on cloud ต่างๆ ซึ่งมีอยู่ด้วยกันหลายค่าย รวมไปถึงความรู้พื้นฐานเกี่ยวกับ data science และปัญญาประดิษฐ์ </li>
+                <li>สุดท้าย รับประกันได้ว่าเมื่อคุณได้เก็บเกี่ยวทุกอย่างที่อยู่ในหลักสูตรเราแล้ว คุณพร้อมแล้วสำหรับการเริ่มต้นเป็นโปรแกรมเมอร์ได้เลย</li>
+            </ul>
+            <div class="text-center">
+                <a class="btn btn-primary mb-4" href="http://acad.vru.ac.th/about_acad/A/299.pdf" target="_blank">
+                    ดาวโหลดรายละเอียดหลักสูตรได้ที่นี่
+                </a>
+            </div>
+        </div>
     </div>
 </div>
 
