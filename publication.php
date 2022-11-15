@@ -247,7 +247,7 @@ $og_image = "http://cs.vru.ac.th/images/online-exmaination-system.png";
               obj[key] = item.value;
             }
             console.log("CLICK",obj);
-            fetch('https://api.ckartisan.com/api/publication', {
+            fetch('https://www.ckartisan.com/api/publication', {
               method: 'POST', // *GET, POST, PUT, DELETE, etc.
               //mode: 'cors', // no-cors, *cors, same-origin
               // cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
@@ -314,7 +314,7 @@ $og_image = "http://cs.vru.ac.th/images/online-exmaination-system.png";
               obj[key] = item.value;
             }
             console.log("CLICK",obj);
-            fetch('https://api.ckartisan.com/api/publication/'+chosen.value, {
+            fetch('https://www.ckartisan.com/api/publication/'+chosen.value, {
               method: 'PUT', // *GET, POST, PUT, DELETE, etc.
               //mode: 'cors', // no-cors, *cors, same-origin
               // cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
@@ -340,7 +340,7 @@ $og_image = "http://cs.vru.ac.th/images/online-exmaination-system.png";
             let confirmed = confirm('Do you really want to delete this item?');
             if(confirmed){
               let chosen = document.querySelector("#id");
-              fetch('https://api.ckartisan.com/api/publication/'+chosen.value, {
+              fetch('https://www.ckartisan.com/api/publication/'+chosen.value, {
                 method: 'DELETE', // *GET, POST, PUT, DELETE, etc.
                 // mode: 'cors', // no-cors, *cors, same-origin
                 // cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
