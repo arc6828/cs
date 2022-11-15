@@ -85,7 +85,7 @@ $og_image = "http://cs.vru.ac.th/images/online-exmaination-system.png";
     // document.querySelector("#year").value = "{{ $year }}" ;
     //console.log("Hello",document.querySelector("#year").value);
     // fetch('publication-api.php')
-    fetch('https://api.ckartisan.com/api/publication')
+    fetch('https://www.ckartisan.com/api/publication')
       .then(response => response.json())
       .then(jsonData => {
         console.log(jsonData);
@@ -100,7 +100,7 @@ $og_image = "http://cs.vru.ac.th/images/online-exmaination-system.png";
       let chosen = document.querySelector("#id");
       console.log("Edit : ", chosen.value );
 
-      fetch('https://api.ckartisan.com/api/publication/'+chosen.value)
+      fetch('https://www.ckartisan.com/api/publication/'+chosen.value)
         .then(response => response.json())
         .then(jsonData => {
           console.log(jsonData);
