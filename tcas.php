@@ -43,7 +43,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
                     สมัครเรียน<br>ผ่านส่วนกลาง<br>ทุกประเภท<br>(ค่าสมัคร 300 บาท)
                 </a>
 
-                <a class="btn btn-outline-primary  mb-4" href="https://forms.gle/4WYGkwpKAhX387Du6" target="_blank">
+                <a class="btn btn-outline-primary  mb-4" href="http://ent.vru.ac.th/Webregister/pages/index_insert_nm_2.php" target="_blank">
                     สมัครเรียน<br>ผ่านคณะ<br> ประเภทจันทร์ - ศุกร์ <br>(ฟรีค่าสมัคร)
                 </a>
 
@@ -230,7 +230,7 @@ $og_image = "http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg";
                         สมัครเรียน<br>ผ่านส่วนกลาง<br>ทุกประเภท<br>(ค่าสมัคร 300 บาท)
                     </a>
 
-                    <a class="btn btn-outline-primary mb-4" href="https://forms.gle/4WYGkwpKAhX387Du6" target="_blank">
+                    <a class="btn btn-outline-primary mb-4" href="http://ent.vru.ac.th/Webregister/pages/index_insert_nm_2.php" target="_blank">
                         สมัครเรียน<br>ผ่านคณะ<br> ประเภทจันทร์ - ศุกร์ <br>(ฟรีค่าสมัคร)
                     </a>
 
