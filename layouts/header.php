@@ -2,25 +2,39 @@
 <html lang="en">
 
 <head>
-    <title>หลักสูตรวิทยาการคอมพิวเตอร์ | มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์</title>
+    <?php
+    $og_title = isset($og_title) ? $og_title : "หลักสูตรวิทยาการคอมพิวเตอร์ | มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ ";  
+    $og_author = isset($og_author) ? $og_author : 'หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์';
+    $og_url = isset($og_url) ? $og_url : "http://cs.vru.ac.th";
+    $og_type = isset($og_type) ? $og_type : "article";
+    $og_description = isset($og_description) ? $og_description : "หลักสูตรวิทยาการคอมพิวเตอร์ ผลิตบัณฑิตจิตอาสา งานวิจัยสร้างสรรค์ และบริการชุมชนด้วยความรู้และนวัตกรรม";
+    $og_image = isset($og_image) ? $og_image : "http://cs.vru.ac.th/images/logo5.png";
+    $og_keywords = isset($og_keywords) ? $og_keywords : 'เรียนวิทยาการคอมพิวเตอร์, วิทยาการคอมพิวเตอร์, วิทยาการคอมพิวเตอร์ราชภัฏวไลยอลงกรณ์, เรียนตอมพิวเตอร์, ปริญญาตรีวิทยาการคอมพิวเตอร์, เรียนเสาร์อาทิตย์, เรียนจันทร์ศุกร์, สาขาวิทยาการคอมพิวเตอร์, วิทยาการคอมพิวเตอร์ ปทุมธานี, วิทยาการคอมพิวเตอร์ TCAS';
+    
+    ?>
+    
+    <title><?php echo $og_title; ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <?php
-    $og_url = isset($og_url) ? $og_url : "https://cs.vru.ac.th";
-    $og_type = isset($og_type) ? $og_type : "article";
-    $og_title = isset($og_title) ? $og_title : "หลักสูตรวิทยาการคอมพิวเตอร์ มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ ";
-    $og_description = isset($og_description) ? $og_description : "หลักสูตรวิทยาการคอมพิวเตอร์ ผลิตบัณฑิตจิตอาสา งานวิจัยสร้างสรรค์ และบริการชุมชนด้วยความรู้และนวัตกรรม";
-    $og_image = isset($og_image) ? $og_image : "https://cs.vru.ac.th/images/logo5.png";
-    ?>
+    <meta name="title" content="<?php echo $og_title; ?>" />
+    <meta name="author" content="<?php echo $og_author; ?>">    
+    <meta name="description" content="<?php echo $og_description; ?>">
+    <meta name="keywords" content="<?php echo $og_keywords; ?>">
+    <link rel="canonical" href="<?php echo $og_url; ?>" />
+
+    <!-- Open Graph / Facebook -->
     <meta property="og:url" content="<?php echo $og_url; ?>" />
     <meta property="og:type" content="<?php echo $og_type; ?>" />
     <meta property="og:title" content="<?php echo $og_title; ?>" />
     <meta property="og:description" content="<?php echo $og_description; ?>" />
     <meta property="og:image" content="<?php echo $og_image; ?>" />
-
-    <meta name="description" content="<?php echo $og_description; ?>">
-    <meta name="keywords" content="เรียนวิทยาการคอมพิวเตอร์, วิทยาการคอมพิวเตอร์, วิทยาการคอมพิวเตอร์ราชภัฏวไลยอลงกรณ์, เรียนตอมพิวเตอร์, ปริญญาตรีวิทยาการคอมพิวเตอร์, เรียนเสาร์อาทิตย์, เรียนจันทร์ศุกร์, สาขาวิทยาการคอมพิวเตอร์">
-    <meta name="author" content="สาขาวิชาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="<?php echo $og_url; ?>" />
+    <meta property="twitter:title" content="<?php echo $og_title; ?>" />
+    <meta property="twitter:description" content="<?php echo $og_description; ?>" />
+    <meta property="twitter:image" content="<?php echo $og_image; ?>" />
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900|Oswald:300,400,700" rel="stylesheet">
     <!--link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet"-->
