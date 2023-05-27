@@ -73,6 +73,7 @@
         .button,
         .btn,
         .price,
+        .prompt,
         ._heading,
         .wp-block-pullquote blockquote,
         blockquote,
