@@ -21,8 +21,12 @@
         left: -60px;
     }
 
-    .col-lg-3,
+    /* .col-lg-3,
     li {
+        text-align: center;
+    } */
+    
+    li.nav-link {
         text-align: center;
     }
 
@@ -481,7 +485,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 text-center">
             <div class="card mb-4">
                 <div class="card-header">
                     <h5 class="card-title">ชื่อปริญญา</h5>
@@ -526,6 +530,8 @@
 
 
 </div>
+<!-- Technology Stack -->
+<?php include("layouts/technology-stack.php") ?>
 
 <!-- ติดตามข่าวสารได้ที่นี่ -->
 <?php include("layouts/group-line-qr.php") ?>
