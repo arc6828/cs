@@ -6,14 +6,43 @@
             <img class="img-thumbnail" src="images/technology-stack.jpg" style="width:100%;">
         </div>
         <div class="mt-4 text-left">
-            <h5>Technology Stack แต่ละชั้นปีเรียนอะไร ...</h5>
-            <ul>
-                <li>ปี 1 ฺคุณจะได้เรียนรู้การเขียนโปรแกรมพื้นฐาน เช่น C Python รวมไปถึงการพัฒนา Web Frontend เช่น HTML CSS JS, Bootstrap, Basic PHP รวมถึงหัดใช้งาน git service</li>
-                <li>ปี 2 คุณจะเริ่มได้เริ่มเรียนรู้อะไรเกี่ยวกับการเขียนโปรแกรมที่ซับซ้อนเพิ่มขึ้นอย่างภาษา Object Oriented เช่น ตระกูล java รวมไปถึงฐานข้อมูลต่างๆ ที่อยู่ในความนิยมทั้งรูปมีโครงสร้างตระกูล SQL และไร้โครงสร้าง NoSQL รวมทั้งใช้งานเครื่องมือ Full Stack Framework ที่เป็นที่นิยม ระบบเครือข่ายและความปลอดภัย</li>
-                <li>ปี 3 คุณจะได้ลองทำระบบที่มีการนำ Backend และ Frondend มารวมกัน ทั้งในรูปแบบ Web Application ในกรณีศึกษาต่างๆ , การพัฒนา Mobile Application ด้วยเครื่องที่มีมีความทันสมัย, Internet Of Thing หรือแม้กระทั่ง Desktop Application</li>
-                <li>ปี 4 คุณจะได้ทำความรู้จักกับระบบ Infrastucture on cloud ต่างๆ ซึ่งมีอยู่ด้วยกันหลายค่าย การ deploy ด้วย Docker และ Kubernetes รวมไปถึงความรู้พื้นฐานเกี่ยวกับ data science และปัญญาประดิษฐ์ </li>
-                <li>สุดท้าย รับประกันได้ว่าเมื่อคุณได้เก็บเกี่ยวทุกอย่างที่อยู่ในหลักสูตรเราแล้ว คุณพร้อมแล้วสำหรับการเริ่มต้นเป็นโปรแกรมเมอร์ได้เลย</li>
-            </ul>
+            <h5 class="text-center">Technology Stack แต่ละชั้นปีเรียนอะไร ...</h5>
+            <div class="table-reponsive">
+                <table class="table table-striped table-light">
+                    <thead>
+                        <tr>
+                            <th>ชั้นปี</th>
+                            <th>ภาคปฏิบัติ</th>
+                            <th>ภาคทฤษฎี</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <td>การเขียนโปรแกรมพื้นฐาน เช่น C Python รวมไปถึงการพัฒนา Web Frontend เช่น HTML CSS JS, Bootstrap, Basic PHP รวมถึงหัดใช้งาน git service </td>
+                            <td>Algorithm, Data Structure, Computer Architecture, Operating System, System Analysis and Design</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td>การเขียนโปรแกรมที่ซับซ้อนเพิ่มขึ้นอย่างภาษา Object Oriented เช่น ตระกูล java รวมไปถึงฐานข้อมูลต่างๆ ที่อยู่ในความนิยมทั้งรูปมีโครงสร้างตระกูล SQL และไร้โครงสร้าง NoSQL รวมทั้งใช้งานเครื่องมือ Full Stack Framework ที่เป็นที่นิยม </td>
+                            <td>Network, Data Communication, Software Engineering, Security</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td>ทำระบบที่มีการนำ Backend และ Frondend มารวมกัน ทั้งในรูปแบบ Web Application ในกรณีศึกษาต่างๆ , การพัฒนา Mobile Application ด้วยเครื่องที่มีมีความทันสมัย, Internet Of Thing หรือแม้กระทั่ง Desktop Application</td>
+                            <td>ระเบียบวิธีวิจัย การประยุกต์ร่วมกับชุมชน วิทยาการคอมพิวเตอร์กับการบริการชุมชน</td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td>ระบบ Infrastucture on cloud ต่างๆ ซึ่งมีอยู่ด้วยกันหลายค่าย การ deploy ด้วย Docker และ Kubernetes รวมไปถึงความรู้พื้นฐานเกี่ยวกับ data science และปัญญาประดิษฐ์ </td>
+                            <td>ความรู้พื้นฐานเกี่ยวกับ data science และปัญญาประดิษฐ์ และวิชาเลือกเสรี</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <p>โดยเราคาดหวังว่าเมื่อนักศึกษาจบออกไปแล้ว จะมีความพร้อมแล้วสำหรับการเริ่มต้นสายอาชีพโปรแกรมเมอร์ก็ดี หรืออาชีพเกี่ยวข้องกับคอมพิวเตอร์ก็ดี</p>
+            <br />
             <div class="text-center">
                 <a class="btn btn-primary mb-4" href="structure.php" target="_blank">
                     ดาวโหลดรายละเอียดหลักสูตรได้ที่นี่
