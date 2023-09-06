@@ -25,6 +25,10 @@
     li {
         text-align: center;
     } */
+    
+    li.nav-link {
+        text-align: center;
+    }
 
     /*
     //Extra small devices (portrait phones, less than 576px)
@@ -197,59 +201,59 @@
                                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab" style="margin-left:10px;margin-right:10px">
                                         <br />
                                         <a href="uploads/06-21/001.pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;คำร้องขอเทียบโอนผลการเรียนเพื่อยกเว้นรายวิชา หมวดวิชาศึกษาทั่วไป</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;คำร้องขอเทียบโอนผลการเรียนเพื่อยกเว้นรายวิชา หมวดวิชาศึกษาทั่วไป(18 มิ.ย. 64)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/03-21/8-3-64.pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัยเรื่อง แจ้งกำหนดการจองรายวิชาผ่านระบบออนไลน์นักศึกษาเต็มเวลา (จันทร์-ศุกร์) ภาคการศึกษาที่ 1/2564</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัยเรื่อง แจ้งกำหนดการจองรายวิชาผ่านระบบออนไลน์นักศึกษาเต็มเวลา (จันทร์-ศุกร์) ภาคการศึกษาที่ 1/2564(8 มี.ค. 64)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/02-21/Binder1.pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ศูนย์ภาษา แจ้งรายชื่อหลักสูตรเสริมทักษะภาษาอังกฤษระยะสั้น (ออนไลน์) รอบที่ ๒</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ศูนย์ภาษา แจ้งรายชื่อหลักสูตรเสริมทักษะภาษาอังกฤษระยะสั้น (ออนไลน์) รอบที่ ๒(9 ก.พ. 64)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/01-21/16-01-64_1.pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ศูนย์ภาษา ประชาสัมพันธ์รับสมัครหลักสูตรเสริมทักษะภาษาอังกฤษระยะสั้นออนไลน์ รอบที่ 2(</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ศูนย์ภาษา ประชาสัมพันธ์รับสมัครหลักสูตรเสริมทักษะภาษาอังกฤษระยะสั้นออนไลน์ รอบที่ 2(16 ม.ค. 64)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/01-21/16-01-64.pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ศูนย์ภาษา ประชาสัมพันธ์รับสมัครหลักสูตรเสริมทักษะภาษาอังกฤษระยะสั้นออนไลน์ รอบที่ 1()</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ศูนย์ภาษา ประชาสัมพันธ์รับสมัครหลักสูตรเสริมทักษะภาษาอังกฤษระยะสั้นออนไลน์ รอบที่ 1(16 ม.ค. 64)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/12-20/3-12-20.pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;คณะวิทยาศาสตร์และเทคโนโลยี ขอเชิญศิษย์เก่าเข้าร่วมกิจกรรม</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;คณะวิทยาศาสตร์และเทคโนโลยี ขอเชิญศิษย์เก่าเข้าร่วมกิจกรรม(3 ธ.ค. 63)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/09-20/29-09-2563.pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ศูนย์ภาษา ประชาสัมพันธ์ตารางสอบวัดความสามารถภาษาอังกฤษ VRU-TEP</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ศูนย์ภาษา ประชาสัมพันธ์ตารางสอบวัดความสามารถภาษาอังกฤษ VRU-TEP(29 ก.ย. 63)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/08-20/25-08-2563(1).pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัย เรื่องการรับสมัครนักศึกษาปริญญาตรี เสาร์-อาทิตย์ ภาคเรียนที่2 ปีการศึกษา 2564(</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัย เรื่องการรับสมัครนักศึกษาปริญญาตรี เสาร์-อาทิตย์ ภาคเรียนที่2 ปีการศึกษา 2564(25 ส.ค. 63)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/08-20/25-08-2563.pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัย เรื่องการรับสมัครนักศึกษาปริญญาตรี จันทร์-ศุกร์ ปีการศึกษา 2564(</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัย เรื่องการรับสมัครนักศึกษาปริญญาตรี จันทร์-ศุกร์ ปีการศึกษา 2564(25 ส.ค. 63)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/07-20/30-07-2563.pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัย ฉบับที่ 9 กำหนดอัตราค่าธรรมเนียมเรียกเก็บสำหรับการจัดการศึกษาระดับปริญญาตรี พ.ศ.2563</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัย ฉบับที่ 9 กำหนดอัตราค่าธรรมเนียมเรียกเก็บสำหรับการจัดการศึกษาระดับปริญญาตรี พ.ศ.2563(30 ก.ค. 63)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/07-20/30-07-2563(1).pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;กองพัฒนานักศึกษา ขอประชาสัมพันธํ์และส่งหลักเกณฑ์การประกวดคลิปวิดิโอ หัวข้อ "VRU Safe Driving"</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;กองพัฒนานักศึกษา ขอประชาสัมพันธํ์และส่งหลักเกณฑ์การประกวดคลิปวิดิโอ หัวข้อ "VRU Safe Driving"(30 ก.ค. 63)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/07-20/2-07-2563(2).pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;แนวทางการดำเนินกิจกรรม งดการจัดกิจกรรมต้อนรับน้องใหม่และประชุมเชียร์(</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;แนวทางการดำเนินกิจกรรม งดการจัดกิจกรรมต้อนรับน้องใหม่และประชุมเชียร์(2 ก.ค. 63)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/07-20/2-07-2563(1).pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัย งดการจัดกิจกรรมต้อนรับน้องใหม่ และประชุมเชียร์(</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัย งดการจัดกิจกรรมต้อนรับน้องใหม่ และประชุมเชียร์(2 ก.ค. 63)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/07-20/2-07-2563.pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัย มาตรการเฝ้าระวังการระบาดเชื้อไวรัสโคโรนา(</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศมหาวิทยาลัย มาตรการเฝ้าระวังการระบาดเชื้อไวรัสโคโรนา(2 ก.ค. 63)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/04-20/27-04-2563.pdf">
@@ -375,66 +379,66 @@
                                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab" style="margin-left:10px;margin-right:10px">
                                         <br />
                                         <a href="uploads/12-19/17-12-19(2).pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; สำนักงานปลัดกระทรวงการอุดมศึกษา เปิดรับสมัครทุน Franco-Thai Scholarship Program ประจำปี 2563 </font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; สำนักงานปลัดกระทรวงการอุดมศึกษา เปิดรับสมัครทุน Franco-Thai Scholarship Program ประจำปี 2563 (17 ธ.ค. 62)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/12-19/17-12-19(1).pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;กระทรวงการอุดมศึกษาประชาสัมพันธ์ทุนการศึกษา Stipendlum Hungaricum ประจำปีการศึกษา 2020-2021 ของรัฐบาลฮังการี </font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;กระทรวงการอุดมศึกษาประชาสัมพันธ์ทุนการศึกษา Stipendlum Hungaricum ประจำปีการศึกษา 2020-2021 ของรัฐบาลฮังการี (17 ธ.ค. 62)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/11-19/23-11-19(2).pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;สำนักงานปลัดกระทรวงการอุดมศึกษา ประชาสัมพันธ์ทุนมูลนิธิอายิโนะโมะโต๊ะ จำนวน 50 ทุน </font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;สำนักงานปลัดกระทรวงการอุดมศึกษา ประชาสัมพันธ์ทุนมูลนิธิอายิโนะโมะโต๊ะ จำนวน 50 ทุน (23 พ.ย. 62)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/09-19/05-09-19(1).pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;มูลนิธิอมตะ ประชาสัมพันธ์คัดเลือกนักศึกษารับทุนการศึกษาต่อเนื่อง </font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;มูลนิธิอมตะ ประชาสัมพันธ์คัดเลือกนักศึกษารับทุนการศึกษาต่อเนื่อง (5 ก.ย. 62)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/01-19/27-1-19.pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; มูลนิธิการศึกษาไทย - อเมริกัน(ฟุลไบรท์) เปิดรับสมัครผู้ที่สนใจชิง ทุนการศึกษา Fulbright thai graduate scholarship program ประจำปีการศึกษา 2563 จำนวน 7 ทุน เพื่อศึกษาต่อระดับปริญญาโท หรือปริญญาเอก ในประเทศสหรัฐอเมริกา </font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; มูลนิธิการศึกษาไทย - อเมริกัน(ฟุลไบรท์) เปิดรับสมัครผู้ที่สนใจชิง ทุนการศึกษา Fulbright thai graduate scholarship program ประจำปีการศึกษา 2563 จำนวน 7 ทุน เพื่อศึกษาต่อระดับปริญญาโท หรือปริญญาเอก ในประเทศสหรัฐอเมริกา (27 ม.ค. 62)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/10-18/25-10-18(2).pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; สถานเอกอัครราชทูตออสเตรเลีย ประชาสัมพันธ์ทุนการศึกษา </font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; สถานเอกอัครราชทูตออสเตรเลีย ประชาสัมพันธ์ทุนการศึกษา (25 ต.ค. 61)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/09-18/22-9-61.pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; มูลนิธิอายิโนะโมะโต๊ะ ประกาศการให้ทุนการศึกษาโครงการ "ทุนส่งน้องเรียนจบ" ประจำปีการศึกษา2561 </font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; มูลนิธิอายิโนะโมะโต๊ะ ประกาศการให้ทุนการศึกษาโครงการ "ทุนส่งน้องเรียนจบ" ประจำปีการศึกษา2561 (22 พ.ย. 61)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/08-18/2-8-18(3).pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; ทุนการศึกษา เทสโก้ โลตัส เพื่อนักศึกษามหาวิทยาลัย </font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; ทุนการศึกษา เทสโก้ โลตัส เพื่อนักศึกษามหาวิทยาลัย (2 ส.ค. 61)</font>
                                         </a>
                                         <hr>
                                     </div>
                                     <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab" style="margin-left:10px;margin-right:10px">
                                         <br />
                                         <a href="uploads/07-20/2-07-2563(3).pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; สนง.คุ้มครองผู้บริโภค ขอความประชาสัมพันธ์การรับนักศึกษาฝึกงาน </font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; สนง.คุ้มครองผู้บริโภค ขอความประชาสัมพันธ์การรับนักศึกษาฝึกงาน (2 ก.ค. 63)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/05-20/14-05-20.pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศรับสมัครสอบแข่งขันเพื่อบรรจุและแต่งตั้งบุคคลเข้าเป็นพนักงานมหาวิทยาลัย สายสนับสนุน ตำแหน่งนักวิชาการคอมพิวเตอร์ จำนวน 1 ตำแหน่ง 2 อัตรา สังกัดศูนย์คอมพิวเตอร์ สำนักงานอธิการบดี มรภ.วไลยอลงกรณ์ ในพระบรมราชูปถัมภ์</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226;ประกาศรับสมัครสอบแข่งขันเพื่อบรรจุและแต่งตั้งบุคคลเข้าเป็นพนักงานมหาวิทยาลัย สายสนับสนุน ตำแหน่งนักวิชาการคอมพิวเตอร์ จำนวน 1 ตำแหน่ง 2 อัตรา สังกัดศูนย์คอมพิวเตอร์ สำนักงานอธิการบดี มรภ.วไลยอลงกรณ์ ในพระบรมราชูปถัมภ์(14 พ.ค. 63)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/10-19/29-10-19.pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; รับสมัครเจ้าหน้าที่ประจำตามสัญญาจ้าง ตำแหน่ง นักวิชาการคอมพิวเตอร์ จำนวน 1 อัตรา สังกัดคณะวิทยาศาสตร์และเทคโนโลยี </font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; รับสมัครเจ้าหน้าที่ประจำตามสัญญาจ้าง ตำแหน่ง นักวิชาการคอมพิวเตอร์ จำนวน 1 อัตรา สังกัดคณะวิทยาศาสตร์และเทคโนโลยี (29 ต.ค. 62)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/08-19/19-08-19(1).pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; บริษัทสเปเชียลตี้ ประชาสัมพันธ์รับนักศึกษาฝึกประสบการณ์วิชาชีพ (</font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; บริษัทสเปเชียลตี้ ประชาสัมพันธ์รับนักศึกษาฝึกประสบการณ์วิชาชีพ (19 ส.ค. 62)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/10-18/25-10-18(3).pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; สำนักงานพัฒนาเทคโนโลยีอวกาศ ประกาศรับสมัครนักศึกษาฝึกงานและนักศึกษาสหกิจ </font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; สำนักงานพัฒนาเทคโนโลยีอวกาศ ประกาศรับสมัครนักศึกษาฝึกงานและนักศึกษาสหกิจ (25 ต.ค. 61)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/08-18/2-8-18(2).pdf">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; บริษัท อีปิค คอมพิวเตอร์ ประชาสัมพันธ์รับนักศึกษาฝึกงาน </font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; บริษัท อีปิค คอมพิวเตอร์ ประชาสัมพันธ์รับนักศึกษาฝึกงาน (2 ส.ค. 61)</font>
                                         </a>
                                         <hr>
                                         <a href="uploads/07-18/12-7-18.PDF">
-                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; บริษัท เซ้าท์ อีสท์ เอเชีย เน็ทเวอร์ค คอร์ปอเรชัน จำกัด ประกาศรับสมัครโปรแกรมเมอร์ หลายตำแหน่ง </font>
+                                            <font color="black">&nbsp;&nbsp;&nbsp;&#8226; บริษัท เซ้าท์ อีสท์ เอเชีย เน็ทเวอร์ค คอร์ปอเรชัน จำกัด ประกาศรับสมัครโปรแกรมเมอร์ หลายตำแหน่ง (12 ก.ค. 61)</font>
                                         </a>
                                         <br />
                                         <a href="uploads/07-18/9-7-18.pdf">
@@ -456,7 +460,6 @@
                     </div>
                 </div>
             </div>
-            <br />
 
             <div class="mt-4" style="padding-top: 20px;">
                 <h4>Quick Links</h4>
@@ -494,38 +497,35 @@
                     <p class="card-text">
                         Bachelor of Science (B.Sc.) <br />(Computer Science)
                     </p>
-                    <p class="card-text">
-                        <a href="structure.php" class="btn btn-primary">รายละเอียดหลักสูตร</a>
-                    </p>
                 </div>
             </div>
             <div class="card mb-4">
-                <!-- <div class="card-header">
+                <div class="card-header">
                     <h5 class="card-title">ค่าเทอม</h5>
-                </div> -->
+                </div>
                 <div class="card-body">
-                <h5 class="card-title">ค่าเทอม</h5>
                     <p class="card-text prompt">
                     <h3 class="fs-1">12,000 บาท</h3>
                     </p>
                 </div>
             </div>
             <div class="card mb-4">
-                <!-- <div class="card-header">
-                    <h5 class="card-title">ประธานหลักสูตร</h5>
-                </div> -->
-                <img class="card-img-top" src="http://sci.vru.ac.th/assets/images/people/IMG_20230513_090631_edit.jpg" />
-                <div class="card-body">                    
-                    <div><label>ดร.ประณมกร อัมพรพรรดิ์</label></div>
-                    <div><label>ประธานหลักสูตร</label></div>
-
+                <div class="card-header">
+                    <h5 class="card-title">รายละเอียดหลักสูตร (มคอ.2)</h5>
+                </div>
+                <div class="card-body">
+                    <a href="structure.php" class="btn btn-primary">ดูรายละเอียด</a>
                 </div>
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-lg-9">
 
-    <br />
-    <br />
+
+        </div>
+
+    </div>
 
 
 
