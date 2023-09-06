@@ -6,12 +6,14 @@
             <img class="img-thumbnail" src="images/technology-stack.jpg" style="width:100%;">
         </div>
         <div class="mt-4 text-left">
+            <br />
             <h5 class="text-center">Technology Stack แต่ละชั้นปีเรียนอะไร ...</h5>
-            <div class="table-reponsive">
-                <table class="table table-striped table-light">
-                    <thead>
+            <br />
+            <div class="table-responsive bg-white">
+                <table class="table table-striped">
+                    <thead class="">
                         <tr>
-                            <th>ชั้นปี</th>
+                            <th style="min-width: 70px;">ชั้นปี</th>
                             <th>ภาคปฏิบัติ</th>
                             <th>ภาคทฤษฎี</th>
                         </tr>
@@ -41,7 +43,8 @@
                     </tbody>
                 </table>
             </div>
-            <p>โดยเราคาดหวังว่าเมื่อนักศึกษาจบออกไปแล้ว จะมีความพร้อมแล้วสำหรับการเริ่มต้นสายอาชีพโปรแกรมเมอร์ก็ดี หรืออาชีพเกี่ยวข้องกับคอมพิวเตอร์ก็ดี</p>
+            <br />
+            <p class="text-center">โดยเราคาดหวังว่าเมื่อนักศึกษาจบออกไปแล้ว จะมีความพร้อมแล้วสำหรับการเริ่มต้นสายอาชีพโปรแกรมเมอร์ก็ดี หรืออาชีพเกี่ยวข้องกับคอมพิวเตอร์ก็ดี</p>
             <br />
             <div class="text-center">
                 <a class="btn btn-primary mb-4" href="structure.php" target="_blank">

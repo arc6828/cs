@@ -69,26 +69,6 @@
       "phone": "",
       "image": "http://sci.vru.ac.th/assets/images/people/IMG_20230513_090317_edit.jpg",
       "office": "IT201 อาคาร 75 ปีฯ"
-    },
-    {
-      "id": 8,
-      "name": "ธนา ละมะณี",
-      "education": "วศ.บ. (วิศวกรรมเครือข่ายคอมพิวเตอร์) - มหาวิทยาลัยราชภัฏมหาสารคาม",
-      "role": "นักวิชาการคอมพิวเตอร์",
-      "email": "tana@vru.ac.th",
-      "phone": "",
-      "image": "http://sci.vru.ac.th/assets/images/people/IMG_20230513_084853_edit.jpg",
-      "office": "IT201 อาคาร 75 ปีฯ"
-    },
-    {
-      "id": 9,
-      "name": "เนติวิทย์ วรรณโชติ",
-      "education": "วท.บ. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยแม่ฟ้าหลวง",
-      "role": "นักวิชาการคอมพิวเตอร์",
-      "email": "netiwit@vru.ac.th",
-      "phone": "",
-      "image": "http://sci.vru.ac.th/assets/images/people/IMG_20230513_085715_edit.jpg",
-      "office": "IT201 อาคาร 75 ปีฯ"
     }
   ]
 }
