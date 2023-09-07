@@ -14,19 +14,19 @@ $people = $people_obj["people"];
       </div>
       <br>
       <!-- T1 -->
-      <div class="row row-cols-1 row-cols-md-2 gutter-2">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-xl-2 gutter-2">
          <?php foreach ($people as $row) { ?>
             
             <div class="col p-1" data-aos="fade-up" data-aos-delay="100">
                <div class="card h-100">
                   <div class="row no-gutters">
-                     <div class="col-md-5">
+                     <div class="col-xl-5 col-lg-2 col-md-4">
                         <img src="<?= $row["image"] ?>" class="img-fluid" alt="">
                      </div>
-                     <div class="col-md-7">
+                     <div class="col-xl-7 col-lg-10 col-md-8">
                         <div class="card-body">                           
                            <h5 style="font-size: 1.2rem;"><?= $row["name"] ?></h5>
-                           <label class="text-black-50"><?= $row["role"] ?></label>
+                           <div class="text-black-50 prompt"><?= $row["role"] ?></div>
                            <?php
                            $educations = explode(" | ", $row["education"]);
                            ?>
@@ -39,8 +39,8 @@ $people = $people_obj["people"];
                               <?php }    ?>
                            </div>
                            <!-- <div> <?= $row["phone"] ?> </div> -->
-                           <div class="text-black-50"><i class="fa fa-map-marker"></i> <?= $row["office"] ?> </div>
-                           <div class="text-black-50"> <?= $row["email"] ?> </div>
+                           <div class="text-black-50"><i class="fa fa-map-marker"></i> <?= $row["office"] ?></div>                           
+                           <div class="text-black-50"> <label><?= $row["email"] ?> </label></div>
                         </div>
                      </div>
                   </div>
