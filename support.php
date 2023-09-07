@@ -39,7 +39,8 @@ $people = $people_obj["people"];
                               <?php }    ?>
                            </div>
                            <!-- <div> <?= $row["phone"] ?> </div> -->
-                           <div> <?= $row["email"] ?> </div>
+                           <div class="text-black-50"><i class="fa fa-map-marker"></i> <?= $row["office"] ?> </div>
+                           <div class="text-black-50"> <?= $row["email"] ?> </div>
                         </div>
                      </div>
                   </div>

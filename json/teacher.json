@@ -23,7 +23,7 @@
     {
       "id": 3,
       "name": "ดร.ประณมกร อัมพรพรรดิ์",
-      "education": "Ph.D. (Computer Science and Information System) - สถาบันบัณฑิตพัฒนบริหารศาสตร์ (NIDA) | M.Infs. (Database Systems) - The University of  New South Wales, New South Wales, Australia. | วท.บ. (วิทยาการคอมพิวเตอร์) - มหาวิทยาลัยมหิดล",
+      "education": "Ph.D. (Computer Science and Information System) - สถาบันบัณฑิตพัฒนบริหารศาสตร์ (NIDA) | M.Infs. (Database Systems) - University of  New South Wales, Australia | วท.บ. (วิทยาการคอมพิวเตอร์) - มหาวิทยาลัยมหิดล",
       "role": "อาจารย์",
       "email": "pranomkorn@vru.ac.th",
       "phone": "",
@@ -63,7 +63,7 @@
     {
       "id": 7,
       "name": "ชวลิต โควีระวงศ์",
-      "education": "M.Eng. (Information and Communication Technology for Embedded Systems) - Sirindhron International Institute of Technology, Thammasat University | B.Sc. (Computer Science) - Sirindhron International Institute of Technology, Thammasat University",
+      "education": "M.Eng. (ICT for Embedded Systems) - Sirindhron International Institute of Technology, Thammasat University | B.Sc. (Computer Science) - Sirindhron International Institute of Technology, Thammasat University",
       "role": "อาจารย์",
       "email": "chavalit@vru.ac.th",
       "phone": "",
