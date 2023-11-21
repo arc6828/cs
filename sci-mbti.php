@@ -1,8 +1,8 @@
 <?php include("layouts/header.php"); ?>
 
 <?php
-// $questions = json_decode(file_get_contents("https://raw.githubusercontent.com/arc6828/cs/744d8f9c5c6c909066864bda0c7b66f71e592699/json/sci-mbti.json"));
-$questions = json_decode(file_get_contents("http://localhost/cs/json/sci-mbti.json"));
+$questions = json_decode(file_get_contents("https://raw.githubusercontent.com/arc6828/cs/744d8f9c5c6c909066864bda0c7b66f71e592699/json/sci-mbti.json"));
+// $questions = json_decode(file_get_contents("http://localhost/cs/json/sci-mbti.json"));
 // $people = $people_obj["people"];
 shuffle($questions);
 ?>
