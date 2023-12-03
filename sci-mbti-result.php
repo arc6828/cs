@@ -79,14 +79,16 @@
 
                 // Options for the radar chart
                 var options = {
-                    scale: {
-                        ticks: {
-                            beginAtZero: true
+                    scales: {
+                        r: {
+                            beginAtZero: true,
+                            min: 0,
+                            max: 3,
+                            ticks: {
+                                stepSize: 1
+                            }
                         },
-                    },
-                    legend: {
-                        display: false // hide legend
-                    },
+                    }
                 };
 
                 // Get the context of the canvas element we want to select
