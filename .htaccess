@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # SKIP existing files or directories / Send Requests To Front Controller...
+    # RewriteCond %{REQUEST_FILENAME} !-d
+    # RewriteCond %{REQUEST_FILENAME} !-f    
+    # RewriteRule ^content(/+.+)$ $1 
+
+    # If the request is for an existing file
+    # RewriteCond %{REQUEST_FILENAME} -f
+
+    # and the file has a specific extension (e.g., .html)
+    # RewriteCond %{REQUEST_URI} \.css$
+
+    # Rewrite to the destination folder
+    # RewriteRule ^content/(.*)$ content/$1
+
+    RewriteRule ^content/(.*)$ content/index.php [L] 
+</IfModule>

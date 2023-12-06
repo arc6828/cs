@@ -61,12 +61,12 @@
           <div class="col-md-4 mx-auto">
             <h2 class="footer-heading mb-4">Quick Links</h2>
             <ul class="list-unstyled">
-              <li><a href="teacher.php">อาจารย์</a></li>
-              <li><a href="support.php">บุคคลากร</a></li>
+              <li><a href="../teacher.php">อาจารย์</a></li>
+              <li><a href="../support.php">บุคคลากร</a></li>
               <li><a href="#">งานวิจัยและพัฒนา</a></li>
-              <li><a href="tcas.php">รับสมัครนักศึกษา</a></li>
-              <li><a href="content">บทความ</a></li>
-              <li><a href="contact.php">ติดต่อเรา</a></li>
+              <li><a href="../tcas.php">รับสมัครนักศึกษา</a></li>
+              <li><a href="../content">บทความ</a></li>
+              <li><a href="../contact.php">ติดต่อเรา</a></li>
             </ul>
           </div>
 
@@ -136,7 +136,7 @@
 
     <!--script src="https://kit.fontawesome.com/d59a8a2721.js"></script-->
     <!--script src="js/main.js"></script-->
-    <?php include("layouts/main-js.php"); ?>
+    <?php include("../layouts/main-js.php"); ?>
 
     <!-- Load Facebook SDK for JavaScript -->
     <?php if (true) { ?>
