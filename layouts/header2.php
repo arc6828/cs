@@ -174,7 +174,7 @@
                 <div class="site-mobile-menu-close mt-3">
                     <span class="icon-close2 js-menu-toggle"></span>
                 </div>
-                <img class="m-4" src="images/css.png" height="70">
+                <img class="m-4" src="../images/css.png" height="70">
             </div>
             <div class="site-mobile-menu-body"></div>
         </div>
@@ -186,7 +186,7 @@
                     <div class="site-logo">
                         <a href="../index.php" class="text-left">
                             <div class="" style="display: flex; flex-direction:row;">
-                                <img class="d-lg-block d-md-none d-sm-none d-none my-1" src="images/css.png" height="70">
+                                <img class="d-lg-block d-md-none d-sm-none d-none my-1" src="../images/css.png" height="70">
                                 <div class="d-lg-block" style="line-height: 0.3;   padding-top: 18px;     padding-left: 10px;">
                                     <h1 style="margin-bottom:0px; font-size: 0.8em;" class="text-dark">วิทยาการคอมพิวเตอร์</h1>
                                     <small class="" style="font-size: 0.35em; color:#777;">มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์</small>
