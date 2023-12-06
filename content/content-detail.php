@@ -7,6 +7,7 @@ $article_set = json_decode(file_get_contents($url));
 $article = $article_set->article;
 $latest = $article_set->latest;
 $tagged = $article_set->tagged;
+$teacher = $article_set->teacher;
 ?>
 
 
@@ -44,10 +45,10 @@ $tagged = $article_set->tagged;
         </div>
         <div class="row">
             <div class="col-md-8">
-                <div>
-                    <?php foreach (json_decode($article->category) as $c) { ?>
-                        <span class="badge rounded-pill text-bg-light"><?= $c ?></span>
-                    <?php } ?>
+                <div class="mb-4">
+                    <?php foreach (json_decode($article->category) as $item) {  ?>
+                        <span class="badge badge-pill badge-primary"><?= $item ?></span>
+                    <?php }    ?>
                 </div>
                 <div>
                     <?= html_entity_decode($article->contentEncoded) ?>
@@ -62,13 +63,14 @@ $tagged = $article_set->tagged;
 
                     <div class="row g-4">
                         <?php foreach ($latest as $item) { ?>
-                            <div class="col-lg-12">
-                                <div class="card">
+                            <div class="col-md-12">
+                                <div class="card mb-4">
                                     <img src="<?= $item->image_url ?>" class="card-img-top" alt="<?= $item->title ?>">
                                     <div class="card-body">
+
+                                        <p class="card-text"><?= $item->pubDate ?></p>
                                         <h5 class="card-title"><?= $item->title ?></h5>
                                         <p class="card-text"><?= $item->creator ?></p>
-                                        <p class="card-text"><?= $item->pubDate ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -95,25 +97,26 @@ $tagged = $article_set->tagged;
                 <div class="card h-100">
                     <div class="row no-gutters">
                         <div class="col-xl-2 col-lg-2 col-md-3">
-                            <img src="http://sci.vru.ac.th/assets/images/people/IMG_20230513_105114_edit.jpg" class="img-fluid" alt="">
+                            <img src="<?= $teacher->image ?>" class="img-fluid" alt="<?= $teacher->name ?>">
                         </div>
                         <div class="col-xl-10 col-lg-10 col-md-9">
                             <div class="card-body">
-                                <h5 style="font-size: 1.2rem;">วิวัฒน์ ชินนาทศิริกุล</h5>
-                                <div class="text-black-50 prompt">ผู้ช่วยศาสตราจารย์</div>
+                                <h5 style="font-size: 1.2rem;"><?= $teacher->name ?></h5>
+                                <div class="text-black-50 prompt"><?= $teacher->role ?></div>
+                                <?php
+                                $educations = explode(" | ", $teacher->education);
+                                ?>
                                 <div>
-                                    <div>
-                                        <sup>1</sup>
-                                        พบ.ม. สถิติประยุกต์ (ระบบและการจัดการสารสนเทศ) - สถาบันบัณฑิตพัฒนบริหารศาสตร์ (NIDA)
-                                    </div>
-                                    <div>
-                                        <sup>2</sup>
-                                        กศ.บ. (คณิตศาสตร์) - มหาวิทยาลัยศรีนครินทรวิโรฒประสานมิตร
-                                    </div>
+                                    <?php foreach ($educations as $key => $item) {  ?>
+                                        <div>
+                                            <sup><?= $key + 1 ?></sup>
+                                            <?= $item ?>
+                                        </div>
+                                    <?php }    ?>
                                 </div>
                                 <!-- <div>  </div> -->
-                                <div class="text-black-50"><i class="fa fa-map-marker"></i> IT201 อาคาร 75 ปีฯ</div>
-                                <div class="text-black-50"> <label>wiwat@vru.ac.th </label></div>
+                                <div class="text-black-50"><i class="fa fa-map-marker"></i><?= $teacher->office ?></div>
+                                <div class="text-black-50"> <label><?= $teacher->email ?></label></div>
                             </div>
                         </div>
                     </div>
@@ -141,9 +144,9 @@ $tagged = $article_set->tagged;
                             <div class="card h-100">
                                 <img src="<?= $item->image_url ?>" class="card-img-top" alt="<?= $item->title ?>">
                                 <div class="card-body">
+                                    <p class="card-text"><?= $item->pubDate ?></p>
                                     <h6 class="card-title"><?= mb_substr($item->title, 0, 50) ?></h6>
                                     <p class="card-text"><?= $item->creator ?></p>
-                                    <p class="card-text"><?= $item->pubDate ?></p>
                                 </div>
                             </div>
                         </div>
