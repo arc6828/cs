@@ -7,7 +7,7 @@ $article_set = json_decode(file_get_contents($url));
 $article = $article_set->article;
 $latest = $article_set->latest;
 $tagged = $article_set->tagged;
-$teacher = $article_set->teacher;
+$writer = $article_set->writer;
 ?>
 
 
@@ -58,7 +58,7 @@ $teacher = $article_set->teacher;
             </div>
             <div class="col-md-4">
                 <div class="px-4 border-start">
-                    <h2 class="h4">บทความล่าสุด</h2>
+                    <h2 class="h4">บทความที่เกี่ยวกับผู้เขียน</h2>
 
 
                     <div class="row g-4">
@@ -97,14 +97,14 @@ $teacher = $article_set->teacher;
                 <div class="card h-100">
                     <div class="row no-gutters">
                         <div class="col-xl-2 col-lg-2 col-md-3">
-                            <img src="<?= $teacher->image ?>" class="img-fluid" alt="<?= $teacher->name ?>">
+                            <img src="<?= $writer->image ?>" class="img-fluid" alt="<?= $writer->name ?>">
                         </div>
                         <div class="col-xl-10 col-lg-10 col-md-9">
                             <div class="card-body">
-                                <h5 style="font-size: 1.2rem;"><?= $teacher->name ?></h5>
-                                <div class="text-black-50 prompt"><?= $teacher->role ?></div>
+                                <h5 style="font-size: 1.2rem;"><?= $writer->name ?></h5>
+                                <div class="text-black-50 prompt"><?= $writer->role ?></div>
                                 <?php
-                                $educations = explode(" | ", $teacher->education);
+                                $educations = explode(" | ", $writer->education);
                                 ?>
                                 <div>
                                     <?php foreach ($educations as $key => $item) {  ?>
@@ -115,8 +115,8 @@ $teacher = $article_set->teacher;
                                     <?php }    ?>
                                 </div>
                                 <!-- <div>  </div> -->
-                                <div class="text-black-50"><i class="fa fa-map-marker"></i><?= $teacher->office ?></div>
-                                <div class="text-black-50"> <label><?= $teacher->email ?></label></div>
+                                <div class="text-black-50"><i class="fa fa-map-marker"></i><?= $writer->office ?></div>
+                                <div class="text-black-50"> <label><?= $writer->email ?></label></div>
                             </div>
                         </div>
                     </div>

@@ -1,7 +1,7 @@
 <?php include("../layouts/header2.php"); ?>
 
 <?php
-$articles = json_decode(file_get_contents("https://ckartisan.com/api/article"));
+$articles = json_decode(file_get_contents("https://ckartisan.com/api/article/tagged/computer-science"));
 // $people = $people_obj["people"];
 ?>
 
