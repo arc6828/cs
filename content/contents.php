@@ -26,15 +26,18 @@ $articles = json_decode(file_get_contents("https://ckartisan.com/api/article/tag
                             <a href="<?= $row->id ?>">
                                 <h5 style="font-size: 1.2rem;"><?= $row->title ?></h5>
                             </a>
-                            <label class="text-black-50"><?= $row->pubDate ?></label>
                             
+                            <label class="text-black-50 date"><?= $row->pubDate ?></label>
                             <div>
                                 <?php foreach (json_decode($row->category) as $item) {  ?>
                                     <span class="badge badge-pill badge-primary"><?= $item ?></span>
-                                <?php }    ?>
+                                <?php }    ?>                                
                             </div>
                             <!-- <div> <?= $row->title ?> </div> -->
-                            <div> <?= $row->first_paragraph ?> </div>
+                            <div> 
+                                <?= mb_substr($row->first_paragraph,0 , 250)  ?> ... - 
+                                <label class="text-black-50">อ่านต่อ</label> 
+                            </div>
                             <label class="text-black-50"><?= $row->creator ?></label>
                         </div>
                     </div>
@@ -47,5 +50,25 @@ $articles = json_decode(file_get_contents("https://ckartisan.com/api/article/tag
 
     </div>
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/th.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"></script>
+<script>
+    dayjs.locale('th'); // use loaded locale globally : Thailand
+    dayjs.extend(window.dayjs_plugin_relativeTime);
+</script>
+<script>
+    let ds = document.querySelectorAll(".date");
+    // console.log(ds);
+    // console.log(dayjs.locale());
+    // console.log(dayjs().to(dayjs('1990-01-01')));
+    ds.forEach(function(node) {
+        let value = node.innerHTML;
+        // console.log(dayjs(new Date()).locale('th').format('llll'));
+        node.innerHTML = dayjs(new Date(value)).fromNow();
+        // node.innerHTML =dayjs(new Date()).locale('th').toString();
+    })
+</script>
 
 <?php include("../layouts/footer2.php"); ?>

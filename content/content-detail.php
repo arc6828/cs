@@ -38,13 +38,13 @@ $writer = $article_set->writer;
 <section class="main">
     <div class="container">
         <br />
-        <div class="row my-4">
+        <div class="row my-4 g-4">
             <div class="col-md-12">
                 <label class="h6">วันที่โพสต์ <?= $article->pubDate ?></label>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 border-right">
                 <div class="mb-4">
                     <?php foreach (json_decode($article->category) as $item) {  ?>
                         <span class="badge badge-pill badge-primary"><?= $item ?></span>
@@ -57,7 +57,7 @@ $writer = $article_set->writer;
 
             </div>
             <div class="col-md-4">
-                <div class="px-4 border-start">
+                <div class="">
                     <h2 class="h4">บทความอื่นๆ</h2>
 
 
@@ -68,7 +68,7 @@ $writer = $article_set->writer;
                                     <img src="<?= $item->image_url ?>" class="card-img-top" alt="<?= $item->title ?>">
                                     <div class="card-body">
 
-                                        <p class="card-text"><?= $item->pubDate ?></p>
+                                        <p class="card-text"><label class="date"><?= $item->pubDate ?></label></p>
                                         <h5 class="card-title"><?= $item->title ?></h5>
                                         <p class="card-text"><?= $item->creator ?></p>
                                     </div>
@@ -144,7 +144,9 @@ $writer = $article_set->writer;
                             <div class="card h-100">
                                 <img src="<?= $item->image_url ?>" class="card-img-top" alt="<?= $item->title ?>">
                                 <div class="card-body">
-                                    <p class="card-text"><?= $item->pubDate ?></p>
+                                    <p class="card-text">
+                                        <label class="date"><?= $item->pubDate ?></label>
+                                    </p>
                                     <h6 class="card-title"><?= mb_substr($item->title, 0, 50) ?></h6>
                                     <p class="card-text"><?= $item->creator ?></p>
                                 </div>
@@ -157,5 +159,23 @@ $writer = $article_set->writer;
     </div>
 </section>
 
-
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/th.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"></script>
+<script>
+    dayjs.locale('th'); // use loaded locale globally : Thailand
+    dayjs.extend(window.dayjs_plugin_relativeTime);
+</script>
+<script>
+    let ds = document.querySelectorAll(".date");
+    // console.log(ds);
+    // console.log(dayjs.locale());
+    // console.log(dayjs().to(dayjs('1990-01-01')));
+    ds.forEach(function(node) {
+        let value = node.innerHTML;
+        // console.log(dayjs(new Date()).locale('th').format('llll'));
+        node.innerHTML = dayjs(new Date(value)).fromNow();
+        // node.innerHTML =dayjs(new Date()).locale('th').toString();
+    })
+</script>
 <?php include("../layouts/footer2.php"); ?>
