@@ -5,7 +5,7 @@ $url = "https://ckartisan.com/api/article/{$value}";
 $article_set = json_decode(file_get_contents($url));
 // $people = $people_obj["people"];
 $article = $article_set->article;
-$latest = $article_set->latest;
+$related = $article_set->related;
 $tagged = $article_set->tagged;
 $writer = $article_set->writer;
 ?>
@@ -58,11 +58,11 @@ $writer = $article_set->writer;
             </div>
             <div class="col-md-4">
                 <div class="px-4 border-start">
-                    <h2 class="h4">บทความที่เกี่ยวกับผู้เขียน</h2>
+                    <h2 class="h4">บทความอื่นๆ</h2>
 
 
                     <div class="row g-4">
-                        <?php foreach ($latest as $item) { ?>
+                        <?php foreach ($tagged as $item) { ?>
                             <div class="col-md-12">
                                 <div class="card mb-4">
                                     <img src="<?= $item->image_url ?>" class="card-img-top" alt="<?= $item->title ?>">
@@ -136,10 +136,10 @@ $writer = $article_set->writer;
     <div class="container">
         <div class="row mt-4">
             <div class="col-md-12">
-                <h2 class="h4">บทความอื่นๆ</h2>
+                <h2 class="h4">บทความที่เกี่ยวกับผู้เขียน</h2>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3  row-cols-xl-4 g-4">
 
-                    <?php foreach ($tagged as $item) { ?>
+                    <?php foreach ($related as $item) { ?>
                         <div class="col">
                             <div class="card h-100">
                                 <img src="<?= $item->image_url ?>" class="card-img-top" alt="<?= $item->title ?>">
