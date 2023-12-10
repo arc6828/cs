@@ -20,11 +20,11 @@ $writer = $article_set->writer;
     <div class="bg-dark text-white py-4">
         <div class="container ">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-lg-8">
                     <h1><?= $article->title ?></h1>
                     <label class="h4"><?= $article->creator ?></label>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="p-4">
                         <label class="h3">บทความ</label>
                         <label class="h5">หลักสูตรวิทยาการคอมพิวเตอร์</label>
