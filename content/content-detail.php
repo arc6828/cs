@@ -44,7 +44,7 @@ $writer = $article_set->writer;
             </div>
         </div>
         <div class="row">
-            <div class="col-md-8 border-right">
+            <div class="col-lg-8 border-right">
                 <div class="mb-4">
                     <?php foreach (json_decode($article->category) as $item) {  ?>
                         <span class="badge badge-pill badge-primary"><?= $item ?></span>
@@ -56,7 +56,7 @@ $writer = $article_set->writer;
 
 
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="">
                     <h2 class="h4">บทความอื่นๆ</h2>
 
