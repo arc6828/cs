@@ -56,7 +56,7 @@ $articles = json_decode(file_get_contents("https://ckartisan.com/api/article/tag
 <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"></script>
 <script>
     dayjs.locale('th'); // use loaded locale globally : Thailand
-    dayjs.extend(window.dayjs_plugin_relativeTime);
+    // dayjs.extend(window.dayjs_plugin_relativeTime);
 </script>
 <script>
     let ds = document.querySelectorAll(".date");
@@ -66,7 +66,8 @@ $articles = json_decode(file_get_contents("https://ckartisan.com/api/article/tag
     ds.forEach(function(node) {
         let value = node.innerHTML;
         // console.log(dayjs(new Date()).locale('th').format('llll'));
-        node.innerHTML = dayjs(new Date(value)).fromNow();
+        // node.innerHTML = dayjs(new Date(value)).fromNow();
+        node.innerHTML = dayjs(new Date(value)).format('ddd D  MMM YYYY');
         // node.innerHTML =dayjs(new Date()).locale('th').toString();
     })
 </script>

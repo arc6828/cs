@@ -40,7 +40,7 @@ $writer = $article_set->writer;
         <br />
         <div class="row my-4 g-4">
             <div class="col-md-12">
-                <label class="h6">วันที่โพสต์ <?= $article->pubDate ?></label>
+                <label class="h6 ">วันที่โพสต์ <span class="date-long"><?= $article->pubDate ?> </span> น.</label>
             </div>
         </div>
         <div class="row">
@@ -164,7 +164,7 @@ $writer = $article_set->writer;
 <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"></script>
 <script>
     dayjs.locale('th'); // use loaded locale globally : Thailand
-    dayjs.extend(window.dayjs_plugin_relativeTime);
+    // dayjs.extend(window.dayjs_plugin_relativeTime);
 </script>
 <script>
     let ds = document.querySelectorAll(".date");
@@ -174,7 +174,20 @@ $writer = $article_set->writer;
     ds.forEach(function(node) {
         let value = node.innerHTML;
         // console.log(dayjs(new Date()).locale('th').format('llll'));
-        node.innerHTML = dayjs(new Date(value)).fromNow();
+        // node.innerHTML = dayjs(new Date(value)).fromNow();
+        node.innerHTML = dayjs(new Date(value)).format('ddd D  MMM YYYY');
+        // node.innerHTML =dayjs(new Date()).locale('th').toString();
+    })
+
+    let dslong = document.querySelectorAll(".date-long");
+    // console.log(ds);
+    // console.log(dayjs.locale());
+    // console.log(dayjs().to(dayjs('1990-01-01')));
+    dslong.forEach(function(node) {
+        let value = node.innerHTML;
+        // console.log(dayjs(new Date()).locale('th').format('llll'));
+        // node.innerHTML = dayjs(new Date(value)).fromNow();
+        node.innerHTML = dayjs(new Date(value)).format('dddd D  MMMM YYYY เวลา HH:mm');
         // node.innerHTML =dayjs(new Date()).locale('th').toString();
     })
 </script>
