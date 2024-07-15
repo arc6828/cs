@@ -1,7 +1,8 @@
 <?php include("layouts/header.php"); ?>
 
 <?php
-$people_obj = json_decode(file_get_contents("http://cs.vru.ac.th/json/support.json"), true);
+// $people_obj = json_decode(file_get_contents("https://raw.githubusercontent.com/arc6828/cs/master/json/support.json"), true);
+$people_obj = json_decode(file_get_contents("json/support.json"), true);
 $people = $people_obj["people"];
 ?>
 
