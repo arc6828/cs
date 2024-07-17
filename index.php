@@ -514,9 +514,9 @@
                 <!-- <div class="card-header">
                     <h5 class="card-title">ประธานหลักสูตร</h5>
                 </div> -->
-                <img class="card-img-top" src="http://sci.vru.ac.th/assets/images/people/IMG_20230513_090631_edit.jpg" />
+                <img class="card-img-top" src="images/Teacher/IMG_20230513_090317_edit.jpg"/>
                 <div class="card-body">                    
-                    <div><label>ดร.ประณมกร อัมพรพรรดิ์</label></div>
+                    <div><label>อาจารย์ชวลิต โควีระวงศ์</label></div>
                     <div><label>ประธานหลักสูตร</label></div>
 
                 </div>
