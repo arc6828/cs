@@ -26,17 +26,17 @@ $articles = json_decode(file_get_contents("https://ckartisan.com/api/article/tag
                             <a href="<?= $row->id ?>">
                                 <h5 style="font-size: 1.2rem;"><?= $row->title ?></h5>
                             </a>
-                            
+
                             <label class="text-black-50 date"><?= $row->pubDate ?></label>
                             <div>
                                 <?php foreach (json_decode($row->category) as $item) {  ?>
                                     <span class="badge badge-pill badge-primary"><?= $item ?></span>
-                                <?php }    ?>                                
+                                <?php }    ?>
                             </div>
                             <!-- <div> <?= $row->title ?> </div> -->
-                            <div> 
-                                <?= mb_substr($row->first_paragraph,0 , 250)  ?> ... - 
-                                <label class="text-black-50">อ่านต่อ</label> 
+                            <div>
+                                <?= mb_substr($row->first_paragraph, 0, 250)  ?> ... -
+                                <label class="text-black-50">อ่านต่อ</label>
                             </div>
                             <label class="text-black-50"><?= $row->creator ?></label>
                         </div>
