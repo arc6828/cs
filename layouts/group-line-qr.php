@@ -5,12 +5,12 @@
         <div class="row text-center">
             <div class="col-lg-6 mb-4">
                 <img class="img-thumbnail"  src="images/tcas/Line67-Mon-Fri.jpg" style="max-width:300px; width:100%;">
-                <div><strong>CS-VRU#67 (จันทร์-ศุกร์)</strong></div>
+                <div><strong>CS-VRU#68 (จันทร์-ศุกร์)</strong></div>
                 <div><a href="https://line.me/R/ti/g/fB3MaWFZSV">https://line.me/R/ti/g/fB3MaWFZSV</a></div>
             </div>
             <div class="col-lg-6 mb-4">
                 <img class="img-thumbnail"  src="images/tcas/Line67-Sat-Sun.jpg" style="max-width:300px; width:100%;">
-                <div><strong>CS-VRU#67 (เสาร์-อาทิตย์)</strong></div>
+                <div><strong>CS-VRU#68 (เสาร์-อาทิตย์)</strong></div>
                 <div><a href="https://line.me/R/ti/g/jZw4PXTk9q">https://line.me/R/ti/g/jZw4PXTk9q</a></div>
             </div>
         </div>
