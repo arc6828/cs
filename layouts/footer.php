@@ -80,7 +80,7 @@
             <div class="fb-page" data-href="https://www.facebook.com/cs.vru.ac.th" data-width="290" data-hide-cover="false" data-show-facepile="false">
             </div>
 
-            <div class="mt-4">
+            <div class="mt-4 d-none">
               <a class="mt-4" href="https://lin.ee/eYhAn4Y"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน" height="36" border="0"></a>
             </div>
           </div>
@@ -140,27 +140,12 @@
 
     <!-- Load Facebook SDK for JavaScript -->
     <?php if (true) { ?>
-      <div id="fb-root"></div>
-      <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml: true,
-            version: 'v7.0'
-          });
-        };
-
-        (function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s);
-          js.id = id;
-          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-      </script>
-
-      <!-- Your Chat Plugin code -->
-      <div class="fb-customerchat" attribution=setup_tool page_id="2105621063039483" logged_in_greeting="สวัสดี ... เราสามารถช่วยเหลืออะไรคุณได้บ้าง บอกเราได้นะ?" logged_out_greeting="สวัสดี ... เราสามารถช่วยเหลืออะไรคุณได้บ้าง บอกเราได้นะ?">
+      <div style="position: fixed; bottom: 30px; right:30px; z-index: 1020; ">
+        <a href="https://m.me/cs.vru.ac.th" target="_blank" title="Chat with us on Messenger" >
+          <div style="border-radius: 50%; background-color: #1E88E5; width:70px; height:70px; display:flex; justify-content: center; align-items: center;">
+            <i class="bi bi-messenger my-0 mx-0 text-white" style="font-size:35px; "></i>
+          </div>
+        </a>
       </div>
     <?php } ?>
 
