@@ -72,8 +72,10 @@
 
           <div class="col-md-4 mx-auto">
             <h2 class="footer-heading mb-4">Follow Us</h2>
-            <a href="#" class="pl-0 pr-3 d-none""><span class=" icon-facebook"></span></a>
-            <a href="#" class="pl-3 pr-3 d-none""><span class=" icon-line"></span></a>
+            <a href="https://www.facebook.com/cs.vru.ac.th" target="_blank" style="background-color: #1E88E5; font-size:20px;" class="btn px-3 py-1 text-white" >
+              <i class="bi bi-facebook text-white" ></i> <span class="text-white">ติดตามเรา</span>
+            </a>
+            <a href="#" class="pl-3 pr-3 d-none"><span class=" icon-line"></span></a>
             <a href="#" class="pl-3 pr-3 d-none"><span class="icon-instagram"></span></a>
             <a href="#" class="pl-3 pr-3 d-none"><span class="icon-linkedin"></span></a>
 
