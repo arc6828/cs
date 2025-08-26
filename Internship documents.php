@@ -21,6 +21,9 @@
 <a href="uploads/Internship/VRU_Co14.pdf"><font color="black">&#187;แบบประเมินรายงานนักศึกษาสหกิจศึกษา</a> <br />
 <a href="uploads/Internship/VRU_Co15.pdf"><font color="black">&#187;แบบแจ้งยืนยันส่งรายงานการปฏิบัติงาน</a> <br />
 <a href="uploads/Internship/VRU_Co16.pdf"><font color="black">&#187;แบบแจ้งรายละเอียดเกี่ยวกับการปฏิบัติงานสหกิจศึกษา</a> <br />
+<a href="uploads/Internship/VRU_Co17.docx"><font color="black">&#187;แบบส่งคำร้องสำหรับขอจดหมายขอความอนุเคราะห์สถานปฏิบัติงานเพื่อฝึกประสบการณ์วิชาชีพสหกิจศึกษา  คณะวิทยาศาสตร์และเทคโนโลยี</a> <br />
+<a href="uploads/Internship/Form-06.pdf"><font color="black">&#187;แบบประเมินการฝึกงานของนักศึกษา(สำหรับอาจารย์นิเทศ)</a> <br />
+<a href="uploads/Internship/Form-07.pdf"><font color="black">&#187;แบบประเมินผลการปฏิบัติงานนักศึกษาฝึกงาน(สำหรับสถานประกอบการ)</a> <br />
 
 </div>  
 <?php include("layouts/footer.php"); ?>
