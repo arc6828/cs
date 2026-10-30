@@ -11,7 +11,7 @@
 <h2>&starf;&nbsp;แบบฟอร์มโครงงานวิทยาการคอมพิวเตอร์1 และโครงงานวิทยาการคอมพิวเตอร์2 โครงงานชุมชน สำหรับหลักสูตร 65 เป็นต้นไป</h2>
 <hr>
 <p>
-<a href="https://drive.google.com/drive/folders/1AGHUaS5qpTqASVjpEPEIDzZOrJMzjP8j"><font color="black">&#187;คู่มือจัดทำเอกสารโครงงานชุมชนด้านวิทยาการคอมพิวเตอร์</a> <br />
+<a href="https://drive.google.com/drive/folders/1AGHUaS5qpTqASVjpEPEIDzZOrJMzjP8j"><font color="black">&#187;คู่มือจัดทำเอกสารโครงงานชุมชนด้านวิทยาการคอมพิวเตอร์และแบบประเมินผล</a> <br />
 <a href="uploads/11-25/Form-SCS410.pdf"><font color="black">&#187;แบบฟอร์มเรียนเชิญอาจารย์ที่ปรึกษาโครงงาน รายวิชาการพัฒนานวัตกรรมคอมพิวเตอร์และบริการชุมชน SCS410</a> <br />
 <hr>
 <a href="uploads/07-21/Template.zip"><font color="black">&#187;Template คู่มือโครงงานด้านวิทยาการคอมพิวเตอร์</a> <br />
