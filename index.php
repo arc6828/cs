@@ -142,18 +142,28 @@
 <!-- start slide -->
 <div class="container-fluid py-5 bg-light">
     <div class="container">
+        <?php
+        $yearNow = (int) date('Y');   // ปี ค.ศ. เช่น 2025
+        $monthNow = (int) date('n');   // เดือน 1-12
+
+        $academicYear = ($monthNow >= 7)
+            ? $yearNow + 1 + 543   // กรกฎาคม-ธันวาคม = ใช้ปีปัจจุบัน + 543 + 1
+            : $yearNow + 0 + 543; // มกราคม-มิถุนายน = ใช้ปีปัจจุบัน + 0  + 543
+
+        // echo "ปีการศึกษา " . $academicYear;
+        ?>
 
         <div class="row">
             <div class="col-lg-12">
                 <div class="row">
                     <div class="col-lg-8">
-                        <img class="img-thumbnail" src="images/tcas/pr-2020-05-14.jpg" style="width:100%;">
+                        <img class="img-thumbnail" src="images/tcas/pr-2026-09-19.jpg" style="width:100%;">
                     </div>
                     <div class="col-lg-4 py-4">
                         <h5 class="mt-0 mb-2">รับสมัครนักศึกษา (ปริญญาตรีภาคจันทร์-ศุกร์ และภาคเสาร์-อาทิตย์)</h5>
                         <p class="py-2">
                             หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์
-                            รับสมัครนักศึกษา TCAS 68 (ปริญญาตรี จันทร์-ศุกร์ และภาคเสาร์-อาทิตย์) ตั้งแต่วันนี้เป็นต้นไป
+                            รับสมัครนักศึกษา ปีการศึกษา <?= $academicYear ?> (ปริญญาตรี จันทร์-ศุกร์ และภาคเสาร์-อาทิตย์) ตั้งแต่วันนี้เป็นต้นไป
                             ดูรายละเอียดและกรอกใบสมัครได้ที่นี่
                         </p>
                         <div class="text-center">
@@ -169,7 +179,7 @@
 <div class="container mt-4">
     <div class="row">
         <div class="col-lg-9">
-            
+
 
             <div class="mt-4" style="padding-top: 20px;">
                 <h4>Quick Links</h4>
@@ -217,7 +227,7 @@
                     <h5 class="card-title">ค่าเทอม</h5>
                 </div> -->
                 <div class="card-body">
-                <h5 class="card-title">ค่าเทอม</h5>
+                    <h5 class="card-title">ค่าเทอม</h5>
                     <p class="card-text prompt">
                     <h3 class="fs-1">12,000 บาท</h3>
                     </p>
@@ -227,8 +237,8 @@
                 <!-- <div class="card-header">
                     <h5 class="card-title">ประธานหลักสูตร</h5>
                 </div> -->
-                <img class="card-img-top" src="images/Teacher/Nattira.jpg"/>
-                <div class="card-body">                    
+                <img class="card-img-top" src="images/Teacher/Nattira.jpg" />
+                <div class="card-body">
                     <div><label>ผศ.ณัฏฐิรา ศุขไพบูลย์</label></div>
                     <div><label>ประธานหลักสูตร</label></div>
 
@@ -247,7 +257,7 @@
 <?php include("layouts/technology-stack.php") ?>
 
 <!-- ติดตามข่าวสารได้ที่นี่ -->
-<?php include("layouts/group-line-qr.php") ?>
+<!-- <?php include("layouts/group-line-qr.php") ?> -->
 
 <!-- end content -->
 
