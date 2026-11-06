@@ -71,7 +71,6 @@
 | ไฟล์ | ชื่อหน้า / รายละเอียด |
 | :--- | :--- |
 | [`structure-60.php`](structure-60.php) | โครงสร้างหลักสูตรฉบับปี พ.ศ. 2560 (ลิงก์มาจากหน้า `structure.php` และใช้ `layouts/cs-course60.php`) |
-| [`tcas-detail.php`](tcas-detail.php) | รายละเอียดเพิ่มเติมของการรับสมัคร TCAS |
 | [`short-courses.php`](short-courses.php) | หน้าคอร์สอบรมระยะสั้น (Short Courses) |
 | [`reactnative.php`](reactnative.php) | หน้าประชาสัมพันธ์คอร์สอบรม Mobile Application ด้วย React Native |
 | [`activities.php`](activities.php) | หน้ารวมกิจกรรมหลักสูตร (เมนู "อื่นๆ" เดิมที่ถูกซ่อนไว้ใน Navbar) |
@@ -121,6 +120,7 @@
 | [`archive/footerccc.php`](archive/footerccc.php) | ไฟล์ทดสอบส่วนท้ายเว็บ |
 | [`archive/example.php`](archive/example.php) | หน้าตัวอย่างทดสอบ Theme (`theme-header.php` / `theme-footer.php`) |
 | [`archive/test.php`](archive/test.php) | ไฟล์ทดสอบ PHP |
+| [`archive/tcas-detail.php`](archive/tcas-detail.php) | ชิ้นส่วน HTML Accordion กำหนดการรับสมัคร TCAS ปีการศึกษา 2566 (ไม่ได้ถูก `include` แล้ว) |
 | [`archive/admission.php`](archive/admission.php) | หน้ารับสมัครนักศึกษาปี พ.ศ. 2561–2562 (ถูกแทนที่ด้วย `tcas.php`) |
 | [`archive/Recruit.php`](archive/Recruit.php) | หน้ารับสมัครนักศึกษาใหม่ปี พ.ศ. 2561 (ถูกแทนที่ด้วย `tcas.php`) |
 | [`archive/Normal.php`](archive/Normal.php) | หน้าตารางการใช้ห้องปฏิบัติการคอมพิวเตอร์ ภาคปกติ 2/2562 |
