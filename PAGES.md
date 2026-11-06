@@ -87,11 +87,11 @@
 
 | ไฟล์ | หน้าที่การทำงาน |
 | :--- | :--- |
-| [`layouts/header.php`](layouts/header.php) | ส่วนหัว `<head>`, CSS, Meta Tags และแถบเมนูนำทาง (สำหรับหน้าใน Root) |
-| [`layouts/header2.php`](layouts/header2.php) | ส่วนหัวและแถบเมนูนำทางสำหรับหน้าในโฟลเดอร์ย่อย (เช่น `content/`) |
-| [`layouts/footer.php`](layouts/footer.php) | ส่วนท้ายเว็บไซต์ (Footer) และลิงก์ด่วนสำหรับหน้าใน Root |
-| [`layouts/footer2.php`](layouts/footer2.php) | ส่วนท้ายเว็บไซต์สำหรับหน้าในโฟลเดอร์ย่อย (`content/`) |
-| [`layouts/main-js.php`](layouts/main-js.php) | สคริปต์ JavaScript หลักที่เรียกใช้ใน Footer |
+| [`layouts/meta.php`](layouts/meta.php) | ไส้ในของ `<head>` (Meta Tags, Open Graph, โหลดฟอนต์และ CSS หลัก รองรับทั้งหน้า Root และโฟลเดอร์ย่อยอัตโนมัติ) |
+| [`layouts/navbar.php`](layouts/navbar.php) | เมนูนำทางด้านบน (Navbar) และเมนูมือถือ (รองรับทั้งหน้า Root และโฟลเดอร์ย่อยอัตโนมัติ) |
+| [`layouts/footer-content.php`](layouts/footer-content.php) | แบนเนอร์สมัครเรียน, ส่วนท้ายเว็บไซต์ (Footer) และปุ่มลอย Messenger |
+| [`layouts/scripts.php`](layouts/scripts.php) | สคริปต์ JavaScript ทั้งหมดก่อนปิด `</body>` (jQuery, Bootstrap JS, AOS, `main-js.php`, Google Analytics) |
+| [`layouts/main-js.php`](layouts/main-js.php) | สคริปต์ JavaScript หลักที่เรียกใช้ใน `scripts.php` |
 | [`layouts/slider.php`](layouts/slider.php) | ส่วนแบนเนอร์ภาพสไลด์หน้าแรก |
 | [`layouts/technology-stack.php`](layouts/technology-stack.php) | ชิ้นส่วนแสดงเทคโนโลยีที่ได้เรียนในหลักสูตร (แสดงใน `index.php` และ `tcas.php`) |
 | [`layouts/group-line-qr.php`](layouts/group-line-qr.php) | ชิ้นส่วนแสดง QR Code กลุ่มไลน์รับสมัครนักศึกษา |
@@ -131,6 +131,11 @@
 ### เคยอยู่ในโฟลเดอร์ย่อย (`layouts/`, `json/`, `new/`)
 | ไฟล์ใน `archive/` | โฟลเดอร์เดิม | รายละเอียด |
 | :--- | :--- | :--- |
+| [`archive/layouts/header.php`](archive/layouts/header.php) | `layouts/` | ส่วนหัวแบบเดิม (สำหรับหน้าใน Root ก่อนเปลี่ยนเป็น Component Injection) |
+| [`archive/layouts/footer.php`](archive/layouts/footer.php) | `layouts/` | ส่วนท้ายแบบเดิม (สำหรับหน้าใน Root ก่อนเปลี่ยนเป็น Component Injection) |
+| [`archive/layouts/header2.php`](archive/layouts/header2.php) | `layouts/` | ส่วนหัวแบบเดิมสำหรับโฟลเดอร์ย่อย `content/` |
+| [`archive/layouts/footer2.php`](archive/layouts/footer2.php) | `layouts/` | ส่วนท้ายแบบเดิมสำหรับโฟลเดอร์ย่อย `content/` |
+| [`archive/layouts/theme.php`](archive/layouts/theme.php) / [`archive/layouts/theme2.php`](archive/layouts/theme2.php) | `layouts/` | ไฟล์รวม `header + footer` และ `header2 + footer2` สำหรับใช้วิเคราะห์โครงสร้าง |
 | [`archive/layouts/theme-header.php`](archive/layouts/theme-header.php) | `layouts/` | ส่วนหัวที่ใช้คู่กับ `example.php` |
 | [`archive/layouts/theme-footer.php`](archive/layouts/theme-footer.php) | `layouts/` | ส่วนท้ายที่ใช้คู่กับ `example.php` |
 | [`archive/layouts/slider-example.php`](archive/layouts/slider-example.php) | `layouts/` | โค้ดตัวอย่าง Slider ต้นแบบจากเทมเพลต |

@@ -1,12 +1,10 @@
 <?php
 
-$request = $_SERVER['REQUEST_URI'];
-$reg = '/content\/(.*)/';
+$request = parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH);
+$reg = '/content(?:\/(.*))?$/';
 preg_match($reg, $request, $match);
-// echo $request;
-// echo "<br>";
-// print_r($match);
-[$key, $value] = $match;
+$key = $match[0] ?? '';
+$value = $match[1] ?? '';
 // echo __DIR__."<br>";
 // echo "$request<br>";
 // echo "$key<br>";
