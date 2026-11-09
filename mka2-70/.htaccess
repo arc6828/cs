@@ -1,0 +1,9 @@
+# ปิดกั้นการเข้าถึงไฟล์และโฟลเดอร์ย่อยทั้งหมดใน mak2-70 ผ่านเว็บเบราว์เซอร์
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+</IfModule>
+
