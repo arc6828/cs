@@ -1,6 +1,6 @@
 # 📋 ตารางวิเคราะห์ความสอดคล้องของผลลัพธ์การเรียนรู้เฉพาะทางวิชาชีพ (KSEC Alignment Matrix - PLO6–10)
 
-ตารางนี้แสดงการวิเคราะห์ความสอดคล้องระหว่าง **ผลลัพธ์การเรียนรู้เฉพาะวิชาชีพ (วิทยาการคอมพิวเตอร์ PLO6–10)** ตามกรอบองค์ประกอบ KSEC กับ **ความต้องการของตลาดแรงงาน (Labor Market)** และ **ผู้มีส่วนได้เสีย (Stakeholders)** อ้างอิงจากข้อมูลรายงานการวิเคราะห์ใน [stakeholder.md](file:///e:/chavalit/php/cs/mka2-70/stakeholder.md) และ [learning_outcomes.md](file:///e:/chavalit/php/cs/mka2-70/learning_outcomes.md)
+ตารางนี้แสดงการวิเคราะห์ความสอดคล้องระหว่าง **ผลลัพธ์การเรียนรู้เฉพาะวิชาชีพ (วิทยาการคอมพิวเตอร์ PLO6–10)** ตามกรอบองค์ประกอบ KSEC กับ **ความต้องการของตลาดแรงงาน (Labor Market)** และ **ผู้มีส่วนได้เสีย (Stakeholders)** อ้างอิงจากข้อมูลรายงานการวิเคราะห์ใน [stakeholder.md](stakeholder.md) และ [learning_outcomes.md](learning_outcomes.md)
 
 ---
 
