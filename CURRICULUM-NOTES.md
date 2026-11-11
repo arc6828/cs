@@ -58,15 +58,18 @@
 
 ---
 
-### 5. หน้าโครงสร้างหลักสูตร ([`structure.php`](structure.php) และ [`layouts/cs-course65.php`](layouts/cs-course65.php))
+### 5. หน้าโครงสร้างหลักสูตร ([`structure.php`](structure.php), [`structure-65.php`](structure-65.php), [`structure-60.php`](structure-60.php))
 - **จุดที่พบปัญหา**:
   - ไฟล์ [`layouts/cs-course65.php`](layouts/cs-course65.php) และ [`layouts/cs-course60.php`](layouts/cs-course60.php) เป็นโค้ด HTML ที่ Export มาจาก Microsoft Word โดยตรง (`class="MsoNormal"`, `font-family: "TH SarabunPSK"`, และใช้ HTML Entities `&#36xx;` ทั้งไฟล์กว่า 2,000 บรรทัด)
   - ฟอนต์ในตารางไม่เข้ากับฟอนต์ `Prompt` ของเว็บไซต์หลัก
   - ตารางมีการกำหนดความกว้างตายตัวจาก Word ทำให้อ่านบนหน้าจอมือถือ (Mobile Responsive) ได้ยาก
   - ค้นหาหรือแก้ไขชื่อวิชาในโค้ดได้ยากมากเพราะภาษาไทยถูกแปลงเป็นรหัสตัวเลขทั้งหมด
 - **แนวทางปรับปรุง**:
-  - [ ] แปลงเนื้อหาใน [`layouts/cs-course65.php`](layouts/cs-course65.php) ให้เป็น **HTML + Bootstrap Table มาตรฐาน** (UTF-8 ภาษาไทยปกติ)
-  - [ ] แบ่งส่วนการแสดงผลเป็นสัดส่วนชัดเจน (จำนวนหน่วยกิตแต่ละหมวดวิชา, รายวิชาตามหมวด, และแผนการศึกษาแยกตามชั้นปี/ภาคการศึกษา)
+  - [x] ยกระดับ [`structure.php`](structure.php) ให้เป็น **Landing Page สำหรับผู้สนใจเข้าศึกษาใหม่** โดยชู **หลักสูตรปรับปรุง พ.ศ. 2570 (124 หน่วยกิต)** พร้อมแท็บแสดงภาพรวมหมวดวิชา, รายชื่อ 53 รายวิชา, แผนการศึกษา 4 ปี (Study Plan), และเส้นทางเทียบโอน ปวส. 2–2.5 ปี
+  - [x] สร้าง [`structure-65.php`](structure-65.php) ใน root สำหรับนักศึกษาปัจจุบัน (รหัส 65–69) โดยแปลงตารางให้อยู่ในรูปแบบ **HTML + Bootstrap Table มาตรฐาน** (UTF-8 ภาษาไทยปกติ) อ่านบนมือถือได้สมบูรณ์
+  - [x] เพิ่มแถบ **Version Switcher Bar** ในทุกหน้า (`structure.php`, `structure-65.php`, `structure-60.php`, `structure-70.php`) เพื่อให้ผู้ใช้ทุกกลุ่มสลับดูแต่ละปี พ.ศ. ได้สะดวก
+  - [x] ปรับปรุง [`structure-60.php`](structure-60.php) ให้มีโครงสร้างหน้าและแถบเชื่อมโยงที่ทันสมัย
+  - [x] สร้างหน้า [`course-descriptions.php`](course-descriptions.php) (คลังคำอธิบายรายวิชา 53 วิชา สองภาษา TH/EN) พร้อมระบบ Real-time Search, ตัวกรองหมวดหมู่, และเชื่อมโยงรหัสวิชาจากตารางใน [`structure.php`](structure.php) ไปยังคำอธิบายโดยตรง (Deep-link Anchors) เพื่อเพิ่มประสิทธิภาพ SEO สูงสุด
 
 ---
 

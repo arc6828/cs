@@ -44,6 +44,7 @@
                                 <div class="dropdown-menu" aria-labelledby="aboutDropdown">
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>history.php">ประวัติหลักสูตร</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>structure.php">โครงสร้างหลักสูตร</a>
+                                    <a class="dropdown-item" href="<?php echo $root_path; ?>course-descriptions.php">คำอธิบายรายวิชา</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>Description.php">รายละเอียดหลักสูตร</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>Management.php">โครงสร้างบริหารหลักสูตร</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>policy.php">นโยบายด้านคุณภาพ</a>
