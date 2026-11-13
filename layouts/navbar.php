@@ -49,7 +49,7 @@
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>Management.php">โครงสร้างบริหารหลักสูตร</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>policy.php">นโยบายด้านคุณภาพ</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>philosophy.php">ปรัชญา วิสัยทัศน์ พันธกิจ</a>
-                                    <a class="dropdown-item" href="<?php echo $root_path; ?>LAB.php">ห้องปฏิบัติการคอมพิวเตอร์</a>
+                                    <a class="dropdown-item" href="<?php echo $root_path; ?>lab.php">ห้องปฏิบัติการคอมพิวเตอร์</a>
                                 </div>
                             </li>
                             <li class="nav-link dropdown">

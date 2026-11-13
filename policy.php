@@ -392,7 +392,7 @@ $og_url = "https://cs.vru.ac.th/policy.php";
                             <a href="Management.php" class="btn btn-sm btn-outline-primary mb-1">
                                 <i class="fa fa-sitemap mr-1"></i> โครงสร้างบริหาร
                             </a>
-                            <a href="LAB.php" class="btn btn-sm btn-outline-success mb-1">
+                            <a href="lab.php" class="btn btn-sm btn-outline-success mb-1">
                                 <i class="fa fa-desktop mr-1"></i> ห้องปฏิบัติการ
                             </a>
                             <a href="philosophy.php" class="btn btn-sm btn-outline-info mb-1">

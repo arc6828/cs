@@ -1,24 +1,30 @@
 {
-  "people": [    
+  "people": [
     {
       "id": 1,
+      "prefix": "นาย",
       "name": "ธนา ละมะณี",
+      "full_name": "นายธนา ละมะณี",
+      "position": "นักวิชาการคอมพิวเตอร์",
+      "role": "นักวิชาการคอมพิวเตอร์ (บุคลากรสายสนับสนุน)",
       "education": "วศ.บ. (วิศวกรรมเครือข่ายคอมพิวเตอร์) - มหาวิทยาลัยราชภัฏมหาสารคาม",
-      "role": "นักวิชาการคอมพิวเตอร์",
       "email": "tana@vru.ac.th",
       "phone": "",
-      "image": "http://sci.vru.ac.th/assets/images/people/IMG_20230513_084853_edit.jpg",
-      "office": "IT201 อาคาร 75 ปีฯ"
+      "image": "https://sci.vru.ac.th/assets/images/people/IMG_20230513_084853_edit.jpg",
+      "office": "ห้อง IT201 ชั้น 2 อาคาร 75 ปี วไลยอลงกรณ์"
     },
     {
       "id": 2,
+      "prefix": "นาย",
       "name": "เนติวิทย์ วรรณโชติ",
+      "full_name": "นายเนติวิทย์ วรรณโชติ",
+      "position": "นักวิชาการคอมพิวเตอร์",
+      "role": "นักวิชาการคอมพิวเตอร์ (บุคลากรสายสนับสนุน)",
       "education": "วท.บ. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยแม่ฟ้าหลวง",
-      "role": "นักวิชาการคอมพิวเตอร์",
       "email": "netiwit@vru.ac.th",
       "phone": "",
-      "image": "http://sci.vru.ac.th/assets/images/people/IMG_20230513_085715_edit.jpg",
-      "office": "IT201 อาคาร 75 ปีฯ"
+      "image": "https://sci.vru.ac.th/assets/images/people/IMG_20230513_085715_edit.jpg",
+      "office": "ห้อง IT201 ชั้น 2 อาคาร 75 ปี วไลยอลงกรณ์"
     }
   ]
 }
