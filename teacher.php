@@ -390,7 +390,7 @@ $avg_years = $total_teachers > 0 ? round($total_years / $total_teachers, 1) : 0;
                 <div class="col-lg-3 col-sm-6 mb-3">
                     <div class="stat-card-faculty shadow-sm">
                         <div class="stat-faculty-icon bg-light text-primary">
-                            <i class="fa fa-user-tie"></i>
+                            <i class="fa fa-user"></i>
                         </div>
                         <h2 class="h6 text-dark-gray mb-1">คณาจารย์ทั้งหมด</h2>
                         <div class="h4 font-weight-bold text-primary mb-0"><?php echo $total_teachers; ?> ท่าน</div>
@@ -410,7 +410,7 @@ $avg_years = $total_teachers > 0 ? round($total_years / $total_teachers, 1) : 0;
                 <div class="col-lg-3 col-sm-6 mb-3">
                     <div class="stat-card-faculty shadow-sm">
                         <div class="stat-faculty-icon bg-light text-info">
-                            <i class="fa fa-award"></i>
+                            <i class="fa fa-bookmark"></i>
                         </div>
                         <h2 class="h6 text-dark-gray mb-1">ตำแหน่งวิชาการ ผศ.</h2>
                         <div class="h4 font-weight-bold text-info mb-0"><?php echo $asst_prof_count; ?> ท่าน</div>
