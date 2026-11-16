@@ -60,6 +60,8 @@
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>teacher.php">อาจารย์ประจำหลักสูตร</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>support.php">บุคลากรประจำหลักสูตร</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>publication.php">ผลงานตีพิมพ์ของหลักสูตร</a>
+                                    <a class="dropdown-item" href="<?php echo $root_path; ?>publication-new.php">ผลงานตีพิมพ์ (ใหม่)</a>
+                                    <a class="dropdown-item" href="<?php echo $root_path; ?>publication-dashboard.php">สถิติงานวิจัย</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>staff-forms.php">แบบฟอร์มสำหรับบุคลากร</a>
                                     <a class="dropdown-item" href="http://www.cheqa.mua.go.th/" target="_blank" rel="noopener noreferrer">CHE QA 3D ONLINE SYSTEM</a>
                                 </div>

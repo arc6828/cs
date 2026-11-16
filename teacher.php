@@ -545,7 +545,7 @@ $avg_years = $total_teachers > 0 ? round($total_years / $total_teachers, 1) : 0;
                                             <?php echo htmlspecialchars($row["email"]); ?>
                                         </a>
                                     </div>
-                                    <a href="publication.php" class="btn-pub-block" title="ดูผลงานวิจัยตีพิมพ์">
+                                    <a href="publication.php?author=<?php echo urlencode($row['name']); ?>" class="btn-pub-block" title="ดูผลงานวิจัยตีพิมพ์ของ <?php echo htmlspecialchars($row['full_name']); ?>">
                                         <i class="fa fa-file-text-o mr-1"></i> ดูผลงานตีพิมพ์
                                     </a>
                                 </div>
