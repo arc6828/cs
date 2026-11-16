@@ -67,7 +67,7 @@
               <li><a href="<?php echo $root_path; ?>teacher.php">อาจารย์</a></li>
               <li><a href="<?php echo $root_path; ?>support.php">บุคคลากร</a></li>
               <li><a href="#">งานวิจัยและพัฒนา</a></li>
-              <li><a href="<?php echo $root_path; ?>tcas.php">รับสมัครนักศึกษา</a></li>
+              <li><a href="<?php echo $root_path; ?>admission.php">รับสมัครนักศึกษา</a></li>
               <li><a href="<?php echo $root_path; ?>content">บทความ</a></li>
               <li><a href="<?php echo $root_path; ?>contact.php">ติดต่อเรา</a></li>
             </ul>

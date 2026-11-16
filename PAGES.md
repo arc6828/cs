@@ -38,7 +38,7 @@
 ### หมวด: นักศึกษา
 | ไฟล์ | ชื่อหน้า / รายละเอียด |
 | :--- | :--- |
-| [`tcas.php`](tcas.php) | ข้อมูลการรับสมัครนักศึกษาใหม่ ปริญญาตรี (ภาคจันทร์-ศุกร์ และเสาร์-อาทิตย์) |
+| [`admission.php`](admission.php) | ข้อมูลการรับสมัครนักศึกษาใหม่ ปริญญาตรี (ภาคจันทร์-ศุกร์ และเสาร์-อาทิตย์) [เดิมคือ `tcas.php`] |
 | [`Student Guide.php`](Student%20Guide.php) | คู่มือนักศึกษา (ดาวน์โหลด PDF) |
 | [`Project Guide.php`](Project%20Guide.php) | คู่มือและแบบฟอร์มโครงงานนักศึกษา (วิทยาการคอมพิวเตอร์ 1 และ 2) |
 | [`Internship location.php`](Internship%20location.php) | รายชื่อและข้อมูลสถานที่ฝึกประสบการณ์วิชาชีพ / สหกิจศึกษา |
@@ -93,7 +93,7 @@
 | [`layouts/scripts.php`](layouts/scripts.php) | สคริปต์ JavaScript ทั้งหมดก่อนปิด `</body>` (jQuery, Bootstrap JS, AOS, `main-js.php`, Google Analytics) |
 | [`layouts/main-js.php`](layouts/main-js.php) | สคริปต์ JavaScript หลักที่เรียกใช้ใน `scripts.php` |
 | [`layouts/slider.php`](layouts/slider.php) | ส่วนแบนเนอร์ภาพสไลด์หน้าแรก |
-| [`layouts/technology-stack.php`](layouts/technology-stack.php) | ชิ้นส่วนแสดงเทคโนโลยีที่ได้เรียนในหลักสูตร (แสดงใน `index.php` และ `tcas.php`) |
+| [`layouts/technology-stack.php`](layouts/technology-stack.php) | ชิ้นส่วนแสดงเทคโนโลยีที่ได้เรียนในหลักสูตร (แสดงใน `index.php`) |
 | [`layouts/group-line-qr.php`](layouts/group-line-qr.php) | ชิ้นส่วนแสดง QR Code กลุ่มไลน์รับสมัครนักศึกษา |
 | [`layouts/cs-course65.php`](layouts/cs-course65.php) | ข้อมูลตารางรายวิชาของหลักสูตรปรับปรุง พ.ศ. 2565 |
 | [`layouts/cs-course60.php`](layouts/cs-course60.php) | ข้อมูลตารางรายวิชาของหลักสูตรฉบับ พ.ศ. 2560 |

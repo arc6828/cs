@@ -125,7 +125,7 @@ $og_image = "https://cs.vru.ac.th/images/tcas/pr-2026-09-19.jpg";
                                     ดูรายละเอียดและกรอกใบสมัครได้ที่นี่
                                 </p>
                                 <div class="text-center">
-                                    <a class="btn btn-primary" href="tcas.php">สมัครเรียน</a>
+                                    <a class="btn btn-primary" href="admission.php">สมัครเรียน</a>
                                 </div>
                             </div>
                         </div>

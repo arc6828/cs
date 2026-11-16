@@ -395,7 +395,7 @@ $og_url = "https://cs.vru.ac.th/philosophy.php";
                         <a href="structure.php" class="btn btn-primary mr-2 mb-2 mb-sm-0">
                             <i class="fa fa-book mr-1"></i> ดูโครงสร้างหลักสูตร
                         </a>
-                        <a href="tcas.php" class="btn btn-outline-primary mb-2 mb-sm-0">
+                        <a href="admission.php" class="btn btn-outline-primary mb-2 mb-sm-0">
                             <i class="fa fa-user-plus mr-1"></i> สมัครเรียน
                         </a>
                     </div>

@@ -740,7 +740,7 @@ $og_url = "https://cs.vru.ac.th/structure.php";
                                     </p>
                                 </div>
                                 <div class="col-lg-4 text-lg-right">
-                                    <a href="tcas.php" class="btn btn-primary btn-sm">
+                                    <a href="admission.php" class="btn btn-primary btn-sm">
                                         <i class="fa fa-user-plus mr-1"></i> สมัครเรียนรอบเทียบโอน
                                     </a>
                                 </div>
@@ -789,8 +789,8 @@ $og_url = "https://cs.vru.ac.th/structure.php";
                         </p>
                     </div>
                     <div class="col-lg-4 text-lg-right">
-                        <a href="tcas.php" class="btn btn-light btn-lg font-weight-bold text-primary shadow-sm mr-2 mb-2">
-                            <i class="fa fa-user-plus mr-1"></i> สมัครเรียน / TCAS
+                        <a href="admission.php" class="btn btn-light btn-lg font-weight-bold text-primary shadow-sm mr-2 mb-2">
+                            <i class="fa fa-user-plus mr-1"></i> สมัครเรียน วท.บ. คอมพิวเตอร์
                         </a>
                         <a href="Description.php" class="btn btn-outline-light btn-lg font-weight-bold shadow-sm mb-2">
                             <i class="fa fa-briefcase mr-1"></i> ดูสายอาชีพเป้าหมาย

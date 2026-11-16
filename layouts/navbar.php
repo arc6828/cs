@@ -69,7 +69,7 @@
                                     นักศึกษา
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="studentDropdown">
-                                    <a class="dropdown-item" href="<?php echo $root_path; ?>tcas.php">รับสมัครนักศึกษาใหม่</a>
+                                    <a class="dropdown-item" href="<?php echo $root_path; ?>admission.php">รับสมัครนักศึกษาใหม่</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>Student Guide.php">คู่มือนักศึกษา</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>Project Guide.php">คู่มือโครงงานนักศึกษา</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>Internship location.php">สถานที่ฝึกสหกิจ</a>

@@ -20,7 +20,7 @@ $og_url = "https://cs.vru.ac.th/short-courses.php";
             <div class="row">
                 <div class="col-sm-6 mb-3">
                     <div class="card" style="width: 18rem;">
-                        <a href="tcas.php">
+                        <a href="admission.php">
                             <img src="images/Mobile app.png" class="card-img-top" alt="คอร์สอบรมเรียน Mobile Application" loading="lazy">
                             <div class="container py-2">
                                 <img class="course_icon" src="images/Mobile app.png" width="30" height="30" alt="ไอคอนคอร์ส Mobile Application">
@@ -32,7 +32,7 @@ $og_url = "https://cs.vru.ac.th/short-courses.php";
                 </div>
                 <div class="col-sm-6 mb-3">
                     <div class="card" style="width: 18rem;">
-                        <a href="tcas.php">
+                        <a href="admission.php">
                             <img src="images/Mobile app.png" class="card-img-top" alt="คอร์สอบรมเรียน Mobile Application" loading="lazy">
                             <div class="container py-2">
                                 <img class="course_icon" src="images/Mobile app.png" width="30" height="30" alt="ไอคอนคอร์ส Mobile Application">

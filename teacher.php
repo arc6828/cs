@@ -570,8 +570,8 @@ $avg_years = $total_teachers > 0 ? round($total_years / $total_teachers, 1) : 0;
                     <a href="course-descriptions.php" class="btn btn-outline-secondary font-weight-bold mr-2 mb-2">
                         <i class="fa fa-book mr-1"></i> คำอธิบายรายวิชา 53 วิชา
                     </a>
-                    <a href="tcas.php" class="btn btn-primary font-weight-bold mb-2">
-                        <i class="fa fa-user-plus mr-1"></i> สมัครเรียน / รอบ TCAS
+                    <a href="admission.php" class="btn btn-primary font-weight-bold mb-2">
+                        <i class="fa fa-user-plus mr-1"></i> สมัครเรียน วท.บ. คอมพิวเตอร์
                     </a>
                 </div>
             </div>

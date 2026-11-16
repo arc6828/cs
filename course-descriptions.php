@@ -367,8 +367,8 @@ $count_practicum = count(array_filter($courses_2570, fn($c) => $c['cat'] === 'pr
                     <a href="structure.php" class="btn btn-primary font-weight-bold mr-2 mb-2">
                         <i class="fa fa-cubes mr-1"></i> ไปยังโครงสร้างหลักสูตร 2570
                     </a>
-                    <a href="tcas.php" class="btn btn-outline-success font-weight-bold mb-2">
-                        <i class="fa fa-user-plus mr-1"></i> สมัครเรียน / รอบ TCAS
+                    <a href="admission.php" class="btn btn-outline-success font-weight-bold mb-2">
+                        <i class="fa fa-user-plus mr-1"></i> สมัครเรียน วท.บ. คอมพิวเตอร์
                     </a>
                 </div>
             </div>
