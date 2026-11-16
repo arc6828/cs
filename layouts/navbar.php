@@ -60,13 +60,8 @@
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>teacher.php">อาจารย์ประจำหลักสูตร</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>support.php">บุคลากรประจำหลักสูตร</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>publication.php">ผลงานตีพิมพ์ของหลักสูตร</a>
-                                    <a class="dropdown-item" href="<?php echo $root_path; ?>Training.php">แจ้งการอบรมพัฒนาความรู้</a>
-                                    <a class="dropdown-item" href="<?php echo $root_path; ?>staff.php">ระเบียบแบบฟอร์มสำหรับอาจารย์และเจ้าหน้าที่</a>
-                                    <a class="dropdown-item dropdown-toggle" href="#" id="qaDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ประกันคุณภาพหลักสูตร</a>
-                                    <ul class="dropdown-menu dropdown" aria-labelledby="qaDropdown">
-                                        <li><a class="dropdown-item" href="http://www.cheqa.mua.go.th/">CHE QA 3D ONLINE SYSTEM</a></li>
-                                        <li><a class="dropdown-item" href="<?php echo $root_path; ?>report.php">รายงานการประกันคุณภาพการศึกษา</a></li>
-                                    </ul>
+                                    <a class="dropdown-item" href="<?php echo $root_path; ?>staff-forms.php">แบบฟอร์มสำหรับบุคลากร</a>
+                                    <a class="dropdown-item" href="http://www.cheqa.mua.go.th/" target="_blank" rel="noopener noreferrer">CHE QA 3D ONLINE SYSTEM</a>
                                 </div>
                             </li>
                             <li class="nav-link dropdown">

@@ -239,7 +239,7 @@ $total_support = count($people);
                         <a href="teacher.php" class="btn btn-outline-primary btn-sm font-weight-bold mr-1">
                             <i class="fa fa-users mr-1"></i> คณาจารย์ประจำหลักสูตร
                         </a>
-                        <a href="staff.php" class="btn btn-outline-secondary btn-sm font-weight-bold">
+                        <a href="staff-forms.php" class="btn btn-outline-secondary btn-sm font-weight-bold">
                             <i class="fa fa-download mr-1"></i> แบบฟอร์มสำหรับบุคลากร
                         </a>
                     </div>
