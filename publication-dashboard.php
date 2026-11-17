@@ -8,10 +8,14 @@
 // Auto-restore database if missing from latest backup
 $dbPath = __DIR__ . '/databases/publications.json';
 if (!file_exists($dbPath)) {
-    $backups = glob(__DIR__ . '/databases/publications-backup-*.json');
-    if (!empty($backups)) {
-        rsort($backups);
-        copy($backups[0], $dbPath);
+    if (file_exists(__DIR__ . '/databases/publications-backup-20261116.json')) {
+        copy(__DIR__ . '/databases/publications-backup-20261116.json', $dbPath);
+    } else {
+        $backups = glob(__DIR__ . '/databases/publications-backup-*.json');
+        if (!empty($backups)) {
+            rsort($backups);
+            copy($backups[0], $dbPath);
+        }
     }
 }
 
@@ -56,6 +60,34 @@ $facultyNames = [
     'pranomkorn' => 'ดร.ประณมกร อัมพรพรรดิ์',
 ];
 
+// Tier definitions & color schemes (shared by Faculty Stacked Chart & Tiers Chart)
+$tierDefinitions = [
+    'scopus' => [
+        'label' => 'วารสาร Scopus (Q2/Q4)',
+        'color' => '#6f42c1'
+    ],
+    'tci1' => [
+        'label' => 'วารสาร TCI 1',
+        'color' => '#28a745'
+    ],
+    'tci2' => [
+        'label' => 'วารสาร TCI 2',
+        'color' => '#20c997'
+    ],
+    'kapor' => [
+        'label' => 'วารสารตามเกณฑ์ กพอ.',
+        'color' => '#fd7e14'
+    ],
+    'conf_inter' => [
+        'label' => 'ประชุมวิชาการนานาชาติ',
+        'color' => '#17a2b8'
+    ],
+    'conf_nat' => [
+        'label' => 'ประชุมวิชาการระดับชาติ',
+        'color' => '#ffc107'
+    ]
+];
+
 $facultyStats = [
     'natradee'   => 0,
     'daoratha'   => 0,
@@ -64,6 +96,11 @@ $facultyStats = [
     'nattira'    => 0,
     'pranomkorn' => 0,
 ];
+
+$facultyTierStats = [];
+foreach (array_keys($facultyNames) as $fid) {
+    $facultyTierStats[$fid] = array_fill_keys(array_keys($tierDefinitions), 0);
+}
 
 $yearlyStats = [];
 
@@ -80,6 +117,9 @@ foreach ($publications as $p) {
     }
     $yearlyStats[$y]['total']++;
 
+    // Mutually exclusive tier category key
+    $categoryKey = '';
+
     // Type calculation
     if ($type === 'journal') {
         $statJournal++;
@@ -87,21 +127,23 @@ foreach ($publications as $p) {
 
         // Journal quality & criteria (Dimension 2)
         if (stripos($tier, 'Scopus') !== false || stripos($cat, 'Scopus') !== false) {
+            $categoryKey = 'scopus';
             $statJournalScopus++;
+        } elseif (stripos($tier, 'TCI 1') !== false || stripos($tier, 'TCI1') !== false) {
+            $categoryKey = 'tci1';
+            $statJournalTci1++;
+        } elseif (stripos($tier, 'TCI 2') !== false || stripos($tier, 'TCI2') !== false) {
+            $categoryKey = 'tci2';
+            $statJournalTci2++;
+        } elseif (stripos($tier, 'กพอ') !== false) {
+            $categoryKey = 'kapor';
+            $statJournalKapor++;
         }
+
         if ($lang === 'en' || stripos($cat, 'นานาชาติ') !== false) {
             $statJournalInter++;
         } else {
             $statJournalNational++;
-        }
-        if (stripos($tier, 'TCI 1') !== false || stripos($tier, 'TCI1') !== false) {
-            $statJournalTci1++;
-        }
-        if (stripos($tier, 'TCI 2') !== false || stripos($tier, 'TCI2') !== false) {
-            $statJournalTci2++;
-        }
-        if (stripos($tier, 'กพอ') !== false) {
-            $statJournalKapor++;
         }
     } else {
         $statConf++;
@@ -110,17 +152,22 @@ foreach ($publications as $p) {
 
         // Conference classification (Dimension 3)
         if ($lang === 'en' || stripos($cat, 'นานาชาติ') !== false) {
+            $categoryKey = 'conf_inter';
             $statConfInter++;
         } else {
+            $categoryKey = 'conf_nat';
             $statConfNational++;
         }
     }
 
-    // Faculty participation
+    // Faculty participation & tier accumulation
     if (!empty($p['teacher_ids']) && is_array($p['teacher_ids'])) {
         foreach ($p['teacher_ids'] as $tid) {
             if (isset($facultyStats[$tid])) {
                 $facultyStats[$tid]++;
+                if ($categoryKey && isset($facultyTierStats[$tid][$categoryKey])) {
+                    $facultyTierStats[$tid][$categoryKey]++;
+                }
             }
         }
     }
@@ -139,6 +186,33 @@ $facultyData = [];
 foreach (array_keys($facultyNames) as $fid) {
     $facultyData[] = $facultyStats[$fid];
 }
+
+// Prepare Stacked Datasets for Faculty Bar Chart
+$facultyDatasets = [];
+foreach ($tierDefinitions as $tKey => $tInfo) {
+    $dataSeries = [];
+    foreach (array_keys($facultyNames) as $fid) {
+        $dataSeries[] = $facultyTierStats[$fid][$tKey];
+    }
+    $facultyDatasets[] = [
+        'label' => $tInfo['label'],
+        'data' => $dataSeries,
+        'backgroundColor' => $tInfo['color'],
+        'borderRadius' => 2
+    ];
+}
+
+// Prepare Tiers Breakdown Chart Data
+$tierPieLabels = array_column($tierDefinitions, 'label');
+$tierPieColors = array_column($tierDefinitions, 'color');
+$tierPieData = [
+    $statJournalScopus,
+    $statJournalTci1,
+    $statJournalTci2,
+    $statJournalKapor,
+    $statConfInter,
+    $statConfNational
+];
 ?>
 <!DOCTYPE html>
 <html lang="th">
@@ -439,9 +513,9 @@ foreach (array_keys($facultyNames) as $fid) {
                             <h2 class="h6 font-weight-bold text-dark mb-0">
                                 <i class="fa fa-users text-warning mr-2"></i>จำนวนผลงานตีพิมพ์จำแนกตามคณาจารย์
                             </h2>
-                            <span class="badge badge-light border">Faculty Output</span>
+                            <span class="badge badge-light border">Stacked by Tier</span>
                         </div>
-                        <div style="position: relative; height: 300px;">
+                        <div style="position: relative; height: 350px;">
                             <canvas id="facultyChart"></canvas>
                         </div>
                     </div>
@@ -456,7 +530,7 @@ foreach (array_keys($facultyNames) as $fid) {
                             </h2>
                             <span class="badge badge-light border">Tiers</span>
                         </div>
-                        <div style="position: relative; height: 300px;">
+                        <div style="position: relative; height: 350px;">
                             <canvas id="tierPieChart"></canvas>
                         </div>
                     </div>
@@ -603,58 +677,51 @@ foreach (array_keys($facultyNames) as $fid) {
                 }
             });
 
-            // 3. Faculty Horizontal Bar Chart
+            // 3. Faculty Stacked Horizontal Bar Chart (Stacked by Tier)
             const ctxFaculty = document.getElementById('facultyChart').getContext('2d');
             new Chart(ctxFaculty, {
                 type: 'bar',
                 data: {
                     labels: <?php echo json_encode($facultyLabels, JSON_UNESCAPED_UNICODE); ?>,
-                    datasets: [{
-                        label: 'จำนวนผลงานตีพิมพ์',
-                        data: <?php echo json_encode($facultyData); ?>,
-                        backgroundColor: '#fd7e14',
-                        borderRadius: 4
-                    }]
+                    datasets: <?php echo json_encode($facultyDatasets, JSON_UNESCAPED_UNICODE); ?>
                 },
                 options: {
                     indexAxis: 'y',
                     responsive: true,
                     maintainAspectRatio: false,
                     scales: {
-                        x: { beginAtZero: true, ticks: { precision: 0 } },
-                        y: { grid: { display: false } }
+                        x: { stacked: true, beginAtZero: true, ticks: { precision: 0 } },
+                        y: { stacked: true, grid: { display: false } }
                     },
                     plugins: {
-                        legend: { display: false }
+                        legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } },
+                        tooltip: {
+                            callbacks: {
+                                footer: function(tooltipItems) {
+                                    let total = 0;
+                                    if (tooltipItems.length > 0) {
+                                        const dIdx = tooltipItems[0].dataIndex;
+                                        tooltipItems[0].chart.data.datasets.forEach(function(ds) {
+                                            total += (ds.data[dIdx] || 0);
+                                        });
+                                    }
+                                    return 'รวมผลงานทั้งหมด: ' + total + ' เรื่อง';
+                                }
+                            }
+                        }
                     }
                 }
             });
 
-            // 4. Quality & Tiers Polar / Doughnut
+            // 4. Quality & Tiers Breakdown (Doughnut Chart)
             const ctxTier = document.getElementById('tierPieChart').getContext('2d');
             new Chart(ctxTier, {
-                type: 'pie',
+                type: 'doughnut',
                 data: {
-                    labels: [
-                        'วารสาร Scopus (Q4)',
-                        'วารสารนานาชาติ',
-                        'วารสาร TCI 1',
-                        'วารสาร TCI 2',
-                        'วารสารตามเกณฑ์ กพอ.',
-                        'ประชุมวิชาการระดับชาติ',
-                        'ประชุมวิชาการนานาชาติ'
-                    ],
+                    labels: <?php echo json_encode($tierPieLabels, JSON_UNESCAPED_UNICODE); ?>,
                     datasets: [{
-                        data: [
-                            <?php echo $statJournalScopus; ?>,
-                            <?php echo $statJournalInter; ?>,
-                            <?php echo $statJournalTci1; ?>,
-                            <?php echo $statJournalTci2; ?>,
-                            <?php echo $statJournalKapor; ?>,
-                            <?php echo $statConfNational; ?>,
-                            <?php echo $statConfInter; ?>
-                        ],
-                        backgroundColor: ['#6f42c1', '#007bff', '#28a745', '#20c997', '#fd7e14', '#ffc107', '#17a2b8'],
+                        data: <?php echo json_encode($tierPieData); ?>,
+                        backgroundColor: <?php echo json_encode($tierPieColors); ?>,
                         borderWidth: 2,
                         borderColor: '#ffffff'
                     }]
@@ -663,7 +730,7 @@ foreach (array_keys($facultyNames) as $fid) {
                     responsive: true,
                     maintainAspectRatio: false,
                     plugins: {
-                        legend: { position: 'bottom', labels: { boxWidth: 12 } }
+                        legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } }
                     }
                 }
             });
