@@ -67,6 +67,7 @@
   - [x] พัฒนาระบบ **Citation Re-rendering Engine** ด้วย JavaScript รองรับ 4 สไตล์: มคอ.2 (APA 6 Thai), APA 7th, IEEE, และ Vancouver
   - [x] ออกแบบ UI สไตล์ Academic Dashboard พร้อมตัวกรองอัจฉริยะ (อาจารย์, ปี พ.ศ., ประเภท/ระดับ), ช่องค้นหาแบบเรียลไทม์ และปุ่มคัดลอกการอ้างอิงคลิกเดียว (One-click Copy Citation)
   - [x] เชื่อมโยงปุ่มดูผลงานตีพิมพ์จากหน้า [`teacher.php`](teacher.php) ตรงสู่ตัวกรองอาจารย์แต่ละท่านอัตโนมัติ
+  - [x] กำหนดมาตรฐานรหัสผลงานแบบ `PUB-NNN` รันต่อเนื่องจากอดีตสู่ปัจจุบัน (`PUB-001` ถึง `PUB-093`) และงานใหม่ให้รันต่อท้าย (`PUB-094`...) โดยหากมีการลบข้อมูลให้คงช่องว่างไว้ (Immutable ID) บันทึกไว้ใน [`databases/README.md`](databases/README.md)
   - [x] ตรวจสอบ Syntax ด้วย `php -l publication.php` ผ่านเรียบร้อย
 
 ---

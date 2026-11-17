@@ -1,0 +1,787 @@
+[
+    {
+        "id": "JRN-001",
+        "name_th": "วารสารวิจัยและนวัตกรรมทางวิทยาศาสตร์และเทคโนโลยี",
+        "name_en": "Journal of Research and Innovation in Science and Technology",
+        "abbr": "JRIST",
+        "category": "วารสารระดับชาติ",
+        "tier": "เกณฑ์ กพอ.",
+        "indexing": [
+            "TCI",
+            "ThaiJO"
+        ],
+        "publisher": "คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์",
+        "issn_print": "2730-3926",
+        "issn_online": "2730-390X",
+        "peer_review_type": "Double-blind (3 Reviewers)",
+        "frequency": "2 ฉบับ/ปี (ม.ค.-มิ.ย. และ ก.ค.-ธ.ค.)",
+        "url": "https://ph01.tci-thaijo.org/index.php/JRIST",
+        "current_tier": "เกณฑ์ กพอ.",
+        "tier_history": [
+            {
+                "round": "เกณฑ์มาตรฐาน ก.พ.อ. (ผู้ทรงคุณวุฒิประเมิน 3 ท่าน Double-blind)",
+                "tier": "เกณฑ์ กพอ.",
+                "period": "2020 - ปัจจุบัน",
+                "status": "active",
+                "note": "วารสารคณะวิทยาศาสตร์ฯ วไลยอลงกรณ์ฯ จัดทำตามเกณฑ์ ก.พ.อ. และอยู่ในระหว่างรอบประเมินเข้า TCI"
+            }
+        ]
+    },
+    {
+        "id": "JRN-002",
+        "name_th": "วารสารวิจัยและพัฒนา วไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ (สาขาวิทยาศาสตร์และเทคโนโลยี)",
+        "name_en": "VRU Research and Development Journal Science and Technology",
+        "abbr": "VRDJ-Sci",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 1",
+        "indexing": [
+            "TCI 1",
+            "ThaiJO"
+        ],
+        "publisher": "สถาบันวิจัยและพัฒนา มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์",
+        "issn_print": "2651-1274",
+        "issn_online": "2651-1282",
+        "peer_review_type": "Double-blind (3 Reviewers)",
+        "frequency": "3 ฉบับ/ปี",
+        "url": "https://ph01.tci-thaijo.org/index.php/vrdj_sci",
+        "current_tier": "TCI 1",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 1",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 1",
+                "period": "2020 - 2024",
+                "status": "historical"
+            },
+            {
+                "round": "TCI รอบที่ 3 (พ.ศ. 2558 - 2562)",
+                "tier": "TCI 1",
+                "period": "2015 - 2019",
+                "status": "historical"
+            }
+        ]
+    },
+    {
+        "id": "JRN-003",
+        "name_th": "วารสารวิจัยและพัฒนา วไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ สาขามนุษยศาสตร์และสังคมศาสตร์",
+        "name_en": "VRU Research and Development Journal Humanities and Social Sciences",
+        "abbr": "VRDJ-HSS",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 2",
+        "indexing": [
+            "TCI 2",
+            "ThaiJO"
+        ],
+        "publisher": "สถาบันวิจัยและพัฒนา มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์",
+        "issn_print": "1906-0882",
+        "issn_online": "2651-1266",
+        "peer_review_type": "Double-blind",
+        "frequency": "3 ฉบับ/ปี",
+        "url": "https://ph01.tci-thaijo.org/index.php/vrdj_hss",
+        "current_tier": "TCI 2",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 2",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 2",
+                "period": "2020 - 2024",
+                "status": "historical"
+            },
+            {
+                "round": "TCI รอบที่ 3 (พ.ศ. 2558 - 2562)",
+                "tier": "TCI 2",
+                "period": "2015 - 2019",
+                "status": "historical"
+            }
+        ]
+    },
+    {
+        "id": "JRN-004",
+        "name_th": "วารสารบัณฑิตศึกษา มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์",
+        "name_en": "Journal of Global Perspectives in Humanities and Social Sciences (เดิม Journal of Graduate Studies VRU)",
+        "abbr": "J-GPHSS",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 1",
+        "indexing": [
+            "TCI 1",
+            "ThaiJO"
+        ],
+        "publisher": "บัณฑิตวิทยาลัย มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์",
+        "issn_print": "1906-8964",
+        "issn_online": "2672-913X",
+        "peer_review_type": "Double-blind",
+        "frequency": "3 ฉบับ/ปี",
+        "url": "https://so06.tci-thaijo.org/index.php/grad-vru",
+        "current_tier": "TCI 1",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 1",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 1",
+                "period": "2020 - 2024",
+                "status": "historical"
+            },
+            {
+                "round": "TCI รอบที่ 3 (พ.ศ. 2558 - 2562)",
+                "tier": "TCI 2",
+                "period": "2015 - 2019",
+                "status": "historical",
+                "note": "ได้รับการปรับเลื่อนขึ้นเป็น TCI กลุ่ม 1 ในการประเมินรอบที่ 4"
+            }
+        ]
+    },
+    {
+        "id": "JRN-005",
+        "name_th": "วารสารมหาวิทยาลัยพัฒนาเชิงพื้นที่",
+        "name_en": "Area Based Development University Journal",
+        "abbr": "ABDUJ",
+        "category": "วารสารระดับชาติ",
+        "tier": "เกณฑ์ กพอ.",
+        "indexing": [
+            "TCI",
+            "ThaiJO"
+        ],
+        "publisher": "มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์",
+        "issn_print": "2697-5874",
+        "issn_online": "2730-3187",
+        "peer_review_type": "Double-blind",
+        "frequency": "2 ฉบับ/ปี",
+        "url": "https://so03.tci-thaijo.org/index.php/abduj",
+        "current_tier": "เกณฑ์ กพอ.",
+        "tier_history": [
+            {
+                "round": "เกณฑ์มาตรฐาน ก.พ.อ. (Double-blind)",
+                "tier": "เกณฑ์ กพอ.",
+                "period": "2020 - ปัจจุบัน",
+                "status": "active"
+            }
+        ]
+    },
+    {
+        "id": "JRN-006",
+        "name_th": "วารสารวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏอุดรธานี",
+        "name_en": "Udon Thani Rajabhat University Journal of Science and Technology",
+        "abbr": "UDRU-JST",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 2",
+        "indexing": [
+            "TCI 2",
+            "ThaiJO"
+        ],
+        "publisher": "สถาบันวิจัยและพัฒนา มหาวิทยาลัยราชภัฏอุดรธานี",
+        "issn_print": "2287-0083",
+        "issn_online": "2651-1401",
+        "peer_review_type": "Double-blind (3 Reviewers)",
+        "frequency": "3 ฉบับ/ปี (ม.ค.-เม.ย., พ.ค.-ส.ค., ก.ย.-ธ.ค.)",
+        "url": "https://ph01.tci-thaijo.org/index.php/scudru",
+        "current_tier": "TCI 2",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 2",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 2",
+                "period": "2020 - 2024",
+                "status": "historical"
+            }
+        ]
+    },
+    {
+        "id": "JRN-007",
+        "name_th": "วารสารวิทยาศาสตร์ วิศวกรรมศาสตร์ และเทคโนโลยี มหาวิทยาลัยราชภัฏเลย",
+        "name_en": "Journal of Science, Engineering and Technology, Loei Rajabhat University",
+        "abbr": "JSET",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 2",
+        "indexing": [
+            "TCI 2",
+            "ThaiJO"
+        ],
+        "publisher": "คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏเลย",
+        "issn_print": "2774-0323",
+        "issn_online": "2774-0331",
+        "peer_review_type": "Double-blind",
+        "frequency": "3 ฉบับ/ปี",
+        "url": "https://ph01.tci-thaijo.org/index.php/JSET",
+        "current_tier": "TCI 2",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 2",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 2",
+                "period": "2021 - 2024",
+                "status": "historical"
+            }
+        ]
+    },
+    {
+        "id": "JRN-008",
+        "name_th": "วารสารวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏศรีสะเกษ",
+        "name_en": "Journal of Science and Technology, Sisaket Rajabhat University",
+        "abbr": "JSKRU",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 1",
+        "indexing": [
+            "TCI 1",
+            "ThaiJO"
+        ],
+        "publisher": "คณะศิลปศาสตร์และวิทยาศาสตร์ มหาวิทยาลัยราชภัฏศรีสะเกษ",
+        "issn_print": "2773-8981",
+        "issn_online": "2773-899X",
+        "peer_review_type": "Double-blind",
+        "frequency": "2 ฉบับ/ปี",
+        "url": "https://ph02.tci-thaijo.org/index.php/jskru",
+        "current_tier": "TCI 1",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 1",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 2",
+                "period": "2021 - 2024",
+                "status": "historical",
+                "note": "ได้รับการปรับเลื่อนขึ้นเป็น TCI 1"
+            }
+        ]
+    },
+    {
+        "id": "JRN-009",
+        "name_th": "วารสารการพัฒนาชุมชนและคุณภาพชีวิต",
+        "name_en": "Journal of Community Development and Life Quality",
+        "abbr": "JCDLQ",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 2",
+        "indexing": [
+            "TCI 2",
+            "ThaiJO"
+        ],
+        "publisher": "สถาบันวิจัยวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยเชียงใหม่",
+        "issn_print": "2286-9042",
+        "issn_online": "2651-1800",
+        "peer_review_type": "Double-blind",
+        "frequency": "3 ฉบับ/ปี",
+        "url": "https://so02.tci-thaijo.org/index.php/JCDLQ",
+        "current_tier": "TCI 2",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 2",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 2",
+                "period": "2020 - 2024",
+                "status": "historical"
+            }
+        ]
+    },
+    {
+        "id": "JRN-010",
+        "name_th": "วารสารวิจัยและนวัตกรรมทางศึกษา",
+        "name_en": "Journal of Educational Research and Innovation",
+        "abbr": "JERI",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 2",
+        "indexing": [
+            "TCI 2",
+            "ThaiJO"
+        ],
+        "publisher": "สถาบันวิจัยและพัฒนา มหาวิทยาลัยราชภัฏพระนคร",
+        "issn_print": "2773-9848",
+        "issn_online": "2773-9856",
+        "peer_review_type": "Double-blind",
+        "frequency": "3 ฉบับ/ปี",
+        "url": "https://so01.tci-thaijo.org/index.php/jeri",
+        "current_tier": "TCI 2",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 2",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 2",
+                "period": "2021 - 2024",
+                "status": "historical"
+            }
+        ]
+    },
+    {
+        "id": "JRN-011",
+        "name_th": "วารสารมหาวิทยาลัยราชภัฏร้อยเอ็ด: วิทยาศาสตร์และเทคโนโลยี",
+        "name_en": "Roi Et Rajabhat University Journal of Science and Technology",
+        "abbr": "RERU-JST",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 2",
+        "indexing": [
+            "TCI 2",
+            "ThaiJO"
+        ],
+        "publisher": "สถาบันวิจัยและพัฒนา มหาวิทยาลัยราชภัฏร้อยเอ็ด",
+        "issn_print": "2673-0499",
+        "issn_online": "2697-4002",
+        "peer_review_type": "Double-blind",
+        "frequency": "2 ฉบับ/ปี",
+        "url": "https://ph02.tci-thaijo.org/index.php/science_reru",
+        "current_tier": "TCI 2",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 2",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 2",
+                "period": "2020 - 2024",
+                "status": "historical"
+            }
+        ]
+    },
+    {
+        "id": "JRN-012",
+        "name_th": "วารสารเทคโนโลยีสารสนเทศและนวัตกรรม",
+        "name_en": "Journal of Information Technology and Innovation",
+        "abbr": "JITI",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 2",
+        "indexing": [
+            "TCI 2",
+            "ThaiJO"
+        ],
+        "publisher": "คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยราชภัฏมหาสารคาม",
+        "issn_print": "2773-997X",
+        "issn_online": "2773-9988",
+        "peer_review_type": "Double-blind",
+        "frequency": "2 ฉบับ/ปี",
+        "url": "https://ph02.tci-thaijo.org/index.php/JITI",
+        "current_tier": "TCI 2",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 2",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 2",
+                "period": "2021 - 2024",
+                "status": "historical"
+            }
+        ]
+    },
+    {
+        "id": "JRN-013",
+        "name_th": "วารสารนวัตกรรมการเรียนรู้และเทคโนโลยี",
+        "name_en": "Journal of Learning Innovation and Technology",
+        "abbr": "JLIT",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 2",
+        "indexing": [
+            "TCI 2",
+            "ThaiJO"
+        ],
+        "publisher": "สมาคมนวัตกรรมการเรียนรู้และเทคโนโลยี",
+        "issn_print": "2773-9686",
+        "issn_online": "2773-9694",
+        "peer_review_type": "Double-blind",
+        "frequency": "2 ฉบับ/ปี",
+        "url": "https://ph02.tci-thaijo.org/index.php/JLIT",
+        "current_tier": "TCI 2",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 2",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 2",
+                "period": "2021 - 2024",
+                "status": "historical"
+            }
+        ]
+    },
+    {
+        "id": "JRN-014",
+        "name_th": "วารสารวิทยาศาสตร์และเทคโนโลยีแห่งรัตนโกสินทร์",
+        "name_en": "Rattanakosin Journal of Science and Technology",
+        "abbr": "RJST",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 2",
+        "indexing": [
+            "TCI 2",
+            "ThaiJO"
+        ],
+        "publisher": "สถาบันวิจัยและพัฒนา มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์",
+        "issn_print": "2672-9725",
+        "issn_online": "2697-3960",
+        "peer_review_type": "Double-blind",
+        "frequency": "3 ฉบับ/ปี",
+        "url": "https://ph02.tci-thaijo.org/index.php/RJST",
+        "current_tier": "TCI 2",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 2",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 2",
+                "period": "2020 - 2024",
+                "status": "historical"
+            }
+        ]
+    },
+    {
+        "id": "JRN-015",
+        "name_th": "วารสารวิชาการเทคโนโลยีอุตสาหกรรม มหาวิทยาลัยราชภัฏสวนสุนันทา",
+        "name_en": "Journal of Industrial Technology, Suan Sunandha Rajabhat University",
+        "abbr": "JIT-SSRU",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 2",
+        "indexing": [
+            "TCI 2",
+            "ThaiJO"
+        ],
+        "publisher": "คณะเทคโนโลยีอุตสาหกรรม มหาวิทยาลัยราชภัฏสวนสุนันทา",
+        "issn_print": "2630-0087",
+        "issn_online": "2651-1487",
+        "peer_review_type": "Double-blind",
+        "frequency": "2 ฉบับ/ปี",
+        "url": "https://ph01.tci-thaijo.org/index.php/jit_ssru",
+        "current_tier": "TCI 2",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 2",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 2",
+                "period": "2020 - 2024",
+                "status": "historical"
+            }
+        ]
+    },
+    {
+        "id": "JRN-016",
+        "name_th": "วารสารวิจัยและพัฒนา มหาวิทยาลัยราชภัฏสวนสุนันทา",
+        "name_en": "Suan Sunandha Rajabhat University Research and Development Journal",
+        "abbr": "SSRU-RDJ",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 2",
+        "indexing": [
+            "TCI 2",
+            "ThaiJO"
+        ],
+        "publisher": "สถาบันวิจัยและพัฒนา มหาวิทยาลัยราชภัฏสวนสุนันทา",
+        "issn_print": "1906-4713",
+        "issn_online": "2651-1495",
+        "peer_review_type": "Double-blind",
+        "frequency": "2 ฉบับ/ปี",
+        "url": "https://so05.tci-thaijo.org/index.php/ird-ssru",
+        "current_tier": "TCI 2",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 2",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 2",
+                "period": "2020 - 2024",
+                "status": "historical"
+            }
+        ]
+    },
+    {
+        "id": "JRN-017",
+        "name_th": "วารสารการประยุกต์ใช้วิทยาศาสตร์และเทคโนโลยีปัจจุบัน",
+        "name_en": "Current Applied Science and Technology",
+        "abbr": "CAST",
+        "category": "วารสารระดับนานาชาติ",
+        "tier": "Scopus Q4",
+        "indexing": [
+            "Scopus Q4",
+            "TCI 1",
+            "ACI"
+        ],
+        "publisher": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (KMITL)",
+        "issn_print": "2586-9396",
+        "issn_online": "2586-9396",
+        "peer_review_type": "Double-blind",
+        "frequency": "6 ฉบับ/ปี",
+        "url": "https://li01.tci-thaijo.org/index.php/cast",
+        "current_tier": "Scopus Q4",
+        "tier_history": [
+            {
+                "round": "SCImago / Scopus",
+                "tier": "Scopus Q4",
+                "period": "2021 - ปัจจุบัน",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 1",
+                "period": "2020 - 2024",
+                "status": "active"
+            }
+        ]
+    },
+    {
+        "id": "JRN-018",
+        "name_th": "วารสารก้าวทันโลกวิทยาศาสตร์ (Advance Science Journal)",
+        "name_en": "Advanced Science Journal",
+        "abbr": "ASJ",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 2",
+        "indexing": [
+            "TCI 2",
+            "ThaiJO"
+        ],
+        "publisher": "คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+        "issn_print": "1513-4318",
+        "issn_online": "2672-9709",
+        "peer_review_type": "Double-blind",
+        "frequency": "2 ฉบับ/ปี",
+        "url": "https://ph02.tci-thaijo.org/index.php/asj",
+        "current_tier": "TCI 2",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 2",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 2",
+                "period": "2020 - 2024",
+                "status": "historical"
+            }
+        ]
+    },
+    {
+        "id": "JRN-019",
+        "name_th": "วารสารวิชาการสหวิทยาการนานาชาติ มหาวิทยาลัยเกษตรศาสตร์",
+        "name_en": "PSAKU International Journal of Interdisciplinary Research",
+        "abbr": "PSAKUIJIR",
+        "category": "วารสารระดับนานาชาติ",
+        "tier": "TCI 1",
+        "indexing": [
+            "TCI 1",
+            "ACI"
+        ],
+        "publisher": "สมาคมรัฐศาสตร์แห่งมหาวิทยาลัยเกษตรศาสตร์",
+        "issn_print": "2286-9530",
+        "issn_online": "2672-9989",
+        "peer_review_type": "Double-blind",
+        "frequency": "2 ฉบับ/ปี",
+        "url": "https://so03.tci-thaijo.org/index.php/PSAKUIJIR",
+        "current_tier": "TCI 1",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 1",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 1",
+                "period": "2020 - 2024",
+                "status": "historical"
+            }
+        ]
+    },
+    {
+        "id": "JRN-020",
+        "name_th": "วารสารนานาชาติการวิจัยและสำรวจ ICIC Express Letters",
+        "name_en": "ICIC Express Letters: An International Journal of Research and Surveys",
+        "abbr": "ICIC-EL",
+        "category": "วารสารระดับนานาชาติ",
+        "tier": "Scopus Q4",
+        "indexing": [
+            "Scopus Q4",
+            "EI Compendex"
+        ],
+        "publisher": "ICIC International (Japan)",
+        "issn_print": "1881-803X",
+        "issn_online": "1881-803X",
+        "peer_review_type": "Peer-reviewed",
+        "frequency": "12 ฉบับ/ปี (รายเดือน)",
+        "url": "http://www.icicel.org",
+        "current_tier": "Scopus Q4",
+        "tier_history": [
+            {
+                "round": "SCImago / Scopus",
+                "tier": "Scopus Q4",
+                "period": "2019 - ปัจจุบัน",
+                "status": "active"
+            }
+        ]
+    },
+    {
+        "id": "JRN-021",
+        "name_th": "วารสาร Information (MDPI)",
+        "name_en": "Information",
+        "abbr": "Information",
+        "category": "วารสารระดับนานาชาติ",
+        "tier": "Scopus Q2",
+        "indexing": [
+            "Scopus Q2",
+            "ESCI",
+            "Ei Compendex"
+        ],
+        "publisher": "MDPI (Basel, Switzerland)",
+        "issn_print": "2078-2489",
+        "issn_online": "2078-2489",
+        "peer_review_type": "Single-blind (Peer Review)",
+        "frequency": "12 ฉบับ/ปี (รายเดือน Open Access)",
+        "url": "https://www.mdpi.com/journal/information",
+        "current_tier": "Scopus Q2",
+        "tier_history": [
+            {
+                "round": "SCImago / Scopus",
+                "tier": "Scopus Q2",
+                "period": "2020 - ปัจจุบัน",
+                "status": "active"
+            }
+        ]
+    },
+    {
+        "id": "JRN-022",
+        "name_th": "Veridian E-Journal มหาวิทยาลัยศิลปากร ฉบับภาษาไทย สาขามนุษยศาสตร์ สังคมศาสตร์ และศิลปะ",
+        "name_en": "Veridian E-Journal, Silpakorn University",
+        "abbr": "VEJ",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 2",
+        "indexing": [
+            "TCI 2 (ณ ปี 2561)"
+        ],
+        "publisher": "บัณฑิตวิทยาลัย มหาวิทยาลัยศิลปากร",
+        "issn_print": "1906-3431",
+        "issn_online": "2672-9628",
+        "peer_review_type": "Double-blind",
+        "frequency": "3 ฉบับ/ปี (ปัจจุบันยุติการตีพิมพ์)",
+        "url": "https://he02.tci-thaijo.org/index.php/Veridian-E-Journal",
+        "current_tier": "TCI 2 (ยุติการตีพิมพ์)",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 3 (พ.ศ. 2558 - 2562)",
+                "tier": "TCI 2",
+                "period": "2015 - 2019",
+                "status": "historical",
+                "note": "วารสารยุติการตีพิมพ์ตั้งแต่ปี 2562"
+            }
+        ]
+    },
+    {
+        "id": "JRN-023",
+        "name_th": "วารสารวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยมหาสารคาม",
+        "name_en": "Journal of Science and Technology, Mahasarakham University",
+        "abbr": "JSTM",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 1",
+        "indexing": [
+            "TCI 1",
+            "ThaiJO"
+        ],
+        "publisher": "สถาบันวิจัยและพัฒนา มหาวิทยาลัยมหาสารคาม",
+        "issn_print": "1686-9664",
+        "issn_online": "2586-9779",
+        "peer_review_type": "Double-blind",
+        "frequency": "6 ฉบับ/ปี",
+        "url": "https://ph02.tci-thaijo.org/index.php/jstm",
+        "current_tier": "TCI 1",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 1",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 1",
+                "period": "2020 - 2024",
+                "status": "historical"
+            }
+        ]
+    },
+    {
+        "id": "JRN-024",
+        "name_th": "วารสารพัฒนาการเรียนการสอน มหาวิทยาลัยรังสิต",
+        "name_en": "Journal of Rangsit University: Teaching & Learning",
+        "abbr": "JRTL",
+        "category": "วารสารระดับชาติ",
+        "tier": "TCI 2",
+        "indexing": [
+            "TCI 2",
+            "ThaiJO"
+        ],
+        "publisher": "สำนักวิชาการ มหาวิทยาลัยรังสิต",
+        "issn_print": "1906-0599",
+        "issn_online": "2651-1789",
+        "peer_review_type": "Double-blind",
+        "frequency": "2 ฉบับ/ปี",
+        "url": "https://so06.tci-thaijo.org/index.php/jrtl",
+        "current_tier": "TCI 2",
+        "tier_history": [
+            {
+                "round": "TCI รอบที่ 5 (พ.ศ. 2568 - 2572)",
+                "tier": "TCI 2",
+                "period": "2025 - 2029",
+                "status": "active"
+            },
+            {
+                "round": "TCI รอบที่ 4 (พ.ศ. 2563 - 2567)",
+                "tier": "TCI 2",
+                "period": "2020 - 2024",
+                "status": "historical"
+            }
+        ]
+    }
+]

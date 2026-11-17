@@ -4,9 +4,11 @@
 git-cron.log
 .esd_auth
 
-# Databases directory - ignore active database files but track .gitkeep and timestamped backups
+# Databases directory - ignore active database files but track .gitkeep, documentation, and timestamped backups
 databases/*
 !databases/.gitkeep
+!databases/README.md
+!databases/journals.json
 !databases/publications-backup-*.json
 !databases/publications.backup.json
 
