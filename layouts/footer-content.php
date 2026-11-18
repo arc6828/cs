@@ -51,7 +51,7 @@
         <div class="row">
           <div class="col-md-4 mx-auto">
             <h2 class="footer-heading mb-4 d-none">ติดต่อเรา</h2>
-            <img class="img-thumbnail rounded-circle mb-4" src="<?php echo $root_path; ?>images/css.png" style="width:70px; height:70px;" alt="โลโก้หลักสูตรวิทยาการคอมพิวเตอร์ VRU" />
+            <img class="img-thumbnail rounded mb-4" src="<?php echo $root_path; ?>images/logo/logo-anniversary-full.png" style="width:85px; height:auto; background:#ffffff; padding:4px;" alt="โลโก้ 40 ปี หลักสูตรวิทยาการคอมพิวเตอร์ VRU" />
             <p>
               หลักสูตรวิทยาการคอมพิวเตอร์ <br>
               คณะวิทยาศาสตร์และเทคโนโลยี <br>

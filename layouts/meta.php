@@ -162,5 +162,5 @@
             margin-top: -150px;
         }
     </style>
-    <link rel="icon" href="<?php echo $root_path; ?>images/css.png">
+    <link rel="icon" href="<?php echo $root_path; ?>images/logo/logo-anniversary-full.png">
 

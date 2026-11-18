@@ -151,6 +151,53 @@ $og_url = "https://cs.vru.ac.th/history.php";
             padding: 0.2rem 0.65rem;
             border-radius: 2rem;
         }
+
+        /* High contrast typography & Dark Gray styling */
+        body, .content {
+            color: #212529 !important;
+        }
+
+        .logo-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 2rem 1.75rem;
+            height: 100%;
+            transition: all 0.25s ease-in-out;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+            border-color: #0284c7;
+        }
+
+        .logo-display-box {
+            background: #f8fafc;
+            border: 1px dashed #cbd5e1;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 200px;
+        }
+
+        .color-swatch {
+            width: 30px;
+            height: 30px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-right: 0.75rem;
+            border: 2px solid #ffffff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+            flex-shrink: 0;
+        }
     </style>
 </head>
 
@@ -178,6 +225,9 @@ $og_url = "https://cs.vru.ac.th/history.php";
                     <div class="stat-card p-3 text-center h-100">
                         <div class="stat-number">40+ ปี</div>
                         <div class="small text-muted mt-1">ประสบการณ์จัดการเรียนการสอน</div>
+                        <a href="identity.php" class="badge badge-warning text-dark font-weight-bold mt-2 shadow-xs">
+                            <i class="fa fa-star text-danger mr-1"></i> ตราสัญลักษณ์ 40 ปี
+                        </a>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 mb-3">
@@ -362,6 +412,34 @@ $og_url = "https://cs.vru.ac.th/history.php";
                                 <span class="badge badge-info era-badge">หลักสูตรใหม่ OBE (พ.ศ. 2570)</span>
                             </div>
                             <div class="text-dark">พัฒนา <strong>หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์ (หลักสูตรปรับปรุง พ.ศ. 2570)</strong> ตามประกาศคณะกรรมการมาตรฐานการอุดมศึกษา เรื่อง เกณฑ์มาตรฐานหลักสูตรระดับอุดมศึกษา พ.ศ. 2565 และเริ่มเปิดใช้ตั้งแต่ภาคเรียนที่ 1/2570 เป็นต้นไป</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5">
+
+            <!-- ตราสัญลักษณ์และอัตลักษณ์ประจำหลักสูตร (Logo & Identity Summary Callout) -->
+            <div class="card border-0 shadow-sm mb-5" data-aos="fade-up" id="logo-section" style="border-radius: 16px; background: linear-gradient(135deg, #ffffff 0%, #faf5ff 100%); border-left: 5px solid #581845 !important;">
+                <div class="card-body p-4 p-lg-5">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 text-center mb-3 mb-lg-0">
+                            <img src="images/logo/logo-anniversary-full.png" alt="โลโก้ฉลอง 40 ปี วิทยาการคอมพิวเตอร์" style="max-height: 140px; max-width: 100%; object-fit: contain;">
+                        </div>
+                        <div class="col-lg-9">
+                            <span class="badge badge-warning text-dark font-weight-bold px-3 py-1 mb-2">
+                                <i class="fa fa-star text-danger mr-1"></i> วาระครบรอบ 40 ปี (พ.ศ. 2528 – ปัจจุบัน)
+                            </span>
+                            <h2 class="h4 font-weight-bold text-dark mb-2">
+                                ตราสัญลักษณ์และอัตลักษณ์ประจำหลักสูตร (Brand Identity)
+                            </h2>
+                            <p class="text-secondary small mb-3" style="line-height: 1.8;">
+                                ร่วมเฉลิมฉลองประวัติศาสตร์ 4 ทศวรรษแห่งความภาคภูมิใจ จากจุดเริ่มต้นในปี พ.ศ. 2528 สู่หลักสูตรวิทยาการคอมพิวเตอร์ยุคใหม่ 
+                                ติดตามเรื่องเล่าความหมายของตราสัญลักษณ์ประจำสาขา (Hexagon CS), ตราฉลองครบรอบ 40 ปี, คู่มือรหัสสีทางการ (HEX / RGB / CMYK) และศูนย์ดาวน์โหลดไฟล์ความละเอียดสูง
+                            </p>
+                            <a href="identity.php" class="btn btn-primary btn-sm font-weight-bold px-4 py-2 shadow-xs">
+                                <i class="fa fa-id-badge mr-1"></i> เข้าชมหน้าตราสัญลักษณ์และดาวน์โหลดคู่มือ CI
+                            </a>
                         </div>
                     </div>
                 </div>

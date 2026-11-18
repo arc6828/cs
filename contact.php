@@ -432,7 +432,7 @@ $og_url = "https://cs.vru.ac.th/contact.php";
             "@type": "EducationalOrganization",
             "name": "หลักสูตรวิทยาการคอมพิวเตอร์ มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์",
             "url": "https://cs.vru.ac.th/",
-            "logo": "https://cs.vru.ac.th/images/css.png",
+            "logo": "https://cs.vru.ac.th/images/logo/logo-anniversary-full.png",
             "telephone": "0-2529-0674-7 ต่อ 365",
             "faxNumber": "02-909-3029",
             "email": "cs@vru.ac.th",

@@ -190,7 +190,7 @@ $og_image = "https://cs.vru.ac.th/images/tcas/pr-2026-09-19.jpg";
             "@type": "EducationalOrganization",
             "name": "สาขาวิชาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์",
             "url": "https://cs.vru.ac.th/",
-            "logo": "https://cs.vru.ac.th/images/css.png",
+            "logo": "https://cs.vru.ac.th/images/logo/logo-anniversary-full.png",
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "เลขที่ 1 หมู่ 20 ต.คลองหนึ่ง อ.คลองหลวง",

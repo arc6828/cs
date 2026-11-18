@@ -10,7 +10,7 @@
                 <div class="site-mobile-menu-close mt-3">
                     <span class="icon-close2 js-menu-toggle"></span>
                 </div>
-                <img class="m-4" src="<?php echo $root_path; ?>images/css.png" height="70" alt="โลโก้หลักสูตรวิทยาการคอมพิวเตอร์ มรภ.วไลยอลงกรณ์">
+                <img class="m-4" src="<?php echo $root_path; ?>images/logo/logo-anniversary-full.png" height="70" alt="โลโก้ 40 ปี หลักสูตรวิทยาการคอมพิวเตอร์ มรภ.วไลยอลงกรณ์">
             </div>
             <div class="site-mobile-menu-body"></div>
         </div>
@@ -22,7 +22,7 @@
                     <div class="site-logo">
                         <a href="<?php echo $root_path; ?>index.php" class="text-left">
                             <div class="" style="display: flex; flex-direction:row;">
-                                <img class="d-lg-block d-md-none d-sm-none d-none my-1" src="<?php echo $root_path; ?>images/css.png" height="70" alt="โลโก้หลักสูตรวิทยาการคอมพิวเตอร์ VRU">
+                                <img class="d-lg-block d-md-none d-sm-none d-none my-1" src="<?php echo $root_path; ?>images/logo/logo-anniversary-full.png" height="70" alt="โลโก้ 40 ปี หลักสูตรวิทยาการคอมพิวเตอร์ VRU">
                                 <div class="d-lg-block" style="line-height: 0.3; padding-top: 18px; padding-left: 10px;">
                                     <div style="margin-bottom:0px; font-size: 0.8em; font-weight: 500;" class="text-dark prompt">วิทยาการคอมพิวเตอร์</div>
                                     <small class="" style="font-size: 0.35em; color:#777;">มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์</small>
@@ -43,6 +43,7 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="aboutDropdown">
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>history.php">ประวัติหลักสูตร</a>
+                                    <a class="dropdown-item" href="<?php echo $root_path; ?>identity.php">ตราสัญลักษณ์และอัตลักษณ์</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>structure.php">โครงสร้างหลักสูตร</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>course-descriptions.php">คำอธิบายรายวิชา</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>Description.php">รายละเอียดหลักสูตร</a>
