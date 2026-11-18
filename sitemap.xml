@@ -88,17 +88,17 @@
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/Internship%20location.php</loc>
+        <loc>http://cs.vru.ac.th/internship-locations.php</loc>
         <lastmod>2023-04-28T08:32:58+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/Internship%20documents.php</loc>
+        <loc>http://cs.vru.ac.th/internship-documents.php</loc>
         <lastmod>2023-04-28T08:32:58+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/recommended.php</loc>
+        <loc>http://cs.vru.ac.th/feedback.php</loc>
         <lastmod>2023-04-28T08:32:58+00:00</lastmod>
         <priority>0.80</priority>
     </url>

@@ -74,9 +74,9 @@
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>admission.php">รับสมัครนักศึกษาใหม่</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>student-guide.php">คู่มือนักศึกษา</a>
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>project-guide.php">คู่มือโครงงานนักศึกษา</a>
-                                    <a class="dropdown-item" href="<?php echo $root_path; ?>Internship location.php">สถานที่ฝึกสหกิจ</a>
-                                    <a class="dropdown-item" href="<?php echo $root_path; ?>Internship documents.php">เอกสารฝึกงาน</a>
-                                    <a class="dropdown-item" href="<?php echo $root_path; ?>recommended.php">แจ้งข้อเสนอแนะ/ร้องเรียน</a>
+                                    <a class="dropdown-item" href="<?php echo $root_path; ?>internship-locations.php">สถานที่ฝึกงานและสหกิจ</a>
+                                    <a class="dropdown-item" href="<?php echo $root_path; ?>internship-documents.php">เอกสารฝึกงานและสหกิจ</a>
+                                    <a class="dropdown-item" href="<?php echo $root_path; ?>feedback.php">แจ้งข้อเสนอแนะ/ร้องเรียน</a>
                                 </div>
                             </li>
                             <li class="nav-link">

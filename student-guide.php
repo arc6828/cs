@@ -205,6 +205,24 @@ $og_image = "https://cs.vru.ac.th/images/banner_computer_science.png";
                 </div>
             </div>
 
+            <!-- Notice: Line Group for Applicants / New Students -->
+            <div class="alert alert-success d-flex flex-wrap align-items-center justify-content-between p-3 mb-4 shadow-sm" style="border-radius: 10px; background: #f0fdf4; border-color: #bbf7d0;">
+                <div class="d-flex align-items-center mb-2 mb-md-0">
+                    <div class="mr-3" style="font-size: 1.8rem; color: #16a34a;">
+                        <i class="fa fa-comments"></i>
+                    </div>
+                    <div>
+                        <div class="font-weight-bold text-dark" style="font-size: 0.95rem;">Line กลุ่มผู้สมัครเรียน ปี 70 (CS-VRU#70)</div>
+                        <small class="text-secondary">สำหรับผู้สมัครและนักศึกษาใหม่ ภาคปกติ (จันทร์-ศุกร์) และภาคพิเศษ (เสาร์-อาทิตย์)</small>
+                    </div>
+                </div>
+                <div>
+                    <a href="admission.php#qr-code" class="btn btn-success btn-sm font-weight-bold px-3 py-2 text-white" style="background-color: #06c755; border-color: #06c755;">
+                        <i class="fa fa-qrcode mr-1"></i> ดู QR Code และเข้า Line กลุ่มผู้สมัคร #70
+                    </a>
+                </div>
+            </div>
+
             <!-- Quick Service Portals Row -->
             <div class="mb-5">
                 <div class="section-header d-flex justify-content-between align-items-center">

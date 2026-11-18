@@ -21,25 +21,6 @@ $og_image = "https://cs.vru.ac.th/images/tcas/pr-2026-09-19.jpg";
     <div class="content">
         <?php include("layouts/slider.php"); ?>
         <style>
-            .carousel {
-                position: relative;
-                width: 1500px;
-                height: 300px;
-                left: 50px;
-                top: 20px;
-                text-align: center;
-            }
-
-            .carousel-control-next {
-                top: 20px;
-                left: 600px;
-            }
-
-            .carousel-control-prev {
-                top: 20px;
-                left: -60px;
-            }
-
             .site-blocks-cover,
             .site-block-wrap {
                 min-height: 0px;
@@ -76,12 +57,6 @@ $og_image = "https://cs.vru.ac.th/images/tcas/pr-2026-09-19.jpg";
                     min-height: 0px;
                     height: calc(80vh);
                 }
-            }
-
-            .img {
-                width: 180px;
-                height: 500px;
-                border-style: solid !important;
             }
 
             .text-center {
@@ -124,8 +99,13 @@ $og_image = "https://cs.vru.ac.th/images/tcas/pr-2026-09-19.jpg";
                                     รับสมัครนักศึกษา ปีการศึกษา <?= $academicYear ?> (ปริญญาตรี จันทร์-ศุกร์ และภาคเสาร์-อาทิตย์) ตั้งแต่วันนี้เป็นต้นไป
                                     ดูรายละเอียดและกรอกใบสมัครได้ที่นี่
                                 </p>
-                                <div class="text-center">
-                                    <a class="btn btn-primary" href="admission.php">สมัครเรียน</a>
+                                <div class="d-flex flex-wrap justify-content-center">
+                                    <a class="btn btn-primary m-1 font-weight-bold px-3" href="admission.php">
+                                        <i class="fa fa-pencil-square-o mr-1"></i> สมัครเรียน
+                                    </a>
+                                    <a class="btn btn-success m-1 font-weight-bold px-3 text-white" href="#qr-code" style="background-color: #06c755; border-color: #06c755;">
+                                        <i class="fa fa-comments mr-1"></i> Line กลุ่มผู้สมัคร #70
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -150,8 +130,8 @@ $og_image = "https://cs.vru.ac.th/images/tcas/pr-2026-09-19.jpg";
                             <a href="http://reg3.vru.ac.th/acad_mka/" target="_blank" rel="noopener">
                                 <img src="images/TQF.jpg" width="250" height="70" style="margin-top:3px;" alt="ระบบสารสนเทศกรอบมาตรฐานคุณวุฒิระดับอุดมศึกษา (มคอ.)" loading="lazy">
                             </a>
-                            <a href="https://goo.gl/forms/59Nz2gnBpnc9QSEX2" target="_blank" rel="noopener">
-                                <img src="images/fromfix.jpg" width="250" height="70" style="margin-top:3px;" alt="แบบฟอร์มแจ้งซ่อมอุปกรณ์ห้องปฏิบัติการคอมพิวเตอร์" loading="lazy">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScRpyhvGXtuXUCRsPSL1aJq3cn14Ek2LbI4MfYkFP9daMvoLA/viewform" target="_blank" rel="noopener">
+                                <img src="images/fromfix2.jpeg" width="250" height="70" style="margin-top:3px;" alt="แบบฟอร์มแจ้งซ่อมอุปกรณ์ห้องปฏิบัติการคอมพิวเตอร์" loading="lazy">
                             </a>
                             <a href="https://forms.gle/5tiPTzzFoivjKCNV6" target="_blank" rel="noopener">
                                 <img src="images/123.jpg" style="margin-top:3px;" alt="แบบสำรวจข้อมูลศิษย์เก่าวิทยาการคอมพิวเตอร์" loading="lazy">
@@ -198,6 +178,11 @@ $og_image = "https://cs.vru.ac.th/images/tcas/pr-2026-09-19.jpg";
 
         <!-- Technology Stack -->
         <?php include("layouts/technology-stack.php"); ?>
+
+        <!-- Line กลุ่มผู้สมัคร ปี 70 (CS-VRU#70) -->
+        <div class="container-fluid py-4 bg-white border-top">
+            <?php include("layouts/group-line-qr.php"); ?>
+        </div>
 
         <script type="application/ld+json">
         {

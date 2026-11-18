@@ -325,6 +325,9 @@ $total_support = count($people);
                     <a href="lab.php" class="btn btn-outline-info font-weight-bold mr-2 mb-2">
                         <i class="fa fa-desktop mr-1"></i> ดูห้องปฏิบัติการคอมพิวเตอร์
                     </a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScRpyhvGXtuXUCRsPSL1aJq3cn14Ek2LbI4MfYkFP9daMvoLA/viewform" target="_blank" rel="noopener noreferrer" class="btn btn-outline-warning text-dark font-weight-bold mr-2 mb-2">
+                        <i class="fa fa-wrench mr-1 text-danger"></i> แบบฟอร์มแจ้งซ่อมอุปกรณ์
+                    </a>
                     <a href="teacher.php" class="btn btn-outline-primary font-weight-bold mr-2 mb-2">
                         <i class="fa fa-users mr-1"></i> ทำเนียบคณาจารย์
                     </a>

@@ -330,6 +330,9 @@ $og_image = "https://cs.vru.ac.th/images/tcas/pr-2026-09-19.jpg";
                             <a href="http://ent.vru.ac.th/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block py-2 font-weight-bold shadow-sm mb-2">
                                 <i class="fa fa-pencil-square-o mr-1"></i> สมัครเรียนผ่าน ent.vru.ac.th
                             </a>
+                            <a href="#qr-code" class="btn btn-success btn-block py-2 font-weight-bold mb-2 text-white" style="background-color: #06c755; border-color: #06c755;">
+                                <i class="fa fa-comments mr-1"></i> เข้า Line กลุ่มผู้สมัคร ปี 70 (CS-VRU#70)
+                            </a>
                             <a href="#fee" class="btn btn-outline-secondary btn-block py-2 font-weight-bold">
                                 <i class="fa fa-calculator mr-1"></i> ดูอัตราค่าเล่าเรียนและค่าธรรมเนียม
                             </a>
@@ -1056,6 +1059,11 @@ $og_image = "https://cs.vru.ac.th/images/tcas/pr-2026-09-19.jpg";
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- Line กลุ่มผู้สมัครเรียน ปี 70 (CS-VRU#70) -->
+        <div class="bg-white border-top border-bottom py-2">
+            <?php include("layouts/group-line-qr.php"); ?>
         </div>
 
         <!-- ติดต่อสอบถามข้อมูลการรับสมัคร -->

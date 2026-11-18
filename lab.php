@@ -325,6 +325,27 @@ $labs = [
                 <?php } ?>
             </div>
 
+            <!-- แจ้งอุปกรณ์ห้องปฏิบัติการชำรุดเสียหาย -->
+            <div class="card border-0 shadow-sm mt-4 p-4 text-center" style="border-radius: 14px; background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%); border-left: 5px solid #007bff !important;">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 text-lg-left mb-3 mb-lg-0">
+                        <h2 class="h5 font-weight-bold text-dark mb-1">
+                            <i class="fa fa-wrench text-primary mr-2"></i>พบปัญหาอุปกรณ์หรือคอมพิวเตอร์ในห้องแล็บขัดข้อง?
+                        </h2>
+                        <p class="text-secondary small mb-0">
+                            นักศึกษาและคณาจารย์สามารถแจ้งซ่อมคอมพิวเตอร์ อุปกรณ์ต่อพ่วง ระบบเครือข่าย หรือเครื่องปรับอากาศในห้องปฏิบัติการได้ตลอด 24 ชั่วโมง
+                        </p>
+                    </div>
+                    <div class="col-lg-4 text-lg-right">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScRpyhvGXtuXUCRsPSL1aJq3cn14Ek2LbI4MfYkFP9daMvoLA/viewform" 
+                           target="_blank" rel="noopener noreferrer" 
+                           class="btn btn-primary font-weight-bold px-4 py-2 shadow-xs">
+                            <i class="fa fa-pencil-square-o mr-1"></i> แบบฟอร์มแจ้งซ่อมอุปกรณ์
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 

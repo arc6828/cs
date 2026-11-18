@@ -9,6 +9,8 @@
 หน้าเว็บกลุ่มนี้ถูกเชื่อมโยงอยู่ในแถบเมนูหลัก (`layouts/header.php` และ `layouts/footer.php`) และเปิดให้ผู้ใช้งานทั่วไปเข้าถึงได้ตามปกติ:
 
 ### หน้าหลัก & ติดต่อเรา
+> ดูผลการวิเคราะห์เจาะลึกและแผนงานปรับปรุงได้ที่: [`HOMEPAGE-CONTACT-ANALYSIS.md`](HOMEPAGE-CONTACT-ANALYSIS.md)
+
 | ไฟล์ | ชื่อหน้า / รายละเอียด |
 | :--- | :--- |
 | [`index.php`](index.php) | หน้าแรกของเว็บไซต์ (แบนเนอร์, ข้อมูลภาพรวมหลักสูตร, ไฮไลต์กิจกรรมและสิ่งที่ได้เรียน) |
@@ -39,11 +41,11 @@
 | ไฟล์ | ชื่อหน้า / รายละเอียด |
 | :--- | :--- |
 | [`admission.php`](admission.php) | ข้อมูลการรับสมัครนักศึกษาใหม่ ปริญญาตรี (ภาคจันทร์-ศุกร์ และเสาร์-อาทิตย์) [เดิมคือ `tcas.php`] |
-| [`Student Guide.php`](Student%20Guide.php) | คู่มือนักศึกษา (ดาวน์โหลด PDF) |
-| [`Project Guide.php`](Project%20Guide.php) | คู่มือและแบบฟอร์มโครงงานนักศึกษา (วิทยาการคอมพิวเตอร์ 1 และ 2) |
-| [`Internship location.php`](Internship%20location.php) | รายชื่อและข้อมูลสถานที่ฝึกประสบการณ์วิชาชีพ / สหกิจศึกษา |
-| [`Internship documents.php`](Internship%20documents.php) | เอกสารและแบบฟอร์มสำหรับนักศึกษาฝึกงาน |
-| [`recommended.php`](recommended.php) | ช่องทางแจ้งข้อเสนอแนะและร้องเรียน |
+| [`student-guide.php`](student-guide.php) | คู่มือนักศึกษา แผนการศึกษา 4 ปี เกณฑ์สำเร็จการศึกษา และระบบบริการ [เดิมคือ `Student Guide.php`] |
+| [`project-guide.php`](project-guide.php) | คู่มือและแบบฟอร์มโครงงานนักศึกษา (หลักสูตร 65+ และ 60) [เดิมคือ `Project Guide.php`] |
+| [`internship-locations.php`](internship-locations.php) | รายชื่อและข้อมูลสถานที่ฝึกประสบการณ์วิชาชีพ / สหกิจศึกษา (ดึงข้อมูลจาก `json/internship-places.json`) [เดิมคือ `Internship location.php`] |
+| [`internship-documents.php`](internship-documents.php) | คลังดาวน์โหลดแบบฟอร์มเอกสารฝึกงานและสหกิจศึกษา (แยก 2 กล่อง สไตล์ 1 บรรทัดจบ พร้อมค้นหา) [เดิมคือ `Internship documents.php`] |
+| [`feedback.php`](feedback.php) | ช่องทางรับฟังความคิดเห็น ข้อเสนอแนะ และเรื่องร้องเรียน/อุทธรณ์ของนักศึกษา (ตามเกณฑ์ มคอ.2 หมวด 8) [เดิมคือ `recommended.php`] |
 
 ### หมวด: บทความ (`content/`)
 | ไฟล์ | ชื่อหน้า / รายละเอียด |

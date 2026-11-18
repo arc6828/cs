@@ -1,0 +1,1235 @@
+[
+  {
+    "id": "LOC-001",
+    "name_th": "สถาบันวิจัยวิทยาศาสตร์และเทคโนโลยีแห่งประเทศไทย (วว. / TISTR)",
+    "name_en": "Thailand Institute of Scientific and Technological Research (TISTR)",
+    "category": "research_gov",
+    "category_label": "หน่วยงานวิจัยและภาครัฐ",
+    "province": "ปทุมธานี",
+    "zone": "เทคโนธานี (คลองห้า)",
+    "address": "35 หมู่ 3 เทคโนธานี ต.คลองห้า อ.คลองหลวง จ.ปทุมธานี 12120",
+    "roles": [
+      "Database Systems",
+      "Scientific Web Applications",
+      "IT Infrastructure",
+      "Data Processing"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามระเบียบสถาบัน",
+    "phone": "0-2577-9000",
+    "email": "tistr@tistr.or.th",
+    "website": "https://www.tistr.or.th",
+    "featured": true,
+    "cohorts": [
+      "พ.ศ. 2565"
+    ],
+    "description": "องค์กรวิจัยและพัฒนาวิทยาศาสตร์และเทคโนโลยีชั้นนำของประเทศ มีศูนย์ดาต้าเซ็นเตอร์และระบบไอทีเพื่อการวิจัยระดับชาติ"
+  },
+  {
+    "id": "LOC-002",
+    "name_th": "กรมสื่อสารอิเล็กทรอนิกส์ทหารอากาศ",
+    "name_en": "Directorate of Communications and Electronics, Royal Thai Air Force",
+    "category": "research_gov",
+    "category_label": "หน่วยงานวิจัยและภาครัฐ",
+    "province": "กรุงเทพมหานคร",
+    "zone": "ดอนเมือง",
+    "address": "171 แขวงสนามบิน เขตดอนเมือง กรุงเทพมหานคร 10210",
+    "roles": [
+      "Cybersecurity & Network Defense",
+      "Secure Communications",
+      "System Administration",
+      "Electronics & Data link"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามระเบียบราชการ",
+    "phone": "0-2534-1800",
+    "email": "c4i@rtaf.mi.th",
+    "website": "https://dce.rtaf.mi.th",
+    "featured": true,
+    "cohorts": [
+      "พ.ศ. 2563"
+    ],
+    "description": "หน่วยงานรับผิดชอบระบบไซเบอร์ โครงข่ายสื่อสารความมั่นคงสูง และระบบคอมพิวเตอร์เทคโนโลยีสารสนเทศของกองทัพอากาศไทย"
+  },
+  {
+    "id": "LOC-003",
+    "name_th": "Regional Integrated Multi-hazard Early Warning System (RIMES)",
+    "name_en": "Regional Integrated Multi-hazard Early Warning System (RIMES)",
+    "category": "research_gov",
+    "category_label": "หน่วยงานวิจัยและภาครัฐ",
+    "province": "ปทุมธานี",
+    "zone": "สถาบัน AIT (คลองหลวง)",
+    "address": "Outreach Building, Asian Institute of Technology (AIT) Campus, คลองหนึ่ง คลองหลวง ปทุมธานี 12120",
+    "roles": [
+      "Disaster Big Data Modeling",
+      "Web GIS & Mapping",
+      "Climate Data Analytics",
+      "Cloud Services"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยงตามเกณฑ์สากล",
+    "phone": "0-2516-5900",
+    "email": "info@rimes.int",
+    "website": "https://www.rimes.int",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2568"
+    ],
+    "description": "องค์การระหว่างประเทศด้านระบบเตือนภัยพิบัติและสภาพภูมิอากาศในภูมิภาคเอเชียและแปซิฟิก ใช้เทคโนโลยี Big Data และ AI พยากรณ์ภัยพิบัติ"
+  },
+  {
+    "id": "LOC-004",
+    "name_th": "สำนักงานจังหวัดปทุมธานี (ศาลากลางจังหวัด)",
+    "name_en": "Pathum Thani Provincial Hall",
+    "category": "research_gov",
+    "category_label": "หน่วยงานวิจัยและภาครัฐ",
+    "province": "ปทุมธานี",
+    "zone": "อ.เมืองปทุมธานี",
+    "address": "ศาลากลางจังหวัดปทุมธานี ถ.ปทุมธานี-ลาดหลุมแก้ว ต.บางปรอก อ.เมือง จ.ปทุมธานี 12000",
+    "roles": [
+      "Smart City Systems",
+      "Government Web Portal",
+      "Data Management & MIS",
+      "IT Support"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามระเบียบราชการ",
+    "phone": "0-2581-5455",
+    "email": "pathumthani@moi.go.th",
+    "website": "http://www.pathumthani.go.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2569"
+    ],
+    "description": "ศูนย์กลางการบริหารราชการแผ่นดินส่วนภูมิภาคจังหวัดปทุมธานี รับผิดชอบระบบสารสนเทศเพื่อการบริการประชาชนและโครงการปทุมธานีเมืองอัจฉริยะ"
+  },
+  {
+    "id": "LOC-005",
+    "name_th": "เทศบาลนครรังสิต",
+    "name_en": "Rangsit City Municipality",
+    "category": "research_gov",
+    "category_label": "หน่วยงานวิจัยและภาครัฐ",
+    "province": "ปทุมธานี",
+    "zone": "รังสิต (ธัญบุรี)",
+    "address": "เลขที่ 1 ถ.รังสิต-ปทุมธานี ต.ประชาธิปัตย์ อ.ธัญบุรี จ.ปทุมธานี 12130",
+    "roles": [
+      "Municipal Information Systems",
+      "Public Service Web & Mobile",
+      "Network Infrastructure",
+      "Database Management"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามระเบียบองค์กรปกครองส่วนท้องถิ่น",
+    "phone": "0-2567-6000",
+    "email": "admin@rangsit.org",
+    "website": "https://www.rangsit.org",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2569"
+    ],
+    "description": "องค์กรปกครองส่วนท้องถิ่นขนาดใหญ่ในเขตปริมณฑล พัฒนาระบบ Smart Municipality และบริการดิจิทัลสำหรับประชาชนในเขตเทศบาลนครรังสิต"
+  },
+  {
+    "id": "LOC-006",
+    "name_th": "เทศบาลเมืองคลองหลวง",
+    "name_en": "Khlong Luang Town Municipality",
+    "category": "research_gov",
+    "category_label": "หน่วยงานวิจัยและภาครัฐ",
+    "province": "ปทุมธานี",
+    "zone": "คลองหลวง",
+    "address": "เลขที่ 99 หมู่ 7 ถ.คลองหลวง ต.คลองสอง อ.คลองหลวง จ.ปทุมธานี 12120",
+    "roles": [
+      "E-Service Web Development",
+      "Network & IT Support",
+      "GIS & Tax Mapping",
+      "Database Systems"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามระเบียบองค์กรปกครองส่วนท้องถิ่น",
+    "phone": "0-2524-0677",
+    "email": "khlongluang@klh.go.th",
+    "website": "https://www.klh.go.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2569"
+    ],
+    "description": "องค์กรปกครองส่วนท้องถิ่นในพื้นที่อำเภอคลองหลวง พัฒนาระบบฐานข้อมูลและบริการประชาชนผ่านช่องทางอิเล็กทรอนิกส์"
+  },
+  {
+    "id": "LOC-007",
+    "name_th": "ศาลแขวงพระนครศรีอยุธยา",
+    "name_en": "Phra Nakhon Si Ayutthaya Kwaeng Court",
+    "category": "research_gov",
+    "category_label": "หน่วยงานวิจัยและภาครัฐ",
+    "province": "พระนครศรีอยุธยา",
+    "zone": "เกาะเมืองอยุธยา",
+    "address": "ถ.อู่ทอง ต.ประตูชัย อ.พระนครศรีอยุธยา จ.พระนครศรีอยุธยา 13000",
+    "roles": [
+      "Court Information Systems (COJ)",
+      "Digital Case Filing & Tracking",
+      "Network Administration",
+      "IT User Support"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามระเบียบสำนักงานศาลยุติธรรม",
+    "phone": "0-3524-1544",
+    "email": "ayakc@coj.go.th",
+    "website": "https://ayakc.coj.go.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2568"
+    ],
+    "description": "หน่วยงานในสังกัดสำนักงานศาลยุติธรรม ใช้งานระบบสารสนเทศสำนวนคดีดิจิทัล (Case Management System) และบริการศาลออนไลน์ e-Court"
+  },
+  {
+    "id": "LOC-008",
+    "name_th": "สำนักงานบังคับคดีจังหวัดสระบุรี",
+    "name_en": "Saraburi Legal Execution Office",
+    "category": "research_gov",
+    "category_label": "หน่วยงานวิจัยและภาครัฐ",
+    "province": "สระบุรี",
+    "zone": "อ.เสาไห้",
+    "address": "54 หมู่ 7 ต.สวนดอกไม้ อ.เสาไห้ จ.สระบุรี 18160",
+    "roles": [
+      "Electronic Case Database",
+      "E-Filing Systems",
+      "MIS & Reporting",
+      "Hardware & LAN Maintenance"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามระเบียบกรมบังคับคดี",
+    "phone": "0-3639-1144",
+    "email": "saraburi@led.go.th",
+    "website": "https://www.led.go.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2567"
+    ],
+    "description": "หน่วยงานในสังกัดกระทรวงยุติธรรม ดำเนินการพัฒนาระบบเทคโนโลยีสารสนเทศเพื่อการบริการบังคับคดีทางอิเล็กทรอนิกส์"
+  },
+  {
+    "id": "LOC-009",
+    "name_th": "บริษัท ไอแอพพ์เทคโนโลยี จำกัด (iApp Technology)",
+    "name_en": "iApp Technology Co., Ltd.",
+    "category": "tech_software",
+    "category_label": "เทคโนโลยีและซอฟต์แวร์",
+    "province": "กรุงเทพมหานคร",
+    "zone": "สุขุมวิท / วัฒนา",
+    "address": "เลขที่ 11 อาคารคิวเฮ้าส์ เพลินจิต แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330",
+    "roles": [
+      "Artificial Intelligence (AI)",
+      "Natural Language Processing (NLP)",
+      "Computer Vision & OCR",
+      "Backend Python/API"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยงรายเดือน",
+    "phone": "0-2026-6269",
+    "email": "contact@iapp.co.th",
+    "website": "https://iapp.co.th",
+    "featured": true,
+    "cohorts": [
+      "พ.ศ. 2565"
+    ],
+    "description": "สตาร์ทอัพเทคโนโลยีปัญญาประดิษฐ์ (Deep Tech AI) ชั้นนำของไทย ผู้พัฒนาโมเดลภาษาไทย (Thai NLP), Thai OCR, ระบบจดจำใบหน้า และ Generative AI Solutions"
+  },
+  {
+    "id": "LOC-010",
+    "name_th": "บริษัท เบย์ คอมพิวติ้ง จำกัด (Bay Computing)",
+    "name_en": "Bay Computing Co., Ltd.",
+    "category": "tech_software",
+    "category_label": "เทคโนโลยีและซอฟต์แวร์",
+    "province": "กรุงเทพมหานคร",
+    "zone": "จตุจักร / ห้วยขวาง",
+    "address": "อาคารไซเบอร์เวิลด์ ทาวเวอร์ ถ.รัชดาภิเษก แขวง/เขตห้วยขวาง กรุงเทพมหานคร 10310",
+    "roles": [
+      "Cybersecurity Operations (SOC)",
+      "Penetration Testing",
+      "Security Architecture",
+      "Cloud Security"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยงรายเดือน",
+    "phone": "0-2645-3999",
+    "email": "hr@baycoms.com",
+    "website": "https://www.baycoms.com",
+    "featured": true,
+    "cohorts": [
+      "พ.ศ. 2563"
+    ],
+    "description": "ผู้นำด้านความปลอดภัยทางไซเบอร์และ IT Infrastructure ระดับองค์กรแถวหน้าของประเทศไทย ให้บริการคำปรึกษา ออกแบบ และติดตั้งโซลูชันด้าน Cyber Defense แก่ธนาคารและองค์กรขนาดใหญ่"
+  },
+  {
+    "id": "LOC-011",
+    "name_th": "บริษัท แมงโก้ เทคโนโลยี จำกัด (Mango Anywhere ERP)",
+    "name_en": "Mango Technology Co., Ltd.",
+    "category": "tech_software",
+    "category_label": "เทคโนโลยีและซอฟต์แวร์",
+    "province": "กรุงเทพมหานคร",
+    "zone": "ลาดพร้าว",
+    "address": "55/1 ซอยลาดพร้าว 80 แขวง/เขตวังทองหลาง กรุงเทพมหานคร 10310",
+    "roles": [
+      "ERP Software Development (C# / .NET / Web)",
+      "Mobile ERP Application",
+      "Database Performance Tuning",
+      "Software Quality Assurance (QA)"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยงรายเดือน",
+    "phone": "0-2933-6200",
+    "email": "hr@mangoconsultant.com",
+    "website": "https://www.mangoconsultant.com",
+    "featured": true,
+    "cohorts": [
+      "พ.ศ. 2563"
+    ],
+    "description": "ผู้พัฒนาโปรแกรมบริหารจัดการงานก่อสร้างและพัฒนาอสังหาริมทรัพย์ (ERP) อันดับ 1 ของประเทศไทย ภายใต้ชื่อ 'Mango Anywhere' มีลูกค้าบริษัทจดทะเบียนในตลาดหลักทรัพย์มากมาย"
+  },
+  {
+    "id": "LOC-012",
+    "name_th": "H-lab office (ภายใต้ บริษัท บ๊อกซ์ เอ็กซิปิ จำกัด)",
+    "name_en": "H-lab Office / Boxx Exipi Co., Ltd.",
+    "category": "tech_software",
+    "category_label": "เทคโนโลยีและซอฟต์แวร์",
+    "province": "กรุงเทพมหานคร",
+    "zone": "สยาม / ปทุมวัน",
+    "address": "อาคารเฉลิมราชกุมารี 60 พรรษา (จามจุรี 10) ซอยจุฬาลงกรณ์ 12 แขวงวังใหม่ เขตปทุมวัน กรุงเทพฯ 10330",
+    "roles": [
+      "HealthTech Systems",
+      "Smart Hospital Queue Management",
+      "Frontend/Backend Development",
+      "Healthcare Data Analytics"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยงรายเดือน",
+    "phone": "0-2218-3133",
+    "email": "contact@h-lab.co",
+    "website": "https://www.h-lab.co",
+    "featured": true,
+    "cohorts": [
+      "พ.ศ. 2568"
+    ],
+    "description": "นวัตกรรมสตาร์ทอัพสาย HealthTech ผู้พัฒนาระบบบริหารจัดการโรงพยาบาลอัจฉริยะ (Smart ER & Smart OPD Flow) เชื่อมโยงระบบจัดการคิวและประวัติการรักษาในโรงพยาบาลชั้นนำ"
+  },
+  {
+    "id": "LOC-013",
+    "name_th": "บริษัท บางกอก เว็บ โซลูชั่น จำกัด (Bangkok Web Solution)",
+    "name_en": "Bangkok Web Solution Co., Ltd.",
+    "category": "tech_software",
+    "category_label": "เทคโนโลยีและซอฟต์แวร์",
+    "province": "กรุงเทพมหานคร",
+    "zone": "ลาดพร้าว (วังทองหลาง)",
+    "address": "182 ตะวันรุ่ง ซอย 7 ถ.ลาดพร้าว 64 แยก 4 แขวง/เขตวังทองหลาง กรุงเทพมหานคร 10310",
+    "roles": [
+      "Web Application (PHP, Node.js, React)",
+      "E-Commerce Systems",
+      "API Integration",
+      "UI/UX & Mobile Web"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีค่าตอบแทน",
+    "phone": "0-2933-9988",
+    "email": "info@bangkokwebsolution.com",
+    "website": "https://www.bangkokwebsolution.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2567"
+    ],
+    "description": "บริษัทพัฒนาเว็บแอปพลิเคชันและดิจิทัลแพลตฟอร์มแบบครบวงจร ให้บริการพัฒนาซอฟต์แวร์เฉพาะทางแก่ธุรกิจชั้นนำ"
+  },
+  {
+    "id": "LOC-014",
+    "name_th": "บริษัท นฤธี คอนซัลติ้ง จำกัด (Naruthee Consulting)",
+    "name_en": "Naruthee Consulting Co., Ltd.",
+    "category": "tech_software",
+    "category_label": "เทคโนโลยีและซอฟต์แวร์",
+    "province": "กรุงเทพมหานคร",
+    "zone": "ลาดพร้าว (วังทองหลาง)",
+    "address": "เลขที่ 28 ซอยลาดพร้าว 60 แขวง/เขตวังทองหลาง กรุงเทพมหานคร 10310",
+    "roles": [
+      "Digital Solutions & Web Dev",
+      "CRM & Business Automation",
+      "Software Testing",
+      "Data Reporting"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีค่าตอบแทน",
+    "phone": "0-2933-7800",
+    "email": "hr@naruthee.com",
+    "website": "https://www.naruthee.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2567"
+    ],
+    "description": "บริษัทที่ปรึกษาด้านการจัดการเทคโนโลยีดิจิทัลและพัฒนาระบบซอฟต์แวร์บริหารธุรกิจแก่องค์กรภาคเอกชน"
+  },
+  {
+    "id": "LOC-015",
+    "name_th": "บริษัท มิเนอร์วา คอนซัลแทนท์ จำกัด (Minerva Consultant)",
+    "name_en": "Minerva Consultant Co., Ltd.",
+    "category": "tech_software",
+    "category_label": "เทคโนโลยีและซอฟต์แวร์",
+    "province": "กรุงเทพมหานคร",
+    "zone": "สาทร / สีลม",
+    "address": "อาคารเอ็มไพร์ทาวเวอร์ ถ.สาทรใต้ แขวงยานนาวา เขตสาทร กรุงเทพฯ 10120",
+    "roles": [
+      "Business Systems Analysis",
+      "Enterprise Web Development",
+      "ERP Implementation",
+      "Database Administration"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยงรายเดือน",
+    "phone": "0-2670-0088",
+    "email": "contact@minerva.co.th",
+    "website": "https://www.minerva.co.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2568"
+    ],
+    "description": "บริษัทที่ปรึกษาด้านไอทีและการบริหารระบบข้อมูลระดับองค์กร มุ่งเน้นการวางระบบซอฟต์แวร์บริหารทรัพยากรและการวิเคราะห์ข้อมูลทางธุรกิจ"
+  },
+  {
+    "id": "LOC-016",
+    "name_th": "บริษัท ไอทีบีที คอร์ปอเรชั่น จำกัด (ITBT Corporation)",
+    "name_en": "ITBT Corporation Co., Ltd.",
+    "category": "tech_software",
+    "category_label": "เทคโนโลยีและซอฟต์แวร์",
+    "province": "กรุงเทพมหานคร",
+    "zone": "บางกะปิ / พระราม 9",
+    "address": "อาคารเดอะไนน์ ทาวเวอร์ส ถ.พระราม 9 แขวง/เขตห้วยขวาง กรุงเทพมหานคร 10310",
+    "roles": [
+      "System Integration",
+      "Cloud & Network Solutions",
+      "Custom Application Development",
+      "IT Support"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามเกณฑ์บริษัท",
+    "phone": "0-2643-8555",
+    "email": "hr@itbt.co.th",
+    "website": "https://www.itbt.co.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2568"
+    ],
+    "description": "ผู้ให้บริการด้านการวางระบบคอมพิวเตอร์และเครือข่ายสำหรับองค์กร (System Integrator) รวมถึงพัฒนาโซลูชันคลาวด์และซอฟต์แวร์เฉพาะงาน"
+  },
+  {
+    "id": "LOC-017",
+    "name_th": "บริษัท ชินโค้ดเทคโนโลยีส์ จำกัด (Syncode Technologies)",
+    "name_en": "Syncode Technologies Co., Ltd.",
+    "category": "tech_software",
+    "category_label": "เทคโนโลยีและซอฟต์แวร์",
+    "province": "กรุงเทพมหานคร",
+    "zone": "ดอนเมือง / หลักสี่",
+    "address": "ถ.วิภาวดีรังสิต แขวงตลาดบางเขน เขตหลักสี่ กรุงเทพมหานคร 10210",
+    "roles": [
+      "Full-Stack Software Development",
+      "Mobile Applications (iOS/Android)",
+      "Cloud Native Architecture",
+      "API Services"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยง",
+    "phone": "0-2521-8890",
+    "email": "info@syncode.co.th",
+    "website": "https://syncode.co.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2563"
+    ],
+    "description": "บริษัทพัฒนาซอฟต์แวร์และแอปพลิเคชันมือถือ เชี่ยวชาญการออกแบบโซลูชันสถาปัตยกรรมคลาวด์และระบบประมวลผลประสิทธิภาพสูง"
+  },
+  {
+    "id": "LOC-018",
+    "name_th": "บริษัท อาร์ ทู โอ โปรเจคท์ จำกัด (R2O Project)",
+    "name_en": "R2O Project Co., Ltd.",
+    "category": "tech_software",
+    "category_label": "เทคโนโลยีและซอฟต์แวร์",
+    "province": "กรุงเทพมหานคร",
+    "zone": "บึงกุ่ม / รามอินทรา",
+    "address": "ถ.นวลจันทร์ แขวงนวลจันทร์ เขตบึงกุ่ม กรุงเทพมหานคร 10230",
+    "roles": [
+      "Web Application Development",
+      "Database Management",
+      "System Quality Assurance",
+      "DevOps & Cloud"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยง",
+    "phone": "0-2946-1500",
+    "email": "info@r2oproject.com",
+    "website": "https://www.r2oproject.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2568"
+    ],
+    "description": "บริษัทพัฒนาผลิตภัณฑ์ซอฟต์แวร์และระบบบริการสารสนเทศแบบครบวงจรสำหรับองค์กรธุรกิจและสตาร์ทอัพ"
+  },
+  {
+    "id": "LOC-019",
+    "name_th": "บริษัท โชคดี โชคดี สตูดิโอ จำกัด (Chokdee Chokdee Studio)",
+    "name_en": "Chokdee Chokdee Studio Co., Ltd.",
+    "category": "tech_software",
+    "category_label": "เทคโนโลยีและซอฟต์แวร์",
+    "province": "กรุงเทพมหานคร",
+    "zone": "จตุจักร / พหลโยธิน",
+    "address": "ถ.พหลโยธิน แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร 10900",
+    "roles": [
+      "Interactive Media Development",
+      "Frontend Web & Animation",
+      "Digital Asset Management",
+      "Creative Coding"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีค่าตอบแทน",
+    "phone": "0-2938-7100",
+    "email": "contact@chokdeestudio.com",
+    "website": "https://chokdeestudio.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2569"
+    ],
+    "description": "สตูดิโอดิจิทัลครีเอทีฟและอินเทอร์แอคทีฟมีเดีย ผสมผสานเทคโนโลยีการเขียนโปรแกรม เว็บไซต์สมัยใหม่ และสื่อสร้างสรรค์ดิจิทัล"
+  },
+  {
+    "id": "LOC-020",
+    "name_th": "บริษัท ดิจิทัลสตรีมเมซ จำกัด (Digital Streamers)",
+    "name_en": "Digital Streamers Co., Ltd.",
+    "category": "tech_software",
+    "category_label": "เทคโนโลยีและซอฟต์แวร์",
+    "province": "กรุงเทพมหานคร",
+    "zone": "ห้วยขวาง",
+    "address": "ถ.พระราม 9 แขวงบางกะปิ เขตห้วยขวาง กรุงเทพมหานคร 10310",
+    "roles": [
+      "Live Streaming Technology",
+      "Video Platform Development",
+      "Web RTC / Media Streaming",
+      "Frontend Development"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยง",
+    "phone": "0-2719-8000",
+    "email": "info@digitalstreamers.com",
+    "website": "https://digitalstreamers.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2563"
+    ],
+    "description": "ผู้ให้บริการและพัฒนาโซลูชันระบบการถ่ายทอดสดแบบสตรีมมิ่งมัลติมีเดีย (Media & Video Streaming Platform)"
+  },
+  {
+    "id": "LOC-021",
+    "name_th": "บริษัท อีสท์อินโนเวชั่น จำกัด (East Innovation)",
+    "name_en": "East Innovation Co., Ltd.",
+    "category": "tech_software",
+    "category_label": "เทคโนโลยีและซอฟต์แวร์",
+    "province": "กรุงเทพมหานคร",
+    "zone": "บางนา / พระโขนง",
+    "address": "ถ.สุขุมวิท แขวงบางจาก เขตพระโขนง กรุงเทพมหานคร 10260",
+    "roles": [
+      "Custom Software Development",
+      "Database Architecture",
+      "Enterprise Applications",
+      "System Integration"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามเกณฑ์บริษัท",
+    "phone": "0-2331-5000",
+    "email": "info@eastinnovation.co.th",
+    "website": "https://eastinnovation.co.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2563"
+    ],
+    "description": "บริษัทพัฒนาโซลูชันนวัตกรรมซอฟต์แวร์และแอปพลิเคชันสำหรับภาคธุรกิจอุตสาหกรรม"
+  },
+  {
+    "id": "LOC-022",
+    "name_th": "บริษัท ดีทรีช จำกัด (D-Trish)",
+    "name_en": "D-Trish Co., Ltd.",
+    "category": "tech_software",
+    "category_label": "เทคโนโลยีและซอฟต์แวร์",
+    "province": "กรุงเทพมหานคร",
+    "zone": "ดินแดง / พญาไท",
+    "address": "ถ.วิภาวดีรังสิต แขวงสามเสนใน เขตพญาไท กรุงเทพมหานคร 10400",
+    "roles": [
+      "Web Application",
+      "Database Administration",
+      "IT System Support",
+      "Software QA"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยง",
+    "phone": "0-2271-4000",
+    "email": "contact@d-trish.co.th",
+    "website": "https://d-trish.co.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2568"
+    ],
+    "description": "บริษัทพัฒนาซอฟต์แวร์และบริการจัดการระบบเทคโนโลยีสารสนเทศสำหรับองค์กร"
+  },
+  {
+    "id": "LOC-023",
+    "name_th": "บริษัท โรม อินทิเกรเต็ด ซิสเต็มส์ (ประเทศไทย) จำกัด (ROHM)",
+    "name_en": "Rohm Integrated Systems (Thailand) Co., Ltd.",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "ปทุมธานี",
+    "zone": "นิคมอุตสาหกรรมนวนคร",
+    "address": "102 หมู่ 20 นิคมอุตสาหกรรมนวนคร ถ.พหลโยธิน ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 12120",
+    "roles": [
+      "Smart Factory Manufacturing Execution Systems (MES)",
+      "Automated Inspection & Computer Vision",
+      "Industrial IoT & PLC Interface",
+      "Database & Factory Automation"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยงและสวัสดิการโรงงาน",
+    "phone": "0-2529-0777",
+    "email": "rist_hr@rohm.com",
+    "website": "https://www.rohm.com/thai",
+    "featured": true,
+    "cohorts": [
+      "พ.ศ. 2569",
+      "พ.ศ. 2568",
+      "พ.ศ. 2567"
+    ],
+    "description": "โรงงานผลิตแผงวงจรรวม (Integrated Circuit - IC) และอุปกรณ์กึ่งตัวนำชั้นนำระดับโลกของเครือ ROHM Group ญี่ปุ่น ตั้งอยู่ในนิคมนวนคร ใกล้มหาวิทยาลัย เป็นพันธมิตรรับนักศึกษาสหกิจศึกษาเป็นประจำต่อเนื่องทุกปี"
+  },
+  {
+    "id": "LOC-024",
+    "name_th": "บริษัท พานาโซนิค โซลูชั่นส์ (ประเทศไทย) จำกัด",
+    "name_en": "Panasonic Solutions (Thailand) Co., Ltd.",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "กรุงเทพมหานคร",
+    "zone": "สีลม (บางรัก)",
+    "address": "191 Silom Road, Silom, Bangrak, Bangkok 10500",
+    "roles": [
+      "Enterprise IoT Solutions",
+      "Building Automation Systems",
+      "Data Integration & BI",
+      "System Analysis"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยงรายเดือน",
+    "phone": "0-2264-9000",
+    "email": "solutions.th@panasonic.com",
+    "website": "https://www.panasonic.com/th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2567"
+    ],
+    "description": "ผู้นำเทคโนโลยีและโซลูชันระบบอัจฉริยะในเครือ Panasonic พัฒนาระบบ Smart Factory, Energy Management และโซลูชันดิจิทัลสำหรับภาคธุรกิจและโรงงานอุตสาหกรรม"
+  },
+  {
+    "id": "LOC-025",
+    "name_th": "บริษัท ทีมพรีซิชั่น จำกัด (มหาชน) (TEAM PRECISION)",
+    "name_en": "Team Precision Public Company Limited",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "ปทุมธานี",
+    "zone": "รังสิต คลอง 7 (ธัญบุรี)",
+    "address": "152/8 หมู่ที่ 3 ต.รังสิต อ.ธัญบุรี จ.ปทุมธานี 12110",
+    "roles": [
+      "Electronic Manufacturing Services (EMS) IT",
+      "Production Tracking Systems",
+      "Database Administration",
+      "Network Infrastructure"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยงและสวัสดิการ",
+    "phone": "0-2577-2350",
+    "email": "hr@teamprecision.com",
+    "website": "https://www.teamprecision.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2567"
+    ],
+    "description": "บริษัทจดทะเบียนในตลาดหลักทรัพย์ฯ ผู้ให้บริการออกแบบและประกอบแผงวงจรอิเล็กทรอนิกส์ (PCBA) และผลิตภัณฑ์อิเล็กทรอนิกส์สำเร็จรูประดับมาตรฐานสากล"
+  },
+  {
+    "id": "LOC-026",
+    "name_th": "บริษัท นิคเคสยามอลูมิเนียม จำกัด (Nikkei Siam Aluminium)",
+    "name_en": "Nikkei Siam Aluminium Co., Ltd.",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "ปทุมธานี",
+    "zone": "นิคมอุตสาหกรรมนวนคร",
+    "address": "60/26 นิคมอุตสาหกรรมนวนคร หมู่ 19 ถ.พหลโยธิน ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 12120",
+    "roles": [
+      "Factory ERP Systems",
+      "Data Collection & Sensor Integration",
+      "Network Management",
+      "Internal Web Tools"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยงและสวัสดิการ",
+    "phone": "0-2529-0520",
+    "email": "hr@nikkeisiam.co.th",
+    "website": "https://www.nikkeisiam.co.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2568"
+    ],
+    "description": "ผู้ผลิตและจำหน่ายผลิตภัณฑ์อะลูมิเนียมแผ่นและฟอยล์คุณภาพสูงในเครือ Nippon Light Metal Group ประเทศญี่ปุ่น ตั้งอยู่ในนิคมนวนคร"
+  },
+  {
+    "id": "LOC-027",
+    "name_th": "โรงงาน อินโน พรีคาสท์ นวนคร (Inno Precast)",
+    "name_en": "Inno Precast Co., Ltd. (Navanakorn Factory)",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "ปทุมธานี",
+    "zone": "นิคมอุตสาหกรรมนวนคร",
+    "address": "นิคมอุตสาหกรรมนวนคร ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 12120",
+    "roles": [
+      "Automated Carousel Precast Systems",
+      "Industrial Software & PLC",
+      "Quality Control Analytics",
+      "Inventory & Warehouse Systems"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยง",
+    "phone": "0-2022-7777",
+    "email": "contact@innoprecast.com",
+    "website": "https://www.innoprecast.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2569"
+    ],
+    "description": "โรงงานผลิตแผ่นคอนกรีตสำเร็จรูปอัตโนมัติสีเขียว (Green Precast) ที่ทันสมัยที่สุดแห่งหนึ่งในเอเชีย ใช้เทคโนโลยีหุ่นยนต์และระบบคอมพิวเตอร์ควบคุมกระบวนการผลิต"
+  },
+  {
+    "id": "LOC-028",
+    "name_th": "บริษัท พรีซิชั่น แมนูแฟคเจอริ่ง จำกัด",
+    "name_en": "Precision Manufacturing Co., Ltd.",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "พระนครศรีอยุธยา",
+    "zone": "นิคมอุตสาหกรรมบางปะอิน",
+    "address": "65 นิคมอุตสาหกรรมบางปะอิน ต.บางกระสั้น อ.บางปะอิน จ.พระนครศรีอยุธยา 13160",
+    "roles": [
+      "Manufacturing IT & MES",
+      "Production Analytics",
+      "LAN/WAN Infrastructure",
+      "User Support"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยง",
+    "phone": "0-3525-8300",
+    "email": "hr@precision-mfg.co.th",
+    "website": "https://www.precision-mfg.co.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2567"
+    ],
+    "description": "ผู้ผลิตชิ้นส่วนวิศวกรรมความแม่นยำสูงในนิคมอุตสาหกรรมบางปะอิน ใช้ระบบคอมพิวเตอร์ติดตามสายการผลิตและควบคุมคุณภาพแบบเรียลไทม์"
+  },
+  {
+    "id": "LOC-029",
+    "name_th": "บริษัท ไพรมัส จำกัด (Primus Company Limited)",
+    "name_en": "Primus Co., Ltd.",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "ปทุมธานี",
+    "zone": "นวนคร (คลองหลวง)",
+    "address": "119 ซอยสีหบุรานุกิจ 14 มีนบุรี กทม. / สาขาปทุมธานี ใกล้นวนคร 12120",
+    "roles": [
+      "Industrial IoT Sensors",
+      "SCADA & Telemetry Systems",
+      "Software Dashboard Development",
+      "Hardware Interface"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยง",
+    "phone": "0-2543-7777",
+    "email": "sales@primusthai.com",
+    "website": "https://www.primusthai.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2568"
+    ],
+    "description": "ผู้เชี่ยวชาญด้านการผลิตและจัดจำหน่ายอุปกรณ์ควบคุมอัตโนมัติ เครื่องมือวัดอุณหภูมิ และระบบ Industrial IoT Gateway สำหรับโรงงานอุตสาหกรรม"
+  },
+  {
+    "id": "LOC-030",
+    "name_th": "บริษัท แอทลาส เอ็นเนอยี จำกัด (มหาชน)",
+    "name_en": "Atlas Energy Public Company Limited",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "กรุงเทพมหานคร",
+    "zone": "พระราม 9 / ห้วยขวาง",
+    "address": "อาคาร ซีดับเบิ้ลยู ทาวเวอร์ ถ.รัชดาภิเษก แขวง/เขตห้วยขวาง กรุงเทพฯ 10310",
+    "roles": [
+      "Energy Data Analytics",
+      "ERP & Logistics Tracking",
+      "Web Application & API",
+      "Database Systems"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยงตามโครงสร้างบริษัท",
+    "phone": "0-2026-3888",
+    "email": "contact@atlasenergy.co.th",
+    "website": "https://www.atlasenergy.co.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2568"
+    ],
+    "description": "บริษัทประกอบธุรกิจค้าปลีกและจำหน่ายก๊าซปิโตรเลียมเหลว (LPG) รายใหญ่ในเครือ PTG Energy ใช้ระบบเทคโนโลยีสารสนเทศจัดการโลจิสติกส์พลังงานระดับประเทศ"
+  },
+  {
+    "id": "LOC-031",
+    "name_th": "บริษัท ไทยเรยอน จำกัด (มหาชน)",
+    "name_en": "Thai Rayon Public Company Limited",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "อ่างทอง",
+    "zone": "อ.โพธิ์ทอง / อ.เมืองอ่างทอง",
+    "address": "36 หมู่ 2 ถ.อยุธยา-อ่างทอง ต.โพสะ อ.เมือง จ.อ่างทอง 14000",
+    "roles": [
+      "Manufacturing IT",
+      "SAP ERP Support",
+      "Network Infrastructure",
+      "Data Monitoring"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยงและสวัสดิการ",
+    "phone": "0-3561-1221",
+    "email": "thairayon@adityabirla.com",
+    "website": "https://www.thairayon.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2568"
+    ],
+    "description": "ผู้ผลิตเส้นใยประดิษฐ์เรยอนชั้นนำระดับโลกในเครือ Aditya Birla Group ประเทศอินเดีย ใช้ระบบ SAP และโครงสร้างระบบเครือข่ายอุตสาหกรรมขนาดใหญ่"
+  },
+  {
+    "id": "LOC-032",
+    "name_th": "บริษัท บางปะอินเสาเข็มคอนกรีต จำกัด",
+    "name_en": "Bangpa-in Concrete Pile Co., Ltd.",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "พระนครศรีอยุธยา",
+    "zone": "อ.บางปะอิน",
+    "address": "61/1 หมู่ที่ 9 ถ.สายเอเชีย ต.เชียงรากน้อย อ.บางปะอิน จ.พระนครศรีอยุธยา 13180",
+    "roles": [
+      "Logistics & Fleet Tracking System",
+      "Inventory & Warehouse MIS",
+      "LAN Infrastructure",
+      "IT Technical Support"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามเกณฑ์บริษัท",
+    "phone": "0-3536-1215",
+    "email": "info@bpic.co.th",
+    "website": "http://www.bpic.co.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2567"
+    ],
+    "description": "ผู้ผลิตเสาเข็มคอนกรีตอัดแรงและผลิตภัณฑ์คอนกรีตสำเร็จรูปรายใหญ่ริมถนนสายเอเชีย บางปะอิน พัฒนาระบบติดตามขนส่งและบริหารคลังสินค้า"
+  },
+  {
+    "id": "LOC-033",
+    "name_th": "บริษัท ไดนาสตี้ เซรามิค จำกัด (มหาชน)",
+    "name_en": "Dynasty Ceramic Public Company Limited",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "กรุงเทพมหานคร",
+    "zone": "ลาดพร้าว",
+    "address": "37/7 สุทธิสารวินิจฉัย แขวงสามเสนนอก เขตห้วยขวาง กรุงเทพมหานคร 10320",
+    "roles": [
+      "POS & Outlet Information Systems",
+      "Supply Chain IT",
+      "Database Administration",
+      "Network Support"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยง",
+    "phone": "0-2276-9275",
+    "email": "hr@dynastyceramic.com",
+    "website": "https://www.dynastyceramic.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2563"
+    ],
+    "description": "ผู้ผลิตและจัดจำหน่ายกระเบื้องเซรามิคชั้นนำของไทย มีสาขา Outlet ครอบคลุมทั่วประเทศ เชื่อมโยงระบบ Point of Sale และ ERP สาขาเข้าสู่ศูนย์กลาง"
+  },
+  {
+    "id": "LOC-034",
+    "name_th": "บริษัท เดกซ์ตร้า เอเชีย จำกัด (Dextra Asia)",
+    "name_en": "Dextra Asia Co., Ltd.",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "กรุงเทพมหานคร",
+    "zone": "บางนา",
+    "address": "5 ถ.บางนา-ตราด กม.25 แขวง/เขตบางนา กรุงเทพมหานคร 10260",
+    "roles": [
+      "Industrial Software Engineering",
+      "CAD/BIM Integration Tool",
+      "Database Systems",
+      "Enterprise Network"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยงตามโครงสร้างสากล",
+    "phone": "0-2319-5880",
+    "email": "thailand@dextragroup.com",
+    "website": "https://www.dextragroup.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2565"
+    ],
+    "description": "กลุ่มบริษัทวิศวกรรมเทคโนโลยีการก่อสร้างและอุตสาหกรรมชั้นนำระดับสากล เชี่ยวชาญการผลิตอุปกรณ์เชื่อมต่อโครงสร้างเหล็กและซอฟต์แวร์วิศวกรรม"
+  },
+  {
+    "id": "LOC-035",
+    "name_th": "บริษัท เฟรนลี่กรุ๊ปส์ โลจีสติก จำกัด (Friendly Groups Logistics)",
+    "name_en": "Friendly Groups Logistics Co., Ltd.",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "ปทุมธานี",
+    "zone": "คลองหลวง / ลำลูกกา",
+    "address": "สำนักงานใหญ่ จ.ปทุมธานี",
+    "roles": [
+      "Logistics Management Systems",
+      "Fleet Tracking & GPS Data",
+      "Warehouse Inventory Database",
+      "Customer Web Portal"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยง",
+    "phone": "0-2908-1122",
+    "email": "hr@friendlygroups.com",
+    "website": "https://www.friendlygroups.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2569",
+      "พ.ศ. 2568"
+    ],
+    "description": "ผู้ให้บริการด้านการขนส่งกระจายสินค้าและโลจิสติกส์ครบวงจร ใช้ระบบ GPS Tracking ติดตามรถขนส่งแบบเรียลไทม์และระบบจัดการคลังสินค้า"
+  },
+  {
+    "id": "LOC-036",
+    "name_th": "บริษัท ลำลูกกาพลาสติก และ ขนส่ง จำกัด",
+    "name_en": "Lamlukka Plastic & Transport Co., Ltd.",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "ปทุมธานี",
+    "zone": "ลำลูกกา",
+    "address": "ต.ลำลูกกา อ.ลำลูกกา จ.ปทุมธานี 12150",
+    "roles": [
+      "Production MIS",
+      "Transport & Delivery Tracking",
+      "Database Systems",
+      "Hardware/LAN Support"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามเกณฑ์บริษัท",
+    "phone": "0-2987-0000",
+    "email": "contact@lamlukkaplastic.com",
+    "website": "https://lamlukkaplastic.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2563"
+    ],
+    "description": "ผู้ผลิตบรรจุภัณฑ์พลาสติกและบริการขนส่งกระจายสินค้าในเขตจังหวัดปทุมธานี"
+  },
+  {
+    "id": "LOC-037",
+    "name_th": "บริษัท พีพี เอ็นจิเนียริ่ง 2015 จำกัด",
+    "name_en": "PP Engineering 2015 Co., Ltd.",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "ปทุมธานี",
+    "zone": "คลองหลวง",
+    "address": "อ.คลองหลวง จ.ปทุมธานี",
+    "roles": [
+      "Engineering Systems Support",
+      "Database & Documentation",
+      "IT Support",
+      "Hardware Maintenance"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามเกณฑ์บริษัท",
+    "phone": "0-2529-0000",
+    "email": "contact@ppengineering.co.th",
+    "website": "https://ppengineering.co.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2563"
+    ],
+    "description": "บริษัทวิศวกรรมงานระบบและติดตั้งอุปกรณ์อุตสาหกรรมในเขตปทุมธานี"
+  },
+  {
+    "id": "LOC-038",
+    "name_th": "บริษัท พันธนันท์แอร์ จำกัด",
+    "name_en": "Puntanun Air Co., Ltd.",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "ปทุมธานี",
+    "zone": "ธัญบุรี",
+    "address": "อ.ธัญบุรี จ.ปทุมธานี",
+    "roles": [
+      "Service ERP Systems",
+      "Customer Data Management",
+      "Website Management",
+      "IT Operations"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามเกณฑ์บริษัท",
+    "phone": "0-2577-0000",
+    "email": "info@puntanunair.com",
+    "website": "https://puntanunair.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2563"
+    ],
+    "description": "ธุรกิจจำหน่ายและให้บริการติดตั้งระบบปรับอากาศขนาดใหญ่สำหรับอาคารและโรงงาน"
+  },
+  {
+    "id": "LOC-039",
+    "name_th": "บริษัท ทูบีกรีน จำกัด (2B Green)",
+    "name_en": "2B Green Co., Ltd.",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "กรุงเทพมหานคร",
+    "zone": "บางเขน",
+    "address": "เขตบางเขน กรุงเทพมหานคร",
+    "roles": [
+      "Environmental IT Systems",
+      "Data Collection & Reporting",
+      "Website & Online Marketing",
+      "IT Support"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามเกณฑ์บริษัท",
+    "phone": "0-2970-0000",
+    "email": "contact@2bgreen.co.th",
+    "website": "https://2bgreen.co.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2563"
+    ],
+    "description": "ธุรกิจด้านสิ่งแวดล้อมและเทคโนโลยีพลังงานสีเขียว"
+  },
+  {
+    "id": "LOC-040",
+    "name_th": "บริษัท เอสวีเจ เทคนิคอล ซิสเต็ม จำกัด (SVJ Technical System)",
+    "name_en": "SVJ Technical System Co., Ltd.",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "ปทุมธานี",
+    "zone": "คลองหลวง",
+    "address": "อ.คลองหลวง จ.ปทุมธานี",
+    "roles": [
+      "Technical Systems Integration",
+      "Control Systems IT",
+      "LAN/Hardware Support"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามเกณฑ์บริษัท",
+    "phone": "0-2901-0000",
+    "email": "contact@svjtechnical.com",
+    "website": "https://svjtechnical.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2563"
+    ],
+    "description": "ผู้ให้บริการด้านวิศวกรรมระบบเทคนิคและอุปกรณ์ควบคุมอุตสาหกรรม"
+  },
+  {
+    "id": "LOC-041",
+    "name_th": "บริษัท กุลบุญ จำกัด",
+    "name_en": "Kulboon Co., Ltd.",
+    "category": "industry_corp",
+    "category_label": "ภาคอุตสาหกรรมและโรงงาน",
+    "province": "ระยอง",
+    "zone": "อ.บ้านค่าย",
+    "address": "9/31 ต.หนองละลอก อ.บ้านค่าย จ.ระยอง 21120",
+    "roles": [
+      "Production Data System",
+      "Inventory Tracking",
+      "Hardware & Network Support"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยง",
+    "phone": "0-3860-0000",
+    "email": "contact@kulboon.com",
+    "website": "https://kulboon.com",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2567"
+    ],
+    "description": "สถานประกอบการภาคอุตสาหกรรมในพื้นที่อำเภอบ้านค่าย จังหวัดระยอง"
+  },
+  {
+    "id": "LOC-042",
+    "name_th": "โรงพยาบาลหนองแค",
+    "name_en": "Nong Khae Hospital",
+    "category": "hospital_health",
+    "category_label": "โรงพยาบาลและสาธารณสุข",
+    "province": "สระบุรี",
+    "zone": "อ.หนองแค",
+    "address": "115 ถ.พหลโยธิน ต.หนองแค อ.หนองแค จ.สระบุรี 18140",
+    "roles": [
+      "Hospital Information System (HIS / HOSxP)",
+      "Electronic Medical Record (EMR)",
+      "Network & Server Maintenance",
+      "Healthcare Data Security"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "ตามเกณฑ์โรงพยาบาล",
+    "phone": "0-3638-1400",
+    "email": "it@nongkhaehospital.go.th",
+    "website": "https://www.nongkhaehospital.go.th",
+    "featured": true,
+    "cohorts": [
+      "พ.ศ. 2567"
+    ],
+    "description": "โรงพยาบาลชุมชนขนาดใหญ่ในสังกัดกระทรวงสาธารณสุข ริมถนนพหลโยธิน ใช้ระบบเทคโนโลยีสารสนเทศทางการแพทย์ HOSxP และระบบความมั่นคงข้อมูลผู้ป่วย"
+  },
+  {
+    "id": "LOC-043",
+    "name_th": "โรงแรม คอนราด เกาะสมุย (Conrad Koh Samui)",
+    "name_en": "Conrad Koh Samui (Hilton Group)",
+    "category": "hospital_health",
+    "category_label": "โรงพยาบาลและสาธารณสุข",
+    "province": "สุราษฎร์ธานี",
+    "zone": "เกาะสมุย",
+    "address": "49/8-9 หมู่ 4 ต.ตลิ่งงาม อ.เกาะสมุย จ.สุราษฎร์ธานี 84140",
+    "roles": [
+      "Property Management System (Opera PMS)",
+      "Guest Wi-Fi & High Density Network",
+      "IPTV & Smart Room IoT",
+      "IT Operations"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยง ที่พัก และอาหาร",
+    "phone": "0-7791-5888",
+    "email": "conrad_koh_samui@hilton.com",
+    "website": "https://www.hilton.com/en/hotels/usmksor-conrad-koh-samui/",
+    "featured": true,
+    "cohorts": [
+      "พ.ศ. 2569"
+    ],
+    "description": "รีสอร์ตหรูระดับ 5 ดาวในเครือ Hilton International ดูแลระบบเครือข่ายความเร็วสูง ระบบจัดการโรงแรมระดับสากล และเทคโนโลยีอำนวยความสะดวกลูกค้า"
+  },
+  {
+    "id": "LOC-044",
+    "name_th": "บริษัท ตั้งธนสิน จำกัด (Easy Money / อีซี่มันนี่)",
+    "name_en": "Tang Thana Sin Co., Ltd. (Easy Money)",
+    "category": "tech_software",
+    "category_label": "เทคโนโลยีและซอฟต์แวร์",
+    "province": "ปทุมธานี",
+    "zone": "รังสิต (ธัญบุรี)",
+    "address": "36 ถ.รังสิต-ปทุมธานี ต.ประชาธิปัตย์ อ.ธัญบุรี จ.ปทุมธานี 12130",
+    "roles": [
+      "FinTech Web Application",
+      "Core Pawn Shop Systems",
+      "Database & Reporting",
+      "IT Security"
+    ],
+    "programs": [
+      "สหกิจศึกษา"
+    ],
+    "compensation": "มีเบี้ยเลี้ยงรายเดือน",
+    "phone": "0-2567-3999",
+    "email": "hr@easymoney.co.th",
+    "website": "https://www.easymoney.co.th",
+    "featured": false,
+    "cohorts": [
+      "พ.ศ. 2567"
+    ],
+    "description": "ผู้นำสถาบันสินเชื่อและโรงรับจำนำเอกชนอันดับ 1 ของไทย พัฒนานวัตกรรม FinTech และระบบจัดการธุรกรรมทางการเงินดิจิทัลที่มีสาขาทั่วประเทศ"
+  }
+]

@@ -39,7 +39,7 @@
           </div>
           <div class="col-md-6 text-right">
             <div class="py-4">
-              <a class="btn btn-primary" href="<?php echo $root_path; ?>tcas.php">รายะละเอียดสมัครเรียน</a>
+              <a class="btn btn-primary" href="<?php echo $root_path; ?>admission.php">รายละเอียดสมัครเรียน</a>
             </div>
           </div>
         </div>
@@ -65,8 +65,8 @@
             <h2 class="footer-heading mb-4">Quick Links</h2>
             <ul class="list-unstyled">
               <li><a href="<?php echo $root_path; ?>teacher.php">อาจารย์</a></li>
-              <li><a href="<?php echo $root_path; ?>support.php">บุคคลากร</a></li>
-              <li><a href="#">งานวิจัยและพัฒนา</a></li>
+              <li><a href="<?php echo $root_path; ?>support.php">บุคลากร</a></li>
+              <li><a href="<?php echo $root_path; ?>publication.php">ผลงานวิจัยและตีพิมพ์</a></li>
               <li><a href="<?php echo $root_path; ?>admission.php">รับสมัครนักศึกษา</a></li>
               <li><a href="<?php echo $root_path; ?>content">บทความ</a></li>
               <li><a href="<?php echo $root_path; ?>contact.php">ติดต่อเรา</a></li>
