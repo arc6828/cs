@@ -213,7 +213,7 @@ $og_image = "https://cs.vru.ac.th/images/banner_computer_science.png";
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
-                        <a href="https://reg.vru.ac.th/" target="_blank" rel="noopener" class="portal-btn">
+                        <a href="https://reg1.vru.ac.th/" target="_blank" rel="noopener" class="portal-btn">
                             <div class="portal-icon">
                                 <i class="fa fa-id-card-o"></i>
                             </div>
@@ -224,7 +224,7 @@ $og_image = "https://cs.vru.ac.th/images/banner_computer_science.png";
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <a href="https://acad.vru.ac.th/" target="_blank" rel="noopener" class="portal-btn">
+                        <a href="https://acad.vru.ac.th/student_calendar.php" target="_blank" rel="noopener" class="portal-btn">
                             <div class="portal-icon" style="background: #fef3c7; color: #d97706;">
                                 <i class="fa fa-calendar-check-o"></i>
                             </div>
@@ -235,7 +235,7 @@ $og_image = "https://cs.vru.ac.th/images/banner_computer_science.png";
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <a href="https://library.vru.ac.th/" target="_blank" rel="noopener" class="portal-btn">
+                        <a href="https://lib.vru.ac.th/" target="_blank" rel="noopener" class="portal-btn">
                             <div class="portal-icon" style="background: #dcfce7; color: #16a34a;">
                                 <i class="fa fa-book"></i>
                             </div>
@@ -257,13 +257,13 @@ $og_image = "https://cs.vru.ac.th/images/banner_computer_science.png";
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <a href="https://acad.vru.ac.th/studen_manual.php" target="_blank" rel="noopener" class="portal-btn">
+                        <a href="https://acad.vru.ac.th/student.php" target="_blank" rel="noopener" class="portal-btn">
                             <div class="portal-icon" style="background: #ffe4e6; color: #e11d48;">
                                 <i class="fa fa-file-pdf-o"></i>
                             </div>
                             <div>
-                                <div>สำนักส่งเสริมวิชาการฯ (สวท.)</div>
-                                <small class="text-muted font-weight-normal">คลังคู่มือนักศึกษาและข้อบังคับทางการ</small>
+                                <div>สำนักส่งเสริมวิชาการฯ บริการนักศึกษา</div>
+                                <small class="text-muted font-weight-normal">คลังคู่มือนักศึกษาและอื่นๆ</small>
                             </div>
                         </a>
                     </div>
