@@ -67,6 +67,7 @@
               <li><a href="<?php echo $root_path; ?>teacher.php">อาจารย์</a></li>
               <li><a href="<?php echo $root_path; ?>support.php">บุคลากร</a></li>
               <li><a href="<?php echo $root_path; ?>publication.php">ผลงานวิจัยและตีพิมพ์</a></li>
+              <li><a href="<?php echo $root_path; ?>publication-dashboard.php">สถิติและผลกระทบงานวิจัย</a></li>
               <li><a href="<?php echo $root_path; ?>admission.php">รับสมัครนักศึกษา</a></li>
               <li><a href="<?php echo $root_path; ?>content">บทความ</a></li>
               <li><a href="<?php echo $root_path; ?>contact.php">ติดต่อเรา</a></li>
@@ -96,10 +97,7 @@
           <div class="col-md-12">
             <div class="border-top pt-5">
               <p class="copyright">
-                Copyright &copy;
-                <script>
-                  document.write(new Date().getFullYear());
-                </script>
+                Copyright &copy; <?php echo date('Y'); ?>
                 หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี <br>
                 มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ เลขที่ 1 หมู่ 20 ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 13180
               </p>
