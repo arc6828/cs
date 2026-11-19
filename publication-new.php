@@ -88,6 +88,78 @@ foreach ($publications as $p) {
 }
 $statFaculty = count($facultySet);
 krsort($years);
+
+// Sort publications by year_th descending (newest first, matching client-side default)
+usort($publications, function ($a, $b) {
+    $yA = (int)($a['year_th'] ?? 0);
+    $yB = (int)($b['year_th'] ?? 0);
+    if ($yB !== $yA) {
+        return $yB - $yA;
+    }
+    return strcmp($a['title'] ?? '', $b['title'] ?? '');
+});
+
+/**
+ * Server-Side Pre-rendering Citation Helpers (SSR for SEO & Instant Core Web Vitals)
+ */
+function formatAuthorsByStylePHP($authors, $isThai) {
+    if (empty($authors)) return '';
+    if (count($authors) === 1) return htmlspecialchars($authors[0]);
+    if (count($authors) === 2) {
+        $a0 = htmlspecialchars($authors[0]);
+        $a1 = htmlspecialchars($authors[1]);
+        return $isThai ? "{$a0} และ{$a1}" : "{$a0} and {$a1}";
+    }
+    $last = htmlspecialchars(end($authors));
+    $restAuthors = array_slice($authors, 0, -1);
+    $escapedRest = array_map('htmlspecialchars', $restAuthors);
+    $rest = implode(', ', $escapedRest);
+    return $isThai ? "{$rest} และ{$last}" : "{$rest}, and {$last}";
+}
+
+function generateCitationHTML_PHP($pub) {
+    $isThai = (($pub['language'] ?? 'th') === 'th');
+    $year = $isThai ? ($pub['year_th'] ?? '') : ($pub['year_en'] ?? '');
+    $authorsJoined = formatAuthorsByStylePHP($pub['authors'] ?? [], $isThai);
+    $tierSuffix = !empty($pub['tier']) ? ' ' . htmlspecialchars($pub['tier']) . '.' : '';
+    $title = htmlspecialchars($pub['title'] ?? '');
+
+    if (($pub['type'] ?? '') === 'journal') {
+        $jName = htmlspecialchars($pub['journal_name'] ?? 'วารสารวิชาการ');
+        $cite = "{$authorsJoined}. ({$year}). {$title}. <i>{$jName}</i>";
+        if (!empty($pub['volume'])) {
+            $cite .= ", <i>" . htmlspecialchars($pub['volume']) . "</i>";
+            if (!empty($pub['issue'])) {
+                $cite .= "(" . htmlspecialchars($pub['issue']) . ")";
+            }
+        }
+        if (!empty($pub['month_range'])) {
+            $cite .= ", " . htmlspecialchars($pub['month_range']) . ":";
+            if (!empty($pub['pages'])) {
+                $cite .= " " . htmlspecialchars($pub['pages']) . ".";
+            } else {
+                $cite .= ".";
+            }
+        } elseif (!empty($pub['pages'])) {
+            $cite .= ", " . htmlspecialchars($pub['pages']) . ".";
+        } else {
+            $cite .= ".";
+        }
+        $cite .= $tierSuffix;
+        return $cite;
+    } else {
+        $confName = htmlspecialchars($pub['conference_name'] ?? ($isThai ? 'เอกสารสืบเนื่องการประชุมวิชาการ' : 'Proceedings'));
+        $city = !empty($pub['city']) ? htmlspecialchars($pub['city']) : '';
+        $publisher = !empty($pub['publisher']) ? htmlspecialchars($pub['publisher']) : '';
+        $confPlace = $publisher ? ($city ? $city . ': ' : '') . $publisher . '.' : ($city ? $city . '.' : '');
+        $pageStr = !empty($pub['pages']) ? " (หน้า " . htmlspecialchars($pub['pages']) . ")." : '.';
+        if ($isThai) {
+            return trim("{$authorsJoined}. ({$year}). {$title}. ใน <i>{$confName}</i>{$pageStr} {$confPlace}{$tierSuffix}");
+        } else {
+            return trim("{$authorsJoined}. ({$year}). {$title}. In <i>{$confName}</i>{$pageStr} {$confPlace}{$tierSuffix}");
+        }
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="th">
@@ -95,6 +167,49 @@ krsort($years);
 <head>
     <?php include("layouts/meta.php"); ?>
     <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+    <!-- Schema.org ScholarlyArticle & ItemList for Academic SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "ผลงานตีพิมพ์และงานวิจัย หลักสูตรวิทยาการคอมพิวเตอร์ มรภ.วไลยอลงกรณ์",
+        "description": "รายชื่อบทความวิจัยและผลงานวิชาการระดับชาติและนานาชาติของคณาจารย์และนักศึกษา",
+        "numberOfItems": <?php echo $totalPubs; ?>,
+        "itemListElement": [
+            <?php 
+            $schemaItems = [];
+            $pos = 1;
+            foreach ($publications as $p) {
+                $authorList = [];
+                foreach ($p['authors'] ?? [] as $a) {
+                    $authorList[] = [
+                        '@type' => 'Person',
+                        'name'  => $a
+                    ];
+                }
+                $schemaItems[] = json_encode([
+                    '@type'         => 'ListItem',
+                    'position'      => $pos++,
+                    'item'          => [
+                        '@type'         => 'ScholarlyArticle',
+                        'headline'      => $p['title'] ?? '',
+                        'name'          => $p['title'] ?? '',
+                        'author'        => $authorList,
+                        'datePublished' => (string)($p['year_en'] ?? ''),
+                        'publisher'     => [
+                            '@type' => 'Organization',
+                            'name'  => $p['journal_name'] ?? $p['conference_name'] ?? 'หลักสูตรวิทยาการคอมพิวเตอร์ VRU'
+                        ],
+                        'url'           => !empty($p['doi']) ? "https://doi.org/{$p['doi']}" : ($p['url'] ?? $og_url)
+                    ]
+                ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+            }
+            echo implode(",\n            ", $schemaItems);
+            ?>
+        ]
+    }
+    </script>
     <style>
         body, .content {
             color: #212529 !important;
@@ -331,7 +446,7 @@ krsort($years);
                         </div>
                     </div>
                     <div class="small text-muted font-weight-bold mt-2 mt-md-0" id="resultCountLabel">
-                        แสดง <span class="text-primary font-weight-bold" id="visibleCount">0</span> จาก <?php echo $totalPubs; ?> เรื่อง (เรียงจากปีล่าสุด)
+                        แสดง <span class="text-primary font-weight-bold" id="visibleCount"><?php echo $totalPubs; ?></span> จาก <?php echo $totalPubs; ?> เรื่อง (เรียงจากปีล่าสุด)
                     </div>
                 </div>
             </div>
@@ -356,16 +471,33 @@ krsort($years);
                 <div class="card-body p-3">
                     <div class="tab-content" id="myTabContent">
                         
-                        <!-- Tab 1: Continuous Academic Bibliography List -->
+                        <!-- Tab 1: Continuous Academic Bibliography List (Pre-rendered by PHP for SEO 100%) -->
                         <div class="tab-pane fade show active" id="tab-list" role="tabpanel" aria-labelledby="list-tab">
                             <div class="pub-biblio-card">
                                 <div id="publicationsContainer">
-                                    <!-- Populated by JavaScript -->
+                                    <ol class="pub-biblio-list">
+                                        <?php foreach ($publications as $pub): ?>
+                                            <?php 
+                                            $citationContent = generateCitationHTML_PHP($pub);
+                                            $linkHTML = '';
+                                            if (!empty($pub['doi'])) {
+                                                $doi = htmlspecialchars($pub['doi']);
+                                                $linkHTML = " <a href=\"https://doi.org/{$doi}\" target=\"_blank\" rel=\"noopener\" class=\"pub-doc-link\" title=\"เปิดเอกสารผ่าน DOI\">[DOI: {$doi}]</a>";
+                                            } elseif (!empty($pub['url'])) {
+                                                $url = htmlspecialchars($pub['url']);
+                                                $linkHTML = " <a href=\"{$url}\" target=\"_blank\" rel=\"noopener\" class=\"pub-doc-link\" title=\"เปิดอ่านบทความ\">[เอกสารฉบับเต็ม]</a>";
+                                            }
+                                            ?>
+                                            <li class="pub-biblio-item" id="item-<?php echo htmlspecialchars($pub['id'] ?? ''); ?>">
+                                                <?php echo $citationContent . $linkHTML; ?>
+                                            </li>
+                                        <?php endforeach; ?>
+                                    </ol>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Tab 2: DataTables Table -->
+                        <!-- Tab 2: DataTables Table (Pre-rendered by PHP for Crawlers) -->
                         <div class="tab-pane fade" id="tab-table" role="tabpanel" aria-labelledby="table-tab">
                             <div class="table-responsive">
                                 <table class="table table-hover table-striped table-bordered mb-0" id="table-publications-dt" style="width: 100%;">
@@ -380,7 +512,40 @@ krsort($years);
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <!-- Populated by JavaScript -->
+                                        <?php foreach ($publications as $pub): ?>
+                                            <?php 
+                                            $citationContent = generateCitationHTML_PHP($pub);
+                                            $authorsStr = htmlspecialchars(implode(', ', $pub['authors'] ?? []));
+                                            $tier = $pub['tier'] ?? '';
+                                            $tierBadge = '<span class="text-muted small">-</span>';
+                                            if (!empty($tier)) {
+                                                $badgeClass = 'badge-secondary';
+                                                if (stripos($tier, 'Scopus') !== false) $badgeClass = 'badge-primary';
+                                                elseif (stripos($tier, 'TCI 1') !== false || stripos($tier, 'TCI1') !== false) $badgeClass = 'badge-success';
+                                                elseif (stripos($tier, 'TCI 2') !== false || stripos($tier, 'TCI2') !== false) $badgeClass = 'badge-info';
+                                                $tierBadge = '<span class="badge ' . $badgeClass . ' font-weight-bold">' . htmlspecialchars($tier) . '</span>';
+                                            }
+                                            $linkBtn = '-';
+                                            if (!empty($pub['doi'])) {
+                                                $doi = htmlspecialchars($pub['doi']);
+                                                $linkBtn = "<a href=\"https://doi.org/{$doi}\" target=\"_blank\" rel=\"noopener\" class=\"btn btn-sm btn-outline-primary py-0 px-2\" title=\"DOI\">DOI</a>";
+                                            } elseif (!empty($pub['url'])) {
+                                                $url = htmlspecialchars($pub['url']);
+                                                $linkBtn = "<a href=\"{$url}\" target=\"_blank\" rel=\"noopener\" class=\"btn btn-sm btn-outline-primary py-0 px-2\" title=\"Link\">ลิงก์</a>";
+                                            }
+                                            $yearTh = htmlspecialchars($pub['year_th'] ?? '');
+                                            $yearEn = htmlspecialchars($pub['year_en'] ?? '');
+                                            $cat = htmlspecialchars($pub['category'] ?? '');
+                                            ?>
+                                            <tr>
+                                                <td class="font-weight-bold text-center text-dark"><?php echo $yearTh; ?><br><small class="text-muted"><?php echo $yearEn; ?></small></td>
+                                                <td><?php echo $citationContent; ?></td>
+                                                <td class="text-center"><?php echo $tierBadge; ?></td>
+                                                <td class="small"><?php echo $authorsStr; ?></td>
+                                                <td class="text-center"><span class="badge badge-light border"><?php echo $cat; ?></span></td>
+                                                <td class="text-center"><?php echo $linkBtn; ?></td>
+                                            </tr>
+                                        <?php endforeach; ?>
                                     </tbody>
                                 </table>
                             </div>
