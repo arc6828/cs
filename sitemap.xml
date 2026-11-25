@@ -1,655 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- CS VRU Official Sitemap - Generated on 2026-11-25 -->
     <url>
-        <loc>http://cs.vru.ac.th/</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
+        <loc>https://cs.vru.ac.th/</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/index.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/index.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.00</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/history.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/tcas.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/admission.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/publication-new.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/publication-dashboard.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/teacher.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/structure.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/contact.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
     </url>
     <url>
         <loc>https://cs.vru.ac.th/identity.php</loc>
-        <lastmod>2026-11-18T16:10:00+00:00</lastmod>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/structure.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
+        <loc>https://cs.vru.ac.th/history.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/Description.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/student-guide.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/Management.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/project-guide.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/policy.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/internship-documents.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/philosophy.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/internship-locations.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/teacher.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/roomtable.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/support.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/equipment.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/publication.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/lab.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/Training.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/short-courses.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/staff-forms.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/sci-mbti.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/report.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/sci-mbti-result.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.60</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/admission.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/support.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/student-guide.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/team.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/project-guide.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/structure-60.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.60</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/internship-locations.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/structure-65.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.65</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/internship-documents.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/structure-70.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.65</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/feedback.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/activities.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.65</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/activities.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/activities-63.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.55</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/LAB.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/activities-62.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.55</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/roomtable.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/activities-61.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.55</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/equipment.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/activities-60.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.55</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/contact.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/activities-59.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.50</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/06-21/001.pdf</loc>
-        <lastmod>2023-04-27T04:25:13+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/philosophy.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.60</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/03-21/8-3-64.pdf</loc>
-        <lastmod>2023-04-27T04:25:12+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/policy.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.60</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/02-21/Binder1.pdf</loc>
-        <lastmod>2023-04-27T04:25:12+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/stakeholder.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.60</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/01-21/16-01-64_1.pdf</loc>
-        <lastmod>2023-04-27T04:25:12+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/feedback.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.60</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/01-21/16-01-64.pdf</loc>
-        <lastmod>2023-04-27T04:25:12+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/cookies-policy.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.50</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/12-20/3-12-20.pdf</loc>
-        <lastmod>2023-04-27T04:25:19+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/reactnative.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.55</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/09-20/29-09-2563.pdf</loc>
-        <lastmod>2023-04-27T04:25:17+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/publication.php</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.60</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/08-20/25-08-2563(1).pdf</loc>
-        <lastmod>2023-04-27T04:25:16+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/01-19/27-1-19.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/08-20/25-08-2563.pdf</loc>
-        <lastmod>2023-04-27T04:25:16+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/01-20/03-01-63(1).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-20/30-07-2563.pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/01-20/03-01-63.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-20/30-07-2563(1).pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/01-20/09-01-63(1).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-20/2-07-2563(2).pdf</loc>
-        <lastmod>2023-04-27T04:25:14+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/01-20/09-01-63.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-20/2-07-2563(1).pdf</loc>
-        <lastmod>2023-04-27T04:25:14+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/01-20/16-01-63.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-20/2-07-2563.pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/01-20/20-01-63(1).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/04-20/27-04-2563.pdf</loc>
-        <lastmod>2023-04-27T04:25:13+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/01-20/20-01-63.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/04-20/27-04-2563(2).pdf</loc>
-        <lastmod>2023-04-27T04:25:13+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/01-21/16-01-64.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/03-20/04-03-2563.pdf</loc>
-        <lastmod>2023-04-27T04:25:12+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/01-21/16-01-64_1.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/02-20/11-02-63.pdf</loc>
-        <lastmod>2023-04-27T04:25:12+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/02-19/09-02-19.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/01-20/20-01-63.pdf</loc>
-        <lastmod>2023-04-27T04:25:11+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/02-20/11-02-63.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/01-20/20-01-63(1).pdf</loc>
-        <lastmod>2023-04-27T04:25:11+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/02-21/Binder1.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/01-20/16-01-63.pdf</loc>
-        <lastmod>2023-04-27T04:25:11+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/03-19/07-03-19.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/01-20/09-01-63(1).pdf</loc>
-        <lastmod>2023-04-27T04:25:11+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/03-20/04-03-2563.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/01-20/09-01-63.pdf</loc>
-        <lastmod>2023-04-27T04:25:11+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/03-21/8-3-64.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/01-20/03-01-63.pdf</loc>
-        <lastmod>2023-04-27T04:25:11+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/04-20/27-04-2563(1).PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/01-20/03-01-63(1).pdf</loc>
-        <lastmod>2023-04-27T04:25:11+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/04-20/27-04-2563(2).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/11-19/23-11-19.pdf</loc>
-        <lastmod>2023-04-27T04:25:18+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/04-20/27-04-2563.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/11-19/23-11-19(1).pdf</loc>
-        <lastmod>2023-04-27T04:25:18+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/05-20/14-05-20.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/11-19/4-11-19.pdf</loc>
-        <lastmod>2023-04-27T04:25:18+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/06-18/05-06-18.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/10-19/24-10-19.pdf</loc>
-        <lastmod>2023-04-27T04:25:18+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/06-18/19-06-18.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/09-19/05-09-19.pdf</loc>
-        <lastmod>2023-04-27T04:25:17+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/06-18/30-06-18.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/08-19/19-08-19(2).pdf</loc>
-        <lastmod>2023-04-27T04:25:16+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/06-19/22-06-19.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-19/24-7-19.pdf</loc>
-        <lastmod>2023-04-27T04:25:14+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/06-21/001.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-19/12-7-19.pdf</loc>
-        <lastmod>2023-04-27T04:25:14+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-18/12-7-18.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-19/7-7-19(1).pdf</loc>
-        <lastmod>2023-04-27T04:25:14+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-18/9-7-18.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/06-19/22-06-19.pdf</loc>
-        <lastmod>2023-04-27T04:25:13+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-19/12-7-19.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/03-19/07-03-19.pdf</loc>
-        <lastmod>2023-04-27T04:25:12+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-19/24-7-19.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/02-19/09-02-19.pdf</loc>
-        <lastmod>2023-04-27T04:25:12+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-19/7-7-19(1).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/10-18/25-10-18(1).pdf</loc>
-        <lastmod>2023-04-27T04:25:17+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-19/7-7-19.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/10-18/09-10-61.pdf</loc>
-        <lastmod>2023-04-27T04:25:17+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-20/2-07-2563(1).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/08-18/2-8-18(1).pdf</loc>
-        <lastmod>2023-04-27T04:25:16+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-20/2-07-2563(2).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/06-18/30-06-18.PDF</loc>
-        <lastmod>2023-04-27T04:25:13+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-20/2-07-2563(3).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/11-19/23-11-19(2).pdf</loc>
-        <lastmod>2023-04-27T04:25:18+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-20/2-07-2563.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/09-19/05-09-19(1).pdf</loc>
-        <lastmod>2023-04-27T04:25:17+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-20/30-07-2563(1).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/01-19/27-1-19.pdf</loc>
-        <lastmod>2023-04-27T04:25:11+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-20/30-07-2563.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/10-18/25-10-18(2).pdf</loc>
-        <lastmod>2023-04-27T04:25:17+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-21/Form-01.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/09-18/22-9-61.pdf</loc>
-        <lastmod>2023-04-27T04:25:17+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-21/Form-02.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/08-18/2-8-18(3).pdf</loc>
-        <lastmod>2023-04-27T04:25:16+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-21/Form-03.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-20/2-07-2563(3).pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-21/Form-04.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/05-20/14-05-20.pdf</loc>
-        <lastmod>2023-04-27T04:25:13+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-21/Form-05.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/10-19/29-10-19.pdf</loc>
-        <lastmod>2023-04-27T04:25:18+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-21/Form-06.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/08-19/19-08-19(1).pdf</loc>
-        <lastmod>2023-04-27T04:25:16+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-21/Form-07.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/10-18/25-10-18(3).pdf</loc>
-        <lastmod>2023-04-27T04:25:17+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-21/Form-08.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/08-18/2-8-18(2).pdf</loc>
-        <lastmod>2023-04-27T04:25:16+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-21/Form-09.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-18/12-7-18.PDF</loc>
-        <lastmod>2023-04-27T04:25:13+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-21/Form-10.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-18/9-7-18.pdf</loc>
-        <lastmod>2023-04-27T04:25:13+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-21/Form-11.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/06-18/19-06-18.PDF</loc>
-        <lastmod>2023-04-27T04:25:13+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-21/Form-12.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/06-18/05-06-18.PDF</loc>
-        <lastmod>2023-04-27T04:25:13+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://cs.vru.ac.th/uploads/07-21/Form-13.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/08-18/2-8-18(1).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/08-18/2-8-18(2).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/08-18/2-8-18(3).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/08-19/19-08-19(1).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/08-19/19-08-19(2).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/08-20/25-08-2563(1).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/08-20/25-08-2563.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/09-18/22-9-61.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/09-19/05-09-19(1).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/09-19/05-09-19.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/09-20/29-09-2563.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/09-25/Form-16.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/10-18/09-10-61.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/10-18/25-10-18(1).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/10-18/25-10-18(2).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/10-18/25-10-18(3).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/10-19/24-10-19.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/10-19/29-10-19.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/11-19/23-11-19(1).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/11-19/23-11-19(2).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/11-19/23-11-19.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/11-19/4-11-19.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/11-25/Form-SCS410.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/12-19/17-12-62(1).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/12-19/17-12-62(2).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/12-19/17-12-62(3).pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://cs.vru.ac.th/uploads/12-20/3-12-20.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/structure-60.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/Form-01.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-01.doc</loc>
-        <lastmod>2023-04-27T04:25:19+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/Form-02.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-02.PDF</loc>
-        <lastmod>2023-04-27T04:25:19+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/Form-03.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-03.PDF</loc>
-        <lastmod>2023-04-27T04:25:19+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/Form-04.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-04.PDF</loc>
-        <lastmod>2023-04-27T04:25:19+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/Form-05.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-05.PDF</loc>
-        <lastmod>2023-04-27T04:25:19+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/Form-06.pdf</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-06.PDF</loc>
-        <lastmod>2023-04-27T04:25:19+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/Form-07.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-07.PDF</loc>
-        <lastmod>2023-04-27T04:25:19+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co1.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-08.PDF</loc>
-        <lastmod>2023-04-27T04:25:19+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co10.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-09.PDF</loc>
-        <lastmod>2023-04-27T04:25:19+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co11.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-10.PDF</loc>
-        <lastmod>2023-04-27T04:25:19+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co12.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-11.PDF</loc>
-        <lastmod>2023-04-27T04:25:20+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co13.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-12.PDF</loc>
-        <lastmod>2023-04-27T04:25:20+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co14.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-13.PDF</loc>
-        <lastmod>2023-04-27T04:25:20+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co15.pdf</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-14.PDF</loc>
-        <lastmod>2023-04-27T04:25:20+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co16.pdf</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-15.PDF</loc>
-        <lastmod>2023-04-27T04:25:20+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co17.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-16.PDF</loc>
-        <lastmod>2023-04-27T04:25:20+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co2.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-17.PDF</loc>
-        <lastmod>2023-04-27T04:25:20+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co3.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-18.PDF</loc>
-        <lastmod>2023-04-27T04:25:20+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co4.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-19.PDF</loc>
-        <lastmod>2023-04-27T04:25:20+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co5.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-20.PDF</loc>
-        <lastmod>2023-04-27T04:25:20+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co6.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-21.PDF</loc>
-        <lastmod>2023-04-27T04:25:20+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co7.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-22.PDF</loc>
-        <lastmod>2023-04-27T04:25:20+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co8.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-23.PDF</loc>
-        <lastmod>2023-04-27T04:25:20+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/Internship/VRU_Co9.pdf</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/dl-staff/Form-24.PDF</loc>
-        <lastmod>2023-04-27T04:25:20+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-02.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-18/SARCS-2559.docx</loc>
-        <lastmod>2023-04-27T04:25:14+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-03.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-18/SARCS-2558.docx</loc>
-        <lastmod>2023-04-27T04:25:14+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-04.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-21/Form-01.pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-05.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-21/Form-07.pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-06.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-21/Form-06.pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-07.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-21/Form-04.pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-08.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-21/Form-05.pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-09.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-21/Form-02.pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-10.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-21/Form-03.pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-11.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-21/Form-08.pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-12.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-21/Form-13.pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-13.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-21/Form-11.pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-14.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-21/Form-12.pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-15.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-21/Form-09.pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-16.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/uploads/07-21/Form-10.pdf</loc>
-        <lastmod>2023-04-27T04:25:15+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-17.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/activities-63.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-18.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/activities-62.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-19.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/activities-61.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-20.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/activities-60.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-21.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/activities-59.php</loc>
-        <lastmod>2023-04-28T08:32:58+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-22.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/schedule/Normal2-2563.PDF</loc>
-        <lastmod>2023-04-27T04:21:55+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-23.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>http://cs.vru.ac.th/schedule/Special2-2563.PDF</loc>
-        <lastmod>2023-04-27T04:21:55+00:00</lastmod>
-        <priority>0.64</priority>
+        <loc>https://cs.vru.ac.th/uploads/dl-staff/Form-24.PDF</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
     </url>
 </urlset>
