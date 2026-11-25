@@ -99,4 +99,29 @@
 
 ---
 
-*บันทึกข้อตกลงเมื่อ: 17 พฤศจิกายน 2569*
+## 🛠️ 6. การสร้าง/กู้คืนฐานข้อมูลจาก Backup ล่าสุด (Build from Backup Script)
+
+มีสคริปต์ [databases/build_publications.php](build_publications.php) (หรือเรียกผ่าน [databases/restore_from_backup.php](restore_from_backup.php)) สำหรับสร้าง `publications.json` จากไฟล์สำรอง:
+
+### วิธีใช้งานผ่าน Terminal:
+```bash
+# 1. ค้นหาและสร้างจากไฟล์ backup ล่าสุดอัตโนมัติ (เช่น publications-backup-20261125.json)
+php databases/build_publications.php
+
+# หรือเรียกผ่าน alias
+php databases/restore_from_backup.php
+
+# 2. หรือระบุชื่อไฟล์ backup ที่ต้องการเจาะจง
+php databases/build_publications.php publications-backup-20261116.json
+```
+
+### ความสามารถของสคริปต์:
+1. **Auto-Detect Latest Backup:** ตรวจสอบและเลือกไฟล์สำรองล่าสุดตามวันที่ `YYYYMMDD` และ modification time โดยอัตโนมัติ
+2. **Metadata Preservation:** รักษาฟิลด์ใหม่ทั้งหมด (เช่น `journal_id`, `tier`, `status`, `verified_at`, `verified_by`) ไม่ให้สูญหาย
+3. **Faculty & Date Normalization:** ซิงค์รหัสอาจารย์ (`teacher_ids`) และวันที่ไทย/สากลให้ครบถ้วน
+4. **Chronological Sorting:** เรียงลำดับจากปีล่าสุด (พ.ศ. ใหม่สุด ➔ เก่าสุด) ตามข้อกำหนดระบบ
+5. **UTF-8 Clean JSON:** บันทึกแบบ UTF-8 without BOM พร้อมรายงานสถิติตัวชี้วัด (Journals, Conferences, Tiers) ใน Terminal
+
+---
+
+*บันทึกข้อตกลงเมื่อ: 17 พฤศจิกายน 2569 (ปรับปรุงล่าสุด: 25 พฤศจิกายน 2569)*

@@ -7,6 +7,7 @@ git-cron.log
 # Databases directory - ignore active database files but track .gitkeep, documentation, and timestamped backups
 databases/*
 !databases/.gitkeep
+!databases/*.php
 !databases/README.md
 !databases/journals.json
 !databases/publications-backup-*.json
