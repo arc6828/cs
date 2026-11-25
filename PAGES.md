@@ -67,7 +67,9 @@
 | [`sci-mbti.php`](sci-mbti.php) | แบบทดสอบค้นหาหลักสูตรในคณะวิทยาศาสตร์ที่เหมาะกับผู้เรียน (ใช้ข้อมูลจาก `json/sci-mbti.json`) |
 | [`sci-mbti-result.php`](sci-mbti-result.php) | หน้าแสดงผลลัพธ์แบบทดสอบ `sci-mbti` |
 | [`stakeholder.php`](stakeholder.php) | หน้าแบบสอบถามความคิดเห็นสำหรับผู้มีส่วนได้เสีย (Stakeholders) |
-| [`publication-form.php`](publication-form.php) | ฟอร์มกรอกข้อมูลผลงานตีพิมพ์วิจัย |
+| [`publication-form.php`](publication-form.php) | ระบบฟอร์มบันทึกและจัดการผลงานตีพิมพ์วิจัย Flat-file CRUD (รองรับ Auto-fill, Live Preview, Honeypot และระบบตรวจทานประจำปี) |
+| [`api/save-publication.php`](api/save-publication.php) | Backend API สำหรับบันทึก/แก้ไขข้อมูลผลงานลง `databases/publications.json` พร้อมระบบ Auto-backup และ Auto-ID |
+| [`api/verify-publication.php`](api/verify-publication.php) | Backend API สำหรับระบบ Clean Data ประจำปี (Verify single/all และลบสแปมตาม Immutable Gap Policy) |
 | [`cookies-policy.php`](cookies-policy.php) | นโยบายการใช้คุกกี้ (Cookies Policy) |
 
 ### หน้าข้อมูลหลักสูตรย้อนหลัง / คอร์สระยะสั้น / กิจกรรมเดิม

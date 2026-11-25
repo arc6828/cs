@@ -30,6 +30,17 @@ $og_description = "รวบรวมผลงานวิจัยและบ�
 $og_image = "https://cs.vru.ac.th/images/banner_computer_science.png";
 
 $totalPubs = count($publications);
+// Count Verified vs Pending Review
+$verifiedCount = 0;
+$pendingCount = 0;
+foreach ($publications as $p) {
+    if (($p['status'] ?? 'verified') === 'pending_review') {
+        $pendingCount++;
+    } else {
+        $verifiedCount++;
+    }
+}
+
 $statTotal = $totalPubs;
 $years = [];
 $statJournal = 0;
@@ -339,6 +350,9 @@ function generateCitationHTML_PHP($pub) {
                         </p>
                     </div>
                     <div class="mt-3 mt-lg-0">
+                        <a href="publication-form.php" class="btn btn-sm font-weight-bold mr-1 text-white shadow-sm" style="background:#581845; border-color:#581845;">
+                            <i class="fa fa-plus-circle mr-1"></i> บันทึกผลงานใหม่
+                        </a>
                         <a href="publication-dashboard.php" class="btn btn-outline-info btn-sm font-weight-bold mr-1">
                             <i class="fa fa-dashboard mr-1"></i> แดชบอร์ดสถิติวิจัย
                         </a>
@@ -423,6 +437,30 @@ function generateCitationHTML_PHP($pub) {
                     </div>
                 </div>
 
+                <!-- Row: Annual Audit & Status Filter -->
+                <div class="d-flex flex-wrap align-items-center justify-content-between pt-2 mt-2 border-top">
+                    <div class="d-flex flex-wrap align-items-center mb-2 mb-md-0">
+                        <span class="small font-weight-bold text-muted mr-2"><i class="fa fa-shield text-info mr-1"></i>สถานะตรวจทาน:</span>
+                        <div class="btn-group btn-group-sm status-filter-group" role="group">
+                            <button type="button" class="btn btn-dark active" data-status="" id="btnStatusAll">
+                                ทั้งหมด (<span id="countStatusAll"><?php echo $totalPubs; ?></span>)
+                            </button>
+                            <button type="button" class="btn btn-outline-success" data-status="verified" id="btnStatusVerified">
+                                <i class="fa fa-check-circle mr-1"></i>ตรวจสอบแล้ว (<span id="countStatusVerified"><?php echo $verifiedCount; ?></span>)
+                            </button>
+                            <button type="button" class="btn btn-outline-warning text-dark" data-status="pending_review" id="btnStatusPending">
+                                <i class="fa fa-clock-o mr-1"></i>รอตรวจทานประจำปี (<span id="countStatusPending"><?php echo $pendingCount; ?></span>)
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="batchVerifyContainer" style="display: <?php echo ($pendingCount > 0) ? 'inline-block' : 'none'; ?>;">
+                        <button type="button" class="btn btn-sm btn-success font-weight-bold" id="btnBatchVerifyAll">
+                            <i class="fa fa-check-square-o mr-1"></i> ยืนยันข้อมูลรอบปีนี้ทั้งหมด (Verify All)
+                        </button>
+                    </div>
+                </div>
+
                 <!-- Secondary Row: Citation Style Selection -->
                 <div class="d-flex flex-wrap align-items-center justify-content-between pt-2 mt-2 border-top">
                     <div class="d-flex flex-wrap align-items-center">
@@ -489,7 +527,18 @@ function generateCitationHTML_PHP($pub) {
                                             }
                                             ?>
                                             <li class="pub-biblio-item" id="item-<?php echo htmlspecialchars($pub['id'] ?? ''); ?>">
-                                                <?php echo $citationContent . $linkHTML; ?>
+                                                <?php 
+                                                $statusBadge = '';
+                                                $actionBtns = '';
+                                                if (($pub['status'] ?? 'verified') === 'pending_review') {
+                                                    $statusBadge = ' <span class="badge badge-warning text-dark font-weight-normal px-2 py-1 ml-1" style="font-size:0.8rem;"><i class="fa fa-clock-o mr-1"></i>รอตรวจทานประจำปี</span>';
+                                                    $actionBtns = ' <button type="button" class="btn btn-outline-success btn-sm py-0 px-2 font-weight-bold ml-1 btn-verify-item" data-id="' . htmlspecialchars($pub['id']) . '" title="ยืนยันความถูกต้องผลงานนี้"><i class="fa fa-check"></i> ยืนยัน</button>';
+                                                } else {
+                                                    $statusBadge = ' <span class="badge badge-light border text-success font-weight-normal px-2 py-1 ml-1" style="font-size:0.8rem;"><i class="fa fa-check-circle mr-1"></i>ตรวจสอบแล้ว</span>';
+                                                }
+                                                $actionBtns .= ' <a href="publication-form.php?id=' . htmlspecialchars($pub['id']) . '" class="btn btn-outline-secondary btn-sm py-0 px-2 ml-1" title="แก้ไขข้อมูลผลงาน"><i class="fa fa-pencil"></i></a>';
+                                                echo $citationContent . $linkHTML . ' <span class="pub-actions-group">' . $statusBadge . $actionBtns . '</span>'; 
+                                                ?>
                                             </li>
                                         <?php endforeach; ?>
                                     </ol>
@@ -509,6 +558,7 @@ function generateCitationHTML_PHP($pub) {
                                             <th style="width: 180px;">ผู้ประพันธ์</th>
                                             <th style="width: 120px; text-align: center;">ประเภท</th>
                                             <th style="width: 70px; text-align: center;">เอกสาร</th>
+                                            <th style="width: 110px; text-align: center;">สถานะ / จัดการ</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -599,6 +649,7 @@ function generateCitationHTML_PHP($pub) {
         const publicationsData = <?php echo json_encode($publications, JSON_UNESCAPED_UNICODE); ?>;
         
         let currentStyle = 'mko2';
+        let currentStatusFilter = '';
         let filteredData = [...publicationsData];
         let dataTableInstance = null;
 
@@ -640,6 +691,109 @@ function generateCitationHTML_PHP($pub) {
             document.getElementById('filterTier').addEventListener('change', applyFilters);
             document.getElementById('btnResetFilters').addEventListener('click', resetAllFilters);
 
+            // Status Filter Group Buttons
+            document.querySelectorAll('.status-filter-group .btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.status-filter-group .btn').forEach(b => {
+                        b.classList.remove('active', 'btn-dark', 'btn-success', 'btn-warning');
+                        if (b.getAttribute('data-status') === 'verified') b.classList.add('btn-outline-success');
+                        else if (b.getAttribute('data-status') === 'pending_review') b.classList.add('btn-outline-warning', 'text-dark');
+                        else b.classList.add('btn-outline-dark');
+                    });
+                    this.classList.add('active');
+                    if (this.getAttribute('data-status') === 'verified') {
+                        this.classList.remove('btn-outline-success');
+                        this.classList.add('btn-success');
+                    } else if (this.getAttribute('data-status') === 'pending_review') {
+                        this.classList.remove('btn-outline-warning');
+                        this.classList.add('btn-warning');
+                    } else {
+                        this.classList.remove('btn-outline-dark');
+                        this.classList.add('btn-dark');
+                    }
+                    currentStatusFilter = this.getAttribute('data-status') || '';
+                    applyFilters();
+                });
+            });
+
+            // Batch Verify All Button
+            const btnBatch = document.getElementById('btnBatchVerifyAll');
+            if (btnBatch) {
+                btnBatch.addEventListener('click', function() {
+                    if (!confirm('ยืนยันความถูกต้องของผลงานวิจัยที่รอตรวจทานทั้งหมดในรอบปีนี้?')) return;
+                    btnBatch.disabled = true;
+                    btnBatch.innerHTML = '<i class="fa fa-spinner fa-spin mr-1"></i> กำลังยืนยัน...';
+                    
+                    fetch('api/verify-publication.php', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ action: 'verify_all' })
+                    })
+                    .then(res => res.json())
+                    .then(data => {
+                        btnBatch.disabled = false;
+                        btnBatch.innerHTML = '<i class="fa fa-check-square-o mr-1"></i> ยืนยันข้อมูลรอบปีนี้ทั้งหมด (Verify All)';
+                        if (data.success) {
+                            alert(data.message);
+                            publicationsData.forEach(p => {
+                                if (p.status === 'pending_review') {
+                                    p.status = 'verified';
+                                    p.verified_at = new Date().toISOString().slice(0, 10);
+                                }
+                            });
+                            updateStatusCounters();
+                            applyFilters();
+                        } else {
+                            alert('เกิดข้อผิดพลาด: ' + (data.error || 'ไม่สามารถยืนยันข้อมูลได้'));
+                        }
+                    })
+                    .catch(err => {
+                        btnBatch.disabled = false;
+                        btnBatch.innerHTML = '<i class="fa fa-check-square-o mr-1"></i> ยืนยันข้อมูลรอบปีนี้ทั้งหมด (Verify All)';
+                        alert('เกิดข้อผิดพลาด: ' + err.message);
+                    });
+                });
+            }
+
+            // Delegated click for single item verify
+            document.addEventListener('click', function(e) {
+                const btn = e.target.closest('.btn-verify-item');
+                if (!btn) return;
+                const pubId = btn.getAttribute('data-id');
+                if (!pubId) return;
+                if (!confirm(`ยืนยันความถูกต้องของผลงาน ${pubId}?`)) return;
+
+                btn.disabled = true;
+                btn.innerHTML = '<i class="fa fa-spinner fa-spin"></i>';
+
+                fetch('api/verify-publication.php', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ action: 'verify', id: pubId })
+                })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.success) {
+                        const target = publicationsData.find(p => p.id.toUpperCase() === pubId.toUpperCase());
+                        if (target) {
+                            target.status = 'verified';
+                            target.verified_at = new Date().toISOString().slice(0, 10);
+                        }
+                        updateStatusCounters();
+                        applyFilters();
+                    } else {
+                        btn.disabled = false;
+                        btn.innerHTML = '<i class="fa fa-check"></i>';
+                        alert('เกิดข้อผิดพลาด: ' + (data.error || 'ไม่สามารถยืนยันได้'));
+                    }
+                })
+                .catch(err => {
+                    btn.disabled = false;
+                    btn.innerHTML = '<i class="fa fa-check"></i>';
+                    alert('เกิดข้อผิดพลาด: ' + err.message);
+                });
+            });
+
             // Citation Style Switcher
             document.querySelectorAll('.style-btn-group .btn').forEach(btn => {
                 btn.addEventListener('click', function() {
@@ -668,6 +822,24 @@ function generateCitationHTML_PHP($pub) {
             applyFilters();
         });
 
+        
+        function updateStatusCounters() {
+            let verified = 0;
+            let pending = 0;
+            publicationsData.forEach(p => {
+                if ((p.status || 'verified') === 'pending_review') pending++;
+                else verified++;
+            });
+            const cAll = document.getElementById('countStatusAll');
+            const cVer = document.getElementById('countStatusVerified');
+            const cPen = document.getElementById('countStatusPending');
+            const bCont = document.getElementById('batchVerifyContainer');
+            if (cAll) cAll.innerText = publicationsData.length;
+            if (cVer) cVer.innerText = verified;
+            if (cPen) cPen.innerText = pending;
+            if (bCont) bCont.style.display = (pending > 0) ? 'inline-block' : 'none';
+        }
+
         function applyFilters() {
             const query = (document.getElementById('pubSearch').value || '').trim().toLowerCase();
             const authorFilter = (document.getElementById('filterAuthor').value || '').trim();
@@ -695,6 +867,12 @@ function generateCitationHTML_PHP($pub) {
                     if (!authorsStr.includes(cleanAuthor)) {
                         return false;
                     }
+                }
+
+                // Status filter (Cleaned vs Pending Review)
+                if (currentStatusFilter) {
+                    const itemStatus = item.status || 'verified';
+                    if (itemStatus !== currentStatusFilter) return false;
                 }
 
                 // Year filter
@@ -769,7 +947,10 @@ function generateCitationHTML_PHP($pub) {
             document.getElementById('filterAuthor').value = '';
             document.getElementById('filterYear').value = '';
             document.getElementById('filterTier').value = '';
-            applyFilters();
+            currentStatusFilter = '';
+            const btnAll = document.getElementById('btnStatusAll');
+            if (btnAll) btnAll.click();
+            else applyFilters();
         }
 
         function renderCurrentView() {
@@ -940,7 +1121,17 @@ function generateCitationHTML_PHP($pub) {
                     linkHTML = ` <a href="${pub.url}" target="_blank" rel="noopener" class="pub-doc-link" title="เปิดอ่านบทความ">[เอกสารฉบับเต็ม]</a>`;
                 }
 
-                li.innerHTML = `${citationContent}${linkHTML}`;
+                let statusBadge = '';
+                let actionBtns = '';
+                if ((pub.status || 'verified') === 'pending_review') {
+                    statusBadge = ` <span class="badge badge-warning text-dark font-weight-normal px-2 py-1 ml-1" style="font-size:0.8rem;"><i class="fa fa-clock-o mr-1"></i>รอตรวจทานประจำปี</span>`;
+                    actionBtns = ` <button type="button" class="btn btn-outline-success btn-sm py-0 px-2 font-weight-bold ml-1 btn-verify-item" data-id="${pub.id}" title="ยืนยันความถูกต้องผลงานนี้"><i class="fa fa-check"></i> ยืนยัน</button>`;
+                } else {
+                    statusBadge = ` <span class="badge badge-light border text-success font-weight-normal px-2 py-1 ml-1" style="font-size:0.8rem;"><i class="fa fa-check-circle mr-1"></i>ตรวจสอบแล้ว</span>`;
+                }
+                actionBtns += ` <a href="publication-form.php?id=${pub.id}" class="btn btn-outline-secondary btn-sm py-0 px-2 ml-1" title="แก้ไขข้อมูลผลงาน"><i class="fa fa-pencil"></i></a>`;
+
+                li.innerHTML = `${citationContent}${linkHTML} <span class="pub-actions-group">${statusBadge}${actionBtns}</span>`;
                 ol.appendChild(li);
             });
 
@@ -986,6 +1177,14 @@ function generateCitationHTML_PHP($pub) {
                     <td class="small">${authorsStr}</td>
                     <td class="text-center"><span class="badge badge-light border">${pub.category}</span></td>
                     <td class="text-center">${linkBtn}</td>
+                    <td class="text-center">
+                        ${(pub.status || 'verified') === 'pending_review' 
+                            ? `<span class="badge badge-warning text-dark d-block mb-1 font-weight-normal" style="font-size:0.75rem;"><i class="fa fa-clock-o mr-1"></i>รอตรวจ</span>
+                               <button type="button" class="btn btn-outline-success btn-sm py-0 px-1 btn-verify-item" data-id="${pub.id}" title="ยืนยันผลงาน"><i class="fa fa-check"></i></button>`
+                            : `<span class="badge badge-light border text-success d-block mb-1 font-weight-normal" style="font-size:0.75rem;"><i class="fa fa-check-circle mr-1"></i>Cleaned</span>`
+                        }
+                        <a href="publication-form.php?id=${pub.id}" class="btn btn-outline-secondary btn-sm py-0 px-1" title="แก้ไขข้อมูล"><i class="fa fa-pencil"></i></a>
+                    </td>
                 `;
 
                 tableBody.appendChild(tr);
