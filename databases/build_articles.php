@@ -67,7 +67,6 @@ foreach ($list as $item) {
         'slug' => $slug,
         'title' => $artData['title'] ?? '',
         'first_paragraph' => $artData['first_paragraph'] ?? '',
-        'content' => $fullContent,
         'category' => $categories,
         'image_url' => $artData['image_url'] ?? '',
         'creator' => $artData['creator'] ?? '',

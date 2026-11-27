@@ -53,9 +53,18 @@
 
 | ไฟล์ | ชื่อหน้า / รายละเอียด |
 | :--- | :--- |
-| [`content/index.php`](content/index.php) | ระบบ Front Controller / Router สำหรับจัดการ URL ของระบบบทความ |
-| [`content/contents.php`](content/contents.php) | หน้ารวมรายการบทความวิชาการและข่าวสาร |
-| [`content/content-detail.php`](content/content-detail.php) | หน้าแสดงรายละเอียดเนื้อหาบทความรายชิ้น |
+| [`content/index.php`](content/index.php) | ระบบ Front Controller / Router จัดการ Clean URL (`/content/{slug}`) และ Forward ลิงก์เดิม |
+| [`content/contents.php`](content/contents.php) | หน้ารวมบทความดีไซน์ใหม่ (ค้นหา Real-time, กรองหมวดหมู่, อ่านจาก `json/articles.json`) |
+| [`content/content-detail.php`](content/content-detail.php) | ตัวแปลงเส้นทาง Backward Compatibility สำหรับ ID ตัวเลขเดิม วิ่งเข้าสู่ไฟล์บทความจริง |
+| [`content/article-layout-top.php`](content/article-layout-top.php) | แม่แบบส่วนบน (Breadcrumb, SEO Schema, Reading Progress, TOC, Featured Image) |
+| [`content/article-layout-bottom.php`](content/article-layout-bottom.php) | แม่แบบส่วนล่าง (Share Bar, กล่องข้อมูลอาจารย์, แบนเนอร์รับสมัครเรียน CTA, บทความที่เกี่ยวข้อง) |
+| [`content/career-opportunities-computer-science.php`](content/career-opportunities-computer-science.php) | บทความ: อาชีพที่สามารถประกอบได้หลังเรียนจบวิทยาการคอมพิวเตอร์ |
+| [`content/admission-bachelor-computer-science.php`](content/admission-bachelor-computer-science.php) | บทความ: รับสมัครนักศึกษาปริญญาตรี (จันทร์-ศุกร์ และ เสาร์-อาทิตย์) |
+| [`content/student-loan-fund-student-guide.php`](content/student-loan-fund-student-guide.php) | บทความ: กยศ. กองทุนให้กู้ยืมเพื่อการศึกษา |
+| [`content/mon-culture-tradition-luknu-racing.php`](content/mon-culture-tradition-luknu-racing.php) | บทความ: ประเพณีการละเล่นแข่งจุดลูกหนูของชาวมอญ |
+| [`content/course-credit-transfer-guide.php`](content/course-credit-transfer-guide.php) | บทความ: การเทียบโอนรายวิชานักศึกษาใหม่ |
+| [`content/weekday-vs-weekend-computer-science-comparison.php`](content/weekday-vs-weekend-computer-science-comparison.php) | บทความ: หลักสูตรวิทยาการคอมพิวเตอร์ ภาคจันทร์-ศุกร์ กับ เสาร์-อาทิตย์ ต่างกันอย่างไร? |
+| [`content/pre-degree-credit-bank-project.php`](content/pre-degree-credit-bank-project.php) | บทความ: โครงการสัมฤทธิบัตรปริญญาตรี หลักสูตรวิทยาการคอมพิวเตอร์ |
 
 ---
 
