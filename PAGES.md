@@ -49,6 +49,8 @@
 | [`feedback.php`](feedback.php) | ช่องทางรับฟังความคิดเห็น ข้อเสนอแนะ และเรื่องร้องเรียน/อุทธรณ์ของนักศึกษา (ตามเกณฑ์ มคอ.2 หมวด 8) [เดิมคือ `recommended.php`] |
 
 ### หมวด: บทความ (`content/`)
+> ดูผลการวิเคราะห์เจาะลึกและแผนงานปรับปรุงได้ที่: [`CONTENT-IMPROVEMENT-PLAN.md`](CONTENT-IMPROVEMENT-PLAN.md)
+
 | ไฟล์ | ชื่อหน้า / รายละเอียด |
 | :--- | :--- |
 | [`content/index.php`](content/index.php) | ระบบ Front Controller / Router สำหรับจัดการ URL ของระบบบทความ |
