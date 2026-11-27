@@ -21,3 +21,8 @@
 
     RewriteRule ^content/(.*)$ content/index.php [L] 
 </IfModule>
+
+# Ensure proper MIME type and charset for XML Sitemaps
+<IfModule mod_mime.c>
+    AddType application/xml;charset=UTF-8 .xml
+</IfModule>
