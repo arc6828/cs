@@ -249,9 +249,9 @@ content/
 
 | ระยะ | เป้าหมายงาน (Key Deliverables) | ผลลัพธ์ที่คาดหวัง |
 | :---: | :--- | :--- |
-| **Phase 1<br>(ระบบรากฐาน)** | 1. สร้าง `databases/articles.json` เก็บข้อมูลบทความในเครื่องแบบ Flat-file<br>2. ปรับ `content/index.php` ให้รองรับ SEO Slug และ Fallback Cache<br>3. ฝัง JSON-LD Schema และ Open Graph ให้ถูกต้องสมบูรณ์ | เว็บโหลดเร็วขึ้น 100%, ปลอดภัย ไม่เสี่ยงหน้าขาวเมื่อ API มีปัญหา |
-| **Phase 2<br>(ปรับปรุง UI/UX)** | 1. ออกแบบหน้า [content/contents.php](file:///d:/php-vanila/cs/content/contents.php) ใหม่ เพิ่มกล่องค้นหาและตัวกรองหมวดหมู่<br>2. ปรับหน้า [content/content-detail.php](file:///d:/php-vanila/cs/content/content-detail.php) เพิ่ม Breadcrumbs, Table of Contents, Social Share และกล่องสมัครเรียน CTA | ผู้ใช้อ่านง่ายขึ้น ลดอัตรา Bounce Rate และเพิ่มยอดคลิกไปหน้าสมัครเรียน |
-| **Phase 3<br>(ผลิตเนื้อหาเพื่อ SEO)** | 1. อัปเดตข้อมูลบทความรับสมัครและเทียบโอนเดิมให้เป็นปีปัจจุบัน (ปี 2570)<br>2. ผลิตและเผยแพร่บทความเสาหลัก (Pillar Articles) 3 เรื่องแรก:<br>&nbsp;&nbsp;• *วิทยาการคอมพิวเตอร์ คืออะไร?*<br>&nbsp;&nbsp;• *วิทย์คอม vs วิศวะคอม vs ไอที*<br>&nbsp;&nbsp;• *เรียนวิทย์คอม เสาร์-อาทิตย์* | เริ่มติดอันดับคำค้นหาหลักบน Google หน้า 1 และดึงดูดผู้สนใจสมัครเรียน |
+| **Phase 1<br>(ระบบรากฐาน)** | 1. สร้าง `json/articles.json` เก็บข้อมูลบทความในเครื่องแบบ Flat-file 100%<br>2. ปรับ `.htaccess` และ `content/index.php` รองรับ Clean URL และไฟล์จริง<br>3. พัฒนา `content/article-helper.php` และ `content/template-article.php`<br>4. ฝัง JSON-LD Schema (BlogPosting, BreadcrumbList) และ Open Graph | [x] **เสร็จสมบูรณ์**<br>โหลดเร็วขึ้น ไม่เสี่ยงหน้าขาว URL สวยงาม |
+| **Phase 2<br>(ปรับปรุง UI/UX)** | 1. ปรับปรุง [content/contents.php](file:///d:/php-vanila/cs/content/contents.php) หน้ารวมพร้อมระบบค้นหาและตัวกรองหมวดหมู่<br>2. ปรับปรุง [content/content-detail.php](file:///d:/php-vanila/cs/content/content-detail.php) พร้อม Breadcrumbs, TOC, Reading Progress, Author Card และ CTA | [x] **เสร็จสมบูรณ์**<br>ดีไซน์ทันสมัย UX สมบูรณ์ |
+| **Phase 3<br>(ผลิตเนื้อหาเพื่อ SEO)** | 1. อัปเดตข้อมูลบทความรับสมัครและเทียบโอนเดิมให้เป็นปีปัจจุบัน (ปี 2570)<br>2. ผลิตและเผยแพร่บทความเสาหลัก (Pillar Articles) 3 เรื่องแรก:<br>&nbsp;&nbsp;• *วิทยาการคอมพิวเตอร์ คืออะไร?*<br>&nbsp;&nbsp;• *วิทย์คอม vs วิศวะคอม vs ไอที*<br>&nbsp;&nbsp;• *เรียนวิทย์คอม เสาร์-อาทิตย์* | [ ] **ขั้นตอนถัดไป**<br>เริ่มติดอันดับคำค้นหาหลักบน Google หน้า 1 และดึงดูดผู้สนใจสมัครเรียน |
 
 ---
 

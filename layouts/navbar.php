@@ -1,7 +1,7 @@
     <?php
+    $req_path = parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH);
     if (!isset($root_path)) {
-        $req_path = parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH);
-        $root_path = (strpos($req_path, '/content/') !== false) ? '../' : '';
+        $root_path = (strpos($req_path, '/content') !== false) ? '../' : '';
     }
     ?>
     <div class="site-wrap">
@@ -80,8 +80,8 @@
                                     <a class="dropdown-item" href="<?php echo $root_path; ?>feedback.php">แจ้งข้อเสนอแนะ/ร้องเรียน</a>
                                 </div>
                             </li>
-                            <li class="nav-link">
-                                <a class="nav-link" href="<?php echo $root_path; ?>content">บทความ</a>
+                            <li class="nav-link <?php echo (strpos($req_path, '/content') !== false) ? 'active' : ''; ?>">
+                                <a class="nav-link <?php echo (strpos($req_path, '/content') !== false) ? 'text-primary font-weight-bold' : ''; ?>" href="<?php echo $root_path; ?>content">บทความ</a>
                             </li>
                             <li class="nav-link ">
                                 <a class="nav-link" href="<?php echo $root_path; ?>contact.php">ติดต่อเรา</a>
